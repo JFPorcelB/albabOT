@@ -1,7 +1,6 @@
-
 <!doctype html>
 <html lang="es">
-  <head>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Albito — Chat</title>
@@ -68,7 +67,7 @@
       min-width: 0;
     }
     .brand .avatar{
-      width:56px;height:56px; /* avatar grande */
+      width:56px;height:56px;
       border-radius: 50%;
       overflow:hidden;
       border:1px solid rgba(255,255,255,.18);
@@ -169,7 +168,7 @@
     .row.bot{ justify-content:flex-start; }
 
     .msgAvatar{
-      width:52px;height:52px; /* avatar grande en mensajes */
+      width:52px;height:52px;
       border-radius:50%;
       overflow:hidden;
       border:1px solid rgba(255,255,255,.18);
@@ -192,11 +191,9 @@
       white-space:pre-wrap;
     }
 
-    /* Albito: magenta */
     .row.bot .bubble{
       background: linear-gradient(145deg, rgba(224,0,77,.38), rgba(224,0,77,.18));
     }
-    /* Usuario: azul UDALBA */
     .row.me .bubble{
       background: linear-gradient(145deg, rgba(6,30,61,.55), rgba(6,30,61,.25));
     }
@@ -276,7 +273,7 @@
     }
     .send:hover{ background: rgba(224,0,77,.86); }
 
-    /* IMPORTANTE: NO chips */
+    /* NO chips */
     .chips, .quickChips, .suggestions { display:none !important; }
   </style>
 </head>
@@ -290,20 +287,20 @@
             <img id="brandAvatar" src="albito.jpeg" alt="Albito" onerror="this.onerror=null;this.src='albito.jpg'">
           </div>
           <div class="txt">
-            <h1>Albito  — Chat para la Jornada Directiva</h1>
-            <p>Respondo sólo con los textos. Si no hay evidencia, lo diré (sin inventar).</p>
+            <h1>Albito — Chat para la Jornada Directiva</h1>
+            <p>Respondo solo con los textos. Si no hay evidencia, lo diré (sin inventar).</p>
           </div>
         </div>
 
         <div class="actions">
-          <div class="pill" id="kbPill"><span class="dot" id="kbDot"></span><span id="kbText">cargando KB…</span></div>
+          <div class="pill" id="kbPill"><span class="dot" id="kbDot"></span><span id="kbText">cargando base…</span></div>
           <button class="btn" id="btnClear">Limpiar</button>
           <button class="btn" id="btnCopy">Copiar última</button>
         </div>
       </div>
 
       <div class="tipbar">
-        <div><b>Tip:</b> pregunta por <b>objetivo</b>, <b>eje</b> o <b>concepto</b>.</div>
+        <div><b>Tip:</b> pregunta por <b>país</b>, <b>eje</b>, <b>concepto</b> o <b>objetivo</b>.</div>
         <div>Tip: cambia el nivel de detalle abajo.</div>
       </div>
 
@@ -329,21 +326,36 @@
   </div>
 
   <script>
-
+    // =========================
+    // 1) SOLO estas 4 fuentes QA
+    // =========================
     const QA_FILES = [
-  { url: "./estrategia_es_QA_50_enriquecido.json",        source: "Estrategia ES" },
-  { url: "./universidades_futuro_QA_50.json",             source: "Universidades del futuro" },
-  { url: "./autores_vs_objetivos_QA_50_enriquecido.json", source: "Autores vs Objetivos" },
-  { url: "./directrices_paises_QA_50_enriquecido.json",   source: "Directrices (países)" },
-];
-    // ---- Embed mode (para iframe) ----
+      { url: "./estrategia_es_QA_50_enriquecido.json",        source: "Estrategia ES" },
+      { url: "./universidades_futuro_QA_50.json",             source: "Universidades del futuro" },
+      { url: "./autores_vs_objetivos_QA_50_enriquecido.json", source: "Autores vs Objetivos" },
+      { url: "./directrices_paises_QA_50_enriquecido.json",   source: "Directrices (países)" },
+    ];
+
+    // ---- Embed mode (iframe) ----
     const params = new URLSearchParams(location.search);
     if(params.get("embed")==="1") document.body.classList.add("embed");
 
-    // ---- Helpers ----
+    // ---- DOM helpers ----
     const $ = (id) => document.getElementById(id);
     const chatEl = $("chat");
 
+    // ---- Estado KB ----
+    let BLOCKS = [];
+
+    function setKBStatus(state, text){
+      const dot = $("kbDot");
+      dot.classList.remove("ok","bad");
+      if(state==="ok") dot.classList.add("ok");
+      if(state==="bad") dot.classList.add("bad");
+      $("kbText").textContent = text;
+    }
+
+    // ---- UI messages ----
     function addMsg(who, text){
       const row = document.createElement("div");
       row.className = "row " + (who === "me" ? "me" : "bot");
@@ -374,19 +386,10 @@
 
       row.appendChild(bubble);
       chatEl.appendChild(row);
-
-      // autoscroll
       chatEl.scrollTop = chatEl.scrollHeight;
     }
 
-    function setKBStatus(state, text){
-      const dot = $("kbDot");
-      dot.classList.remove("ok","bad");
-      if(state==="ok") dot.classList.add("ok");
-      if(state==="bad") dot.classList.add("bad");
-      $("kbText").textContent = text;
-    }
-
+    // ---- Text utils ----
     function normalize(s){
       return (s||"")
         .toLowerCase()
@@ -402,167 +405,114 @@
       return [...new Set(t)];
     }
 
-    // ---- KB ----
-    let KB = null;
-    let BLOCKS = [];
-
-    <script>
-  // === 1) Fuentes QA (solo estas 4) ===
-  const QA_FILES = [
-    { url: "./directrices_paises_QA_50_enriquecido.json", source: "Directrices (países)" },
-    { url: "./universidades_futuro_QA_50.json",            source: "Debate universidades del futuro" },
-    { url: "./estrategia_es_QA_50_enriquecido.json",       source: "Estrategia ES" },
-    { url: "./autores_vs_objetivos_QA_50_enriquecido.json",source: "Autores vs Objetivos" }
-  ];
-
-  function asArray(x){
-    if (!x) return [];
-    if (Array.isArray(x)) return x;
-    return [x];
-  }
-
-  function qaToBlock(qa, idx, sourceLabel, fileUrl){
-    const q = (qa.question ?? qa.pregunta ?? qa.q ?? "").toString().trim();
-    const a = (qa.answer   ?? qa.respuesta ?? qa.a ?? "").toString().trim();
-
-    const variants = asArray(qa.variants ?? qa.variantes).map(v => String(v).trim()).filter(Boolean);
-    const tagsRaw = qa.tags ?? qa.tag ?? qa.etiquetas;
-    const tags = Array.isArray(tagsRaw) ? tagsRaw.map(String) : (tagsRaw ? String(tagsRaw).split(",") : []);
-    const cleanTags = tags.map(t => t.trim()).filter(Boolean);
-
-    const meta = {
-      source: sourceLabel,
-      file: fileUrl,
-      doc: qa.doc ?? qa.documento ?? qa.document ?? qa.fuente ?? null,
-      source_section: qa.source_section ?? qa.section ?? qa.seccion ?? null,
-      timeframe: qa.timeframe ?? qa.periodo ?? null,
-      country: qa.country ?? qa.pais ?? null
-    };
-
-    const parts = [];
-    if (q) parts.push(`Q: ${q}`);
-    if (a) parts.push(`A: ${a}`);
-    if (variants.length) parts.push(`Variantes: ${variants.join(" | ")}`);
-    if (cleanTags.length) parts.push(`Tags: ${cleanTags.join(", ")}`);
-    const metaBits = [];
-    if (meta.doc) metaBits.push(`Documento: ${meta.doc}`);
-    if (meta.source_section) metaBits.push(`Sección: ${meta.source_section}`);
-    if (meta.timeframe) metaBits.push(`Período: ${meta.timeframe}`);
-    if (meta.country) metaBits.push(`País: ${meta.country}`);
-    if (metaBits.length) parts.push(metaBits.join(" · "));
-
-    const text = parts.join("\n");
-
-    return {
-      id: qa.id ?? `${sourceLabel}-${idx + 1}`,
-      text,
-      meta
-    };
-  }
-
-  function normalizeAnyJsonToBlocks(json, sourceName, sourceUrl) {
-  // Caso 1: ya viene como KB { blocks: [...] }
-  if (json && Array.isArray(json.blocks)) {
-    return json.blocks.map((b, i) => ({
-      id: b.id ?? `${sourceName}-${i}`,
-      text: String(b.text ?? ""),
-      source: b.source ?? sourceName,
-      meta: { ...(b.meta || {}), sourceUrl },
-    }));
-  }
-
-  // Caso 2: Q&A como array: [{question, answer, ...}, ...]
-  if (Array.isArray(json)) {
-    return json.map((item, i) => {
-      const q = (item.question ?? item.q ?? item.pregunta ?? "").toString().trim();
-      const a = (item.answer ?? item.a ?? item.respuesta ?? "").toString().trim();
-
-      const doc = (item.doc ?? item.document ?? item.source_doc ?? sourceName).toString().trim();
-      const section = (item.source_section ?? item.section ?? item.seccion ?? "").toString().trim();
-      const country = (item.country ?? item.pais ?? "").toString().trim();
-
-      const text =
-`Q: ${q}
-
-A: ${a}
-
-Fuente: ${doc}${section ? ` | ${section}` : ""}${country ? ` | ${country}` : ""}`.trim();
-
-      return {
-        id: `${sourceName}-qa-${i}`,
-        text,
-        source: sourceName,
-        meta: { doc, section, country, sourceUrl },
-      };
-    }).filter(b => b.text.length > 0);
-  }
-
-  // Caso 3: no reconocido
-  return [];
-}
-
-  // === 2) NUEVO loader: carga SOLO los 4 QA ===
-  async function fetchJsonWithTimeout(url, ms = 8000) {
-  const ctrl = new AbortController();
-  const t = setTimeout(() => ctrl.abort(), ms);
-
-  try {
-    const res = await fetch(url, { cache: "no-store", signal: ctrl.signal });
-    if (!res.ok) throw new Error(`${url} -> HTTP ${res.status}`);
-    return await res.json();
-  } finally {
-    clearTimeout(t);
-  }
-}
-
-async function loadKB() {
-  setKBStatus("loading", "cargando base...");
-
-  try {
-    const settled = await Promise.allSettled(
-      QA_FILES.map(async (f) => {
-        const json = await fetchJsonWithTimeout(f.url, 8000);
-        return { file: f, json };
-      })
-    );
-
-    let blocks = [];
-    for (const r of settled) {
-      if (r.status !== "fulfilled") continue;
-      const { file, json } = r.value;
-      blocks = blocks.concat(normalizeAnyJsonToBlocks(json, file.source, file.url));
+    // ---- Fetch con timeout (para no quedar “cargando” infinito) ----
+    async function fetchJsonWithTimeout(url, ms=9000){
+      const ctrl = new AbortController();
+      const t = setTimeout(() => ctrl.abort(), ms);
+      try{
+        // cache:no-store + query bust para GitHub Pages
+        const bust = (url.includes("?") ? "&" : "?") + "v=" + Date.now();
+        const res = await fetch(url + bust, { cache:"no-store", signal: ctrl.signal });
+        if(!res.ok) throw new Error(`${url} -> HTTP ${res.status}`);
+        return await res.json();
+      } finally {
+        clearTimeout(t);
+      }
     }
 
-    // Deduplicar por texto
-    const seen = new Set();
-    const uniq = [];
-    for (const b of blocks) {
-      const key = (b.text ?? "").trim();
-      if (!key || seen.has(key)) continue;
-      seen.add(key);
-      uniq.push(b);
+    // ---- Normaliza tus QA a bloques ----
+    function asArray(x){
+      if(!x) return [];
+      return Array.isArray(x) ? x : [x];
     }
 
-    // Si no cargó nada, corta y avisa (para NO quedar infinito)
-    if (!uniq.length) {
-      setKBStatus("bad", "KB no cargó");
-      addMsg("bot", "No pude cargar la base. Revisa que los 4 JSON estén en la misma carpeta que chat.html y que sus nombres coincidan exactamente.");
-      return;
+    function normalizeAnyJsonToBlocks(json, sourceName, sourceUrl){
+      // Si viene como { blocks: [...] }
+      if(json && Array.isArray(json.blocks)){
+        return json.blocks.map((b,i)=>({
+          id: b.id ?? `${sourceName}-kb-${i}`,
+          title: String(b.title ?? b.question ?? ""),
+          text: String(b.text ?? b.answer ?? ""),
+          tags: Array.isArray(b.tags) ? b.tags.map(String) : [],
+          source: b.source ?? sourceName,
+          meta: { ...(b.meta||{}), sourceUrl }
+        })).filter(b => (b.title || b.text));
+      }
+
+      // Si viene como array de QAs
+      if(Array.isArray(json)){
+        return json.map((qa,i)=>{
+          const q = String(qa.question ?? qa.pregunta ?? qa.q ?? "").trim();
+          const a = String(qa.answer ?? qa.respuesta ?? qa.a ?? "").trim();
+          const vars = asArray(qa.variants ?? qa.variantes).map(v=>String(v).trim()).filter(Boolean);
+          const tagsRaw = qa.tags ?? qa.tag ?? qa.etiquetas ?? [];
+          const tags = Array.isArray(tagsRaw) ? tagsRaw.map(String) : String(tagsRaw).split(",").map(s=>s.trim()).filter(Boolean);
+
+          const meta = {
+            doc: qa.doc ?? qa.documento ?? qa.document ?? qa.fuente ?? null,
+            source_section: qa.source_section ?? qa.section ?? qa.seccion ?? null,
+            timeframe: qa.timeframe ?? qa.periodo ?? null,
+            country: qa.country ?? qa.pais ?? null,
+            file: sourceUrl
+          };
+
+          return {
+            id: qa.id ?? `${sourceName}-qa-${i+1}`,
+            title: q,
+            text: a,
+            tags,
+            source: sourceName,
+            meta
+          };
+        }).filter(b => (b.title || b.text));
+      }
+
+      return [];
     }
 
-    KB_BLOCKS = uniq; // o el nombre de tu variable global real
-    setKBStatus("ok", `KB lista · ${uniq.length} bloques`);
-  } catch (err) {
-    console.error(err);
-    setKBStatus("bad", "KB no cargó");
-    addMsg("bot", `No pude cargar la base (${err?.message ?? err}).`);
-  }
-}
+    // ---- Carga la base desde los 4 archivos ----
+    async function loadKB(){
+      setKBStatus("loading","cargando base…");
 
-  
-</script>
+      const settled = await Promise.allSettled(
+        QA_FILES.map(async (f) => {
+          const json = await fetchJsonWithTimeout(f.url, 9000);
+          return { file: f, json };
+        })
+      );
 
+      let blocks = [];
+      let okFiles = 0;
 
+      for(const r of settled){
+        if(r.status !== "fulfilled") continue;
+        okFiles++;
+        const { file, json } = r.value;
+        blocks = blocks.concat(normalizeAnyJsonToBlocks(json, file.source, file.url));
+      }
+
+      // Dedup por title+text
+      const seen = new Set();
+      const uniq = [];
+      for(const b of blocks){
+        const key = (b.title + "\n" + b.text).trim();
+        if(!key || seen.has(key)) continue;
+        seen.add(key);
+        uniq.push(b);
+      }
+
+      BLOCKS = uniq;
+
+      if(!BLOCKS.length){
+        setKBStatus("bad","KB no cargó");
+        return false;
+      }
+
+      setKBStatus("ok", `KB lista · ${BLOCKS.length} bloques · ${okFiles}/${QA_FILES.length} archivos`);
+      return true;
+    }
+
+    // ---- Ranking + respuesta ----
     function scoreBlock(b, qTokens, qNorm){
       const title = normalize(b.title);
       const text  = normalize(b.text);
@@ -571,61 +521,50 @@ async function loadKB() {
 
       let s = 0;
 
-      // phrase boost
       if(qNorm && (title.includes(qNorm) || text.includes(qNorm))) s += 18;
 
       for(const t of qTokens){
         if(tags.includes(t)) s += 10;
-        if(title.includes(t)) s += 6;
-        if(id.includes(t)) s += 4;
-        if(text.includes(t)) s += 2;
+        if(title.includes(t)) s += 7;
+        if(text.includes(t)) s += 3;
+        if(id.includes(t)) s += 2;
       }
 
-      // prefer blocks with source/page
-      if(b.source) s += 1;
-      if(Number.isFinite(b.page_start)) s += 1;
+      // bonus si tiene metadata útil
+      if(b.meta?.doc) s += 2;
+      if(b.meta?.source_section) s += 1;
+      if(b.meta?.country) s += 1;
 
       return s;
     }
 
-    function firstSentences(raw, maxChars){
+    function clipText(raw, maxChars){
       const txt = (raw||"").replace(/\s+/g," ").trim();
-      if(!txt) return "";
-      // corta en ~1-2 frases sin pasarse
-      const parts = txt.split(/(?<=[\.\!\?])\s+/);
-      let out = "";
-      for(const p of parts){
-        if(!p) continue;
-        if((out + " " + p).trim().length > maxChars) break;
-        out = (out ? out + " " : "") + p;
-        if(out.length >= Math.min(220, maxChars)) break;
-      }
-      if(!out) out = txt.slice(0, maxChars);
-      if(out.length < txt.length) out += "…";
-      return out;
+      if(txt.length <= maxChars) return txt;
+      return txt.slice(0, maxChars).trim() + "…";
     }
 
-    function formatEvidence(block){
-      const src = block.source ? `Fuente: ${block.source}` : "Fuente: (sin fuente)";
-      const pages = (Number.isFinite(block.page_start) && Number.isFinite(block.page_end))
-        ? ` (p. ${block.page_start}–${block.page_end})`
-        : (Number.isFinite(block.page_start) ? ` (p. ${block.page_start})` : "");
-      const title = block.title ? `\n• ${block.title}` : "";
-      const excerpt = firstSentences(block.text, 320);
-      return `${src}${pages}${title}\n  ${excerpt}`;
+    function formatEvidence(block, mode){
+      const doc = block.meta?.doc ? String(block.meta.doc) : block.source;
+      const sec = block.meta?.source_section ? ` · ${block.meta.source_section}` : "";
+      const country = block.meta?.country ? ` · ${block.meta.country}` : "";
+      const time = block.meta?.timeframe ? ` · ${block.meta.timeframe}` : "";
+
+      const answer = (mode === "detail") ? clipText(block.text, 1200) : clipText(block.text, 420);
+
+      return `Fuente: ${doc}${sec}${country}${time}\n• ${answer}`;
     }
 
     function answerFromKB(q){
       if(!BLOCKS.length){
-        return "Aún no tengo la base cargada en este modo. Pronto solucionaré esto.";
+        return "Aún no tengo la base cargada. Revisa que los 4 JSON estén en la misma carpeta que chat.html (GitHub Pages) y que los nombres coincidan exacto.";
       }
 
       const qNorm = normalize(q);
       const qTok = tokens(q);
 
-      // si pregunta demasiado corta:
       if(qTok.length === 0 && qNorm.length < 3){
-        return "Dime en qué te puedo ayudar. Por favor usa palabras clave";
+        return "Dime en qué te puedo ayudar. Usa 2–3 palabras clave (país + tema, eje, o concepto).";
       }
 
       const scored = BLOCKS
@@ -633,31 +572,28 @@ async function loadKB() {
         .filter(x => x.s > 0)
         .sort((a,b)=> b.s - a.s);
 
+      if(!scored.length){
+        return "No encontré evidencia suficiente con esas palabras. Prueba reformulando (país + tema) o usando otro concepto clave.";
+      }
+
       const detailMode = $("modeDetail").checked ? "detail" : "brief";
       const wantEvidence = $("showEvidence").checked;
 
-      const take = detailMode === "detail" ? 6 : 2;
+      const take = (detailMode === "detail") ? 4 : 2;
       const top = scored.slice(0, take).map(x=>x.b);
 
-      if(top.length === 0){
-        return "Lo siento, no encontré evidencia suficiente para responder eso. Prueba con otras palabras";
-      }
-
       if(!wantEvidence){
-        // síntesis sin citas: usa 2–4 frases “representativas”
-        const bullets = top
-          .map(b => firstSentences(b.text, 180))
-          .filter(Boolean)
-          .slice(0, detailMode === "detail" ? 4 : 2)
-          .map(x => `• ${x}`);
-        return `Síntesis (sin evidencia mostrada):\n${bullets.join("\n")}`;
+        // respuesta “limpia”: usa el mejor bloque como base
+        const main = top[0];
+        const extra = (detailMode === "detail" && top[1]) ? ("\n\n(Complemento)\n" + clipText(top[1].text, 420)) : "";
+        return clipText(main.text, detailMode === "detail" ? 1200 : 520) + extra;
       }
 
-      const header = detailMode === "detail"
-        ? `Encontré evidencia  (top ${top.length}):`
+      const header = (detailMode === "detail")
+        ? `Encontré evidencia (top ${top.length}):`
         : `Encontré evidencia:`;
 
-      return `${header}\n\n` + top.map(formatEvidence).join("\n\n");
+      return `${header}\n\n` + top.map(b => formatEvidence(b, detailMode)).join("\n\n");
     }
 
     // ---- UI actions ----
@@ -696,23 +632,17 @@ async function loadKB() {
     });
 
     function greeting(){
-      addMsg("bot", "Hola, soy Albito 🐦 y te ayudaré en esta jornada con la información dada por la Dirección General de Desarrollo Institucional");
+      addMsg("bot", "Hola, soy Albito 🐦 y te ayudaré en esta jornada con la información dada por la Dirección General de Desarrollo Institucional.");
     }
 
-    // Init
-    greeting();
-    loadKB().then(ok=>{
+    // ---- Init ----
+    (async ()=>{
+      greeting();
+      const ok = await loadKB();
       if(!ok){
-        addMsg("bot","No pude cargar la KB. Asegúrate de que kb_udl.json esté en la misma carpeta que este chat (en GitHub Pages debe quedar en la raíz del repo).");
+        addMsg("bot","No pude cargar la base. Lo arreglaré en breve");
       }
-    });
+    })();
   </script>
 </body>
 </html>
-
-
-
-
-
-
-
