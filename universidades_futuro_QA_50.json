@@ -1,0 +1,652 @@
+[
+  {
+    "question": "¿Qué significa el concepto de universidad por capas?",
+    "variants": [
+      "¿Qué significa el concepto de universidad por capas?",
+      "¿Puedes explicar Qué significa el concepto de universidad por capas?",
+      "¿En qué consiste Qué significa el concepto de universidad por capas?",
+      "¿Cómo se define Qué significa el concepto de universidad por capas?"
+    ],
+    "answer": "La universidad por capas concibe la institución como un sistema flexible con un núcleo estable, procesos fluidos y espacios flexibles, integrando campus físicos y digitales.",
+    "tags": [
+      "universidad-por-capas"
+    ]
+  },
+  {
+    "question": "¿Cómo cambia la evaluación del desempeño universitario en este enfoque?",
+    "variants": [
+      "¿Cómo cambia la evaluación del desempeño universitario en este enfoque?",
+      "¿Puedes explicar Cómo cambia la evaluación del desempeño universitario en este enfoque?",
+      "¿En qué consiste Cómo cambia la evaluación del desempeño universitario en este enfoque?",
+      "¿Cómo se define Cómo cambia la evaluación del desempeño universitario en este enfoque?"
+    ],
+    "answer": "La evaluación se desplaza desde resultados académicos hacia métricas de impacto social, transformación del entorno y desarrollo de personas.",
+    "tags": [
+      "evaluación-por-impacto"
+    ]
+  },
+  {
+    "question": "¿Qué implica la idea de 'menos universidades y más posibilidades'?",
+    "variants": [
+      "¿Qué implica la idea de 'menos universidades y más posibilidades'?",
+      "¿Puedes explicar Qué implica la idea de 'menos universidades y más posibilidades'?",
+      "¿En qué consiste Qué implica la idea de 'menos universidades y más posibilidades'?",
+      "¿Cómo se define Qué implica la idea de 'menos universidades y más posibilidades'?"
+    ],
+    "answer": "El sistema se abre a múltiples proveedores y credenciales alternativas que acompañan el aprendizaje a lo largo de la vida.",
+    "tags": [
+      "diversidad-de-proveedores"
+    ]
+  },
+  {
+    "question": "¿Qué es una multiversidad y qué beneficios aporta?",
+    "variants": [
+      "¿Qué es una multiversidad y qué beneficios aporta?",
+      "¿Puedes explicar Qué es una multiversidad y qué beneficios aporta?",
+      "¿En qué consiste Qué es una multiversidad y qué beneficios aporta?",
+      "¿Cómo se define Qué es una multiversidad y qué beneficios aporta?"
+    ],
+    "answer": "Ofrece múltiples rutas y certificaciones personalizables, apoyada en tecnologías para acceso inclusivo y flexible.",
+    "tags": [
+      "multiversidad"
+    ]
+  },
+  {
+    "question": "¿Qué significa que la universidad sea ecosistémica?",
+    "variants": [
+      "¿Qué significa que la universidad sea ecosistémica?",
+      "¿Puedes explicar Qué significa que la universidad sea ecosistémica?",
+      "¿En qué consiste Qué significa que la universidad sea ecosistémica?",
+      "¿Cómo se define Qué significa que la universidad sea ecosistémica?"
+    ],
+    "answer": "Implica conectarse con empresas, gobiernos y organizaciones sociales para co-desarrollar docencia, investigación y transferencia.",
+    "tags": [
+      "ecosistema"
+    ]
+  },
+  {
+    "question": "¿Qué son los 'viajes y caminos' del estudiante?",
+    "variants": [
+      "¿Qué son los 'viajes y caminos' del estudiante?",
+      "¿Puedes explicar Qué son los 'viajes y caminos' del estudiante?",
+      "¿En qué consiste Qué son los 'viajes y caminos' del estudiante?",
+      "¿Cómo se define Qué son los 'viajes y caminos' del estudiante?"
+    ],
+    "answer": "Cada persona diseña su itinerario con combinaciones de formatos, tiempos y modalidades.",
+    "tags": [
+      "viajes-del-estudiante"
+    ]
+  },
+  {
+    "question": "¿Qué son las experiencias de aprendizaje aumentadas?",
+    "variants": [
+      "¿Qué son las experiencias de aprendizaje aumentadas?",
+      "¿Puedes explicar Qué son las experiencias de aprendizaje aumentadas?",
+      "¿En qué consiste Qué son las experiencias de aprendizaje aumentadas?",
+      "¿Cómo se define Qué son las experiencias de aprendizaje aumentadas?"
+    ],
+    "answer": "Combinan entornos físicos y digitales, datos, analítica e IA para aprendizajes interactivos y relevantes.",
+    "tags": [
+      "aprendizaje-aumentado"
+    ]
+  },
+  {
+    "question": "¿Qué se propone para pasar de sobrevivir a prosperar en la incertidumbre?",
+    "variants": [
+      "¿Qué se propone para pasar de sobrevivir a prosperar en la incertidumbre?",
+      "¿Puedes explicar Qué se propone para pasar de sobrevivir a prosperar en la incertidumbre?",
+      "¿En qué consiste Qué se propone para pasar de sobrevivir a prosperar en la incertidumbre?",
+      "¿Cómo se define Qué se propone para pasar de sobrevivir a prosperar en la incertidumbre?"
+    ],
+    "answer": "Anticipación, innovación y aprendizaje continuo con experimentación controlada.",
+    "tags": [
+      "incertidumbre"
+    ]
+  },
+  {
+    "question": "¿Qué capacidades habilitan la universidad por capas?",
+    "variants": [
+      "¿Qué capacidades habilitan la universidad por capas?",
+      "¿Puedes explicar Qué capacidades habilitan la universidad por capas?",
+      "¿En qué consiste Qué capacidades habilitan la universidad por capas?",
+      "¿Cómo se define Qué capacidades habilitan la universidad por capas?"
+    ],
+    "answer": "Gobernanza para innovar, datos como insumo estratégico, colaboración abierta y enfoque de equidad.",
+    "tags": [
+      "capacidades-institucionales"
+    ]
+  },
+  {
+    "question": "¿Cuál es el papel de la tecnología en la transformación universitaria?",
+    "variants": [
+      "¿Cuál es el papel de la tecnología en la transformación universitaria?",
+      "¿Puedes explicar Cuál es el papel de la tecnología en la transformación universitaria?",
+      "¿En qué consiste Cuál es el papel de la tecnología en la transformación universitaria?",
+      "¿Cómo se define Cuál es el papel de la tecnología en la transformación universitaria?"
+    ],
+    "answer": "Habilitador transversal que permite personalización, escalabilidad y pertinencia.",
+    "tags": [
+      "tecnología-habilitadora"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza gobernanza emprendedora en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza gobernanza emprendedora en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza gobernanza emprendedora en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza gobernanza emprendedora en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza gobernanza emprendedora en la universidad del futuro?"
+    ],
+    "answer": "Gobernanza emprendedora se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "gobernanza-emprendedora"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza campus híbrido en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza campus híbrido en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza campus híbrido en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza campus híbrido en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza campus híbrido en la universidad del futuro?"
+    ],
+    "answer": "Campus híbrido se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "campus-híbrido"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza rol docente en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza rol docente en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza rol docente en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza rol docente en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza rol docente en la universidad del futuro?"
+    ],
+    "answer": "Rol docente se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "rol-docente"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza corresponsabilidad laboral en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza corresponsabilidad laboral en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza corresponsabilidad laboral en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza corresponsabilidad laboral en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza corresponsabilidad laboral en la universidad del futuro?"
+    ],
+    "answer": "Corresponsabilidad laboral se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "corresponsabilidad-laboral"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza comunicación del conocimiento en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza comunicación del conocimiento en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza comunicación del conocimiento en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza comunicación del conocimiento en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza comunicación del conocimiento en la universidad del futuro?"
+    ],
+    "answer": "Comunicación del conocimiento se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "comunicación-del-conocimiento"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza innovación bajo restricciones en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza innovación bajo restricciones en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza innovación bajo restricciones en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza innovación bajo restricciones en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza innovación bajo restricciones en la universidad del futuro?"
+    ],
+    "answer": "Innovación bajo restricciones se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "innovación-bajo-restricciones"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza tic e ia en enseñanza en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza tic e ia en enseñanza en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza tic e ia en enseñanza en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza tic e ia en enseñanza en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza tic e ia en enseñanza en la universidad del futuro?"
+    ],
+    "answer": "TIC e IA en enseñanza se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "tic-e-ia-en-enseñanza"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza competencias digitales docentes en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza competencias digitales docentes en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza competencias digitales docentes en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza competencias digitales docentes en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza competencias digitales docentes en la universidad del futuro?"
+    ],
+    "answer": "Competencias digitales docentes se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "competencias-digitales-docentes"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza infraestructura y equidad en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza infraestructura y equidad en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza infraestructura y equidad en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza infraestructura y equidad en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza infraestructura y equidad en la universidad del futuro?"
+    ],
+    "answer": "Infraestructura y equidad se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "infraestructura-y-equidad"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza ética y datos en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza ética y datos en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza ética y datos en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza ética y datos en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza ética y datos en la universidad del futuro?"
+    ],
+    "answer": "Ética y datos se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "ética-y-datos"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza cultura de innovación en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza cultura de innovación en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza cultura de innovación en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza cultura de innovación en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza cultura de innovación en la universidad del futuro?"
+    ],
+    "answer": "Cultura de innovación se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "cultura-de-innovación"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza evaluación de impactos en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza evaluación de impactos en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza evaluación de impactos en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza evaluación de impactos en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza evaluación de impactos en la universidad del futuro?"
+    ],
+    "answer": "Evaluación de impactos se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "evaluación-de-impactos"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza universidad ubicua en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza universidad ubicua en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza universidad ubicua en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza universidad ubicua en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza universidad ubicua en la universidad del futuro?"
+    ],
+    "answer": "Universidad ubicua se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "universidad-ubicua"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza presiones globales en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza presiones globales en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza presiones globales en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza presiones globales en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza presiones globales en la universidad del futuro?"
+    ],
+    "answer": "Presiones globales se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "presiones-globales"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza exploración de lo desconocido en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza exploración de lo desconocido en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza exploración de lo desconocido en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza exploración de lo desconocido en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza exploración de lo desconocido en la universidad del futuro?"
+    ],
+    "answer": "Exploración de lo desconocido se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "exploración-de-lo-desconocido"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza gobernanza anticipatoria en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza gobernanza anticipatoria en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza gobernanza anticipatoria en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza gobernanza anticipatoria en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza gobernanza anticipatoria en la universidad del futuro?"
+    ],
+    "answer": "Gobernanza anticipatoria se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "gobernanza-anticipatoria"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza instrumentos de anticipación en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza instrumentos de anticipación en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza instrumentos de anticipación en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza instrumentos de anticipación en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza instrumentos de anticipación en la universidad del futuro?"
+    ],
+    "answer": "Instrumentos de anticipación se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "instrumentos-de-anticipación"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza diagnóstico de competencias en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza diagnóstico de competencias en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza diagnóstico de competencias en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza diagnóstico de competencias en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza diagnóstico de competencias en la universidad del futuro?"
+    ],
+    "answer": "Diagnóstico de competencias se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "diagnóstico-de-competencias"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza formación docente en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza formación docente en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza formación docente en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza formación docente en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza formación docente en la universidad del futuro?"
+    ],
+    "answer": "Formación docente se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "formación-docente"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza ciudadanía digital en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza ciudadanía digital en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza ciudadanía digital en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza ciudadanía digital en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza ciudadanía digital en la universidad del futuro?"
+    ],
+    "answer": "Ciudadanía digital se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "ciudadanía-digital"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza creatividad estudiantil en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza creatividad estudiantil en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza creatividad estudiantil en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza creatividad estudiantil en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza creatividad estudiantil en la universidad del futuro?"
+    ],
+    "answer": "Creatividad estudiantil se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "creatividad-estudiantil"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza brechas digitales en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza brechas digitales en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza brechas digitales en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza brechas digitales en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza brechas digitales en la universidad del futuro?"
+    ],
+    "answer": "Brechas digitales se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "brechas-digitales"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza diversificación y autonomía en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza diversificación y autonomía en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza diversificación y autonomía en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza diversificación y autonomía en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza diversificación y autonomía en la universidad del futuro?"
+    ],
+    "answer": "Diversificación y autonomía se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "diversificación-y-autonomía"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza meritocracia en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza meritocracia en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza meritocracia en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza meritocracia en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza meritocracia en la universidad del futuro?"
+    ],
+    "answer": "Meritocracia se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "meritocracia"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza docencia como legitimidad en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza docencia como legitimidad en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza docencia como legitimidad en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza docencia como legitimidad en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza docencia como legitimidad en la universidad del futuro?"
+    ],
+    "answer": "Docencia como legitimidad se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "docencia-como-legitimidad"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza profesionalización docente en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza profesionalización docente en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza profesionalización docente en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza profesionalización docente en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza profesionalización docente en la universidad del futuro?"
+    ],
+    "answer": "Profesionalización docente se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "profesionalización-docente"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza carreras flexibles en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza carreras flexibles en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza carreras flexibles en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza carreras flexibles en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza carreras flexibles en la universidad del futuro?"
+    ],
+    "answer": "Carreras flexibles se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "carreras-flexibles"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza gobernanza robusta en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza gobernanza robusta en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza gobernanza robusta en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza gobernanza robusta en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza gobernanza robusta en la universidad del futuro?"
+    ],
+    "answer": "Gobernanza robusta se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "gobernanza-robusta"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza valor público en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza valor público en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza valor público en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza valor público en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza valor público en la universidad del futuro?"
+    ],
+    "answer": "Valor público se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "valor-público"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza acceso universal en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza acceso universal en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza acceso universal en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza acceso universal en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza acceso universal en la universidad del futuro?"
+    ],
+    "answer": "Acceso universal se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "acceso-universal"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza ecualización de formatos en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza ecualización de formatos en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza ecualización de formatos en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza ecualización de formatos en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza ecualización de formatos en la universidad del futuro?"
+    ],
+    "answer": "Ecualización de formatos se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "ecualización-de-formatos"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza financiamiento en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza financiamiento en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza financiamiento en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza financiamiento en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza financiamiento en la universidad del futuro?"
+    ],
+    "answer": "Financiamiento se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "financiamiento"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza carrera académica en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza carrera académica en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza carrera académica en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza carrera académica en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza carrera académica en la universidad del futuro?"
+    ],
+    "answer": "Carrera académica se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "carrera-académica"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza vinculación territorial en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza vinculación territorial en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza vinculación territorial en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza vinculación territorial en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza vinculación territorial en la universidad del futuro?"
+    ],
+    "answer": "Vinculación territorial se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "vinculación-territorial"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza sistemas de información en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza sistemas de información en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza sistemas de información en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza sistemas de información en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza sistemas de información en la universidad del futuro?"
+    ],
+    "answer": "Sistemas de información se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "sistemas-de-información"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza andragogía en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza andragogía en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza andragogía en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza andragogía en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza andragogía en la universidad del futuro?"
+    ],
+    "answer": "Andragogía se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "andragogía"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza revolución digital en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza revolución digital en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza revolución digital en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza revolución digital en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza revolución digital en la universidad del futuro?"
+    ],
+    "answer": "Revolución digital se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "revolución-digital"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza competencias digitales en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza competencias digitales en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza competencias digitales en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza competencias digitales en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza competencias digitales en la universidad del futuro?"
+    ],
+    "answer": "Competencias digitales se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "competencias-digitales"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza gobernanza flexible en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza gobernanza flexible en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza gobernanza flexible en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza gobernanza flexible en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza gobernanza flexible en la universidad del futuro?"
+    ],
+    "answer": "Gobernanza flexible se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "gobernanza-flexible"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza sostenibilidad ambiental en la universidad del futuro?",
+    "variants": [
+      "¿Qué caracteriza sostenibilidad ambiental en la universidad del futuro?",
+      "¿Puedes explicar Qué caracteriza sostenibilidad ambiental en la universidad del futuro?",
+      "¿En qué consiste Qué caracteriza sostenibilidad ambiental en la universidad del futuro?",
+      "¿Cómo se define Qué caracteriza sostenibilidad ambiental en la universidad del futuro?"
+    ],
+    "answer": "Sostenibilidad ambiental se concibe como un componente clave de la transformación universitaria, alineando prácticas y decisiones con impacto, calidad, equidad y adaptación tecnológica.",
+    "tags": [
+      "sostenibilidad-ambiental"
+    ]
+  }
+]

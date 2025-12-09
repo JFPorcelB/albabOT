@@ -1,0 +1,1292 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cómo conversa el enfoque de Universidad por capas con los objetivos estratégicos de UDALBA?",
+    "variants": [
+      "¿De qué manera Universidad por capas se alinea con las metas institucionales?",
+      "¿Qué aporta Universidad por capas a la hoja de ruta 2025–2045 de UDALBA?",
+      "Explica la relación entre Universidad por capas y los objetivos priorizados"
+    ],
+    "answer": "Universidad por capas propone: Modelo flexible con núcleo en transformación, campus diferenciado que integra entornos físicos, digitales y mixtos; combina elementos fijos, fluidos y flexibles. Esto se alinea con objetivos como 1, 2, 6, 7, 8, 10, 13, 14, 15, 17, 19, fortaleciendo capacidades institucionales, calidad educativa, transformación digital y pertinencia territorial.",
+    "tags": [
+      "universidad-por-capas",
+      "relación-objetivos"
+    ],
+    "intent": "relationship",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.2–3",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 2,
+    "question": "¿Cómo Universidad por capas respalda el objetivo 1 de UDALBA?",
+    "variants": [
+      "¿Qué evidencia del documento vincula Universidad por capas con el objetivo 1?",
+      "Describe el aporte de Universidad por capas al objetivo 1",
+      "¿Por qué Universidad por capas es coherente con el objetivo 1?"
+    ],
+    "answer": "El enfoque de Universidad por capas entrega una justificación conceptual y operativa para el objetivo 1, conectando políticas, procesos y capacidades con resultados esperados en ese ámbito, según la tabla comparativa (p.2–3).",
+    "tags": [
+      "universidad-por-capas",
+      "objetivo-1"
+    ],
+    "intent": "policy_detail",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.2–3",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 3,
+    "question": "¿Qué acciones concretas permitirían operativizar Universidad por capas en UDALBA?",
+    "variants": [
+      "Propón medidas para implementar Universidad por capas en programas y campus",
+      "¿Qué indicadores usar para seguir la implementación de Universidad por capas?",
+      "¿Cómo integrar Universidad por capas en gobernanza y evaluación?"
+    ],
+    "answer": "Acciones: diseñar pilotos y escalamiento, ajustar mallas y credenciales, reforzar plataformas y datos, formar talento (docente/gestión), y vincular con territorios y empleo. Indicadores: progresión, titulación oportuna, satisfacción, empleabilidad, impacto territorial y métricas de uso digital.",
+    "tags": [
+      "universidad-por-capas",
+      "implementación"
+    ],
+    "intent": "application",
+    "difficulty": "avanzado",
+    "tone": "práctico técnico",
+    "audience": [
+      "IES",
+      "escuelas"
+    ],
+    "source_section": "p.2–3",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 4,
+    "question": "¿En qué se diferencia Universidad por capas de Universidad híbrida y expandida respecto a hibridez y transformación digital?",
+    "variants": [
+      "Compara Universidad por capas y Universidad híbrida y expandida en campus físico–virtual y datos",
+      "¿Qué enfoque es más adecuado para trayectorias flexibles en UDALBA?",
+      "¿Cómo varían sus implicancias en gobernanza y talento humano?"
+    ],
+    "answer": "Universidad por capas enfatiza modelo flexible con núcleo en transformación, campus diferenciado que integra entornos físicos, digitales y mixtos mientras Universidad híbrida y expandida pone foco en gobernanza basada en datos y expansión operativa del campus físico–virtual (según sus apartados respectivos). Ambos convergen en transformación digital, pero difieren en el punto de partida y prioridades de implementación.",
+    "tags": [
+      "universidad-por-capas",
+      "universidad-híbrida-y-expandida",
+      "comparativa"
+    ],
+    "intent": "comparison",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.2–3",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 5,
+    "question": "¿Qué riesgos y mitigaciones se deben considerar al adoptar Universidad por capas en UDALBA?",
+    "variants": [
+      "¿Qué salvaguardas éticas y de datos acompañan Universidad por capas?",
+      "¿Cómo evitar brechas y resistencias en la implementación de Universidad por capas?",
+      "¿Qué prácticas de gestión del cambio requiere Universidad por capas?"
+    ],
+    "answer": "Riesgos: sesgos y privacidad de datos, inequidades de acceso digital, sobrecarga de cambio organizacional. Mitigaciones: marcos éticos, gobernanza de datos, inversión en conectividad y soporte, formación continua, participación de comunidades y pilotaje con evaluación de impacto.",
+    "tags": [
+      "universidad-por-capas",
+      "riesgos",
+      "mitigaciones"
+    ],
+    "intent": "risk_mitigation",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.2–3",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 6,
+    "question": "¿Cómo conversa el enfoque de Universidad híbrida y expandida con los objetivos estratégicos de UDALBA?",
+    "variants": [
+      "¿De qué manera Universidad híbrida y expandida se alinea con las metas institucionales?",
+      "¿Qué aporta Universidad híbrida y expandida a la hoja de ruta 2025–2045 de UDALBA?",
+      "Explica la relación entre Universidad híbrida y expandida y los objetivos priorizados"
+    ],
+    "answer": "Universidad híbrida y expandida propone: Integración intencional de campus físico y virtual, gobernanza emprendedora basada en datos, diversificación de ingresos y rol docente como diseñador de experiencias. Esto se alinea con objetivos como 1, 4, 5, 6, 7, 8, 10, 11, 13, 15, 17, 19, fortaleciendo capacidades institucionales, calidad educativa, transformación digital y pertinencia territorial.",
+    "tags": [
+      "universidad-híbrida-y-expandida",
+      "relación-objetivos"
+    ],
+    "intent": "relationship",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.3–4",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 7,
+    "question": "¿Cómo Universidad híbrida y expandida respalda el objetivo 1 de UDALBA?",
+    "variants": [
+      "¿Qué evidencia del documento vincula Universidad híbrida y expandida con el objetivo 1?",
+      "Describe el aporte de Universidad híbrida y expandida al objetivo 1",
+      "¿Por qué Universidad híbrida y expandida es coherente con el objetivo 1?"
+    ],
+    "answer": "El enfoque de Universidad híbrida y expandida entrega una justificación conceptual y operativa para el objetivo 1, conectando políticas, procesos y capacidades con resultados esperados en ese ámbito, según la tabla comparativa (p.3–4).",
+    "tags": [
+      "universidad-híbrida-y-expandida",
+      "objetivo-1"
+    ],
+    "intent": "policy_detail",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.3–4",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 8,
+    "question": "¿Qué acciones concretas permitirían operativizar Universidad híbrida y expandida en UDALBA?",
+    "variants": [
+      "Propón medidas para implementar Universidad híbrida y expandida en programas y campus",
+      "¿Qué indicadores usar para seguir la implementación de Universidad híbrida y expandida?",
+      "¿Cómo integrar Universidad híbrida y expandida en gobernanza y evaluación?"
+    ],
+    "answer": "Acciones: diseñar pilotos y escalamiento, ajustar mallas y credenciales, reforzar plataformas y datos, formar talento (docente/gestión), y vincular con territorios y empleo. Indicadores: progresión, titulación oportuna, satisfacción, empleabilidad, impacto territorial y métricas de uso digital.",
+    "tags": [
+      "universidad-híbrida-y-expandida",
+      "implementación"
+    ],
+    "intent": "application",
+    "difficulty": "avanzado",
+    "tone": "práctico técnico",
+    "audience": [
+      "IES",
+      "escuelas"
+    ],
+    "source_section": "p.3–4",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 9,
+    "question": "¿En qué se diferencia Universidad híbrida y expandida de TIC e IA para mejorar enseñanza y evaluación respecto a hibridez y transformación digital?",
+    "variants": [
+      "Compara Universidad híbrida y expandida y TIC e IA para mejorar enseñanza y evaluación en campus físico–virtual y datos",
+      "¿Qué enfoque es más adecuado para trayectorias flexibles en UDALBA?",
+      "¿Cómo varían sus implicancias en gobernanza y talento humano?"
+    ],
+    "answer": "Universidad híbrida y expandida enfatiza integración intencional de campus físico y virtual, gobernanza emprendedora basada en datos, diversificación de ingresos y rol docente como diseñador de experiencias. mientras TIC e IA para mejorar enseñanza y evaluación pone foco en gobernanza basada en datos y expansión operativa del campus físico–virtual (según sus apartados respectivos). Ambos convergen en transformación digital, pero difieren en el punto de partida y prioridades de implementación.",
+    "tags": [
+      "universidad-híbrida-y-expandida",
+      "tic-e-ia-para-mejorar-enseñanza-y-evaluación",
+      "comparativa"
+    ],
+    "intent": "comparison",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.3–4",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 10,
+    "question": "¿Qué riesgos y mitigaciones se deben considerar al adoptar Universidad híbrida y expandida en UDALBA?",
+    "variants": [
+      "¿Qué salvaguardas éticas y de datos acompañan Universidad híbrida y expandida?",
+      "¿Cómo evitar brechas y resistencias en la implementación de Universidad híbrida y expandida?",
+      "¿Qué prácticas de gestión del cambio requiere Universidad híbrida y expandida?"
+    ],
+    "answer": "Riesgos: sesgos y privacidad de datos, inequidades de acceso digital, sobrecarga de cambio organizacional. Mitigaciones: marcos éticos, gobernanza de datos, inversión en conectividad y soporte, formación continua, participación de comunidades y pilotaje con evaluación de impacto.",
+    "tags": [
+      "universidad-híbrida-y-expandida",
+      "riesgos",
+      "mitigaciones"
+    ],
+    "intent": "risk_mitigation",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.3–4",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 11,
+    "question": "¿Cómo conversa el enfoque de TIC e IA para mejorar enseñanza y evaluación con los objetivos estratégicos de UDALBA?",
+    "variants": [
+      "¿De qué manera TIC e IA para mejorar enseñanza y evaluación se alinea con las metas institucionales?",
+      "¿Qué aporta TIC e IA para mejorar enseñanza y evaluación a la hoja de ruta 2025–2045 de UDALBA?",
+      "Explica la relación entre TIC e IA para mejorar enseñanza y evaluación y los objetivos priorizados"
+    ],
+    "answer": "TIC e IA para mejorar enseñanza y evaluación propone: Personalización del aprendizaje con retroalimentación en tiempo real, evaluación continua y automatizada, desarrollo de capacidades digitales docentes y ética de datos. Esto se alinea con objetivos como 2, 4, 6, 7, 8, 9, 10, 13, 16, 17, fortaleciendo capacidades institucionales, calidad educativa, transformación digital y pertinencia territorial.",
+    "tags": [
+      "tic-e-ia-para-mejorar-enseñanza-y-evaluación",
+      "relación-objetivos"
+    ],
+    "intent": "relationship",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.4–5",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 12,
+    "question": "¿Cómo TIC e IA para mejorar enseñanza y evaluación respalda el objetivo 2 de UDALBA?",
+    "variants": [
+      "¿Qué evidencia del documento vincula TIC e IA para mejorar enseñanza y evaluación con el objetivo 2?",
+      "Describe el aporte de TIC e IA para mejorar enseñanza y evaluación al objetivo 2",
+      "¿Por qué TIC e IA para mejorar enseñanza y evaluación es coherente con el objetivo 2?"
+    ],
+    "answer": "El enfoque de TIC e IA para mejorar enseñanza y evaluación entrega una justificación conceptual y operativa para el objetivo 2, conectando políticas, procesos y capacidades con resultados esperados en ese ámbito, según la tabla comparativa (p.4–5).",
+    "tags": [
+      "tic-e-ia-para-mejorar-enseñanza-y-evaluación",
+      "objetivo-2"
+    ],
+    "intent": "policy_detail",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.4–5",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 13,
+    "question": "¿Qué acciones concretas permitirían operativizar TIC e IA para mejorar enseñanza y evaluación en UDALBA?",
+    "variants": [
+      "Propón medidas para implementar TIC e IA para mejorar enseñanza y evaluación en programas y campus",
+      "¿Qué indicadores usar para seguir la implementación de TIC e IA para mejorar enseñanza y evaluación?",
+      "¿Cómo integrar TIC e IA para mejorar enseñanza y evaluación en gobernanza y evaluación?"
+    ],
+    "answer": "Acciones: diseñar pilotos y escalamiento, ajustar mallas y credenciales, reforzar plataformas y datos, formar talento (docente/gestión), y vincular con territorios y empleo. Indicadores: progresión, titulación oportuna, satisfacción, empleabilidad, impacto territorial y métricas de uso digital.",
+    "tags": [
+      "tic-e-ia-para-mejorar-enseñanza-y-evaluación",
+      "implementación"
+    ],
+    "intent": "application",
+    "difficulty": "avanzado",
+    "tone": "práctico técnico",
+    "audience": [
+      "IES",
+      "escuelas"
+    ],
+    "source_section": "p.4–5",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 14,
+    "question": "¿En qué se diferencia TIC e IA para mejorar enseñanza y evaluación de Universidad ubicua respecto a hibridez y transformación digital?",
+    "variants": [
+      "Compara TIC e IA para mejorar enseñanza y evaluación y Universidad ubicua en campus físico–virtual y datos",
+      "¿Qué enfoque es más adecuado para trayectorias flexibles en UDALBA?",
+      "¿Cómo varían sus implicancias en gobernanza y talento humano?"
+    ],
+    "answer": "TIC e IA para mejorar enseñanza y evaluación enfatiza personalización del aprendizaje con retroalimentación en tiempo real, evaluación continua y automatizada, desarrollo de capacidades digitales docentes y ética de datos. mientras Universidad ubicua pone foco en gobernanza basada en datos y expansión operativa del campus físico–virtual (según sus apartados respectivos). Ambos convergen en transformación digital, pero difieren en el punto de partida y prioridades de implementación.",
+    "tags": [
+      "tic-e-ia-para-mejorar-enseñanza-y-evaluación",
+      "universidad-ubicua",
+      "comparativa"
+    ],
+    "intent": "comparison",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.4–5",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 15,
+    "question": "¿Qué riesgos y mitigaciones se deben considerar al adoptar TIC e IA para mejorar enseñanza y evaluación en UDALBA?",
+    "variants": [
+      "¿Qué salvaguardas éticas y de datos acompañan TIC e IA para mejorar enseñanza y evaluación?",
+      "¿Cómo evitar brechas y resistencias en la implementación de TIC e IA para mejorar enseñanza y evaluación?",
+      "¿Qué prácticas de gestión del cambio requiere TIC e IA para mejorar enseñanza y evaluación?"
+    ],
+    "answer": "Riesgos: sesgos y privacidad de datos, inequidades de acceso digital, sobrecarga de cambio organizacional. Mitigaciones: marcos éticos, gobernanza de datos, inversión en conectividad y soporte, formación continua, participación de comunidades y pilotaje con evaluación de impacto.",
+    "tags": [
+      "tic-e-ia-para-mejorar-enseñanza-y-evaluación",
+      "riesgos",
+      "mitigaciones"
+    ],
+    "intent": "risk_mitigation",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.4–5",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 16,
+    "question": "¿Cómo conversa el enfoque de Universidad ubicua con los objetivos estratégicos de UDALBA?",
+    "variants": [
+      "¿De qué manera Universidad ubicua se alinea con las metas institucionales?",
+      "¿Qué aporta Universidad ubicua a la hoja de ruta 2025–2045 de UDALBA?",
+      "Explica la relación entre Universidad ubicua y los objetivos priorizados"
+    ],
+    "answer": "Universidad ubicua propone: Crítica a planificación lineal; universidad presente en todas partes articulando inteligencia social y artificial; de transmitir contenidos a explorar lo desconocido. Esto se alinea con objetivos como 1, 6, 7, 8, 10, 16, 17, 19, fortaleciendo capacidades institucionales, calidad educativa, transformación digital y pertinencia territorial.",
+    "tags": [
+      "universidad-ubicua",
+      "relación-objetivos"
+    ],
+    "intent": "relationship",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.5",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 17,
+    "question": "¿Cómo Universidad ubicua respalda el objetivo 1 de UDALBA?",
+    "variants": [
+      "¿Qué evidencia del documento vincula Universidad ubicua con el objetivo 1?",
+      "Describe el aporte de Universidad ubicua al objetivo 1",
+      "¿Por qué Universidad ubicua es coherente con el objetivo 1?"
+    ],
+    "answer": "El enfoque de Universidad ubicua entrega una justificación conceptual y operativa para el objetivo 1, conectando políticas, procesos y capacidades con resultados esperados en ese ámbito, según la tabla comparativa (p.5).",
+    "tags": [
+      "universidad-ubicua",
+      "objetivo-1"
+    ],
+    "intent": "policy_detail",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.5",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 18,
+    "question": "¿Qué acciones concretas permitirían operativizar Universidad ubicua en UDALBA?",
+    "variants": [
+      "Propón medidas para implementar Universidad ubicua en programas y campus",
+      "¿Qué indicadores usar para seguir la implementación de Universidad ubicua?",
+      "¿Cómo integrar Universidad ubicua en gobernanza y evaluación?"
+    ],
+    "answer": "Acciones: diseñar pilotos y escalamiento, ajustar mallas y credenciales, reforzar plataformas y datos, formar talento (docente/gestión), y vincular con territorios y empleo. Indicadores: progresión, titulación oportuna, satisfacción, empleabilidad, impacto territorial y métricas de uso digital.",
+    "tags": [
+      "universidad-ubicua",
+      "implementación"
+    ],
+    "intent": "application",
+    "difficulty": "avanzado",
+    "tone": "práctico técnico",
+    "audience": [
+      "IES",
+      "escuelas"
+    ],
+    "source_section": "p.5",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 19,
+    "question": "¿En qué se diferencia Universidad ubicua de Gobernanza anticipatoria respecto a hibridez y transformación digital?",
+    "variants": [
+      "Compara Universidad ubicua y Gobernanza anticipatoria en campus físico–virtual y datos",
+      "¿Qué enfoque es más adecuado para trayectorias flexibles en UDALBA?",
+      "¿Cómo varían sus implicancias en gobernanza y talento humano?"
+    ],
+    "answer": "Universidad ubicua enfatiza crítica a planificación lineal mientras Gobernanza anticipatoria pone foco en gobernanza basada en datos y expansión operativa del campus físico–virtual (según sus apartados respectivos). Ambos convergen en transformación digital, pero difieren en el punto de partida y prioridades de implementación.",
+    "tags": [
+      "universidad-ubicua",
+      "gobernanza-anticipatoria",
+      "comparativa"
+    ],
+    "intent": "comparison",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.5",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 20,
+    "question": "¿Qué riesgos y mitigaciones se deben considerar al adoptar Universidad ubicua en UDALBA?",
+    "variants": [
+      "¿Qué salvaguardas éticas y de datos acompañan Universidad ubicua?",
+      "¿Cómo evitar brechas y resistencias en la implementación de Universidad ubicua?",
+      "¿Qué prácticas de gestión del cambio requiere Universidad ubicua?"
+    ],
+    "answer": "Riesgos: sesgos y privacidad de datos, inequidades de acceso digital, sobrecarga de cambio organizacional. Mitigaciones: marcos éticos, gobernanza de datos, inversión en conectividad y soporte, formación continua, participación de comunidades y pilotaje con evaluación de impacto.",
+    "tags": [
+      "universidad-ubicua",
+      "riesgos",
+      "mitigaciones"
+    ],
+    "intent": "risk_mitigation",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.5",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 21,
+    "question": "¿Cómo conversa el enfoque de Gobernanza anticipatoria con los objetivos estratégicos de UDALBA?",
+    "variants": [
+      "¿De qué manera Gobernanza anticipatoria se alinea con las metas institucionales?",
+      "¿Qué aporta Gobernanza anticipatoria a la hoja de ruta 2025–2045 de UDALBA?",
+      "Explica la relación entre Gobernanza anticipatoria y los objetivos priorizados"
+    ],
+    "answer": "Gobernanza anticipatoria propone: Incorporar el largo plazo en decisiones; vigilancia de tendencias, escenarios y pilotaje de innovaciones para orientar oferta, investigación e infraestructura. Esto se alinea con objetivos como 1, 5, 6, 7, 14, 17, 19, fortaleciendo capacidades institucionales, calidad educativa, transformación digital y pertinencia territorial.",
+    "tags": [
+      "gobernanza-anticipatoria",
+      "relación-objetivos"
+    ],
+    "intent": "relationship",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.5–6",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 22,
+    "question": "¿Cómo Gobernanza anticipatoria respalda el objetivo 1 de UDALBA?",
+    "variants": [
+      "¿Qué evidencia del documento vincula Gobernanza anticipatoria con el objetivo 1?",
+      "Describe el aporte de Gobernanza anticipatoria al objetivo 1",
+      "¿Por qué Gobernanza anticipatoria es coherente con el objetivo 1?"
+    ],
+    "answer": "El enfoque de Gobernanza anticipatoria entrega una justificación conceptual y operativa para el objetivo 1, conectando políticas, procesos y capacidades con resultados esperados en ese ámbito, según la tabla comparativa (p.5–6).",
+    "tags": [
+      "gobernanza-anticipatoria",
+      "objetivo-1"
+    ],
+    "intent": "policy_detail",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.5–6",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 23,
+    "question": "¿Qué acciones concretas permitirían operativizar Gobernanza anticipatoria en UDALBA?",
+    "variants": [
+      "Propón medidas para implementar Gobernanza anticipatoria en programas y campus",
+      "¿Qué indicadores usar para seguir la implementación de Gobernanza anticipatoria?",
+      "¿Cómo integrar Gobernanza anticipatoria en gobernanza y evaluación?"
+    ],
+    "answer": "Acciones: diseñar pilotos y escalamiento, ajustar mallas y credenciales, reforzar plataformas y datos, formar talento (docente/gestión), y vincular con territorios y empleo. Indicadores: progresión, titulación oportuna, satisfacción, empleabilidad, impacto territorial y métricas de uso digital.",
+    "tags": [
+      "gobernanza-anticipatoria",
+      "implementación"
+    ],
+    "intent": "application",
+    "difficulty": "avanzado",
+    "tone": "práctico técnico",
+    "audience": [
+      "IES",
+      "escuelas"
+    ],
+    "source_section": "p.5–6",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 24,
+    "question": "¿En qué se diferencia Gobernanza anticipatoria de Competencias digitales docentes (CD) respecto a hibridez y transformación digital?",
+    "variants": [
+      "Compara Gobernanza anticipatoria y Competencias digitales docentes (CD) en campus físico–virtual y datos",
+      "¿Qué enfoque es más adecuado para trayectorias flexibles en UDALBA?",
+      "¿Cómo varían sus implicancias en gobernanza y talento humano?"
+    ],
+    "answer": "Gobernanza anticipatoria enfatiza incorporar el largo plazo en decisiones mientras Competencias digitales docentes (CD) pone foco en gobernanza basada en datos y expansión operativa del campus físico–virtual (según sus apartados respectivos). Ambos convergen en transformación digital, pero difieren en el punto de partida y prioridades de implementación.",
+    "tags": [
+      "gobernanza-anticipatoria",
+      "competencias-digitales-docentes-(cd)",
+      "comparativa"
+    ],
+    "intent": "comparison",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.5–6",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 25,
+    "question": "¿Qué riesgos y mitigaciones se deben considerar al adoptar Gobernanza anticipatoria en UDALBA?",
+    "variants": [
+      "¿Qué salvaguardas éticas y de datos acompañan Gobernanza anticipatoria?",
+      "¿Cómo evitar brechas y resistencias en la implementación de Gobernanza anticipatoria?",
+      "¿Qué prácticas de gestión del cambio requiere Gobernanza anticipatoria?"
+    ],
+    "answer": "Riesgos: sesgos y privacidad de datos, inequidades de acceso digital, sobrecarga de cambio organizacional. Mitigaciones: marcos éticos, gobernanza de datos, inversión en conectividad y soporte, formación continua, participación de comunidades y pilotaje con evaluación de impacto.",
+    "tags": [
+      "gobernanza-anticipatoria",
+      "riesgos",
+      "mitigaciones"
+    ],
+    "intent": "risk_mitigation",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.5–6",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 26,
+    "question": "¿Cómo conversa el enfoque de Competencias digitales docentes (CD) con los objetivos estratégicos de UDALBA?",
+    "variants": [
+      "¿De qué manera Competencias digitales docentes (CD) se alinea con las metas institucionales?",
+      "¿Qué aporta Competencias digitales docentes (CD) a la hoja de ruta 2025–2045 de UDALBA?",
+      "Explica la relación entre Competencias digitales docentes (CD) y los objetivos priorizados"
+    ],
+    "answer": "Competencias digitales docentes (CD) propone: Priorizar competencia digital docente, diagnóstico sistemático de brechas, formación continua diferenciada, integración pedagógica de TIC, ciudadanía digital y ética. Esto se alinea con objetivos como 2, 3, 4, 6, 7, 10, 12, 13, 19, fortaleciendo capacidades institucionales, calidad educativa, transformación digital y pertinencia territorial.",
+    "tags": [
+      "competencias-digitales-docentes-(cd)",
+      "relación-objetivos"
+    ],
+    "intent": "relationship",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.6–7",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 27,
+    "question": "¿Cómo Competencias digitales docentes (CD) respalda el objetivo 2 de UDALBA?",
+    "variants": [
+      "¿Qué evidencia del documento vincula Competencias digitales docentes (CD) con el objetivo 2?",
+      "Describe el aporte de Competencias digitales docentes (CD) al objetivo 2",
+      "¿Por qué Competencias digitales docentes (CD) es coherente con el objetivo 2?"
+    ],
+    "answer": "El enfoque de Competencias digitales docentes (CD) entrega una justificación conceptual y operativa para el objetivo 2, conectando políticas, procesos y capacidades con resultados esperados en ese ámbito, según la tabla comparativa (p.6–7).",
+    "tags": [
+      "competencias-digitales-docentes-(cd)",
+      "objetivo-2"
+    ],
+    "intent": "policy_detail",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.6–7",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 28,
+    "question": "¿Qué acciones concretas permitirían operativizar Competencias digitales docentes (CD) en UDALBA?",
+    "variants": [
+      "Propón medidas para implementar Competencias digitales docentes (CD) en programas y campus",
+      "¿Qué indicadores usar para seguir la implementación de Competencias digitales docentes (CD)?",
+      "¿Cómo integrar Competencias digitales docentes (CD) en gobernanza y evaluación?"
+    ],
+    "answer": "Acciones: diseñar pilotos y escalamiento, ajustar mallas y credenciales, reforzar plataformas y datos, formar talento (docente/gestión), y vincular con territorios y empleo. Indicadores: progresión, titulación oportuna, satisfacción, empleabilidad, impacto territorial y métricas de uso digital.",
+    "tags": [
+      "competencias-digitales-docentes-(cd)",
+      "implementación"
+    ],
+    "intent": "application",
+    "difficulty": "avanzado",
+    "tone": "práctico técnico",
+    "audience": [
+      "IES",
+      "escuelas"
+    ],
+    "source_section": "p.6–7",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 29,
+    "question": "¿En qué se diferencia Competencias digitales docentes (CD) de Gobernanza meritocrática y docencia reinventada respecto a hibridez y transformación digital?",
+    "variants": [
+      "Compara Competencias digitales docentes (CD) y Gobernanza meritocrática y docencia reinventada en campus físico–virtual y datos",
+      "¿Qué enfoque es más adecuado para trayectorias flexibles en UDALBA?",
+      "¿Cómo varían sus implicancias en gobernanza y talento humano?"
+    ],
+    "answer": "Competencias digitales docentes (CD) enfatiza priorizar competencia digital docente, diagnóstico sistemático de brechas, formación continua diferenciada, integración pedagógica de tic, ciudadanía digital y ética. mientras Gobernanza meritocrática y docencia reinventada pone foco en gobernanza basada en datos y expansión operativa del campus físico–virtual (según sus apartados respectivos). Ambos convergen en transformación digital, pero difieren en el punto de partida y prioridades de implementación.",
+    "tags": [
+      "competencias-digitales-docentes-(cd)",
+      "gobernanza-meritocrática-y-docencia-reinventada",
+      "comparativa"
+    ],
+    "intent": "comparison",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.6–7",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 30,
+    "question": "¿Qué riesgos y mitigaciones se deben considerar al adoptar Competencias digitales docentes (CD) en UDALBA?",
+    "variants": [
+      "¿Qué salvaguardas éticas y de datos acompañan Competencias digitales docentes (CD)?",
+      "¿Cómo evitar brechas y resistencias en la implementación de Competencias digitales docentes (CD)?",
+      "¿Qué prácticas de gestión del cambio requiere Competencias digitales docentes (CD)?"
+    ],
+    "answer": "Riesgos: sesgos y privacidad de datos, inequidades de acceso digital, sobrecarga de cambio organizacional. Mitigaciones: marcos éticos, gobernanza de datos, inversión en conectividad y soporte, formación continua, participación de comunidades y pilotaje con evaluación de impacto.",
+    "tags": [
+      "competencias-digitales-docentes-(cd)",
+      "riesgos",
+      "mitigaciones"
+    ],
+    "intent": "risk_mitigation",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.6–7",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 31,
+    "question": "¿Cómo conversa el enfoque de Gobernanza meritocrática y docencia reinventada con los objetivos estratégicos de UDALBA?",
+    "variants": [
+      "¿De qué manera Gobernanza meritocrática y docencia reinventada se alinea con las metas institucionales?",
+      "¿Qué aporta Gobernanza meritocrática y docencia reinventada a la hoja de ruta 2025–2045 de UDALBA?",
+      "Explica la relación entre Gobernanza meritocrática y docencia reinventada y los objetivos priorizados"
+    ],
+    "answer": "Gobernanza meritocrática y docencia reinventada propone: Diversidad y diferenciación por función, meritocracia con rendición de cuentas, docencia como núcleo de legitimidad, profesionalización y carreras flexibles. Esto se alinea con objetivos como 1, 2, 3, 4, 5, 11, 18, 19, fortaleciendo capacidades institucionales, calidad educativa, transformación digital y pertinencia territorial.",
+    "tags": [
+      "gobernanza-meritocrática-y-docencia-reinventada",
+      "relación-objetivos"
+    ],
+    "intent": "relationship",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.7–8",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 32,
+    "question": "¿Cómo Gobernanza meritocrática y docencia reinventada respalda el objetivo 1 de UDALBA?",
+    "variants": [
+      "¿Qué evidencia del documento vincula Gobernanza meritocrática y docencia reinventada con el objetivo 1?",
+      "Describe el aporte de Gobernanza meritocrática y docencia reinventada al objetivo 1",
+      "¿Por qué Gobernanza meritocrática y docencia reinventada es coherente con el objetivo 1?"
+    ],
+    "answer": "El enfoque de Gobernanza meritocrática y docencia reinventada entrega una justificación conceptual y operativa para el objetivo 1, conectando políticas, procesos y capacidades con resultados esperados en ese ámbito, según la tabla comparativa (p.7–8).",
+    "tags": [
+      "gobernanza-meritocrática-y-docencia-reinventada",
+      "objetivo-1"
+    ],
+    "intent": "policy_detail",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.7–8",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 33,
+    "question": "¿Qué acciones concretas permitirían operativizar Gobernanza meritocrática y docencia reinventada en UDALBA?",
+    "variants": [
+      "Propón medidas para implementar Gobernanza meritocrática y docencia reinventada en programas y campus",
+      "¿Qué indicadores usar para seguir la implementación de Gobernanza meritocrática y docencia reinventada?",
+      "¿Cómo integrar Gobernanza meritocrática y docencia reinventada en gobernanza y evaluación?"
+    ],
+    "answer": "Acciones: diseñar pilotos y escalamiento, ajustar mallas y credenciales, reforzar plataformas y datos, formar talento (docente/gestión), y vincular con territorios y empleo. Indicadores: progresión, titulación oportuna, satisfacción, empleabilidad, impacto territorial y métricas de uso digital.",
+    "tags": [
+      "gobernanza-meritocrática-y-docencia-reinventada",
+      "implementación"
+    ],
+    "intent": "application",
+    "difficulty": "avanzado",
+    "tone": "práctico técnico",
+    "audience": [
+      "IES",
+      "escuelas"
+    ],
+    "source_section": "p.7–8",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 34,
+    "question": "¿En qué se diferencia Gobernanza meritocrática y docencia reinventada de Futuro líquido bien gobernado respecto a hibridez y transformación digital?",
+    "variants": [
+      "Compara Gobernanza meritocrática y docencia reinventada y Futuro líquido bien gobernado en campus físico–virtual y datos",
+      "¿Qué enfoque es más adecuado para trayectorias flexibles en UDALBA?",
+      "¿Cómo varían sus implicancias en gobernanza y talento humano?"
+    ],
+    "answer": "Gobernanza meritocrática y docencia reinventada enfatiza diversidad y diferenciación por función, meritocracia con rendición de cuentas, docencia como núcleo de legitimidad, profesionalización y carreras flexibles. mientras Futuro líquido bien gobernado pone foco en gobernanza basada en datos y expansión operativa del campus físico–virtual (según sus apartados respectivos). Ambos convergen en transformación digital, pero difieren en el punto de partida y prioridades de implementación.",
+    "tags": [
+      "gobernanza-meritocrática-y-docencia-reinventada",
+      "futuro-líquido-bien-gobernado",
+      "comparativa"
+    ],
+    "intent": "comparison",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.7–8",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 35,
+    "question": "¿Qué riesgos y mitigaciones se deben considerar al adoptar Gobernanza meritocrática y docencia reinventada en UDALBA?",
+    "variants": [
+      "¿Qué salvaguardas éticas y de datos acompañan Gobernanza meritocrática y docencia reinventada?",
+      "¿Cómo evitar brechas y resistencias en la implementación de Gobernanza meritocrática y docencia reinventada?",
+      "¿Qué prácticas de gestión del cambio requiere Gobernanza meritocrática y docencia reinventada?"
+    ],
+    "answer": "Riesgos: sesgos y privacidad de datos, inequidades de acceso digital, sobrecarga de cambio organizacional. Mitigaciones: marcos éticos, gobernanza de datos, inversión en conectividad y soporte, formación continua, participación de comunidades y pilotaje con evaluación de impacto.",
+    "tags": [
+      "gobernanza-meritocrática-y-docencia-reinventada",
+      "riesgos",
+      "mitigaciones"
+    ],
+    "intent": "risk_mitigation",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.7–8",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 36,
+    "question": "¿Cómo conversa el enfoque de Futuro líquido bien gobernado con los objetivos estratégicos de UDALBA?",
+    "variants": [
+      "¿De qué manera Futuro líquido bien gobernado se alinea con las metas institucionales?",
+      "¿Qué aporta Futuro líquido bien gobernado a la hoja de ruta 2025–2045 de UDALBA?",
+      "Explica la relación entre Futuro líquido bien gobernado y los objetivos priorizados"
+    ],
+    "answer": "Futuro líquido bien gobernado propone: Prospectiva y gobernanza anticipatoria para acercarse a escenarios deseables; agenda mínima: valor público, equidad, equilibrio presencial/virtual, financiamiento, carrera académica, vinculación territorial, sistemas de información. Esto se alinea con objetivos como 1, 2, 4, 5, 8, 11, 12, 14, 17, 19, fortaleciendo capacidades institucionales, calidad educativa, transformación digital y pertinencia territorial.",
+    "tags": [
+      "futuro-líquido-bien-gobernado",
+      "relación-objetivos"
+    ],
+    "intent": "relationship",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.8–9",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 37,
+    "question": "¿Cómo Futuro líquido bien gobernado respalda el objetivo 1 de UDALBA?",
+    "variants": [
+      "¿Qué evidencia del documento vincula Futuro líquido bien gobernado con el objetivo 1?",
+      "Describe el aporte de Futuro líquido bien gobernado al objetivo 1",
+      "¿Por qué Futuro líquido bien gobernado es coherente con el objetivo 1?"
+    ],
+    "answer": "El enfoque de Futuro líquido bien gobernado entrega una justificación conceptual y operativa para el objetivo 1, conectando políticas, procesos y capacidades con resultados esperados en ese ámbito, según la tabla comparativa (p.8–9).",
+    "tags": [
+      "futuro-líquido-bien-gobernado",
+      "objetivo-1"
+    ],
+    "intent": "policy_detail",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.8–9",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 38,
+    "question": "¿Qué acciones concretas permitirían operativizar Futuro líquido bien gobernado en UDALBA?",
+    "variants": [
+      "Propón medidas para implementar Futuro líquido bien gobernado en programas y campus",
+      "¿Qué indicadores usar para seguir la implementación de Futuro líquido bien gobernado?",
+      "¿Cómo integrar Futuro líquido bien gobernado en gobernanza y evaluación?"
+    ],
+    "answer": "Acciones: diseñar pilotos y escalamiento, ajustar mallas y credenciales, reforzar plataformas y datos, formar talento (docente/gestión), y vincular con territorios y empleo. Indicadores: progresión, titulación oportuna, satisfacción, empleabilidad, impacto territorial y métricas de uso digital.",
+    "tags": [
+      "futuro-líquido-bien-gobernado",
+      "implementación"
+    ],
+    "intent": "application",
+    "difficulty": "avanzado",
+    "tone": "práctico técnico",
+    "audience": [
+      "IES",
+      "escuelas"
+    ],
+    "source_section": "p.8–9",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 39,
+    "question": "¿En qué se diferencia Futuro líquido bien gobernado de Universidad en la era digital respecto a hibridez y transformación digital?",
+    "variants": [
+      "Compara Futuro líquido bien gobernado y Universidad en la era digital en campus físico–virtual y datos",
+      "¿Qué enfoque es más adecuado para trayectorias flexibles en UDALBA?",
+      "¿Cómo varían sus implicancias en gobernanza y talento humano?"
+    ],
+    "answer": "Futuro líquido bien gobernado enfatiza prospectiva y gobernanza anticipatoria para acercarse a escenarios deseables mientras Universidad en la era digital pone foco en gobernanza basada en datos y expansión operativa del campus físico–virtual (según sus apartados respectivos). Ambos convergen en transformación digital, pero difieren en el punto de partida y prioridades de implementación.",
+    "tags": [
+      "futuro-líquido-bien-gobernado",
+      "universidad-en-la-era-digital",
+      "comparativa"
+    ],
+    "intent": "comparison",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.8–9",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 40,
+    "question": "¿Qué riesgos y mitigaciones se deben considerar al adoptar Futuro líquido bien gobernado en UDALBA?",
+    "variants": [
+      "¿Qué salvaguardas éticas y de datos acompañan Futuro líquido bien gobernado?",
+      "¿Cómo evitar brechas y resistencias en la implementación de Futuro líquido bien gobernado?",
+      "¿Qué prácticas de gestión del cambio requiere Futuro líquido bien gobernado?"
+    ],
+    "answer": "Riesgos: sesgos y privacidad de datos, inequidades de acceso digital, sobrecarga de cambio organizacional. Mitigaciones: marcos éticos, gobernanza de datos, inversión en conectividad y soporte, formación continua, participación de comunidades y pilotaje con evaluación de impacto.",
+    "tags": [
+      "futuro-líquido-bien-gobernado",
+      "riesgos",
+      "mitigaciones"
+    ],
+    "intent": "risk_mitigation",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.8–9",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 41,
+    "question": "¿Cómo conversa el enfoque de Universidad en la era digital con los objetivos estratégicos de UDALBA?",
+    "variants": [
+      "¿De qué manera Universidad en la era digital se alinea con las metas institucionales?",
+      "¿Qué aporta Universidad en la era digital a la hoja de ruta 2025–2045 de UDALBA?",
+      "Explica la relación entre Universidad en la era digital y los objetivos priorizados"
+    ],
+    "answer": "Universidad en la era digital propone: Andragogía universitaria, revolución digital como motor de innovación, desarrollo de competencias digitales, gobernanza flexible, impacto ambiental, equidad y accesibilidad. Esto se alinea con objetivos como 2, 4, 6, 7, 10, 12, 13, 19, fortaleciendo capacidades institucionales, calidad educativa, transformación digital y pertinencia territorial.",
+    "tags": [
+      "universidad-en-la-era-digital",
+      "relación-objetivos"
+    ],
+    "intent": "relationship",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.9",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 42,
+    "question": "¿Cómo Universidad en la era digital respalda el objetivo 2 de UDALBA?",
+    "variants": [
+      "¿Qué evidencia del documento vincula Universidad en la era digital con el objetivo 2?",
+      "Describe el aporte de Universidad en la era digital al objetivo 2",
+      "¿Por qué Universidad en la era digital es coherente con el objetivo 2?"
+    ],
+    "answer": "El enfoque de Universidad en la era digital entrega una justificación conceptual y operativa para el objetivo 2, conectando políticas, procesos y capacidades con resultados esperados en ese ámbito, según la tabla comparativa (p.9).",
+    "tags": [
+      "universidad-en-la-era-digital",
+      "objetivo-2"
+    ],
+    "intent": "policy_detail",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.9",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 43,
+    "question": "¿Qué acciones concretas permitirían operativizar Universidad en la era digital en UDALBA?",
+    "variants": [
+      "Propón medidas para implementar Universidad en la era digital en programas y campus",
+      "¿Qué indicadores usar para seguir la implementación de Universidad en la era digital?",
+      "¿Cómo integrar Universidad en la era digital en gobernanza y evaluación?"
+    ],
+    "answer": "Acciones: diseñar pilotos y escalamiento, ajustar mallas y credenciales, reforzar plataformas y datos, formar talento (docente/gestión), y vincular con territorios y empleo. Indicadores: progresión, titulación oportuna, satisfacción, empleabilidad, impacto territorial y métricas de uso digital.",
+    "tags": [
+      "universidad-en-la-era-digital",
+      "implementación"
+    ],
+    "intent": "application",
+    "difficulty": "avanzado",
+    "tone": "práctico técnico",
+    "audience": [
+      "IES",
+      "escuelas"
+    ],
+    "source_section": "p.9",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 44,
+    "question": "¿En qué se diferencia Universidad en la era digital de IA y gobernanza universitaria respecto a hibridez y transformación digital?",
+    "variants": [
+      "Compara Universidad en la era digital y IA y gobernanza universitaria en campus físico–virtual y datos",
+      "¿Qué enfoque es más adecuado para trayectorias flexibles en UDALBA?",
+      "¿Cómo varían sus implicancias en gobernanza y talento humano?"
+    ],
+    "answer": "Universidad en la era digital enfatiza andragogía universitaria, revolución digital como motor de innovación, desarrollo de competencias digitales, gobernanza flexible, impacto ambiental, equidad y accesibilidad. mientras IA y gobernanza universitaria pone foco en gobernanza basada en datos y expansión operativa del campus físico–virtual (según sus apartados respectivos). Ambos convergen en transformación digital, pero difieren en el punto de partida y prioridades de implementación.",
+    "tags": [
+      "universidad-en-la-era-digital",
+      "ia-y-gobernanza-universitaria",
+      "comparativa"
+    ],
+    "intent": "comparison",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.9",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 45,
+    "question": "¿Qué riesgos y mitigaciones se deben considerar al adoptar Universidad en la era digital en UDALBA?",
+    "variants": [
+      "¿Qué salvaguardas éticas y de datos acompañan Universidad en la era digital?",
+      "¿Cómo evitar brechas y resistencias en la implementación de Universidad en la era digital?",
+      "¿Qué prácticas de gestión del cambio requiere Universidad en la era digital?"
+    ],
+    "answer": "Riesgos: sesgos y privacidad de datos, inequidades de acceso digital, sobrecarga de cambio organizacional. Mitigaciones: marcos éticos, gobernanza de datos, inversión en conectividad y soporte, formación continua, participación de comunidades y pilotaje con evaluación de impacto.",
+    "tags": [
+      "universidad-en-la-era-digital",
+      "riesgos",
+      "mitigaciones"
+    ],
+    "intent": "risk_mitigation",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.9",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 46,
+    "question": "¿Cómo conversa el enfoque de IA y gobernanza universitaria con los objetivos estratégicos de UDALBA?",
+    "variants": [
+      "¿De qué manera IA y gobernanza universitaria se alinea con las metas institucionales?",
+      "¿Qué aporta IA y gobernanza universitaria a la hoja de ruta 2025–2045 de UDALBA?",
+      "Explica la relación entre IA y gobernanza universitaria y los objetivos priorizados"
+    ],
+    "answer": "IA y gobernanza universitaria propone: IA como eje estratégico de gestión; gobernanza de datos sólida, infraestructura interoperable, gestión del cambio y marcos éticos; mejora de transparencia y decisiones. Esto se alinea con objetivos como 1, 5, 6, 7, 10, 16, 18, 19, fortaleciendo capacidades institucionales, calidad educativa, transformación digital y pertinencia territorial.",
+    "tags": [
+      "ia-y-gobernanza-universitaria",
+      "relación-objetivos"
+    ],
+    "intent": "relationship",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.9–10",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 47,
+    "question": "¿Cómo IA y gobernanza universitaria respalda el objetivo 1 de UDALBA?",
+    "variants": [
+      "¿Qué evidencia del documento vincula IA y gobernanza universitaria con el objetivo 1?",
+      "Describe el aporte de IA y gobernanza universitaria al objetivo 1",
+      "¿Por qué IA y gobernanza universitaria es coherente con el objetivo 1?"
+    ],
+    "answer": "El enfoque de IA y gobernanza universitaria entrega una justificación conceptual y operativa para el objetivo 1, conectando políticas, procesos y capacidades con resultados esperados en ese ámbito, según la tabla comparativa (p.9–10).",
+    "tags": [
+      "ia-y-gobernanza-universitaria",
+      "objetivo-1"
+    ],
+    "intent": "policy_detail",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.9–10",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 48,
+    "question": "¿Qué acciones concretas permitirían operativizar IA y gobernanza universitaria en UDALBA?",
+    "variants": [
+      "Propón medidas para implementar IA y gobernanza universitaria en programas y campus",
+      "¿Qué indicadores usar para seguir la implementación de IA y gobernanza universitaria?",
+      "¿Cómo integrar IA y gobernanza universitaria en gobernanza y evaluación?"
+    ],
+    "answer": "Acciones: diseñar pilotos y escalamiento, ajustar mallas y credenciales, reforzar plataformas y datos, formar talento (docente/gestión), y vincular con territorios y empleo. Indicadores: progresión, titulación oportuna, satisfacción, empleabilidad, impacto territorial y métricas de uso digital.",
+    "tags": [
+      "ia-y-gobernanza-universitaria",
+      "implementación"
+    ],
+    "intent": "application",
+    "difficulty": "avanzado",
+    "tone": "práctico técnico",
+    "audience": [
+      "IES",
+      "escuelas"
+    ],
+    "source_section": "p.9–10",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 49,
+    "question": "¿En qué se diferencia IA y gobernanza universitaria de Universidad por capas respecto a hibridez y transformación digital?",
+    "variants": [
+      "Compara IA y gobernanza universitaria y Universidad por capas en campus físico–virtual y datos",
+      "¿Qué enfoque es más adecuado para trayectorias flexibles en UDALBA?",
+      "¿Cómo varían sus implicancias en gobernanza y talento humano?"
+    ],
+    "answer": "IA y gobernanza universitaria enfatiza ia como eje estratégico de gestión mientras Universidad por capas pone foco en gobernanza basada en datos y expansión operativa del campus físico–virtual (según sus apartados respectivos). Ambos convergen en transformación digital, pero difieren en el punto de partida y prioridades de implementación.",
+    "tags": [
+      "ia-y-gobernanza-universitaria",
+      "universidad-por-capas",
+      "comparativa"
+    ],
+    "intent": "comparison",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers",
+      "docentes"
+    ],
+    "source_section": "p.9–10",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  },
+  {
+    "id": 50,
+    "question": "¿Qué riesgos y mitigaciones se deben considerar al adoptar IA y gobernanza universitaria en UDALBA?",
+    "variants": [
+      "¿Qué salvaguardas éticas y de datos acompañan IA y gobernanza universitaria?",
+      "¿Cómo evitar brechas y resistencias en la implementación de IA y gobernanza universitaria?",
+      "¿Qué prácticas de gestión del cambio requiere IA y gobernanza universitaria?"
+    ],
+    "answer": "Riesgos: sesgos y privacidad de datos, inequidades de acceso digital, sobrecarga de cambio organizacional. Mitigaciones: marcos éticos, gobernanza de datos, inversión en conectividad y soporte, formación continua, participación de comunidades y pilotaje con evaluación de impacto.",
+    "tags": [
+      "ia-y-gobernanza-universitaria",
+      "riesgos",
+      "mitigaciones"
+    ],
+    "intent": "risk_mitigation",
+    "difficulty": "intermedio",
+    "tone": "neutral técnico",
+    "audience": [
+      "IES",
+      "policymakers"
+    ],
+    "source_section": "p.9–10",
+    "country": "Chile",
+    "timeframe": "2025–2045",
+    "doc": "Autores vs Objetivos.pdf"
+  }
+]
