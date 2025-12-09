@@ -398,27 +398,148 @@
     let KB = null;
     let BLOCKS = [];
 
-    async function loadKB(){
-      setKBStatus("loading", "cargando KB…");
-      const candidates = ["kb_udl.json", "./kb_udl.json", "kb.json", "./kb.json"];
-      for(const url of candidates){
-        try{
-          const res = await fetch(url, { cache:"no-store" });
-          if(!res.ok) continue;
-          const data = await res.json();
-          if(!data || !Array.isArray(data.blocks)) continue;
+    <script>
+  // === 1) Fuentes QA (solo estas 4) ===
+  const QA_FILES = [
+    { url: "./directrices_paises_QA_50_enriquecido.json", source: "Directrices (países)" },
+    { url: "./universidades_futuro_QA_50.json",            source: "Debate universidades del futuro" },
+    { url: "./estrategia_es_QA_50_enriquecido.json",       source: "Estrategia ES" },
+    { url: "./autores_vs_objetivos_QA_50_enriquecido.json",source: "Autores vs Objetivos" }
+  ];
 
-          KB = data;
-          BLOCKS = data.blocks || [];
-          setKBStatus("ok", `KB lista · ${BLOCKS.length} bloques`);
-          return true;
-        }catch(e){
-          // sigue probando
-        }
+  function asArray(x){
+    if (!x) return [];
+    if (Array.isArray(x)) return x;
+    return [x];
+  }
+
+  function qaToBlock(qa, idx, sourceLabel, fileUrl){
+    const q = (qa.question ?? qa.pregunta ?? qa.q ?? "").toString().trim();
+    const a = (qa.answer   ?? qa.respuesta ?? qa.a ?? "").toString().trim();
+
+    const variants = asArray(qa.variants ?? qa.variantes).map(v => String(v).trim()).filter(Boolean);
+    const tagsRaw = qa.tags ?? qa.tag ?? qa.etiquetas;
+    const tags = Array.isArray(tagsRaw) ? tagsRaw.map(String) : (tagsRaw ? String(tagsRaw).split(",") : []);
+    const cleanTags = tags.map(t => t.trim()).filter(Boolean);
+
+    const meta = {
+      source: sourceLabel,
+      file: fileUrl,
+      doc: qa.doc ?? qa.documento ?? qa.document ?? qa.fuente ?? null,
+      source_section: qa.source_section ?? qa.section ?? qa.seccion ?? null,
+      timeframe: qa.timeframe ?? qa.periodo ?? null,
+      country: qa.country ?? qa.pais ?? null
+    };
+
+    const parts = [];
+    if (q) parts.push(`Q: ${q}`);
+    if (a) parts.push(`A: ${a}`);
+    if (variants.length) parts.push(`Variantes: ${variants.join(" | ")}`);
+    if (cleanTags.length) parts.push(`Tags: ${cleanTags.join(", ")}`);
+    const metaBits = [];
+    if (meta.doc) metaBits.push(`Documento: ${meta.doc}`);
+    if (meta.source_section) metaBits.push(`Sección: ${meta.source_section}`);
+    if (meta.timeframe) metaBits.push(`Período: ${meta.timeframe}`);
+    if (meta.country) metaBits.push(`País: ${meta.country}`);
+    if (metaBits.length) parts.push(metaBits.join(" · "));
+
+    const text = parts.join("\n");
+
+    return {
+      id: qa.id ?? `${sourceLabel}-${idx + 1}`,
+      text,
+      meta
+    };
+  }
+
+  function normalizeAnyJsonToBlocks(json, sourceLabel, fileUrl){
+    if (!json) return [];
+
+    // Caso A: ya viene como { blocks: [...] }
+    if (typeof json === "object" && !Array.isArray(json) && Array.isArray(json.blocks)) {
+      return json.blocks
+        .map((b, i) => ({
+          id: b.id ?? `${sourceLabel}-${i + 1}`,
+          text: (b.text ?? b.content ?? "").toString(),
+          meta: { ...(b.meta ?? {}), source: sourceLabel, file: fileUrl }
+        }))
+        .filter(b => b.text.trim().length > 0);
+    }
+
+    // Caso B: viene como lista [...]
+    if (Array.isArray(json)) {
+      // Si parece "block" (tiene text), lo respetamos
+      if (json.length && typeof json[0]?.text === "string") {
+        return json
+          .map((b, i) => ({
+            id: b.id ?? `${sourceLabel}-${i + 1}`,
+            text: (b.text ?? "").toString(),
+            meta: { ...(b.meta ?? {}), source: sourceLabel, file: fileUrl }
+          }))
+          .filter(b => b.text.trim().length > 0);
       }
+      // Si parece QA, lo convertimos
+      return json.map((qa, i) => qaToBlock(qa, i, sourceLabel, fileUrl)).filter(b => b.text.trim().length > 0);
+    }
+
+    // Caso C: otros wrappers (qas/items)
+    const arr = json.qas ?? json.items ?? null;
+    if (Array.isArray(arr)) {
+      return arr.map((qa, i) => qaToBlock(qa, i, sourceLabel, fileUrl)).filter(b => b.text.trim().length > 0);
+    }
+
+    return [];
+  }
+
+  // === 2) NUEVO loader: carga SOLO los 4 QA ===
+  async function loadKB(){
+    setKBStatus("loading", "cargando base…");
+
+    try {
+      const settled = await Promise.allSettled(
+        QA_FILES.map(async (f) => {
+          const res = await fetch(f.url, { cache: "no-store" });
+          if (!res.ok) throw new Error(`${f.url} → HTTP ${res.status}`);
+          const json = await res.json();
+          return { file: f, json };
+        })
+      );
+
+      let blocks = [];
+      for (const r of settled) {
+        if (r.status !== "fulfilled") continue;
+        const { file, json } = r.value;
+        blocks = blocks.concat(normalizeAnyJsonToBlocks(json, file.source, file.url));
+      }
+
+      // Deduplicar por texto (por si se repite)
+      const seen = new Set();
+      const uniq = [];
+      for (const b of blocks) {
+        const key = (b.text ?? "").trim();
+        if (!key || seen.has(key)) continue;
+        seen.add(key);
+        uniq.push(b);
+      }
+
+      if (!uniq.length) throw new Error("No se pudo cargar ningún QA en blocks.");
+
+      // Mantén la estructura que ya usa tu chat
+      KB = { blocks: uniq };
+      KB_LOADED_FROM = "QA_FILES_ONLY";
+
+      setKBStatus("ok", `KB lista · ${uniq.length} items`);
+      return true;
+
+    } catch (err) {
+      console.error(err);
       setKBStatus("bad", "KB no cargó");
+      addMsg("bot", "No pude cargar los 4 archivos QA. Revisa que estén en la misma carpeta que chat.html y con el nombre exacto.");
       return false;
     }
+  }
+</script>
+
 
     function scoreBlock(b, qTokens, qNorm){
       const title = normalize(b.title);
