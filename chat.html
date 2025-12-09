@@ -1,6 +1,7 @@
+
 <!doctype html>
 <html lang="es">
-<head>
+  <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Albito — Chat</title>
@@ -289,8 +290,8 @@
             <img id="brandAvatar" src="albito.jpeg" alt="Albito" onerror="this.onerror=null;this.src='albito.jpg'">
           </div>
           <div class="txt">
-            <h1>Albito (demo) — Chat para la Jornada Directiva</h1>
-            <p>Responde solo con <b>kb_udl.json</b>. Si no hay evidencia, lo diré (sin inventar).</p>
+            <h1>Albito  — Chat para la Jornada Directiva</h1>
+            <p>Respondo sólo con los textos. Si no hay evidencia, lo diré (sin inventar).</p>
           </div>
         </div>
 
@@ -302,7 +303,7 @@
       </div>
 
       <div class="tipbar">
-        <div><b>Tip:</b> pregunta por <b>país</b>, <b>eje</b> o <b>concepto</b>.</div>
+        <div><b>Tip:</b> pregunta por <b>objetivo</b>, <b>eje</b> o <b>concepto</b>.</div>
         <div>Tip: cambia el nivel de detalle abajo.</div>
       </div>
 
@@ -328,6 +329,13 @@
   </div>
 
   <script>
+
+    const QA_FILES = [
+  { url: "./estrategia_es_QA_50_enriquecido.json",        source: "Estrategia ES" },
+  { url: "./universidades_futuro_QA_50.json",             source: "Universidades del futuro" },
+  { url: "./autores_vs_objetivos_QA_50_enriquecido.json", source: "Autores vs Objetivos" },
+  { url: "./directrices_paises_QA_50_enriquecido.json",   source: "Directrices (países)" },
+];
     // ---- Embed mode (para iframe) ----
     const params = new URLSearchParams(location.search);
     if(params.get("embed")==="1") document.body.classList.add("embed");
@@ -452,92 +460,106 @@
     };
   }
 
-  function normalizeAnyJsonToBlocks(json, sourceLabel, fileUrl){
-    if (!json) return [];
-
-    // Caso A: ya viene como { blocks: [...] }
-    if (typeof json === "object" && !Array.isArray(json) && Array.isArray(json.blocks)) {
-      return json.blocks
-        .map((b, i) => ({
-          id: b.id ?? `${sourceLabel}-${i + 1}`,
-          text: (b.text ?? b.content ?? "").toString(),
-          meta: { ...(b.meta ?? {}), source: sourceLabel, file: fileUrl }
-        }))
-        .filter(b => b.text.trim().length > 0);
-    }
-
-    // Caso B: viene como lista [...]
-    if (Array.isArray(json)) {
-      // Si parece "block" (tiene text), lo respetamos
-      if (json.length && typeof json[0]?.text === "string") {
-        return json
-          .map((b, i) => ({
-            id: b.id ?? `${sourceLabel}-${i + 1}`,
-            text: (b.text ?? "").toString(),
-            meta: { ...(b.meta ?? {}), source: sourceLabel, file: fileUrl }
-          }))
-          .filter(b => b.text.trim().length > 0);
-      }
-      // Si parece QA, lo convertimos
-      return json.map((qa, i) => qaToBlock(qa, i, sourceLabel, fileUrl)).filter(b => b.text.trim().length > 0);
-    }
-
-    // Caso C: otros wrappers (qas/items)
-    const arr = json.qas ?? json.items ?? null;
-    if (Array.isArray(arr)) {
-      return arr.map((qa, i) => qaToBlock(qa, i, sourceLabel, fileUrl)).filter(b => b.text.trim().length > 0);
-    }
-
-    return [];
+  function normalizeAnyJsonToBlocks(json, sourceName, sourceUrl) {
+  // Caso 1: ya viene como KB { blocks: [...] }
+  if (json && Array.isArray(json.blocks)) {
+    return json.blocks.map((b, i) => ({
+      id: b.id ?? `${sourceName}-${i}`,
+      text: String(b.text ?? ""),
+      source: b.source ?? sourceName,
+      meta: { ...(b.meta || {}), sourceUrl },
+    }));
   }
+
+  // Caso 2: Q&A como array: [{question, answer, ...}, ...]
+  if (Array.isArray(json)) {
+    return json.map((item, i) => {
+      const q = (item.question ?? item.q ?? item.pregunta ?? "").toString().trim();
+      const a = (item.answer ?? item.a ?? item.respuesta ?? "").toString().trim();
+
+      const doc = (item.doc ?? item.document ?? item.source_doc ?? sourceName).toString().trim();
+      const section = (item.source_section ?? item.section ?? item.seccion ?? "").toString().trim();
+      const country = (item.country ?? item.pais ?? "").toString().trim();
+
+      const text =
+`Q: ${q}
+
+A: ${a}
+
+Fuente: ${doc}${section ? ` | ${section}` : ""}${country ? ` | ${country}` : ""}`.trim();
+
+      return {
+        id: `${sourceName}-qa-${i}`,
+        text,
+        source: sourceName,
+        meta: { doc, section, country, sourceUrl },
+      };
+    }).filter(b => b.text.length > 0);
+  }
+
+  // Caso 3: no reconocido
+  return [];
+}
 
   // === 2) NUEVO loader: carga SOLO los 4 QA ===
-  async function loadKB(){
-    setKBStatus("loading", "cargando base…");
+  async function fetchJsonWithTimeout(url, ms = 8000) {
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), ms);
 
-    try {
-      const settled = await Promise.allSettled(
-        QA_FILES.map(async (f) => {
-          const res = await fetch(f.url, { cache: "no-store" });
-          if (!res.ok) throw new Error(`${f.url} → HTTP ${res.status}`);
-          const json = await res.json();
-          return { file: f, json };
-        })
-      );
-
-      let blocks = [];
-      for (const r of settled) {
-        if (r.status !== "fulfilled") continue;
-        const { file, json } = r.value;
-        blocks = blocks.concat(normalizeAnyJsonToBlocks(json, file.source, file.url));
-      }
-
-      // Deduplicar por texto (por si se repite)
-      const seen = new Set();
-      const uniq = [];
-      for (const b of blocks) {
-        const key = (b.text ?? "").trim();
-        if (!key || seen.has(key)) continue;
-        seen.add(key);
-        uniq.push(b);
-      }
-
-      if (!uniq.length) throw new Error("No se pudo cargar ningún QA en blocks.");
-
-      // Mantén la estructura que ya usa tu chat
-      KB = { blocks: uniq };
-      KB_LOADED_FROM = "QA_FILES_ONLY";
-
-      setKBStatus("ok", `KB lista · ${uniq.length} items`);
-      return true;
-
-    } catch (err) {
-      console.error(err);
-      setKBStatus("bad", "KB no cargó");
-      addMsg("bot", "No pude cargar los 4 archivos QA. Revisa que estén en la misma carpeta que chat.html y con el nombre exacto.");
-      return false;
-    }
+  try {
+    const res = await fetch(url, { cache: "no-store", signal: ctrl.signal });
+    if (!res.ok) throw new Error(`${url} -> HTTP ${res.status}`);
+    return await res.json();
+  } finally {
+    clearTimeout(t);
   }
+}
+
+async function loadKB() {
+  setKBStatus("loading", "cargando base...");
+
+  try {
+    const settled = await Promise.allSettled(
+      QA_FILES.map(async (f) => {
+        const json = await fetchJsonWithTimeout(f.url, 8000);
+        return { file: f, json };
+      })
+    );
+
+    let blocks = [];
+    for (const r of settled) {
+      if (r.status !== "fulfilled") continue;
+      const { file, json } = r.value;
+      blocks = blocks.concat(normalizeAnyJsonToBlocks(json, file.source, file.url));
+    }
+
+    // Deduplicar por texto
+    const seen = new Set();
+    const uniq = [];
+    for (const b of blocks) {
+      const key = (b.text ?? "").trim();
+      if (!key || seen.has(key)) continue;
+      seen.add(key);
+      uniq.push(b);
+    }
+
+    // Si no cargó nada, corta y avisa (para NO quedar infinito)
+    if (!uniq.length) {
+      setKBStatus("bad", "KB no cargó");
+      addMsg("bot", "No pude cargar la base. Revisa que los 4 JSON estén en la misma carpeta que chat.html y que sus nombres coincidan exactamente.");
+      return;
+    }
+
+    KB_BLOCKS = uniq; // o el nombre de tu variable global real
+    setKBStatus("ok", `KB lista · ${uniq.length} bloques`);
+  } catch (err) {
+    console.error(err);
+    setKBStatus("bad", "KB no cargó");
+    addMsg("bot", `No pude cargar la base (${err?.message ?? err}).`);
+  }
+}
+
+  
 </script>
 
 
@@ -595,7 +617,7 @@
 
     function answerFromKB(q){
       if(!BLOCKS.length){
-        return "Aún no tengo la base cargada en este modo. Revisa que exista kb_udl.json en la misma carpeta del chat.";
+        return "Aún no tengo la base cargada en este modo. Pronto solucionaré esto.";
       }
 
       const qNorm = normalize(q);
@@ -603,7 +625,7 @@
 
       // si pregunta demasiado corta:
       if(qTok.length === 0 && qNorm.length < 3){
-        return "Dime un país, eje o concepto (ej.: “gobernanza anticipatoria”, “microcredenciales”, “Reino Unido + IA”).";
+        return "Dime en qué te puedo ayudar. Por favor usa palabras clave";
       }
 
       const scored = BLOCKS
@@ -618,7 +640,7 @@
       const top = scored.slice(0, take).map(x=>x.b);
 
       if(top.length === 0){
-        return "No encontré evidencia suficiente en la base para responder eso. Prueba con otras palabras clave o un país + tema.";
+        return "Lo siento, no encontré evidencia suficiente para responder eso. Prueba con otras palabras";
       }
 
       if(!wantEvidence){
@@ -632,8 +654,8 @@
       }
 
       const header = detailMode === "detail"
-        ? `Encontré evidencia en la base (top ${top.length}):`
-        : `Encontré evidencia en la base:`;
+        ? `Encontré evidencia  (top ${top.length}):`
+        : `Encontré evidencia:`;
 
       return `${header}\n\n` + top.map(formatEvidence).join("\n\n");
     }
@@ -674,7 +696,7 @@
     });
 
     function greeting(){
-      addMsg("bot", "Hola, soy Albito 📌. Cuéntame un país, un eje o un concepto y te respondo con evidencia.");
+      addMsg("bot", "Hola, soy Albito 🐦 y te ayudaré en esta jornada con la información dada por la Dirección General de Desarrollo Institucional");
     }
 
     // Init
