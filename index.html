@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Albito — Chat Jornada Directiva</title>
+  <title>Jornada Directiva — Demo</title>
   <style>
     :root{
       --udl-blue:#061E3D;
       --udl-magenta:#E0004D;
       --ink:#0b1220;
       --muted:#6b7280;
+      --bg:#f7f7fb;
       --panel:#ffffff;
-      --line:rgba(15,23,42,.12);
-      --shadow:0 10px 30px rgba(2,6,23,.12);
-      --radius:18px;
+      --line:rgba(15,23,42,.10);
+      --shadow:0 14px 40px rgba(2,6,23,.10);
+      --radius:22px;
     }
-
     *{box-sizing:border-box}
     html,body{height:100%}
     body{
@@ -23,679 +23,308 @@
       font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
       color:var(--ink);
       background:
-        radial-gradient(1200px 700px at 20% 10%, rgba(224,0,77,.14), transparent 60%),
-        radial-gradient(1000px 650px at 80% 0%, rgba(6,30,61,.18), transparent 60%),
-        linear-gradient(180deg, #0a1a33 0%, #0b1220 100%);
-      display:flex;
-      justify-content:center;
-      align-items:flex-start;
-      padding:18px;
+        radial-gradient(900px 480px at 15% 0%, rgba(224,0,77,.10), transparent 60%),
+        radial-gradient(900px 480px at 85% 0%, rgba(6,30,61,.10), transparent 60%),
+        var(--bg);
     }
 
-    .wrap{
-      width:min(980px, 100%);
-      background:rgba(255,255,255,.08);
-      border:1px solid rgba(255,255,255,.12);
-      border-radius:26px;
+    header{
+      background: linear-gradient(180deg, #071B37 0%, #061E3D 100%);
+      color:#fff;
+      padding:22px 22px;
+      box-shadow:0 10px 30px rgba(2,6,23,.18);
+    }
+    .head{
+      width:min(1200px, 100%);
+      margin:0 auto;
+      display:flex;
+      align-items:center;
+      gap:16px;
+    }
+    .logo{
+      width:64px;height:64px;
+      border-radius:18px;
+      background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.18);
+      display:grid;
+      place-items:center;
+      overflow:hidden;
+      flex:0 0 auto;
+    }
+    .logo img{width:100%;height:100%;object-fit:contain; padding:8px}
+    .titleWrap{min-width:0}
+    h1{
+      margin:0;
+      font-size:clamp(24px, 4vw, 44px);
+      line-height:1.1;
+      letter-spacing:.2px;
+    }
+    .subtitle{
+      margin-top:6px;
+      color:rgba(255,255,255,.82);
+      font-size:14px;
+    }
+
+    .page{
+      width:min(1200px, 100%);
+      margin:18px auto 26px;
+      padding:0 18px;
+      display:grid;
+      grid-template-columns: 1.02fr .98fr;
+      gap:18px;
+      align-items:start;
+    }
+
+    .card{
+      background:var(--panel);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
       box-shadow:var(--shadow);
       overflow:hidden;
-      backdrop-filter: blur(10px);
     }
-
-    /* Top bar (solo modo standalone) */
-    .topbar{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:12px;
-      padding:14px 14px;
-      background:rgba(255,255,255,.12);
-      border-bottom:1px solid rgba(255,255,255,.12);
-    }
-    .brand{
-      display:flex;
-      align-items:center;
-      gap:12px;
-      min-width:0;
-    }
-    .brand .avatar{
-      width:44px;height:44px;border-radius:14px;
-      background:rgba(255,255,255,.12);
-      border:1px solid rgba(255,255,255,.18);
-      display:grid;place-items:center;
-      overflow:hidden;
-      flex:0 0 auto;
-    }
-    .brand .avatar img{width:100%;height:100%;object-fit:cover}
-    .brand .t{min-width:0}
-    .brand .t .h{
-      font-weight:800;
-      color:#fff;
-      letter-spacing:.2px;
-      white-space:nowrap;
-      overflow:hidden;
-      text-overflow:ellipsis;
-    }
-    .brand .t .s{
-      margin-top:2px;
-      font-size:12.5px;
-      color:rgba(255,255,255,.75);
-      white-space:nowrap;
-      overflow:hidden;
-      text-overflow:ellipsis;
-    }
-
-    .actions{
-      display:flex;
-      align-items:center;
-      gap:10px;
-      flex-wrap:wrap;
-      justify-content:flex-end;
-    }
-    .pill{
-      display:inline-flex;
-      align-items:center;
-      gap:8px;
-      padding:8px 10px;
-      border-radius:999px;
-      border:1px solid rgba(255,255,255,.18);
-      background:rgba(255,255,255,.10);
-      color:#fff;
-      font-size:12.5px;
-      user-select:none;
-    }
-    .dot{width:10px;height:10px;border-radius:999px;background:#fbbf24;box-shadow:0 0 0 4px rgba(251,191,36,.15)}
-    .dot.ok{background:#22c55e;box-shadow:0 0 0 4px rgba(34,197,94,.15)}
-    .dot.bad{background:#ef4444;box-shadow:0 0 0 4px rgba(239,68,68,.15)}
-
-    .btn{
-      appearance:none;
-      border:1px solid rgba(255,255,255,.18);
-      background:rgba(255,255,255,.10);
-      color:#fff;
-      padding:8px 12px;
-      border-radius:14px;
-      font-weight:700;
-      cursor:pointer;
-      transition:transform .05s ease, background .15s ease, border-color .15s ease;
-    }
-    .btn:hover{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.24)}
-    .btn:active{transform:translateY(1px)}
-    .btn.primary{
-      background:rgba(224,0,77,.16);
-      border-color:rgba(224,0,77,.35);
-    }
-    .btn.primary:hover{background:rgba(224,0,77,.22)}
-
-    /* Chat panel */
-    .panel{
-      display:flex;
-      flex-direction:column;
-      height:min(82vh, 760px);
-      background:rgba(255,255,255,.10);
-    }
-
-    .hintbar{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:12px;
-      padding:10px 14px;
-      background:rgba(255,255,255,.12);
-      border-bottom:1px solid rgba(255,255,255,.12);
-      color:rgba(255,255,255,.92);
-      font-size:13px;
-    }
-    .hintbar b{color:#fff}
-    .hintbar .right{color:rgba(255,255,255,.80)}
-
-    .chat{
-      flex:1 1 auto;
-      overflow:auto;
-      padding:16px;
-      display:flex;
-      flex-direction:column;
-      gap:12px;
-      scroll-behavior:smooth;
-      background:
-        radial-gradient(900px 500px at 20% 0%, rgba(224,0,77,.20), transparent 60%),
-        radial-gradient(900px 500px at 80% 0%, rgba(6,30,61,.25), transparent 60%),
-        linear-gradient(180deg, rgba(10,26,51,.70), rgba(11,18,32,.65));
-    }
-
-    .row{
-      display:flex;
-      gap:10px;
-      align-items:flex-end;
-    }
-    .row.user{justify-content:flex-end}
-    .row.bot{justify-content:flex-start}
-
-    .who{
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      gap:6px;
-      width:72px; /* avatar más grande */
-      flex:0 0 72px;
-    }
-    .who .pic{
-      width:60px;height:60px;border-radius:999px;
-      border:2px solid rgba(255,255,255,.85);
-      box-shadow:0 8px 20px rgba(0,0,0,.25);
-      overflow:hidden;
-      background:#fff;
-    }
-    .who .pic img{width:100%;height:100%;object-fit:cover}
-    .who .name{
-      font-size:12px;
-      color:rgba(255,255,255,.80);
-      font-weight:700;
-    }
-
-    .bubble{
-      max-width:min(720px, 78%);
-      border-radius:22px;
-      padding:14px 16px;
-      line-height:1.35;
-      box-shadow:0 12px 26px rgba(0,0,0,.20);
-      border:1px solid rgba(255,255,255,.14);
-      backdrop-filter: blur(8px);
-      position:relative;
-      white-space:pre-wrap;
-      word-wrap:break-word;
-    }
-    .bubble.bot{
-      background:rgba(224,0,77,.22);
-      color:#fff;
-    }
-    .bubble.user{
-      background:rgba(6,30,61,.30);
-      color:#fff;
-      border-color:rgba(255,255,255,.16);
-    }
-    .bubble .meta{
-      display:block;
-      font-size:12px;
-      font-weight:800;
-      opacity:.85;
-      margin-bottom:6px;
-    }
-    .bubble.bot:before{
-      content:"";
-      position:absolute; left:-8px; bottom:18px;
-      width:14px;height:14px;
-      background:rgba(224,0,77,.22);
-      border-left:1px solid rgba(255,255,255,.14);
-      border-bottom:1px solid rgba(255,255,255,.14);
-      transform:rotate(45deg);
-      border-bottom-left-radius:4px;
-    }
-    .bubble.user:before{
-      content:"";
-      position:absolute; right:-8px; bottom:18px;
-      width:14px;height:14px;
-      background:rgba(6,30,61,.30);
-      border-right:1px solid rgba(255,255,255,.16);
-      border-bottom:1px solid rgba(255,255,255,.16);
-      transform:rotate(45deg);
-      border-bottom-right-radius:4px;
-    }
-
-    .chips{
-      display:flex;
-      flex-wrap:wrap;
-      gap:10px;
-      padding:10px 14px 0;
-      background:rgba(255,255,255,.10);
-      border-top:1px solid rgba(255,255,255,.12);
-    }
-    .chip{
-      border:1px solid rgba(255,255,255,.18);
-      background:rgba(255,255,255,.10);
-      color:#fff;
-      padding:8px 12px;
-      border-radius:999px;
-      cursor:pointer;
-      font-weight:700;
-      font-size:13px;
-      transition:background .15s ease, transform .05s ease, border-color .15s ease;
-      white-space:nowrap;
-    }
-    .chip:hover{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.24)}
-    .chip:active{transform:translateY(1px)}
-
-    .controls{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:12px;
-      padding:10px 14px;
-      background:rgba(255,255,255,.10);
-      border-top:1px solid rgba(255,255,255,.12);
-      flex-wrap:wrap;
-    }
-
-    .toggle{
-      display:inline-flex;
-      align-items:center;
-      gap:10px;
-      padding:10px 12px;
-      border:1px dashed rgba(255,255,255,.22);
-      border-radius:16px;
-      color:#fff;
-      background:rgba(255,255,255,.08);
-      user-select:none;
-      font-weight:700;
-      font-size:13px;
-    }
-    .toggle input{width:18px;height:18px; accent-color: var(--udl-magenta);}
-    .seg{
-      display:flex;
-      align-items:center;
-      gap:8px;
-      padding:10px 12px;
-      border:1px dashed rgba(255,255,255,.22);
-      border-radius:16px;
-      color:#fff;
-      background:rgba(255,255,255,.08);
-      user-select:none;
-      font-weight:800;
-      font-size:13px;
-    }
-    .seg label{display:inline-flex;align-items:center;gap:8px;cursor:pointer}
-    .seg input{accent-color: var(--udl-magenta); width:16px;height:16px}
-
-    .composer{
-      display:flex;
-      gap:10px;
-      padding:12px 14px;
-      background:rgba(255,255,255,.10);
-      border-top:1px solid rgba(255,255,255,.12);
-      align-items:flex-end;
-    }
-    .composer textarea{
-      flex:1 1 auto;
-      resize:none;
-      min-height:44px;
-      max-height:110px;
-      padding:12px 14px;
-      border-radius:18px;
-      border:1px solid rgba(255,255,255,.18);
-      background:rgba(0,0,0,.18);
-      color:#fff;
-      outline:none;
-      font-size:15px;
-      line-height:1.25;
-    }
-    .composer textarea::placeholder{color:rgba(255,255,255,.60)}
-    .send{
-      flex:0 0 auto;
-      padding:12px 16px;
-      border-radius:18px;
-      border:1px solid rgba(224,0,77,.40);
-      background:rgba(224,0,77,.18);
-      color:#fff;
+    .card .pad{padding:18px}
+    .h2{
+      margin:0 0 10px;
+      font-size:18px;
       font-weight:900;
-      cursor:pointer;
-      transition:transform .05s ease, background .15s ease, border-color .15s ease;
+      letter-spacing:.2px;
     }
-    .send:hover{background:rgba(224,0,77,.26);border-color:rgba(224,0,77,.55)}
-    .send:active{transform:translateY(1px)}
+    .p{
+      margin:0;
+      color:#111827;
+      line-height:1.45;
+    }
+    .muted{color:var(--muted)}
+    .divider{height:1px;background:var(--line); margin:14px 0}
 
-    /* Embed mode: compacto, sin topbar, sin bordes extra */
-    body.embed{padding:0; background:transparent; display:block}
-    body.embed .wrap{border:none; border-radius:0; box-shadow:none; background:transparent}
-    body.embed .topbar{display:none !important}
-    body.embed .panel{height:100vh}
-    body.embed .hintbar{border-radius:0}
-    body.embed .chips, body.embed .controls, body.embed .composer{border-radius:0}
+    ul{
+      margin:10px 0 0 18px;
+      padding:0;
+      line-height:1.55;
+    }
+    li{margin:6px 0}
+
+    /* Docs grid */
+    .docsGrid{
+      display:grid;
+      grid-template-columns: repeat(3, minmax(0,1fr));
+      gap:14px;
+      margin-top:12px;
+    }
+    @media (max-width: 980px){
+      .page{grid-template-columns:1fr}
+      .docsGrid{grid-template-columns: repeat(2, minmax(0,1fr))}
+    }
+    @media (max-width: 560px){
+      .docsGrid{grid-template-columns: 1fr}
+    }
+
+    .docTile{
+      background: linear-gradient(180deg, rgba(224,0,77,1) 0%, rgba(200,0,68,1) 100%);
+      border-radius:18px;
+      padding:14px;
+      color:#fff;
+      position:relative;
+      overflow:hidden;
+      min-height:160px;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      box-shadow:0 18px 34px rgba(224,0,77,.20);
+      border:1px solid rgba(255,255,255,.18);
+    }
+    .docIcon{
+      width:64px;height:64px;
+      border-radius:18px;
+      background:rgba(255,255,255,.16);
+      border:1px solid rgba(255,255,255,.22);
+      display:grid;
+      place-items:center;
+    }
+    .docIcon svg{width:34px;height:34px;fill:none;stroke:#fff;stroke-width:2.2}
+    .docName{
+      font-weight:950;
+      font-size:16px;
+      line-height:1.15;
+      margin-top:10px;
+    }
+    .docNote{
+      font-size:13px;
+      opacity:.9;
+      margin-top:6px;
+    }
+    .docActions{
+      display:flex;
+      justify-content:flex-end;
+      margin-top:12px;
+    }
+    .docBtn{
+      appearance:none;
+      border:none;
+      cursor:pointer;
+      background:rgba(255,255,255,.18);
+      color:#fff;
+      font-weight:950;
+      padding:10px 12px;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,.26);
+      transition:transform .05s ease, background .15s ease, border-color .15s ease;
+      text-decoration:none;
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+    }
+    .docBtn:hover{background:rgba(255,255,255,.24);border-color:rgba(255,255,255,.32)}
+    .docBtn:active{transform:translateY(1px)}
+
+    /* Chat column */
+    .chatCardHeader{
+      padding:16px 18px;
+      border-bottom:1px solid var(--line);
+    }
+    .chatTitle{
+      margin:0;
+      font-size:22px;
+      font-weight:950;
+      letter-spacing:.2px;
+    }
+    .chatSub{
+      margin-top:6px;
+      color:var(--muted);
+      line-height:1.35;
+      font-size:14px;
+    }
+    .chatFrameWrap{
+      height: min(78vh, 760px);
+      background:
+        radial-gradient(900px 520px at 20% 0%, rgba(224,0,77,.18), transparent 60%),
+        radial-gradient(900px 520px at 80% 0%, rgba(6,30,61,.18), transparent 60%),
+        linear-gradient(180deg, #0a1a33 0%, #0b1220 100%);
+    }
+    iframe.chatFrame{
+      width:100%;
+      height:100%;
+      border:0;
+      display:block;
+      background:transparent;
+    }
   </style>
 </head>
 
 <body>
-  <div class="wrap">
-    <div class="topbar" id="topbar">
-      <div class="brand">
-        <div class="avatar"><img src="./albito.jpeg" alt="Albito"></div>
-        <div class="t">
-          <div class="h">Albito (demo) — Chat para la Jornada Directiva</div>
-          <div class="s">Responde solo con kb_udl.json. Si no hay evidencia, lo diré (sin inventar).</div>
-        </div>
-      </div>
-      <div class="actions">
-        <div class="pill" id="kbPill"><span class="dot" id="kbDot"></span><span id="kbText">cargando KB…</span></div>
-        <button class="btn" id="btnClear" type="button">Limpiar</button>
-        <button class="btn primary" id="btnCopyLast" type="button">Copiar última</button>
+  <header>
+    <div class="head">
+      <div class="logo"><img src="./logoudalba.png" alt="Universidad del Alba"></div>
+      <div class="titleWrap">
+        <h1>Jornada Directiva de Planificación 2025</h1>
+        <div class="subtitle">Documentos base descargables + Albito (chat) con evidencia desde <b>kb_udl.json</b>.</div>
       </div>
     </div>
+  </header>
 
-    <div class="panel">
-      <div class="hintbar">
-        <div>Haz preguntas específicas (país + tema). Ej: <b>“Reino Unido + IA + evaluación”</b> o <b>“gobernanza anticipatoria”</b>.</div>
-        <div class="right">Tip: cambia el nivel de detalle abajo.</div>
+  <main class="page">
+    <!-- LEFT -->
+    <section class="card">
+      <div class="pad">
+        <div class="h2">Objetivo</div>
+        <p class="p">
+          Apoyar la planificación del futuro institucional y alimentar el <b>PED</b> con <b>ejes, criterios y decisiones priorizadas</b>,
+          usando evidencia y referencias de los documentos base.
+        </p>
+
+        <div class="divider"></div>
+
+        <div class="h2">Agenda (demo)</div>
+        <ul>
+          <li>Diagnóstico y tensiones: calidad, gobernanza, equidad y digitalización.</li>
+          <li>Buenas prácticas internacionales: directrices por país y aprendizajes transferibles.</li>
+          <li>Opciones estratégicas para UDALBA: criterios y trade-offs para el PED.</li>
+          <li>Priorización y acuerdos: líneas de acción, responsables y próximos pasos.</li>
+        </ul>
+
+        <div class="divider"></div>
+
+        <div class="h2">Descargar documentos</div>
+        <p class="p muted">Accede a los PDFs base. También puedes consultarlos con Albito en el chat.</p>
+
+        <div class="docsGrid" id="docsGrid"></div>
       </div>
+    </section>
 
-      <div class="chat" id="chat"></div>
-
-      <div class="chips" id="chips"></div>
-
-      <div class="controls">
-        <div class="toggle"><input id="toneNice" type="checkbox" checked> Tono simpático 🐤</div>
-        <div class="toggle"><input id="showEvidence" type="checkbox" checked> Mostrar evidencia</div>
-        <div class="seg" role="group" aria-label="Nivel de detalle">
-          <label><input type="radio" name="detail" value="detail" checked> En detalle</label>
-          <label><input type="radio" name="detail" value="brief"> Breve</label>
-        </div>
+    <!-- RIGHT -->
+    <aside class="card">
+      <div class="chatCardHeader">
+        <div class="chatTitle">CHAT</div>
+        <div class="chatSub">Consulta por país, eje o concepto. Albito responde con evidencia desde la base.</div>
       </div>
+      <div class="chatFrameWrap">
+        <iframe class="chatFrame" src="./chat.html?embed=1" title="Chat Albito"></iframe>
 
-      <div class="composer">
-        <textarea id="q" placeholder="Escribe tu pregunta… (Enter para enviar)"></textarea>
-        <button class="send" id="btnSend" type="button">Enviar</button>
       </div>
-    </div>
-  </div>
+    </aside>
+  </main>
 
 <script>
-(() => {
-  const $ = (id) => document.getElementById(id);
-
-  // ---- embed mode ----
-  const params = new URLSearchParams(location.search);
-  const isEmbed = params.get("embed") === "1";
-  if (isEmbed) document.body.classList.add("embed");
-
-  // ---- UI ----
-  const chatEl = $("chat");
-  const chipsEl = $("chips");
-  const kbDot = $("kbDot");
-  const kbText = $("kbText");
-  const kbPill = $("kbPill");
-  const btnClear = $("btnClear");
-  const btnSend = $("btnSend");
-  const btnCopyLast = $("btnCopyLast");
-  const q = $("q");
-  const toneNice = $("toneNice");
-  const showEvidence = $("showEvidence");
-
-  // En embed, igual dejamos los botones dentro del chat (pero topbar se oculta).
-  // Si quieres botones también en embed, puedes duplicarlos en demo, pero por ahora no.
-
-  // ---- state ----
-  let KB = null;
-  let KB_LOADED_FROM = null;
-
-  const DEFAULT_CHIPS = [
-    "Reino Unido + IA + evaluación",
-    "gobernanza anticipatoria",
-    "microcredenciales apilables",
-    "Desafío 3 Estrategia ES",
-    "Países Bajos + interoperabilidad",
-    "Singapur + rutas flexibles"
+  // Lista de documentos (edítala si cambian nombres)
+  const DOCS = [
+    { name:"Directrices (paises)", file:"Directrices (paises).pdf", note:"PDF · referencia internacional", icon:"globe" },
+    { name:"Debate universidades del futuro", file:"Debate universidades del futuro.pdf", note:"PDF · discusiones y tensiones", icon:"chat" },
+    { name:"Estrategia ES", file:"Estrategia ES.pdf", note:"PDF · documento base", icon:"doc" },
+    { name:"Resumen ES", file:"Resumen ES.pdf", note:"PDF · versión breve", icon:"note" },
+    { name:"Autores vs Objetivos", file:"Autores vs Objetivos.pdf", note:"PDF · tabla comparativa", icon:"table" }
   ];
 
-  function setKbStatus(state, text){
-    kbText.textContent = text;
-    kbDot.classList.remove("ok","bad");
-    if(state === "ok") kbDot.classList.add("ok");
-    if(state === "bad") kbDot.classList.add("bad");
-  }
+  const ICONS = {
+    globe: `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z"/>
+        <path d="M2 12h20"/>
+        <path d="M12 2c3 3 3 17 0 20"/>
+        <path d="M12 2c-3 3-3 17 0 20"/>
+      </svg>`,
+    chat: `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z"/>
+        <path d="M8 9h8"/><path d="M8 13h6"/>
+      </svg>`,
+    doc: `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M14 2H7a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V8Z"/>
+        <path d="M14 2v6h6"/>
+        <path d="M8 13h8"/><path d="M8 17h8"/>
+      </svg>`,
+    note: `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M8 3h8l4 4v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z"/>
+        <path d="M16 3v4h4"/>
+        <path d="M9 12h6"/><path d="M9 16h6"/>
+      </svg>`,
+    table: `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M3 5h18v14H3z"/>
+        <path d="M3 10h18"/><path d="M8 5v14"/><path d="M16 5v14"/>
+      </svg>`
+  };
 
-  function escapeHtml(s){
-    return s.replace(/[&<>"']/g, (c)=>({
-      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
-    }[c]));
-  }
+  const grid = document.getElementById("docsGrid");
+  DOCS.forEach(d => {
+    const a = document.createElement("a");
+    a.className = "docTile";
+    a.href = "./docs/" + encodeURIComponent(d.file).replaceAll("%20","%20");
+    a.setAttribute("download", d.file);
 
-  function addMsg(role, text){
-    const row = document.createElement("div");
-    row.className = "row " + (role === "user" ? "user" : "bot");
-
-    if(role === "bot"){
-      const who = document.createElement("div");
-      who.className = "who";
-      who.innerHTML = `
-        <div class="pic"><img src="./albito.jpeg" alt="Albito"></div>
-        <div class="name">Albito</div>
-      `;
-      const bubble = document.createElement("div");
-      bubble.className = "bubble bot";
-      bubble.innerHTML = `<span class="meta">Albito</span>${escapeHtml(text)}`;
-      row.appendChild(who);
-      row.appendChild(bubble);
-    } else {
-      const bubble = document.createElement("div");
-      bubble.className = "bubble user";
-      bubble.innerHTML = `<span class="meta">Tú</span>${escapeHtml(text)}`;
-      row.appendChild(bubble);
-    }
-
-    chatEl.appendChild(row);
-    chatEl.scrollTop = chatEl.scrollHeight;
-  }
-
-  function setChips(list){
-    chipsEl.innerHTML = "";
-    list.forEach(t => {
-      const b = document.createElement("button");
-      b.className = "chip";
-      b.type = "button";
-      b.textContent = t;
-      b.addEventListener("click", () => {
-        q.value = t;
-        send();
-      });
-      chipsEl.appendChild(b);
-    });
-  }
-
-  function greeting(){
-    chatEl.innerHTML = "";
-    const msg =
-`Hola, soy Albito 🐤.
-Puedo ayudarte a encontrar ideas específicas para la Jornada Directiva usando los documentos entregados por la Dirección de Desarrollo Institucional.
-
-Cuéntame un país, un eje o un concepto y te respondo con evidencia.`;
-    addMsg("bot", msg);
-  }
-
-  // ---- KB loading (robusto en embed + GitHub Pages) ----
-  async function loadKB(){
-    setKbStatus("loading", "cargando KB…");
-
-    // Usamos URL relativa a ESTE index.html (sirve en /repo/ y en iframe).
-    const base = new URL(".", location.href);
-    const candidates = [
-      new URL("kb_udl.json", base).toString(),
-      "./kb_udl.json",
-      "../kb_udl.json"
-    ];
-
-    for(const url of candidates){
-      try{
-        const r = await fetch(url, { cache: "no-store" });
-        if(!r.ok) continue;
-        const data = await r.json();
-        if(!data || !Array.isArray(data.blocks)) continue;
-
-        // Pre-index simple
-        data._indexed = data.blocks.map(b => {
-          const title = (b.title || "").toString();
-          const tags  = Array.isArray(b.tags) ? b.tags.join(" ") : "";
-          const text  = (b.text || "").toString();
-          const hay   = (title + " " + tags + " " + text).toLowerCase();
-          return { b, hay };
-        });
-
-        KB = data;
-        KB_LOADED_FROM = url;
-
-        setKbStatus("ok", `KB lista · ${data.blocks.length} bloques`);
-        return true;
-      } catch(e){
-        // sigue intentando
-      }
-    }
-
-    KB = null;
-    KB_LOADED_FROM = candidates[0];
-    setKbStatus("bad", "no pude cargar KB");
-    addMsg("bot", `No pude cargar la base (kb_udl.json).\nEstoy intentando desde: ${candidates.join(" | ")}`);
-    return false;
-  }
-
-  // ---- Retrieval / respuesta (sin inventar) ----
-  function normalizeWords(s){
-    return (s || "")
-      .toLowerCase()
-      .replace(/[^\p{L}\p{N}\s+]/gu, " ")
-      .replace(/\s+/g, " ")
-      .trim()
-      .split(" ")
-      .filter(w => w.length >= 3);
-  }
-
-  function scoreBlock(hay, words){
-    let score = 0;
-    for(const w of words){
-      if(hay.includes(w)) score += 1;
-    }
-    // bonus por consultas típicas con '+'
-    if(words.includes("ia") && hay.includes("ia")) score += 1;
-    return score;
-  }
-
-  function pickSentences(text, words, maxSentences){
-    const raw = (text || "").replace(/\s+/g, " ").trim();
-    if(!raw) return [];
-
-    const parts = raw.split(/(?<=[\.\!\?])\s+/);
-    const hits = [];
-    for(const p of parts){
-      const lc = p.toLowerCase();
-      let c = 0;
-      for(const w of words){
-        if(lc.includes(w)) c++;
-      }
-      if(c > 0) hits.push({ p: p.trim(), c });
-    }
-    hits.sort((a,b)=>b.c-a.c);
-    return hits.slice(0, maxSentences).map(x => x.p);
-  }
-
-  function formatSource(b){
-    const src = b.source ? `Fuente: ${b.source}` : "Fuente: (sin fuente)";
-    const pg = (Number.isFinite(b.page_start) && Number.isFinite(b.page_end))
-      ? ` (p. ${b.page_start}–${b.page_end})`
-      : (Number.isFinite(b.page_start) ? ` (p. ${b.page_start})` : "");
-    return src + pg;
-  }
-
-  function answerFromKB(query){
-    if(!KB || !KB._indexed){
-      return {
-        ok:false,
-        text: "Aún no tengo la base lista en este modo. Si estás viendo esto dentro de una página, normalmente es porque la KB se está buscando en otra ruta.\n\nTip técnico: el chat está intentando cargar: kb_udl.json"
-      };
-    }
-
-    const words = normalizeWords(query);
-    if(words.length === 0){
-      return { ok:false, text: "¿Me das un poquito más de precisión? Por ejemplo: país + tema (ej. “Reino Unido + IA + evaluación”)." };
-    }
-
-    const scored = KB._indexed
-      .map(({b, hay}) => ({ b, s: scoreBlock(hay, words) }))
-      .filter(x => x.s > 0)
-      .sort((a,b)=>b.s-a.s);
-
-    const mode = document.querySelector('input[name="detail"]:checked')?.value || "detail";
-    const wantEvidence = showEvidence.checked;
-    const nice = toneNice.checked;
-
-    const topN = (mode === "brief") ? 3 : 6;
-    const hits = scored.slice(0, topN);
-
-    if(hits.length === 0){
-      const pref = nice ? "Pío pío 🐤. " : "";
-      return { ok:false, text: pref + "No encontré evidencia suficiente en la base para responder eso. Prueba con otras palabras clave (o revisa si ese tema está en la KB)." };
-    }
-
-    // Construye respuesta
-    let out = "";
-    if(nice) out += "Listo 🐤. Encontré evidencia en la base:\n\n";
-
-    if(!wantEvidence){
-      // modo “síntesis”
-      const ideas = [];
-      for(const {b} of hits){
-        const sent = pickSentences(b.text || "", words, 1)[0];
-        if(sent) ideas.push("• " + sent);
-      }
-      out += ideas.slice(0, mode === "brief" ? 3 : 5).join("\n");
-      out += "\n\n";
-      out += "Referencias:\n" + hits.map(({b}) => "• " + formatSource(b)).join("\n");
-      return { ok:true, text: out };
-    }
-
-    // modo “con evidencia”
-    const maxSent = (mode === "brief") ? 1 : 2;
-
-    hits.forEach(({b}, i) => {
-      out += `${i+1}) ${formatSource(b)}\n`;
-      const ss = pickSentences(b.text || "", words, maxSent);
-      if(ss.length){
-        ss.forEach(s => out += `   - ${s}\n`);
-      } else if (b.text){
-        out += `   - ${b.text.toString().slice(0, 260)}…\n`;
-      } else {
-        out += `   - (bloque sin texto)\n`;
-      }
-      out += "\n";
-    });
-
-    return { ok:true, text: out.trim() };
-  }
-
-  // ---- send ----
-  function send(){
-    const text = q.value.trim();
-    if(!text) return;
-    addMsg("user", text);
-    q.value = "";
-    const res = answerFromKB(text);
-    addMsg("bot", res.text);
-  }
-
-  // ---- events ----
-  btnSend.addEventListener("click", send);
-  q.addEventListener("keydown", (e) => {
-    if(e.key === "Enter" && !e.shiftKey){
-      e.preventDefault();
-      send();
-    }
+    a.innerHTML = `
+      <div>
+        <div class="docIcon">${ICONS[d.icon] || ICONS.doc}</div>
+        <div class="docName">${d.name}</div>
+        <div class="docNote">${d.note}</div>
+      </div>
+      <div class="docActions">
+        <span class="docBtn">Descargar</span>
+      </div>
+    `;
+    grid.appendChild(a);
   });
-
-  btnClear?.addEventListener("click", () => {
-    greeting();
-  });
-
-  btnCopyLast?.addEventListener("click", async () => {
-    const bubbles = [...document.querySelectorAll(".bubble.bot")];
-    if(!bubbles.length) return;
-    const last = bubbles[bubbles.length - 1].innerText.trim();
-    try{
-      await navigator.clipboard.writeText(last);
-      // pequeño feedback
-      kbPill.animate([{transform:"scale(1)"},{transform:"scale(1.02)"},{transform:"scale(1)"}], {duration:220});
-    }catch(e){}
-  });
-
-  // ---- init ----
-  setChips(DEFAULT_CHIPS);
-  greeting();
-  loadKB();
-})();
 </script>
 </body>
 </html>
