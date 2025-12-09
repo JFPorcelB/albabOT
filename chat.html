@@ -576,8 +576,12 @@
         return "No encontré evidencia suficiente con esas palabras. Prueba reformulando (país + tema) o usando otro concepto clave.";
       }
 
-      const detailMode = $("modeDetail").checked ? "detail" : "brief";
-      const wantEvidence = $("showEvidence").checked;
+      const modeDetailEl = $("modeDetail");
+const showEvidenceEl = $("showEvidence");
+
+const detailMode = (modeDetailEl && modeDetailEl.checked) ? "detail" : "brief";
+const wantEvidence = showEvidenceEl ? showEvidenceEl.checked : true;
+
 
       const take = (detailMode === "detail") ? 4 : 2;
       const top = scored.slice(0, take).map(x=>x.b);
@@ -598,18 +602,27 @@
 
     // ---- UI actions ----
     function send(){
-      const q = $("q").value.trim();
-      if(!q) return;
+  const qEl = $("q");
+  const q = (qEl ? qEl.value : "").trim();
+  if(!q) return;
 
-      addMsg("me", q);
-      $("q").value = "";
+  addMsg("me", q);
+  if(qEl) qEl.value = "";
 
-      const tone = $("tone").checked;
-      const prefix = tone ? "Pío pío 🐥. " : "";
+  // ✅ si los toggles no existen, usa defaults
+  const toneEl = $("tone");
+  const tone = toneEl ? toneEl.checked : true;
+  const prefix = tone ? "Pío pío 🐥. " : "";
 
-      const resp = answerFromKB(q);
-      addMsg("bot", prefix + resp);
-    }
+  try{
+    const resp = answerFromKB(q);
+    addMsg("bot", prefix + resp);
+  }catch(err){
+    console.error(err);
+    addMsg("bot", "Ups… hubo un error interno al responder. Revisa la consola (F12 → Console).");
+  }
+}
+
 
     $("btnSend").addEventListener("click", send);
     $("q").addEventListener("keydown", (e)=>{
