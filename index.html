@@ -4,52 +4,66 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Jornada Directiva de Planificación 2025</title>
+
   <style>
-    
     :root{
       --udlba-azul:#061E3D;
       --udlba-magenta:#E0004D;
       --udlba-gris:#9AA0A6;
 
-      --bg:#070C16;
+      --bg1:#071A32;
+      --bg2:#0b1f3f;
       --card:#ffffff;
-      --line:rgba(15,23,42,.10);
-      --shadow:0 18px 60px rgba(0,0,0,.35);
+      --ink:#0f172a;
+      --muted:#475569;
+
       --radius:22px;
+      --line:rgba(15,23,42,.10);
+      --shadow:0 18px 60px rgba(0,0,0,.28);
+
+      --wrap:1200px;
+      --gap:22px;
+
+      --topbarH: 120px;
+      --pagePad: 24px;
     }
 
     *{ box-sizing:border-box; }
+    html,body{ height:100%; }
     body{
       margin:0;
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
-      color:#0f172a;
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+      color:var(--ink);
       background:
-        radial-gradient(900px 500px at 16% 12%, rgba(224,0,77,.18), transparent 60%),
-        radial-gradient(900px 500px at 80% 8%, rgba(6,30,61,.35), transparent 60%),
-        linear-gradient(180deg, #050813 0%, #0b1630 42%, #0a1024 100%);
+        radial-gradient(900px 520px at 18% 16%, rgba(224,0,77,.18), transparent 60%),
+        radial-gradient(900px 520px at 82% 10%, rgba(6,30,61,.45), transparent 60%),
+        linear-gradient(180deg, #061630 0%, #0a1a34 42%, #0a1024 100%);
       min-height:100vh;
     }
 
+    /* Topbar (título blanco) */
     .topbar{
-      padding:28px 28px 34px;
-      background: linear-gradient(180deg, rgba(6,30,61,.98), rgba(6,30,61,.72));
-      border-bottom: 1px solid rgba(255,255,255,.08);
-      box-shadow: 0 12px 50px rgba(0,0,0,.35);
+      height:var(--topbarH);
+      display:flex;
+      align-items:center;
+      background: linear-gradient(180deg, rgba(6,30,61,.98), rgba(6,30,61,.78));
+      box-shadow: 0 18px 40px rgba(0,0,0,.22);
     }
     .topbarInner{
-      max-width:1200px;
+      width:min(var(--wrap), calc(100% - (var(--pagePad)*2)));
       margin:0 auto;
       display:flex;
-      gap:18px;
       align-items:center;
+      gap:18px;
     }
     .brandLogo{
       width:64px;height:64px;
       border-radius:18px;
-      display:grid;place-items:center;
+      display:grid; place-items:center;
       background: rgba(255,255,255,.06);
       border:1px solid rgba(255,255,255,.14);
       overflow:hidden;
+      flex: 0 0 auto;
     }
     .brandLogo img{
       width:100%;height:100%;
@@ -57,401 +71,312 @@
     }
     .titles{
       color:#fff;
-      line-height:1.1;
+      line-height:1.08;
+      min-width:0;
     }
     .titles h1{
       margin:0;
-      font-size: clamp(28px, 3.4vw, 46px);
+      font-weight:900;
       letter-spacing:.2px;
+      font-size: clamp(28px, 3.4vw, 48px);
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
     }
     .titles p{
       margin:8px 0 0;
-      color: rgba(255,255,255,.85);
-      font-size: 14.5px;
+      color:rgba(255,255,255,.85);
+      font-size:15px;
     }
 
+    /* Layout 60/40 */
     .wrap{
-      max-width:1200px;
-      margin:0 auto;
-      padding:22px 22px 30px;
+      width:min(var(--wrap), calc(100% - (var(--pagePad)*2)));
+      margin: 18px auto 28px;
     }
-
     .grid{
       display:grid;
-      grid-template-columns: 3fr 2fr;
-      gap: 22px;
+      grid-template-columns: 3fr 2fr;  /* 60/40 */
+      gap: var(--gap);
       align-items:start;
     }
     @media (max-width: 980px){
-      .grid{ grid-template-columns: 1fr; }
+      .topbar{ height:auto; padding:18px 0; }
+      .grid{ grid-template-columns:1fr; }
     }
 
     .card{
       background: rgba(255,255,255,.98);
-      border:1px solid rgba(255,255,255,.65);
+      border: 1px solid rgba(255,255,255,.65);
       border-radius: var(--radius);
       box-shadow: var(--shadow);
       overflow:hidden;
     }
-
-    .cardPad{ padding:18px 18px 16px; }
-
+    .cardPad{ padding: 22px; }
     .h2{
       margin:0 0 10px;
-      font-size: 18px;
+      font-size: 22px;
       letter-spacing:.2px;
     }
     .p{
       margin:0;
       font-size: 15px;
-      line-height: 1.55;
-      color:#0f172a;
+      line-height:1.65;
+      color: var(--ink);
+    }
+    .muted{
+      margin:0;
+      font-size: 13.5px;
+      color: var(--muted);
+      line-height:1.55;
     }
     .sep{
       height:1px;
       background: var(--line);
-      margin:14px 0;
+      margin: 16px 0;
     }
 
-    .muted{ color:#475569; font-size: 13.5px; }
+    /* Docs grid (sin choques) */
+    .docsGrid{
+      display:grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 14px;
+    }
+    @media (max-width: 1100px){
+      .docsGrid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 560px){
+      .docsGrid{ grid-template-columns: 1fr; }
+    }
 
-    /* Docs grid */
-    /* ---- FIX choque texto/botones en tarjetas ---- */
-/* Docs grid */
-/* ---- FIX choque texto/botones en tarjetas ---- */
-.docsGrid{
-  display:grid;
-  grid-template-columns: repeat(3, minmax(220px, 1fr));
-  gap:18px;
-  margin-top:14px;
-}
+    .docCard{
+      position:relative;
+      display:flex;
+      flex-direction:column;
+      min-height: 230px;
+      padding: 18px;
+      border-radius: 22px;
+      background: linear-gradient(180deg, rgba(224,0,77,.98), rgba(176,0,60,.98));
+      color:#fff;
+      overflow:hidden;
+      border: 1px solid rgba(255,255,255,.18);
+    }
+    .docIcon{
+      width:56px;height:56px;
+      border-radius:16px;
+      display:grid;
+      place-items:center;
+      background: rgba(255,255,255,.12);
+      border: 1px solid rgba(255,255,255,.22);
+    }
+    .docTitle{
+      margin: 12px 0 8px;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 1.12;
+      letter-spacing:.2px;
+    }
+    .docSub{
+      margin: 0;
+      font-size: 13px;
+      line-height:1.35;
+      opacity:.92;
+      max-width: 92%;
+    }
+    .docActions{
+      margin-top:auto;
+      display:flex;
+      align-items:center;
+      gap:10px;
+      flex-wrap:wrap;
+      padding-top: 14px;
+    }
+    .pill{
+      font-size:12px;
+      font-weight:900;
+      padding: 8px 12px;
+      border-radius:999px;
+      background: rgba(255,255,255,.18);
+      border: 1px solid rgba(255,255,255,.26);
+      user-select:none;
+    }
+    .btn{
+      appearance:none;
+      border:none;
+      cursor:pointer;
+      font-size:12px;
+      font-weight:900;
+      padding: 9px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.12);
+      border: 1px solid rgba(255,255,255,.28);
+      color:#fff;
+      text-decoration:none;
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+    }
+    .btn:hover{ background: rgba(255,255,255,.18); }
+    .btn:active{ transform: translateY(1px); }
 
-@media (max-width: 980px){
-  .docsGrid{ grid-template-columns: repeat(2, minmax(220px, 1fr)); }
-}
-@media (max-width: 640px){
-  .docsGrid{ grid-template-columns: 1fr; }
-}
-
-/* Tarjeta */
-.docCard{
-  display:flex;
-  flex-direction:column;
-  gap:10px;
-  padding:18px;
-  border-radius:22px;
-  background: linear-gradient(180deg, rgba(224,0,77,.92), rgba(224,0,77,.82));
-  color:#fff;
-  text-decoration:none;
-  border:1px solid rgba(255,255,255,.18);
-  box-shadow: 0 18px 60px rgba(0,0,0,.22);
-  min-height:210px;
-  overflow:hidden;
-}
-
-/* ícono */
-.docIcon{
-  width:64px;
-  height:64px;
-  border-radius:18px;
-  display:grid;
-  place-items:center;
-  background: rgba(255,255,255,.14);
-  border:1px solid rgba(255,255,255,.20);
-}
-
-/* textos (evita que “empujen” los botones encima) */
-.docTitle{
-  font-size:20px;
-  line-height:1.15;
-  margin:4px 0 0;
-  font-weight:800;
-}
-.docMeta{
-  font-size:13px;
-  line-height:1.25;
-  opacity:.92;
-  margin:0;
-}
-
-/* Acciones abajo, sin superponerse */
-.docActions{
-  margin-top:auto;
-  display:flex;
-  gap:10px;
-  align-items:center;
-  flex-wrap:wrap;
-}
-
-/* “PDF” (pastilla) */
- .docPill{
-  display:inline-flex;
-  align-items:center;
-  padding:8px 12px;
-  border-radius:999px;
-  background: rgba(255,255,255,.14);
-  border:1px solid rgba(255,255,255,.22);
-  font-weight:700;
-  font-size:13px;
-}
-
-/* Botón descargar */
-.docBtn{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  padding:10px 14px;
-  border-radius:999px;
-  background: rgba(255,255,255,.18);
-  border:1px solid rgba(255,255,255,.26);
-  font-weight:800;
-  font-size:13px;
-  white-space:nowrap;
-}
-.docCard:hover .docBtn{
-  background: rgba(255,255,255,.24);
-}
-
-    
-
-    /* Chat frame */
+    /* Columna chat: iframe realmente desplegado */
     .chatHeader{
-      padding:16px 18px 12px;
-      border-bottom:1px solid var(--line);
+      padding: 18px 22px 14px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255,255,255,.98);
     }
     .chatHeader h2{
       margin:0;
-      font-size: 22px;
+      font-size:22px;
       letter-spacing:.2px;
-      text-transform:none;
+      text-transform:none; /* por si antes estaba en mayúsculas */
     }
     .chatHeader p{
-      margin:6px 0 0;
-      color:#475569;
+      margin:8px 0 0;
+      color: var(--muted);
       font-size: 13.5px;
+      line-height: 1.5;
     }
-    .chatFrameWrap{
+
+    .chatBody{
       padding: 0;
+      background: transparent;
     }
     .chatFrame{
       width:100%;
-      height: 690px;
       border:0;
       display:block;
-      background: transparent;
+
+      /* Clave: que sea alto (desplegado) */
+      height: calc(100vh - var(--topbarH) - (var(--pagePad) * 2) - 40px);
+      min-height: 760px;
+      max-height: 980px;
+      border-bottom-left-radius: var(--radius);
+      border-bottom-right-radius: var(--radius);
     }
     @media (max-width: 980px){
-      .chatFrame{ height: 720px; }
+      .chatFrame{
+        height: 78vh;
+        min-height: 620px;
+        max-height: none;
+      }
     }
-    /* === Layout: dale más aire al chat === */
-.mainGrid{
-  display:grid;
-  grid-template-columns: 1.05fr 1.25fr; /* <- chat más ancho */
-  gap: 22px;
-  align-items:start;
-}
-@media (max-width: 980px){
-  .mainGrid{ grid-template-columns: 1fr; }
-}
-
-/* === Caja del iframe (chat) === */
-.chatBox{
-  border-radius: 18px;
-  overflow: hidden;
-  height: clamp(560px, calc(100vh - 240px), 860px); /* <- proporción “buena” */
-  background: #0b1b33;
-}
-.chatFrame{
-  width: 100%;
-  height: 100%;
-  border: 0;
-  display:block;
-}
-
-/* === Descargas: grid limpio === */
-.docsGrid{
-  display:grid;
-  grid-template-columns: repeat(3, minmax(180px, 1fr));
-  gap: 16px;
-}
-@media (max-width: 1100px){
-  .docsGrid{ grid-template-columns: repeat(2, minmax(180px, 1fr)); }
-}
-@media (max-width: 520px){
-  .docsGrid{ grid-template-columns: 1fr; }
-}
-
-/* === Tarjeta descarga (sin cosas pisadas) === */
-.docCard{
-  background: #d7004a;
-  border-radius: 22px;
-  padding: 18px;
-  min-height: 190px;
-  color: #fff;
-  text-decoration: none;
-  display:flex;
-  flex-direction: column;
-  justify-content: space-between;
-  box-shadow: 0 14px 28px rgba(0,0,0,.18);
-}
-.docTop{
-  display:flex;
-  gap: 14px;
-  align-items:flex-start;
-}
-.docIcon{
-  width:64px; height:64px;
-  border-radius: 18px;
-  background: rgba(255,255,255,.14);
-  display:grid;
-  place-items:center;
-  flex: 0 0 auto;
-}
-.docTitle{
-  margin:0;
-  font-size: 18px;
-  line-height: 1.15;
-  font-weight: 800;
-}
-.docMeta{
-  margin:8px 0 0 0;
-  font-size: 13px;
-  opacity:.92;
-}
-.docFooter{
-  display:flex;
-  align-items:center;
-  justify-content: space-between;
-  gap: 10px;
-  margin-top: 16px;
-}
-.docTag{
-  font-size:12px;
-  padding: 6px 10px;
-  border-radius: 999px;
-  background: rgba(255,255,255,.14);
-  border: 1px solid rgba(255,255,255,.18);
-}
-.docBtn{
-  font-size: 13px;
-  font-weight: 800;
-  padding: 10px 14px;
-  border-radius: 999px;
-  background: rgba(255,255,255,.10);
-  border: 1px solid rgba(255,255,255,.22);
-}
-.docCard:hover .docBtn{ background: rgba(255,255,255,.16); }
-/* Asegura layout vertical dentro de la tarjeta */
-.docCard{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  min-height: 210px;
-}
-
-/* Contenedor de botones/pastillas abajo (evita que se monten en el texto) */
-.docActions{
-  margin-top: auto;
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-
   </style>
 </head>
 
 <body>
   <header class="topbar">
-  <div class="topbarInner">
-    <img class="brandLogo" src="./logoudalba.png" alt="Universidad del Alba">
-    <div>
-      <h1 class="brandTitle">Jornada Directiva de Planificación 2025</h1>
-    </div>
-  </div>
-</header>
-
-<main class="wrap">
-  <div class="grid">
-    <!-- IZQUIERDA 60% -->
-    <section class="leftCol">
-      <h2 class="secTitle">Objetivo</h2>
-
-      <p class="objectiveText">
-        Apoyar la planificación del futuro institucional y alimentar el PED con ejes, criterios y decisiones priorizadas.
-      </p>
-
-      <h2 class="secTitle secTitleSpace">Descargar documentos</h2>
-
-      <div id="docsGrid" class="docsGrid"></div>
-    </section>
-
-    <!-- DERECHA 40% -->
-    <section class="rightCol">
-      <h2 class="secTitle center">Chat</h2>
-
-      <div class="chatShell">
-        <iframe class="chatFrame" src="./chat.html?embed=1" title="Chat Albito"></iframe>
+    <div class="topbarInner">
+      <div class="brandLogo" aria-hidden="true">
+        <!-- Ajusta el nombre si tu logo se llama distinto -->
+        <img src="logoudalba.png" alt="Universidad del Alba">
       </div>
-    </section>
-  </div>
-</main>
+      <div class="titles">
+        <h1>Jornada Directiva de Planificación 2025</h1>
+        <p>Documentos base descargables + Albito (chat) con evidencia desde <b>kb_udl.json</b>.</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="grid">
+      <!-- Columna izquierda -->
+      <section class="card">
+        <div class="cardPad">
+          <h2 class="h2">Objetivo</h2>
+          <p class="p">
+            Apoyar la planificación del futuro institucional y alimentar el <b>PED</b> con
+            <b>ejes, criterios y decisiones priorizadas</b>, usando evidencia y referencias de los documentos base.
+          </p>
+
+          <div class="sep"></div>
+
+          <h2 class="h2">Descargar documentos</h2>
+          <p class="muted">Accede a los PDFs base. También puedes consultarlos con Albito en el chat.</p>
+
+          <div id="docsGrid" class="docsGrid" aria-label="Documentos descargables"></div>
+        </div>
+      </section>
+
+      <!-- Columna derecha: Chat (iframe) -->
+      <section class="card">
+        <div class="chatHeader">
+          <h2>Chat</h2>
+          <p>Consulta por país, eje o concepto. Albito responde con evidencia desde la base.</p>
+        </div>
+        <div class="chatBody">
+          <!-- Importante: tu chat está en chat.html -->
+          <iframe class="chatFrame" src="./chat.html?embed=1" title="Chat Albito"></iframe>
+        </div>
+      </section>
+    </div>
+  </main>
 
   <script>
-    // Ajusta SOLO si cambias los nombres reales de tus PDFs en /docs
+    // Ajusta aquí si cambian nombres de archivos o descripciones.
+    // (Se asume que los PDFs están en /docs/)
     const DOCS = [
-      { title: "Directrices (países)", meta: "PDF · referencia internacional", tag:"PDF", file: "docs/Directrices (paises).pdf", icon:"globe" },
-      { title: "Debate universidades del futuro", meta: "PDF · discusiones y tensiones", tag:"PDF", file: "docs/Debate universidades del futuro.pdf", icon:"chat" },
-      { title: "Estrategia ES", meta: "PDF · documento base", tag:"PDF", file: "docs/Estrategia ES.pdf", icon:"file" },
-      { title: "Resumen ES", meta: "PDF · síntesis", tag:"PDF", file: "docs/Resumen ES.pdf", icon:"file" },
-      { title: "Autores vs Objetivos", meta: "PDF · comparativo", tag:"PDF", file: "docs/Autores vs Objetivos.pdf", icon:"file" },
+      {
+        title: "Directrices (países)",
+        sub: "PDF · referencia internacional",
+        file: "docs/Directrices (paises).pdf",
+        icon: "globe"
+      },
+      {
+        title: "Debate universidades del futuro",
+        sub: "PDF · discusiones y tensiones",
+        file: "docs/Debate universidades del futuro.pdf",
+        icon: "chat"
+      },
+      {
+        title: "Estrategia ES",
+        sub: "PDF · documento base",
+        file: "docs/Estrategia ES.pdf",
+        icon: "file"
+      },
+      {
+        title: "Resumen ES",
+        sub: "PDF · síntesis",
+        file: "docs/Resumen ES.pdf",
+        icon: "file"
+      },
+      {
+        title: "Autores vs Objetivos",
+        sub: "PDF · comparativo",
+        file: "docs/Autores vs Objetivos.pdf",
+        icon: "file"
+      }
     ];
 
-    const ICONS = {
-      globe: `
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z"></path>
-          <path d="M2 12h20"></path>
-          <path d="M12 2a15 15 0 0 1 0 20"></path>
-          <path d="M12 2a15 15 0 0 0 0 20"></path>
-        </svg>`,
-      chat: `
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z"></path>
-        </svg>`,
-      file: `
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M14 2H7a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V8Z"></path>
-          <path d="M14 2v6h6"></path>
-        </svg>`
-    };
+    function iconSVG(kind){
+      const common = 'width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"';
+      if(kind === "globe"){
+        return `<svg ${common}><path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z" stroke="white" stroke-width="2"/><path d="M2 12h20" stroke="white" stroke-width="2"/><path d="M12 2c2.7 2.7 4 6 4 10s-1.3 7.3-4 10c-2.7-2.7-4-6-4-10s1.3-7.3 4-10Z" stroke="white" stroke-width="2"/></svg>`;
+      }
+      if(kind === "chat"){
+        return `<svg ${common}><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8Z" stroke="white" stroke-width="2" stroke-linejoin="round"/></svg>`;
+      }
+      return `<svg ${common}><path d="M14 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-6Z" stroke="white" stroke-width="2" stroke-linejoin="round"/><path d="M14 2v6h6" stroke="white" stroke-width="2" stroke-linejoin="round"/></svg>`;
+    }
 
     const grid = document.getElementById("docsGrid");
-    DOCS.forEach(d=>{
-      const a = document.createElement("div");
-      a.className = "docCard";
-      const href = encodeURI(d.file);
+    DOCS.forEach(d => {
+      const card = document.createElement("div");
+      card.className = "docCard";
 
-      a.innerHTML = `
-        <a class="docCard" href="docs/Directrices (paises).pdf" target="_blank" rel="noopener">
-  <div class="docTop">
-    <div class="docIcon">…</div>
-    <h3 class="docTitle">Directrices (países)</h3>
-    <p class="docDesc">PDF · referencia internacional</p>
-  </div>
-
-  <div></div><!-- relleno (1fr) -->
-
-  <div class="docActions">
-  <span class="pill">PDF</span>
-  <span class="docBtn">Descargar</span>
-</div>
-
-</a>
-     </div>
+      card.innerHTML = `
+        <div class="docIcon" aria-hidden="true">${iconSVG(d.icon)}</div>
+        <div class="docTitle">${d.title}</div>
+        <p class="docSub">${d.sub}</p>
+        <div class="docActions">
+          <span class="pill">PDF</span>
+          <a class="btn" href="${d.file}" target="_blank" rel="noopener">
+            Descargar
+          </a>
+        </div>
       `;
-      grid.appendChild(a);
+      grid.appendChild(card);
     });
   </script>
 </body>
