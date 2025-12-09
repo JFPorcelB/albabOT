@@ -326,336 +326,336 @@
   </div>
 
   <script>
-    // =========================
-    // 1) SOLO estas 4 fuentes QA
-    // =========================
-    const QA_FILES = [
-      { url: "./estrategia_es_QA_50_enriquecido.json",        source: "Estrategia ES" },
-      { url: "./universidades_futuro_QA_50.json",             source: "Universidades del futuro" },
-      { url: "./autores_vs_objetivos_QA_50_enriquecido.json", source: "Autores vs Objetivos" },
-      { url: "./directrices_paises_QA_50_enriquecido.json",   source: "Directrices (países)" },
-    ];
+  // ====== Config ======
+  const QA_FILES = [
+    { url: "./estrategia_es_QA_50_enriquecido.json",        source: "Estrategia ES" },
+    { url: "./universidades_futuro_QA_50.json",             source: "Universidades del futuro" },
+    { url: "./autores_vs_objetivos_QA_50_enriquecido.json", source: "Autores vs Objetivos" },
+    { url: "./directrices_paises_QA_50_enriquecido.json",   source: "Directrices (países)" },
+  ];
 
-    // ---- Embed mode (iframe) ----
-    const params = new URLSearchParams(location.search);
-    if(params.get("embed")==="1") document.body.classList.add("embed");
+  // ---- Embed mode (para iframe) ----
+  const params = new URLSearchParams(location.search);
+  if (params.get("embed") === "1") document.body.classList.add("embed");
 
-    // ---- DOM helpers ----
-    const $ = (id) => document.getElementById(id);
-    const chatEl = $("chat");
+  // ====== Helpers DOM ======
+  const $ = (id) => document.getElementById(id);
+  const chatEl = $("chat");
 
-    // ---- Estado KB ----
-    let BLOCKS = [];
+  function addMsg(who, text) {
+    const row = document.createElement("div");
+    row.className = "row " + (who === "me" ? "me" : "bot");
 
-    function setKBStatus(state, text){
-      const dot = $("kbDot");
-      dot.classList.remove("ok","bad");
-      if(state==="ok") dot.classList.add("ok");
-      if(state==="bad") dot.classList.add("bad");
-      $("kbText").textContent = text;
+    if (who === "bot") {
+      const av = document.createElement("div");
+      av.className = "msgAvatar";
+      const img = document.createElement("img");
+      img.src = "albito.jpeg";
+      img.alt = "Albito";
+      img.onerror = () => { img.onerror = null; img.src = "albito.jpg"; };
+      av.appendChild(img);
+      row.appendChild(av);
     }
 
-    // ---- UI messages ----
-    function addMsg(who, text){
-      const row = document.createElement("div");
-      row.className = "row " + (who === "me" ? "me" : "bot");
+    const bubble = document.createElement("div");
+    bubble.className = "bubble";
 
-      if(who === "bot"){
-        const av = document.createElement("div");
-        av.className = "msgAvatar";
-        const img = document.createElement("img");
-        img.src = "albito.jpeg";
-        img.alt = "Albito";
-        img.onerror = () => { img.onerror=null; img.src="albito.jpg"; };
-        av.appendChild(img);
-        row.appendChild(av);
-      }
+    const label = document.createElement("div");
+    label.className = "who";
+    label.textContent = (who === "me") ? "Tú" : "Albito";
+    bubble.appendChild(label);
 
-      const bubble = document.createElement("div");
-      bubble.className = "bubble";
+    const body = document.createElement("div");
+    body.className = "body";
+    body.textContent = text;
+    bubble.appendChild(body);
 
-      const label = document.createElement("div");
-      label.className = "who";
-      label.textContent = (who === "me") ? "Tú" : "Albito";
-      bubble.appendChild(label);
+    row.appendChild(bubble);
+    chatEl.appendChild(row);
+    chatEl.scrollTop = chatEl.scrollHeight;
+  }
 
-      const body = document.createElement("div");
-      body.className = "body";
-      body.textContent = text;
-      bubble.appendChild(body);
+  function setKBStatus(state, text) {
+    const dot = $("kbDot");
+    dot.classList.remove("ok", "bad");
+    if (state === "ok") dot.classList.add("ok");
+    if (state === "bad") dot.classList.add("bad");
+    $("kbText").textContent = text;
+  }
 
-      row.appendChild(bubble);
-      chatEl.appendChild(row);
-      chatEl.scrollTop = chatEl.scrollHeight;
+  function normalize(s) {
+    return (s || "")
+      .toString()
+      .toLowerCase()
+      .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-z0-9\s\-\_]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  const STOP = new Set(["de","la","el","los","las","y","o","un","una","para","por","en","a","del","al","que","con","sin","sobre","como","mas","más","es","son","se","su","sus"]);
+  function tokens(q) {
+    const t = normalize(q).split(" ").filter(Boolean).filter(w => !STOP.has(w));
+    return [...new Set(t)];
+  }
+
+  function safeSentences(txt) {
+    const s = (txt || "").replace(/\s+/g, " ").trim();
+    if (!s) return [];
+    // corta por puntos sin usar lookbehind (más compatible)
+    return s.split(/(?<=[.!?])\s+|[\n\r]+/g).filter(Boolean);
+  }
+
+  function firstSentences(raw, maxChars) {
+    const s = (raw || "").replace(/\s+/g, " ").trim();
+    if (!s) return "";
+    const parts = safeSentences(s);
+    let out = "";
+    for (const p of parts) {
+      const next = (out ? out + " " : "") + p;
+      if (next.length > maxChars) break;
+      out = next;
+      if (out.length >= Math.min(220, maxChars)) break;
     }
+    if (!out) out = s.slice(0, maxChars);
+    if (out.length < s.length) out += "…";
+    return out;
+  }
 
-    // ---- Text utils ----
-    function normalize(s){
-      return (s||"")
-        .toLowerCase()
-        .normalize("NFD").replace(/[\u0300-\u036f]/g,"")
-        .replace(/[^a-z0-9\s\-\_]/g," ")
-        .replace(/\s+/g," ")
-        .trim();
+  // ====== KB ======
+  let BLOCKS = []; // <- ÚNICA fuente para responder
+
+  async function fetchJson(url, ms = 12000) {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), ms);
+    try {
+      const res = await fetch(url, { cache: "no-store", signal: ctrl.signal });
+      if (!res.ok) throw new Error(`${url} -> HTTP ${res.status}`);
+      return await res.json();
+    } finally {
+      clearTimeout(t);
     }
+  }
 
-    const STOP = new Set(["de","la","el","los","las","y","o","un","una","para","por","en","a","del","al","que","con","sin","sobre","como","mas","más","es","son","se","su","sus"]);
-    function tokens(q){
-      const t = normalize(q).split(" ").filter(Boolean).filter(w => !STOP.has(w));
-      return [...new Set(t)];
-    }
+  function normalizeToBlocks(json, sourceName, fileUrl) {
+    const out = [];
 
-    // ---- Fetch con timeout (para no quedar “cargando” infinito) ----
-    async function fetchJsonWithTimeout(url, ms=9000){
-      const ctrl = new AbortController();
-      const t = setTimeout(() => ctrl.abort(), ms);
-      try{
-        // cache:no-store + query bust para GitHub Pages
-        const bust = (url.includes("?") ? "&" : "?") + "v=" + Date.now();
-        const res = await fetch(url + bust, { cache:"no-store", signal: ctrl.signal });
-        if(!res.ok) throw new Error(`${url} -> HTTP ${res.status}`);
-        return await res.json();
-      } finally {
-        clearTimeout(t);
-      }
-    }
+    // Caso A: { blocks: [...] }
+    if (json && Array.isArray(json.blocks)) {
+      json.blocks.forEach((b, i) => {
+        const text = (b.text ?? b.answer ?? "").toString().trim();
+        const title = (b.title ?? b.question ?? "").toString().trim();
+        if (!text && !title) return;
 
-    // ---- Normaliza tus QA a bloques ----
-    function asArray(x){
-      if(!x) return [];
-      return Array.isArray(x) ? x : [x];
-    }
-
-    function normalizeAnyJsonToBlocks(json, sourceName, sourceUrl){
-      // Si viene como { blocks: [...] }
-      if(json && Array.isArray(json.blocks)){
-        return json.blocks.map((b,i)=>({
-          id: b.id ?? `${sourceName}-kb-${i}`,
-          title: String(b.title ?? b.question ?? ""),
-          text: String(b.text ?? b.answer ?? ""),
+        out.push({
+          id: b.id ?? `${sourceName}-block-${i}`,
+          title,
+          text: title ? `${title}\n\n${text}` : text,
           tags: Array.isArray(b.tags) ? b.tags.map(String) : [],
           source: b.source ?? sourceName,
-          meta: { ...(b.meta||{}), sourceUrl }
-        })).filter(b => (b.title || b.text));
-      }
-
-      // Si viene como array de QAs
-      if(Array.isArray(json)){
-        return json.map((qa,i)=>{
-          const q = String(qa.question ?? qa.pregunta ?? qa.q ?? "").trim();
-          const a = String(qa.answer ?? qa.respuesta ?? qa.a ?? "").trim();
-          const vars = asArray(qa.variants ?? qa.variantes).map(v=>String(v).trim()).filter(Boolean);
-          const tagsRaw = qa.tags ?? qa.tag ?? qa.etiquetas ?? [];
-          const tags = Array.isArray(tagsRaw) ? tagsRaw.map(String) : String(tagsRaw).split(",").map(s=>s.trim()).filter(Boolean);
-
-          const meta = {
-            doc: qa.doc ?? qa.documento ?? qa.document ?? qa.fuente ?? null,
-            source_section: qa.source_section ?? qa.section ?? qa.seccion ?? null,
-            timeframe: qa.timeframe ?? qa.periodo ?? null,
-            country: qa.country ?? qa.pais ?? null,
-            file: sourceUrl
-          };
-
-          return {
-            id: qa.id ?? `${sourceName}-qa-${i+1}`,
-            title: q,
-            text: a,
-            tags,
-            source: sourceName,
-            meta
-          };
-        }).filter(b => (b.title || b.text));
-      }
-
-      return [];
+          meta: { ...(b.meta || {}), fileUrl }
+        });
+      });
+      return out;
     }
 
-    // ---- Carga la base desde los 4 archivos ----
-    async function loadKB(){
-      setKBStatus("loading","cargando base…");
+    // Caso B: array de QAs [{question, answer, ...}, ...]
+    const arr =
+      Array.isArray(json) ? json :
+      (json && Array.isArray(json.qas)) ? json.qas :
+      (json && Array.isArray(json.qa)) ? json.qa :
+      null;
 
+    if (arr) {
+      arr.forEach((qa, i) => {
+        const q = (qa.question ?? qa.pregunta ?? qa.q ?? "").toString().trim();
+        const a = (qa.answer ?? qa.respuesta ?? qa.a ?? "").toString().trim();
+        if (!q && !a) return;
+
+        const doc = (qa.doc ?? qa.documento ?? qa.document ?? qa.fuente ?? "").toString().trim();
+        const section = (qa.source_section ?? qa.section ?? qa.seccion ?? "").toString().trim();
+
+        out.push({
+          id: qa.id ?? `${sourceName}-qa-${i}`,
+          title: q,
+          text: `Q: ${q}\n\nA: ${a}`.trim(),
+          tags: Array.isArray(qa.tags) ? qa.tags.map(String) : [],
+          source: sourceName,
+          meta: { fileUrl, doc, section }
+        });
+      });
+      return out;
+    }
+
+    return out;
+  }
+
+  async function loadKB() {
+    setKBStatus("loading", "cargando base…");
+
+    try {
       const settled = await Promise.allSettled(
         QA_FILES.map(async (f) => {
-          const json = await fetchJsonWithTimeout(f.url, 9000);
+          const json = await fetchJson(f.url);
           return { file: f, json };
         })
       );
 
-      let blocks = [];
-      let okFiles = 0;
+      const loaded = settled.filter(r => r.status === "fulfilled").length;
 
-      for(const r of settled){
-        if(r.status !== "fulfilled") continue;
-        okFiles++;
+      let blocks = [];
+      for (const r of settled) {
+        if (r.status !== "fulfilled") continue;
         const { file, json } = r.value;
-        blocks = blocks.concat(normalizeAnyJsonToBlocks(json, file.source, file.url));
+        blocks = blocks.concat(normalizeToBlocks(json, file.source, file.url));
       }
 
-      // Dedup por title+text
+      // dedupe
       const seen = new Set();
       const uniq = [];
-      for(const b of blocks){
-        const key = (b.title + "\n" + b.text).trim();
-        if(!key || seen.has(key)) continue;
+      for (const b of blocks) {
+        const key = (b.text || "").trim();
+        if (!key || seen.has(key)) continue;
         seen.add(key);
         uniq.push(b);
       }
 
+      if (!uniq.length) {
+        setKBStatus("bad", `KB vacía · ${loaded}/4 archivos`);
+        addMsg("bot", "No pude construir la base (quedó vacía). Revisa que los 4 JSON tengan Q/A válidos.");
+        return;
+      }
+
       BLOCKS = uniq;
-
-      if(!BLOCKS.length){
-        setKBStatus("bad","KB no cargó");
-        return false;
-      }
-
-      setKBStatus("ok", `KB lista · ${BLOCKS.length} bloques · ${okFiles}/${QA_FILES.length} archivos`);
-      return true;
+      setKBStatus("ok", `KB lista · ${BLOCKS.length} bloques · ${loaded}/4 archivos`);
+    } catch (err) {
+      console.error(err);
+      setKBStatus("bad", "KB no cargó");
+      addMsg("bot", `No pude cargar la base (${err?.message ?? err}).`);
     }
-
-    // ---- Ranking + respuesta ----
-    function scoreBlock(b, qTokens, qNorm){
-      const title = normalize(b.title);
-      const text  = normalize(b.text);
-      const id    = normalize(b.id);
-      const tags  = Array.isArray(b.tags) ? b.tags.map(normalize) : [];
-
-      let s = 0;
-
-      if(qNorm && (title.includes(qNorm) || text.includes(qNorm))) s += 18;
-
-      for(const t of qTokens){
-        if(tags.includes(t)) s += 10;
-        if(title.includes(t)) s += 7;
-        if(text.includes(t)) s += 3;
-        if(id.includes(t)) s += 2;
-      }
-
-      // bonus si tiene metadata útil
-      if(b.meta?.doc) s += 2;
-      if(b.meta?.source_section) s += 1;
-      if(b.meta?.country) s += 1;
-
-      return s;
-    }
-
-    function clipText(raw, maxChars){
-      const txt = (raw||"").replace(/\s+/g," ").trim();
-      if(txt.length <= maxChars) return txt;
-      return txt.slice(0, maxChars).trim() + "…";
-    }
-
-    function formatEvidence(block, mode){
-      const doc = block.meta?.doc ? String(block.meta.doc) : block.source;
-      const sec = block.meta?.source_section ? ` · ${block.meta.source_section}` : "";
-      const country = block.meta?.country ? ` · ${block.meta.country}` : "";
-      const time = block.meta?.timeframe ? ` · ${block.meta.timeframe}` : "";
-
-      const answer = (mode === "detail") ? clipText(block.text, 1200) : clipText(block.text, 420);
-
-      return `Fuente: ${doc}${sec}${country}${time}\n• ${answer}`;
-    }
-
-    function answerFromKB(q){
-      if(!BLOCKS.length){
-        return "Aún no tengo la base cargada. Revisa que los 4 JSON estén en la misma carpeta que chat.html (GitHub Pages) y que los nombres coincidan exacto.";
-      }
-
-      const qNorm = normalize(q);
-      const qTok = tokens(q);
-
-      if(qTok.length === 0 && qNorm.length < 3){
-        return "Dime en qué te puedo ayudar. Usa 2–3 palabras clave (país + tema, eje, o concepto).";
-      }
-
-      const scored = BLOCKS
-        .map(b => ({ b, s: scoreBlock(b, qTok, qNorm) }))
-        .filter(x => x.s > 0)
-        .sort((a,b)=> b.s - a.s);
-
-      if(!scored.length){
-        return "No encontré evidencia suficiente con esas palabras. Prueba reformulando (país + tema) o usando otro concepto clave.";
-      }
-
-      const modeDetailEl = $("modeDetail");
-const showEvidenceEl = $("showEvidence");
-
-const detailMode = (modeDetailEl && modeDetailEl.checked) ? "detail" : "brief";
-const wantEvidence = showEvidenceEl ? showEvidenceEl.checked : true;
-
-
-      const take = (detailMode === "detail") ? 4 : 2;
-      const top = scored.slice(0, take).map(x=>x.b);
-
-      if(!wantEvidence){
-        // respuesta “limpia”: usa el mejor bloque como base
-        const main = top[0];
-        const extra = (detailMode === "detail" && top[1]) ? ("\n\n(Complemento)\n" + clipText(top[1].text, 420)) : "";
-        return clipText(main.text, detailMode === "detail" ? 1200 : 520) + extra;
-      }
-
-      const header = (detailMode === "detail")
-        ? `Encontré evidencia (top ${top.length}):`
-        : `Encontré evidencia:`;
-
-      return `${header}\n\n` + top.map(b => formatEvidence(b, detailMode)).join("\n\n");
-    }
-
-    // ---- UI actions ----
-    function send(){
-  const qEl = $("q");
-  const q = (qEl ? qEl.value : "").trim();
-  if(!q) return;
-
-  addMsg("me", q);
-  if(qEl) qEl.value = "";
-
-  // ✅ si los toggles no existen, usa defaults
-  const toneEl = $("tone");
-  const tone = toneEl ? toneEl.checked : true;
-  const prefix = tone ? "Pío pío 🐥. " : "";
-
-  try{
-    const resp = answerFromKB(q);
-    addMsg("bot", prefix + resp);
-  }catch(err){
-    console.error(err);
-    addMsg("bot", "Ups… hubo un error interno al responder. Revisa la consola (F12 → Console).");
   }
-}
 
+  function scoreBlock(b, qTokens, qNorm) {
+    const title = normalize(b.title);
+    const text  = normalize(b.text);
+    const id    = normalize(b.id);
+    const tags  = Array.isArray(b.tags) ? b.tags.map(normalize) : [];
 
-    $("btnSend").addEventListener("click", send);
-    $("q").addEventListener("keydown", (e)=>{
-      if(e.key==="Enter"){
-        e.preventDefault();
-        send();
-      }
-    });
+    let s = 0;
 
-    $("btnClear").addEventListener("click", ()=>{
-      chatEl.innerHTML = "";
-      greeting();
-    });
+    if (qNorm && (title.includes(qNorm) || text.includes(qNorm))) s += 18;
 
-    $("btnCopy").addEventListener("click", async ()=>{
-      const bubbles = [...document.querySelectorAll(".row.bot .bubble .body")];
-      if(!bubbles.length) return;
-      const last = bubbles[bubbles.length-1].textContent || "";
-      try{ await navigator.clipboard.writeText(last.trim()); }catch(e){}
-    });
-
-    function greeting(){
-      addMsg("bot", "Hola, soy Albito 🐦 y te ayudaré en esta jornada con la información dada por la Dirección General de Desarrollo Institucional.");
+    for (const t of qTokens) {
+      if (tags.includes(t)) s += 10;
+      if (title.includes(t)) s += 6;
+      if (id.includes(t)) s += 4;
+      if (text.includes(t)) s += 2;
     }
 
-    // ---- Init ----
-    (async ()=>{
-      greeting();
-      const ok = await loadKB();
-      if(!ok){
-        addMsg("bot","No pude cargar la base. Lo arreglaré en breve");
-      }
-    })();
-  </script>
+    if (b.source) s += 1;
+    return s;
+  }
+
+  function formatEvidence(block) {
+    const src = block.source ? `Fuente: ${block.source}` : "Fuente: (sin fuente)";
+    const doc = block.meta?.doc ? ` · Documento: ${block.meta.doc}` : "";
+    const sec = block.meta?.section ? ` · Sección: ${block.meta.section}` : "";
+    const excerpt = firstSentences(block.text, 320);
+    return `${src}${doc}${sec}\n  ${excerpt}`;
+  }
+
+  function answerFromKB(q) {
+    if (!Array.isArray(BLOCKS) || BLOCKS.length === 0) {
+      return "Aún no tengo la base cargada. Si ves “KB lista”, recarga la página.";
+    }
+
+    const qNorm = normalize(q);
+    const qTok = tokens(q);
+
+    if (qTok.length === 0 && qNorm.length < 3) {
+      return "Dime qué tema o concepto quieres consultar (con 2–3 palabras clave).";
+    }
+
+    const scored = BLOCKS
+      .map(b => ({ b, s: scoreBlock(b, qTok, qNorm) }))
+      .filter(x => x.s > 0)
+      .sort((a, b) => b.s - a.s);
+
+    const modeDetailEl = $("modeDetail");
+    const showEvidenceEl = $("showEvidence");
+    const detailMode = (modeDetailEl && modeDetailEl.checked) ? "detail" : "brief";
+    const wantEvidence = showEvidenceEl ? showEvidenceEl.checked : true;
+
+    const take = detailMode === "detail" ? 6 : 2;
+    const top = scored.slice(0, take).map(x => x.b);
+
+    if (top.length === 0) {
+      return "No encontré evidencia suficiente en los textos para responder eso. Prueba con otras palabras clave.";
+    }
+
+    if (!wantEvidence) {
+      const bullets = top
+        .map(b => firstSentences(b.text, 180))
+        .filter(Boolean)
+        .slice(0, detailMode === "detail" ? 4 : 2)
+        .map(x => `• ${x}`);
+      return `Síntesis (sin evidencia mostrada):\n${bullets.join("\n")}`;
+    }
+
+    const header = (detailMode === "detail")
+      ? `Encontré evidencia (top ${top.length}):`
+      : `Encontré evidencia:`;
+
+    return `${header}\n\n${top.map(formatEvidence).join("\n\n")}`;
+  }
+
+  // ====== UI actions ======
+  function greeting() {
+    addMsg("bot", "Hola, soy Albito 🐦 y te ayudaré en esta jornada con la información dada por la Dirección General de Desarrollo Institucional.");
+  }
+
+  function send() {
+    const qEl = $("q");
+    const q = (qEl ? qEl.value : "").trim();
+    if (!q) return;
+
+    addMsg("me", q);
+    if (qEl) qEl.value = "";
+
+    const toneEl = $("tone");
+    const tone = toneEl ? toneEl.checked : true;
+    const prefix = tone ? "Pío pío 🐥. " : "";
+
+    try {
+      const resp = answerFromKB(q);
+      addMsg("bot", prefix + resp);
+    } catch (err) {
+      console.error(err);
+      addMsg("bot", "Ups… hubo un error interno al responder. (Revisa la consola F12 → Console)");
+    }
+  }
+
+  $("btnSend").addEventListener("click", send);
+  $("q").addEventListener("keydown", (e) => {
+    if (e.key === "Enter") { e.preventDefault(); send(); }
+  });
+
+  $("btnClear").addEventListener("click", () => {
+    chatEl.innerHTML = "";
+    greeting();
+  });
+
+  $("btnCopy").addEventListener("click", async () => {
+    const bodies = [...document.querySelectorAll(".row.bot .bubble .body")];
+    if (!bodies.length) return;
+    const last = bodies[bodies.length - 1].textContent || "";
+    try { await navigator.clipboard.writeText(last.trim()); } catch {}
+  });
+
+  // Init
+  greeting();
+  loadKB();
+</script>
+
 </body>
 </html>
