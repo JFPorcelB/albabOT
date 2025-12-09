@@ -117,67 +117,99 @@
 
     /* Docs grid */
     /* ---- FIX choque texto/botones en tarjetas ---- */
+/* Docs grid */
+/* ---- FIX choque texto/botones en tarjetas ---- */
 .docsGrid{
   display:grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
   gap:18px;
+  margin-top:14px;
 }
 
+@media (max-width: 980px){
+  .docsGrid{ grid-template-columns: repeat(2, minmax(220px, 1fr)); }
+}
+@media (max-width: 640px){
+  .docsGrid{ grid-template-columns: 1fr; }
+}
+
+/* Tarjeta */
 .docCard{
-  position:relative;
-  display:grid;
-  grid-template-rows: auto 1fr auto; /* header / texto / acciones */
-  min-height: 220px;                /* asegura espacio */
-  padding:18px;
-  border-radius:26px;
-  overflow:hidden;
-}
-
-.docTop{ /* icono + título */
   display:flex;
   flex-direction:column;
   gap:10px;
-}
-
-.docTitle{
-  margin:0;
-  line-height:1.15;
-}
-
-.docDesc{
-  margin:0;
-  opacity:.9;
-  line-height:1.25;
-  padding-right: 8px;
-  /* evita que una descripción larga invada los botones */
-  display:-webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
+  padding:18px;
+  border-radius:22px;
+  background: linear-gradient(180deg, rgba(224,0,77,.92), rgba(224,0,77,.82));
+  color:#fff;
+  text-decoration:none;
+  border:1px solid rgba(255,255,255,.18);
+  box-shadow: 0 18px 60px rgba(0,0,0,.22);
+  min-height:210px;
   overflow:hidden;
 }
 
+/* ícono */
+.docIcon{
+  width:64px;
+  height:64px;
+  border-radius:18px;
+  display:grid;
+  place-items:center;
+  background: rgba(255,255,255,.14);
+  border:1px solid rgba(255,255,255,.20);
+}
+
+/* textos (evita que “empujen” los botones encima) */
+.docTitle{
+  font-size:20px;
+  line-height:1.15;
+  margin:4px 0 0;
+  font-weight:800;
+}
+.docMeta{
+  font-size:13px;
+  line-height:1.25;
+  opacity:.92;
+  margin:0;
+}
+
+/* Acciones abajo, sin superponerse */
 .docActions{
+  margin-top:auto;
   display:flex;
   gap:10px;
   align-items:center;
-  justify-content:flex-end;
-  margin-top:14px; /* separa del texto */
+  flex-wrap:wrap;
 }
 
-.docChip{ /* el “PDF” */
-  flex:0 0 auto;
+/* “PDF” (pastilla) */
+ .docPill{
+  display:inline-flex;
+  align-items:center;
+  padding:8px 12px;
+  border-radius:999px;
+  background: rgba(255,255,255,.14);
+  border:1px solid rgba(255,255,255,.22);
+  font-weight:700;
+  font-size:13px;
 }
 
+/* Botón descargar */
 .docBtn{
-  flex:0 0 auto;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:10px 14px;
+  border-radius:999px;
+  background: rgba(255,255,255,.18);
+  border:1px solid rgba(255,255,255,.26);
+  font-weight:800;
+  font-size:13px;
+  white-space:nowrap;
 }
-
-/* Responsive: 2 columnas y 1 columna */
-@media (max-width: 1100px){
-  .docsGrid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
-}
-@media (max-width: 700px){
-  .docsGrid{ grid-template-columns: 1fr; }
+.docCard:hover .docBtn{
+  background: rgba(255,255,255,.24);
 }
 
     
@@ -309,57 +341,62 @@
   border: 1px solid rgba(255,255,255,.22);
 }
 .docCard:hover .docBtn{ background: rgba(255,255,255,.16); }
+/* Asegura layout vertical dentro de la tarjeta */
+.docCard{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 210px;
+}
+
+/* Contenedor de botones/pastillas abajo (evita que se monten en el texto) */
+.docActions{
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 
   </style>
 </head>
 
 <body>
   <header class="topbar">
-    <div class="topbarInner">
-      <div class="brandLogo" title="Universidad del Alba">
-        <img src="logoudalba.png" alt="Logo Universidad del Alba" onerror="this.style.display='none'">
-      </div>
-      <div class="titles">
-        <h1>Jornada Directiva de Planificación 2025</h1>
-        <p>Documentos base descargables + Albito (chat) con evidencia desde <b>kb_udl.json</b>.</p>
-      </div>
+  <div class="topbarInner">
+    <img class="brandLogo" src="./logoudalba.png" alt="Universidad del Alba">
+    <div>
+      <h1 class="brandTitle">Jornada Directiva de Planificación 2025</h1>
     </div>
-  </header>
-
-  <main class="wrap">
-    <div class="mainGrid">
-      <!-- Columna izquierda -->
-      <section class="card">
-        <div class="cardPad">
-          <h2 class="h2">Objetivo</h2>
-          <p class="p">
-            Apoyar la planificación del futuro institucional y alimentar el <b>PED</b> con
-            <b>ejes, criterios y decisiones priorizadas</b>, usando evidencia y referencias de los documentos base.
-          </p>
-
-          <div class="sep"></div>
-
-          <h2 class="h2">Descargar documentos</h2>
-          <p class="muted">Accede a los PDFs base. También puedes consultarlos con Albito en el chat.</p>
-
-          <div id="docsGrid" class="docsGrid"></div>
-        </div>
-      </section>
-
-      <!-- Columna derecha -->
-      <section class="card cardChat">
-  <div class="chatHeader">
-    <h2>Chat</h2>
-    <p>Consulta sobre los documentos. Albito responde con evidencia desde la base.</p>
   </div>
+</header>
 
-  <div class="chatBox">
-    <iframe class="chatFrame" src="./chat.html?embed=1" title="Chat Albito"></iframe>
+<main class="wrap">
+  <div class="grid">
+    <!-- IZQUIERDA 60% -->
+    <section class="leftCol">
+      <h2 class="secTitle">Objetivo</h2>
+
+      <p class="objectiveText">
+        Apoyar la planificación del futuro institucional y alimentar el PED con ejes, criterios y decisiones priorizadas.
+      </p>
+
+      <h2 class="secTitle secTitleSpace">Descargar documentos</h2>
+
+      <div id="docsGrid" class="docsGrid"></div>
+    </section>
+
+    <!-- DERECHA 40% -->
+    <section class="rightCol">
+      <h2 class="secTitle center">Chat</h2>
+
+      <div class="chatShell">
+        <iframe class="chatFrame" src="./chat.html?embed=1" title="Chat Albito"></iframe>
+      </div>
+    </section>
   </div>
-</section>
-
-    </div>
-  </main>
+</main>
 
   <script>
     // Ajusta SOLO si cambias los nombres reales de tus PDFs en /docs
@@ -407,9 +444,10 @@
   <div></div><!-- relleno (1fr) -->
 
   <div class="docActions">
-    <span class="docChip">PDF</span>
-    <span class="docBtn">Descargar</span>
-  </div>
+  <span class="pill">PDF</span>
+  <span class="docBtn">Descargar</span>
+</div>
+
 </a>
      </div>
       `;
