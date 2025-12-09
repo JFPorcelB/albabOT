@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jornada Directiva — Demo</title>
+  <style>
+    :root{
+      --udl-blue:#061E3D;
+      --udl-magenta:#E0004D;
+      --ink:#0b1220;
+      --muted:#6b7280;
+      --bg:#f7f7fb;
+      --panel:#ffffff;
+      --line:rgba(15,23,42,.10);
+      --shadow:0 14px 40px rgba(2,6,23,.10);
+      --radius:22px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+      color:var(--ink);
+      background:
+        radial-gradient(900px 480px at 15% 0%, rgba(224,0,77,.10), transparent 60%),
+        radial-gradient(900px 480px at 85% 0%, rgba(6,30,61,.10), transparent 60%),
+        var(--bg);
+    }
+
+    header{
+      background: linear-gradient(180deg, #071B37 0%, #061E3D 100%);
+      color:#fff;
+      padding:22px 22px;
+      box-shadow:0 10px 30px rgba(2,6,23,.18);
+    }
+    .head{
+      width:min(1200px, 100%);
+      margin:0 auto;
+      display:flex;
+      align-items:center;
+      gap:16px;
+    }
+    .logo{
+      width:64px;height:64px;
+      border-radius:18px;
+      background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.18);
+      display:grid;
+      place-items:center;
+      overflow:hidden;
+      flex:0 0 auto;
+    }
+    .logo img{width:100%;height:100%;object-fit:contain; padding:8px}
+    .titleWrap{min-width:0}
+    h1{
+      margin:0;
+      font-size:clamp(24px, 4vw, 44px);
+      line-height:1.1;
+      letter-spacing:.2px;
+    }
+    .subtitle{
+      margin-top:6px;
+      color:rgba(255,255,255,.82);
+      font-size:14px;
+    }
+
+    .page{
+      width:min(1200px, 100%);
+      margin:18px auto 26px;
+      padding:0 18px;
+      display:grid;
+      grid-template-columns: 1.02fr .98fr;
+      gap:18px;
+      align-items:start;
+    }
+
+    .card{
+      background:var(--panel);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+    .card .pad{padding:18px}
+    .h2{
+      margin:0 0 10px;
+      font-size:18px;
+      font-weight:900;
+      letter-spacing:.2px;
+    }
+    .p{
+      margin:0;
+      color:#111827;
+      line-height:1.45;
+    }
+    .muted{color:var(--muted)}
+    .divider{height:1px;background:var(--line); margin:14px 0}
+
+    ul{
+      margin:10px 0 0 18px;
+      padding:0;
+      line-height:1.55;
+    }
+    li{margin:6px 0}
+
+    /* Docs grid */
+    .docsGrid{
+      display:grid;
+      grid-template-columns: repeat(3, minmax(0,1fr));
+      gap:14px;
+      margin-top:12px;
+    }
+    @media (max-width: 980px){
+      .page{grid-template-columns:1fr}
+      .docsGrid{grid-template-columns: repeat(2, minmax(0,1fr))}
+    }
+    @media (max-width: 560px){
+      .docsGrid{grid-template-columns: 1fr}
+    }
+
+    .docTile{
+      background: linear-gradient(180deg, rgba(224,0,77,1) 0%, rgba(200,0,68,1) 100%);
+      border-radius:18px;
+      padding:14px;
+      color:#fff;
+      position:relative;
+      overflow:hidden;
+      min-height:160px;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      box-shadow:0 18px 34px rgba(224,0,77,.20);
+      border:1px solid rgba(255,255,255,.18);
+    }
+    .docIcon{
+      width:64px;height:64px;
+      border-radius:18px;
+      background:rgba(255,255,255,.16);
+      border:1px solid rgba(255,255,255,.22);
+      display:grid;
+      place-items:center;
+    }
+    .docIcon svg{width:34px;height:34px;fill:none;stroke:#fff;stroke-width:2.2}
+    .docName{
+      font-weight:950;
+      font-size:16px;
+      line-height:1.15;
+      margin-top:10px;
+    }
+    .docNote{
+      font-size:13px;
+      opacity:.9;
+      margin-top:6px;
+    }
+    .docActions{
+      display:flex;
+      justify-content:flex-end;
+      margin-top:12px;
+    }
+    .docBtn{
+      appearance:none;
+      border:none;
+      cursor:pointer;
+      background:rgba(255,255,255,.18);
+      color:#fff;
+      font-weight:950;
+      padding:10px 12px;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,.26);
+      transition:transform .05s ease, background .15s ease, border-color .15s ease;
+      text-decoration:none;
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+    }
+    .docBtn:hover{background:rgba(255,255,255,.24);border-color:rgba(255,255,255,.32)}
+    .docBtn:active{transform:translateY(1px)}
+
+    /* Chat column */
+    .chatCardHeader{
+      padding:16px 18px;
+      border-bottom:1px solid var(--line);
+    }
+    .chatTitle{
+      margin:0;
+      font-size:22px;
+      font-weight:950;
+      letter-spacing:.2px;
+    }
+    .chatSub{
+      margin-top:6px;
+      color:var(--muted);
+      line-height:1.35;
+      font-size:14px;
+    }
+    .chatFrameWrap{
+      height: min(78vh, 760px);
+      background:
+        radial-gradient(900px 520px at 20% 0%, rgba(224,0,77,.18), transparent 60%),
+        radial-gradient(900px 520px at 80% 0%, rgba(6,30,61,.18), transparent 60%),
+        linear-gradient(180deg, #0a1a33 0%, #0b1220 100%);
+    }
+    iframe.chatFrame{
+      width:100%;
+      height:100%;
+      border:0;
+      display:block;
+      background:transparent;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="head">
+      <div class="logo"><img src="./logoudalba.png" alt="Universidad del Alba"></div>
+      <div class="titleWrap">
+        <h1>Jornada Directiva de Planificación 2025</h1>
+        <div class="subtitle">Documentos base descargables + Albito (chat) con evidencia desde <b>kb_udl.json</b>.</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <!-- LEFT -->
+    <section class="card">
+      <div class="pad">
+        <div class="h2">Objetivo</div>
+        <p class="p">
+          Apoyar la planificación del futuro institucional y alimentar el <b>PED</b> con <b>ejes, criterios y decisiones priorizadas</b>,
+          usando evidencia y referencias de los documentos base.
+        </p>
+
+        <div class="divider"></div>
+
+        <div class="h2">Agenda (demo)</div>
+        <ul>
+          <li>Diagnóstico y tensiones: calidad, gobernanza, equidad y digitalización.</li>
+          <li>Buenas prácticas internacionales: directrices por país y aprendizajes transferibles.</li>
+          <li>Opciones estratégicas para UDALBA: criterios y trade-offs para el PED.</li>
+          <li>Priorización y acuerdos: líneas de acción, responsables y próximos pasos.</li>
+        </ul>
+
+        <div class="divider"></div>
+
+        <div class="h2">Descargar documentos</div>
+        <p class="p muted">Accede a los PDFs base. También puedes consultarlos con Albito en el chat.</p>
+
+        <div class="docsGrid" id="docsGrid"></div>
+      </div>
+    </section>
+
+    <!-- RIGHT -->
+    <aside class="card">
+      <div class="chatCardHeader">
+        <div class="chatTitle">CHAT</div>
+        <div class="chatSub">Consulta por país, eje o concepto. Albito responde con evidencia desde la base.</div>
+      </div>
+      <div class="chatFrameWrap">
+        <iframe class="chatFrame" src="./index.html?embed=1" title="Chat Albito"></iframe>
+      </div>
+    </aside>
+  </main>
+
+<script>
+  // Lista de documentos (edítala si cambian nombres)
+  const DOCS = [
+    { name:"Directrices (paises)", file:"Directrices (paises).pdf", note:"PDF · referencia internacional", icon:"globe" },
+    { name:"Debate universidades del futuro", file:"Debate universidades del futuro.pdf", note:"PDF · discusiones y tensiones", icon:"chat" },
+    { name:"Estrategia ES", file:"Estrategia ES.pdf", note:"PDF · documento base", icon:"doc" },
+    { name:"Resumen ES", file:"Resumen ES.pdf", note:"PDF · versión breve", icon:"note" },
+    { name:"Autores vs Objetivos", file:"Autores vs Objetivos.pdf", note:"PDF · tabla comparativa", icon:"table" }
+  ];
+
+  const ICONS = {
+    globe: `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z"/>
+        <path d="M2 12h20"/>
+        <path d="M12 2c3 3 3 17 0 20"/>
+        <path d="M12 2c-3 3-3 17 0 20"/>
+      </svg>`,
+    chat: `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z"/>
+        <path d="M8 9h8"/><path d="M8 13h6"/>
+      </svg>`,
+    doc: `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M14 2H7a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V8Z"/>
+        <path d="M14 2v6h6"/>
+        <path d="M8 13h8"/><path d="M8 17h8"/>
+      </svg>`,
+    note: `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M8 3h8l4 4v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z"/>
+        <path d="M16 3v4h4"/>
+        <path d="M9 12h6"/><path d="M9 16h6"/>
+      </svg>`,
+    table: `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M3 5h18v14H3z"/>
+        <path d="M3 10h18"/><path d="M8 5v14"/><path d="M16 5v14"/>
+      </svg>`
+  };
+
+  const grid = document.getElementById("docsGrid");
+  DOCS.forEach(d => {
+    const a = document.createElement("a");
+    a.className = "docTile";
+    a.href = "./docs/" + encodeURIComponent(d.file).replaceAll("%20","%20");
+    a.setAttribute("download", d.file);
+
+    a.innerHTML = `
+      <div>
+        <div class="docIcon">${ICONS[d.icon] || ICONS.doc}</div>
+        <div class="docName">${d.name}</div>
+        <div class="docNote">${d.note}</div>
+      </div>
+      <div class="docActions">
+        <span class="docBtn">Descargar</span>
+      </div>
+    `;
+    grid.appendChild(a);
+  });
+</script>
+</body>
+</html>
+
+
+
+
+
+
