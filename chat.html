@@ -2,84 +2,94 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Albito — Chat Jornada Directiva</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Albito — Chat</title>
   <style>
     :root{
-      --udl-blue:#061E3D;
-      --udl-magenta:#E0004D;
-      --ink:#0b1220;
-      --muted:#6b7280;
-      --panel:#ffffff;
-      --line:rgba(15,23,42,.12);
-      --shadow:0 10px 30px rgba(2,6,23,.12);
-      --radius:18px;
+      --udlba-azul:#061E3D;
+      --udlba-magenta:#E0004D;
+      --panel:#0b1020;
+      --panel2:#0a0f1e;
+      --ink:#e5e7eb;
+      --muted:#cbd5e1;
+      --chip:#2a2f3c;
+      --line:rgba(255,255,255,.10);
+      --radius:22px;
     }
 
-    *{box-sizing:border-box}
-    html,body{height:100%}
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
     body{
       margin:0;
       font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
-      color:var(--ink);
       background:
-        radial-gradient(1200px 700px at 20% 10%, rgba(224,0,77,.14), transparent 60%),
-        radial-gradient(1000px 650px at 80% 0%, rgba(6,30,61,.18), transparent 60%),
-        linear-gradient(180deg, #0a1a33 0%, #0b1220 100%);
-      display:flex;
-      justify-content:center;
-      align-items:flex-start;
-      padding:18px;
+        radial-gradient(900px 500px at 15% 10%, rgba(224,0,77,.16), transparent 55%),
+        radial-gradient(900px 500px at 80% 15%, rgba(6,30,61,.35), transparent 60%),
+        linear-gradient(180deg, #070a13 0%, #0c1732 50%, #0b1022 100%);
+      color: var(--ink);
     }
+
+    /* embed mode */
+    body.embed .wrap{ max-width:100%; padding:0; }
+    body.embed .shell{ border-radius: 0; box-shadow:none; border:none; }
 
     .wrap{
-      width:min(980px, 100%);
-      background:rgba(255,255,255,.08);
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 18px;
+      height:100%;
+    }
+    .shell{
+      height: 100%;
+      display:flex;
+      flex-direction:column;
+      border-radius: var(--radius);
       border:1px solid rgba(255,255,255,.12);
-      border-radius:26px;
-      box-shadow:var(--shadow);
       overflow:hidden;
-      backdrop-filter: blur(10px);
+      box-shadow: 0 22px 80px rgba(0,0,0,.45);
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      backdrop-filter: blur(8px);
     }
 
-    /* Top bar (solo modo standalone) */
-    .topbar{
+    .top{
+      padding: 14px 14px 12px;
       display:flex;
       align-items:center;
       justify-content:space-between;
       gap:12px;
-      padding:14px 14px;
-      background:rgba(255,255,255,.12);
-      border-bottom:1px solid rgba(255,255,255,.12);
+      border-bottom:1px solid var(--line);
+      background: rgba(255,255,255,.04);
     }
     .brand{
       display:flex;
       align-items:center;
-      gap:12px;
-      min-width:0;
+      gap:10px;
+      min-width: 0;
     }
     .brand .avatar{
-      width:44px;height:44px;border-radius:14px;
-      background:rgba(255,255,255,.12);
-      border:1px solid rgba(255,255,255,.18);
-      display:grid;place-items:center;
+      width:56px;height:56px; /* avatar grande */
+      border-radius: 50%;
       overflow:hidden;
+      border:1px solid rgba(255,255,255,.18);
+      background: rgba(255,255,255,.08);
       flex:0 0 auto;
+      display:grid;place-items:center;
     }
-    .brand .avatar img{width:100%;height:100%;object-fit:cover}
-    .brand .t{min-width:0}
-    .brand .t .h{
-      font-weight:800;
-      color:#fff;
+    .brand .avatar img{ width:100%;height:100%; object-fit:cover; }
+    .brand .txt{ min-width:0; }
+    .brand h1{
+      margin:0;
+      font-size: 16px;
       letter-spacing:.2px;
+      text-transform:none;
       white-space:nowrap;
       overflow:hidden;
       text-overflow:ellipsis;
     }
-    .brand .t .s{
-      margin-top:2px;
-      font-size:12.5px;
-      color:rgba(255,255,255,.75);
+    .brand p{
+      margin:2px 0 0;
+      font-size: 12.5px;
+      color: rgba(229,231,235,.78);
       white-space:nowrap;
       overflow:hidden;
       text-overflow:ellipsis;
@@ -87,618 +97,476 @@
 
     .actions{
       display:flex;
-      align-items:center;
       gap:10px;
-      flex-wrap:wrap;
-      justify-content:flex-end;
+      align-items:center;
+      flex:0 0 auto;
     }
     .pill{
       display:inline-flex;
       align-items:center;
       gap:8px;
-      padding:8px 10px;
-      border-radius:999px;
-      border:1px solid rgba(255,255,255,.18);
-      background:rgba(255,255,255,.10);
-      color:#fff;
-      font-size:12.5px;
-      user-select:none;
+      font-size: 12px;
+      padding: 7px 10px;
+      border-radius: 999px;
+      border:1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.06);
+      color: rgba(229,231,235,.9);
+      white-space:nowrap;
     }
-    .dot{width:10px;height:10px;border-radius:999px;background:#fbbf24;box-shadow:0 0 0 4px rgba(251,191,36,.15)}
-    .dot.ok{background:#22c55e;box-shadow:0 0 0 4px rgba(34,197,94,.15)}
-    .dot.bad{background:#ef4444;box-shadow:0 0 0 4px rgba(239,68,68,.15)}
+    .dot{
+      width:10px;height:10px;border-radius:50%;
+      background:#f59e0b;
+      box-shadow: 0 0 0 3px rgba(245,158,11,.18);
+    }
+    .dot.ok{ background:#22c55e; box-shadow: 0 0 0 3px rgba(34,197,94,.18); }
+    .dot.bad{ background:#ef4444; box-shadow: 0 0 0 3px rgba(239,68,68,.18); }
 
     .btn{
-      appearance:none;
-      border:1px solid rgba(255,255,255,.18);
-      background:rgba(255,255,255,.10);
-      color:#fff;
-      padding:8px 12px;
-      border-radius:14px;
-      font-weight:700;
       cursor:pointer;
-      transition:transform .05s ease, background .15s ease, border-color .15s ease;
+      border:1px solid rgba(255,255,255,.14);
+      background: rgba(255,255,255,.06);
+      color: rgba(229,231,235,.95);
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-weight: 700;
+      font-size: 12.5px;
     }
-    .btn:hover{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.24)}
-    .btn:active{transform:translateY(1px)}
-    .btn.primary{
-      background:rgba(224,0,77,.16);
-      border-color:rgba(224,0,77,.35);
-    }
-    .btn.primary:hover{background:rgba(224,0,77,.22)}
+    .btn:hover{ background: rgba(255,255,255,.10); }
 
-    /* Chat panel */
-    .panel{
+    .tipbar{
+      padding: 10px 14px;
+      font-size: 12.5px;
+      color: rgba(229,231,235,.88);
+      border-bottom:1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+    }
+
+    .main{
+      flex: 1 1 auto;
       display:flex;
       flex-direction:column;
-      height:min(82vh, 760px);
-      background:rgba(255,255,255,.10);
+      min-height:0;
     }
-
-    .hintbar{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:12px;
-      padding:10px 14px;
-      background:rgba(255,255,255,.12);
-      border-bottom:1px solid rgba(255,255,255,.12);
-      color:rgba(255,255,255,.92);
-      font-size:13px;
-    }
-    .hintbar b{color:#fff}
-    .hintbar .right{color:rgba(255,255,255,.80)}
 
     .chat{
-      flex:1 1 auto;
+      flex: 1 1 auto;
       overflow:auto;
-      padding:16px;
-      display:flex;
-      flex-direction:column;
-      gap:12px;
+      padding: 14px;
       scroll-behavior:smooth;
-      background:
-        radial-gradient(900px 500px at 20% 0%, rgba(224,0,77,.20), transparent 60%),
-        radial-gradient(900px 500px at 80% 0%, rgba(6,30,61,.25), transparent 60%),
-        linear-gradient(180deg, rgba(10,26,51,.70), rgba(11,18,32,.65));
     }
 
     .row{
       display:flex;
       gap:10px;
+      margin: 10px 0;
       align-items:flex-end;
     }
-    .row.user{justify-content:flex-end}
-    .row.bot{justify-content:flex-start}
+    .row.me{ justify-content:flex-end; }
+    .row.bot{ justify-content:flex-start; }
 
-    .who{
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      gap:6px;
-      width:72px; /* avatar más grande */
-      flex:0 0 72px;
-    }
-    .who .pic{
-      width:60px;height:60px;border-radius:999px;
-      border:2px solid rgba(255,255,255,.85);
-      box-shadow:0 8px 20px rgba(0,0,0,.25);
+    .msgAvatar{
+      width:52px;height:52px; /* avatar grande en mensajes */
+      border-radius:50%;
       overflow:hidden;
-      background:#fff;
+      border:1px solid rgba(255,255,255,.18);
+      background: rgba(255,255,255,.08);
+      flex:0 0 auto;
+      display:grid;place-items:center;
     }
-    .who .pic img{width:100%;height:100%;object-fit:cover}
-    .who .name{
-      font-size:12px;
-      color:rgba(255,255,255,.80);
-      font-weight:700;
-    }
+    .msgAvatar img{ width:100%;height:100%; object-fit:cover; }
 
     .bubble{
-      max-width:min(720px, 78%);
-      border-radius:22px;
-      padding:14px 16px;
-      line-height:1.35;
-      box-shadow:0 12px 26px rgba(0,0,0,.20);
-      border:1px solid rgba(255,255,255,.14);
-      backdrop-filter: blur(8px);
+      max-width: min(680px, 84%);
+      border-radius: 20px;
+      padding: 12px 14px;
+      border:1px solid rgba(255,255,255,.12);
+      box-shadow: 0 14px 36px rgba(0,0,0,.22);
+      line-height:1.45;
+      font-size: 14px;
       position:relative;
+      word-break:break-word;
       white-space:pre-wrap;
-      word-wrap:break-word;
-    }
-    .bubble.bot{
-      background:rgba(224,0,77,.22);
-      color:#fff;
-    }
-    .bubble.user{
-      background:rgba(6,30,61,.30);
-      color:#fff;
-      border-color:rgba(255,255,255,.16);
-    }
-    .bubble .meta{
-      display:block;
-      font-size:12px;
-      font-weight:800;
-      opacity:.85;
-      margin-bottom:6px;
-    }
-    .bubble.bot:before{
-      content:"";
-      position:absolute; left:-8px; bottom:18px;
-      width:14px;height:14px;
-      background:rgba(224,0,77,.22);
-      border-left:1px solid rgba(255,255,255,.14);
-      border-bottom:1px solid rgba(255,255,255,.14);
-      transform:rotate(45deg);
-      border-bottom-left-radius:4px;
-    }
-    .bubble.user:before{
-      content:"";
-      position:absolute; right:-8px; bottom:18px;
-      width:14px;height:14px;
-      background:rgba(6,30,61,.30);
-      border-right:1px solid rgba(255,255,255,.16);
-      border-bottom:1px solid rgba(255,255,255,.16);
-      transform:rotate(45deg);
-      border-bottom-right-radius:4px;
     }
 
-    .chips{
-      display:flex;
-      flex-wrap:wrap;
-      gap:10px;
-      padding:10px 14px 0;
-      background:rgba(255,255,255,.10);
-      border-top:1px solid rgba(255,255,255,.12);
+    /* Albito: magenta */
+    .row.bot .bubble{
+      background: linear-gradient(145deg, rgba(224,0,77,.38), rgba(224,0,77,.18));
     }
-    .chip{
-      border:1px solid rgba(255,255,255,.18);
-      background:rgba(255,255,255,.10);
-      color:#fff;
-      padding:8px 12px;
-      border-radius:999px;
-      cursor:pointer;
-      font-weight:700;
-      font-size:13px;
-      transition:background .15s ease, transform .05s ease, border-color .15s ease;
-      white-space:nowrap;
+    /* Usuario: azul UDALBA */
+    .row.me .bubble{
+      background: linear-gradient(145deg, rgba(6,30,61,.55), rgba(6,30,61,.25));
     }
-    .chip:hover{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.24)}
-    .chip:active{transform:translateY(1px)}
+
+    .who{
+      font-weight: 800;
+      font-size: 12px;
+      opacity:.9;
+      margin-bottom: 4px;
+    }
 
     .controls{
+      padding: 10px 14px 12px;
+      border-top:1px solid var(--line);
+      background: rgba(255,255,255,.03);
       display:flex;
       align-items:center;
       justify-content:space-between;
-      gap:12px;
-      padding:10px 14px;
-      background:rgba(255,255,255,.10);
-      border-top:1px solid rgba(255,255,255,.12);
+      gap:10px;
       flex-wrap:wrap;
     }
 
     .toggle{
-      display:inline-flex;
-      align-items:center;
-      gap:10px;
-      padding:10px 12px;
-      border:1px dashed rgba(255,255,255,.22);
-      border-radius:16px;
-      color:#fff;
-      background:rgba(255,255,255,.08);
-      user-select:none;
-      font-weight:700;
-      font-size:13px;
-    }
-    .toggle input{width:18px;height:18px; accent-color: var(--udl-magenta);}
-    .seg{
       display:flex;
       align-items:center;
       gap:8px;
-      padding:10px 12px;
-      border:1px dashed rgba(255,255,255,.22);
-      border-radius:16px;
-      color:#fff;
-      background:rgba(255,255,255,.08);
+      padding: 9px 12px;
+      border-radius: 999px;
+      border:1px dashed rgba(255,255,255,.16);
+      background: rgba(255,255,255,.04);
+      font-size: 12.5px;
       user-select:none;
-      font-weight:800;
-      font-size:13px;
     }
-    .seg label{display:inline-flex;align-items:center;gap:8px;cursor:pointer}
-    .seg input{accent-color: var(--udl-magenta); width:16px;height:16px}
+    .toggle input{ transform: translateY(1px); }
+    .radios{
+      display:flex; gap:10px; align-items:center;
+      padding: 6px;
+      border-radius: 999px;
+      border:1px dashed rgba(255,255,255,.16);
+      background: rgba(255,255,255,.04);
+    }
+    .radio{
+      display:flex; align-items:center; gap:6px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12.5px;
+      user-select:none;
+    }
 
     .composer{
+      padding: 10px 14px 14px;
+      background: rgba(255,255,255,.03);
+      border-top:1px solid var(--line);
       display:flex;
       gap:10px;
-      padding:12px 14px;
-      background:rgba(255,255,255,.10);
-      border-top:1px solid rgba(255,255,255,.12);
-      align-items:flex-end;
+      align-items:center;
     }
-    .composer textarea{
+    .input{
       flex:1 1 auto;
-      resize:none;
-      min-height:44px;
-      max-height:110px;
-      padding:12px 14px;
-      border-radius:18px;
-      border:1px solid rgba(255,255,255,.18);
-      background:rgba(0,0,0,.18);
-      color:#fff;
+      border-radius: 16px;
+      border:1px solid rgba(255,255,255,.14);
+      background: rgba(0,0,0,.22);
+      color: rgba(229,231,235,.96);
+      padding: 12px 12px;
+      font-size: 14px;
       outline:none;
-      font-size:15px;
-      line-height:1.25;
     }
-    .composer textarea::placeholder{color:rgba(255,255,255,.60)}
     .send{
       flex:0 0 auto;
-      padding:12px 16px;
-      border-radius:18px;
-      border:1px solid rgba(224,0,77,.40);
-      background:rgba(224,0,77,.18);
+      border-radius: 16px;
+      padding: 12px 16px;
+      border:1px solid rgba(255,255,255,.10);
+      background: rgba(224,0,77,.72);
       color:#fff;
-      font-weight:900;
+      font-weight: 900;
       cursor:pointer;
-      transition:transform .05s ease, background .15s ease, border-color .15s ease;
     }
-    .send:hover{background:rgba(224,0,77,.26);border-color:rgba(224,0,77,.55)}
-    .send:active{transform:translateY(1px)}
+    .send:hover{ background: rgba(224,0,77,.86); }
 
-    /* Embed mode: compacto, sin topbar, sin bordes extra */
-    body.embed{padding:0; background:transparent; display:block}
-    body.embed .wrap{border:none; border-radius:0; box-shadow:none; background:transparent}
-    body.embed .topbar{display:none !important}
-    body.embed .panel{height:100vh}
-    body.embed .hintbar{border-radius:0}
-    body.embed .chips, body.embed .controls, body.embed .composer{border-radius:0}
+    /* IMPORTANTE: NO chips */
+    .chips, .quickChips, .suggestions { display:none !important; }
   </style>
 </head>
 
 <body>
   <div class="wrap">
-    <div class="topbar" id="topbar">
-      <div class="brand">
-        <div class="avatar"><img src="./albito.jpeg" alt="Albito"></div>
-        <div class="t">
-          <div class="h">Albito (demo) — Chat para la Jornada Directiva</div>
-          <div class="s">Responde solo con kb_udl.json. Si no hay evidencia, lo diré (sin inventar).</div>
+    <div class="shell">
+      <div class="top">
+        <div class="brand">
+          <div class="avatar">
+            <img id="brandAvatar" src="albito.jpeg" alt="Albito" onerror="this.onerror=null;this.src='albito.jpg'">
+          </div>
+          <div class="txt">
+            <h1>Albito (demo) — Chat para la Jornada Directiva</h1>
+            <p>Responde solo con <b>kb_udl.json</b>. Si no hay evidencia, lo diré (sin inventar).</p>
+          </div>
         </div>
-      </div>
-      <div class="actions">
-        <div class="pill" id="kbPill"><span class="dot" id="kbDot"></span><span id="kbText">cargando KB…</span></div>
-        <button class="btn" id="btnClear" type="button">Limpiar</button>
-        <button class="btn primary" id="btnCopyLast" type="button">Copiar última</button>
-      </div>
-    </div>
 
-    <div class="panel">
-      <div class="hintbar">
-        <div>Haz preguntas específicas (país + tema). Ej: <b>“Reino Unido + IA + evaluación”</b> o <b>“gobernanza anticipatoria”</b>.</div>
-        <div class="right">Tip: cambia el nivel de detalle abajo.</div>
-      </div>
-
-      <div class="chat" id="chat"></div>
-
-      <div class="chips" id="chips"></div>
-
-      <div class="controls">
-        <div class="toggle"><input id="toneNice" type="checkbox" checked> Tono simpático 🐤</div>
-        <div class="toggle"><input id="showEvidence" type="checkbox" checked> Mostrar evidencia</div>
-        <div class="seg" role="group" aria-label="Nivel de detalle">
-          <label><input type="radio" name="detail" value="detail" checked> En detalle</label>
-          <label><input type="radio" name="detail" value="brief"> Breve</label>
+        <div class="actions">
+          <div class="pill" id="kbPill"><span class="dot" id="kbDot"></span><span id="kbText">cargando KB…</span></div>
+          <button class="btn" id="btnClear">Limpiar</button>
+          <button class="btn" id="btnCopy">Copiar última</button>
         </div>
       </div>
 
-      <div class="composer">
-        <textarea id="q" placeholder="Escribe tu pregunta… (Enter para enviar)"></textarea>
-        <button class="send" id="btnSend" type="button">Enviar</button>
+      <div class="tipbar">
+        <div><b>Tip:</b> pregunta por <b>país</b>, <b>eje</b> o <b>concepto</b>.</div>
+        <div>Tip: cambia el nivel de detalle abajo.</div>
+      </div>
+
+      <div class="main">
+        <div class="chat" id="chat"></div>
+
+        <div class="controls">
+          <label class="toggle"><input type="checkbox" id="tone" checked> Tono simpático 🐥</label>
+          <label class="toggle"><input type="checkbox" id="showEvidence" checked> Mostrar evidencia</label>
+
+          <div class="radios" role="radiogroup" aria-label="Detalle">
+            <label class="radio"><input type="radio" name="detail" id="modeBrief" value="brief" checked> Breve</label>
+            <label class="radio"><input type="radio" name="detail" id="modeDetail" value="detail"> En detalle</label>
+          </div>
+        </div>
+
+        <div class="composer">
+          <input class="input" id="q" placeholder="Escribe tu pregunta… (Enter para enviar)" autocomplete="off" />
+          <button class="send" id="btnSend">Enviar</button>
+        </div>
       </div>
     </div>
   </div>
 
-<script>
-(() => {
-  const $ = (id) => document.getElementById(id);
+  <script>
+    // ---- Embed mode (para iframe) ----
+    const params = new URLSearchParams(location.search);
+    if(params.get("embed")==="1") document.body.classList.add("embed");
 
-  // ---- embed mode ----
-  const params = new URLSearchParams(location.search);
-  const isEmbed = params.get("embed") === "1";
-  if (isEmbed) document.body.classList.add("embed");
+    // ---- Helpers ----
+    const $ = (id) => document.getElementById(id);
+    const chatEl = $("chat");
 
-  // ---- UI ----
-  const chatEl = $("chat");
-  const chipsEl = $("chips");
-  const kbDot = $("kbDot");
-  const kbText = $("kbText");
-  const kbPill = $("kbPill");
-  const btnClear = $("btnClear");
-  const btnSend = $("btnSend");
-  const btnCopyLast = $("btnCopyLast");
-  const q = $("q");
-  const toneNice = $("toneNice");
-  const showEvidence = $("showEvidence");
+    function addMsg(who, text){
+      const row = document.createElement("div");
+      row.className = "row " + (who === "me" ? "me" : "bot");
 
-  // En embed, igual dejamos los botones dentro del chat (pero topbar se oculta).
-  // Si quieres botones también en embed, puedes duplicarlos en demo, pero por ahora no.
+      if(who === "bot"){
+        const av = document.createElement("div");
+        av.className = "msgAvatar";
+        const img = document.createElement("img");
+        img.src = "albito.jpeg";
+        img.alt = "Albito";
+        img.onerror = () => { img.onerror=null; img.src="albito.jpg"; };
+        av.appendChild(img);
+        row.appendChild(av);
+      }
 
-  // ---- state ----
-  let KB = null;
-  let KB_LOADED_FROM = null;
-
-  const DEFAULT_CHIPS = [
-    "Reino Unido + IA + evaluación",
-    "gobernanza anticipatoria",
-    "microcredenciales apilables",
-    "Desafío 3 Estrategia ES",
-    "Países Bajos + interoperabilidad",
-    "Singapur + rutas flexibles"
-  ];
-
-  function setKbStatus(state, text){
-    kbText.textContent = text;
-    kbDot.classList.remove("ok","bad");
-    if(state === "ok") kbDot.classList.add("ok");
-    if(state === "bad") kbDot.classList.add("bad");
-  }
-
-  function escapeHtml(s){
-    return s.replace(/[&<>"']/g, (c)=>({
-      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
-    }[c]));
-  }
-
-  function addMsg(role, text){
-    const row = document.createElement("div");
-    row.className = "row " + (role === "user" ? "user" : "bot");
-
-    if(role === "bot"){
-      const who = document.createElement("div");
-      who.className = "who";
-      who.innerHTML = `
-        <div class="pic"><img src="./albito.jpeg" alt="Albito"></div>
-        <div class="name">Albito</div>
-      `;
       const bubble = document.createElement("div");
-      bubble.className = "bubble bot";
-      bubble.innerHTML = `<span class="meta">Albito</span>${escapeHtml(text)}`;
-      row.appendChild(who);
+      bubble.className = "bubble";
+
+      const label = document.createElement("div");
+      label.className = "who";
+      label.textContent = (who === "me") ? "Tú" : "Albito";
+      bubble.appendChild(label);
+
+      const body = document.createElement("div");
+      body.className = "body";
+      body.textContent = text;
+      bubble.appendChild(body);
+
       row.appendChild(bubble);
-    } else {
-      const bubble = document.createElement("div");
-      bubble.className = "bubble user";
-      bubble.innerHTML = `<span class="meta">Tú</span>${escapeHtml(text)}`;
-      row.appendChild(bubble);
+      chatEl.appendChild(row);
+
+      // autoscroll
+      chatEl.scrollTop = chatEl.scrollHeight;
     }
 
-    chatEl.appendChild(row);
-    chatEl.scrollTop = chatEl.scrollHeight;
-  }
+    function setKBStatus(state, text){
+      const dot = $("kbDot");
+      dot.classList.remove("ok","bad");
+      if(state==="ok") dot.classList.add("ok");
+      if(state==="bad") dot.classList.add("bad");
+      $("kbText").textContent = text;
+    }
 
-  function setChips(list){
-    chipsEl.innerHTML = "";
-    list.forEach(t => {
-      const b = document.createElement("button");
-      b.className = "chip";
-      b.type = "button";
-      b.textContent = t;
-      b.addEventListener("click", () => {
-        q.value = t;
+    function normalize(s){
+      return (s||"")
+        .toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g,"")
+        .replace(/[^a-z0-9\s\-\_]/g," ")
+        .replace(/\s+/g," ")
+        .trim();
+    }
+
+    const STOP = new Set(["de","la","el","los","las","y","o","un","una","para","por","en","a","del","al","que","con","sin","sobre","como","mas","más","es","son","se","su","sus"]);
+    function tokens(q){
+      const t = normalize(q).split(" ").filter(Boolean).filter(w => !STOP.has(w));
+      return [...new Set(t)];
+    }
+
+    // ---- KB ----
+    let KB = null;
+    let BLOCKS = [];
+
+    async function loadKB(){
+      setKBStatus("loading", "cargando KB…");
+      const candidates = ["kb_udl.json", "./kb_udl.json", "kb.json", "./kb.json"];
+      for(const url of candidates){
+        try{
+          const res = await fetch(url, { cache:"no-store" });
+          if(!res.ok) continue;
+          const data = await res.json();
+          if(!data || !Array.isArray(data.blocks)) continue;
+
+          KB = data;
+          BLOCKS = data.blocks || [];
+          setKBStatus("ok", `KB lista · ${BLOCKS.length} bloques`);
+          return true;
+        }catch(e){
+          // sigue probando
+        }
+      }
+      setKBStatus("bad", "KB no cargó");
+      return false;
+    }
+
+    function scoreBlock(b, qTokens, qNorm){
+      const title = normalize(b.title);
+      const text  = normalize(b.text);
+      const id    = normalize(b.id);
+      const tags  = Array.isArray(b.tags) ? b.tags.map(normalize) : [];
+
+      let s = 0;
+
+      // phrase boost
+      if(qNorm && (title.includes(qNorm) || text.includes(qNorm))) s += 18;
+
+      for(const t of qTokens){
+        if(tags.includes(t)) s += 10;
+        if(title.includes(t)) s += 6;
+        if(id.includes(t)) s += 4;
+        if(text.includes(t)) s += 2;
+      }
+
+      // prefer blocks with source/page
+      if(b.source) s += 1;
+      if(Number.isFinite(b.page_start)) s += 1;
+
+      return s;
+    }
+
+    function firstSentences(raw, maxChars){
+      const txt = (raw||"").replace(/\s+/g," ").trim();
+      if(!txt) return "";
+      // corta en ~1-2 frases sin pasarse
+      const parts = txt.split(/(?<=[\.\!\?])\s+/);
+      let out = "";
+      for(const p of parts){
+        if(!p) continue;
+        if((out + " " + p).trim().length > maxChars) break;
+        out = (out ? out + " " : "") + p;
+        if(out.length >= Math.min(220, maxChars)) break;
+      }
+      if(!out) out = txt.slice(0, maxChars);
+      if(out.length < txt.length) out += "…";
+      return out;
+    }
+
+    function formatEvidence(block){
+      const src = block.source ? `Fuente: ${block.source}` : "Fuente: (sin fuente)";
+      const pages = (Number.isFinite(block.page_start) && Number.isFinite(block.page_end))
+        ? ` (p. ${block.page_start}–${block.page_end})`
+        : (Number.isFinite(block.page_start) ? ` (p. ${block.page_start})` : "");
+      const title = block.title ? `\n• ${block.title}` : "";
+      const excerpt = firstSentences(block.text, 320);
+      return `${src}${pages}${title}\n  ${excerpt}`;
+    }
+
+    function answerFromKB(q){
+      if(!BLOCKS.length){
+        return "Aún no tengo la base cargada en este modo. Revisa que exista kb_udl.json en la misma carpeta del chat.";
+      }
+
+      const qNorm = normalize(q);
+      const qTok = tokens(q);
+
+      // si pregunta demasiado corta:
+      if(qTok.length === 0 && qNorm.length < 3){
+        return "Dime un país, eje o concepto (ej.: “gobernanza anticipatoria”, “microcredenciales”, “Reino Unido + IA”).";
+      }
+
+      const scored = BLOCKS
+        .map(b => ({ b, s: scoreBlock(b, qTok, qNorm) }))
+        .filter(x => x.s > 0)
+        .sort((a,b)=> b.s - a.s);
+
+      const detailMode = $("modeDetail").checked ? "detail" : "brief";
+      const wantEvidence = $("showEvidence").checked;
+
+      const take = detailMode === "detail" ? 6 : 2;
+      const top = scored.slice(0, take).map(x=>x.b);
+
+      if(top.length === 0){
+        return "No encontré evidencia suficiente en la base para responder eso. Prueba con otras palabras clave o un país + tema.";
+      }
+
+      if(!wantEvidence){
+        // síntesis sin citas: usa 2–4 frases “representativas”
+        const bullets = top
+          .map(b => firstSentences(b.text, 180))
+          .filter(Boolean)
+          .slice(0, detailMode === "detail" ? 4 : 2)
+          .map(x => `• ${x}`);
+        return `Síntesis (sin evidencia mostrada):\n${bullets.join("\n")}`;
+      }
+
+      const header = detailMode === "detail"
+        ? `Encontré evidencia en la base (top ${top.length}):`
+        : `Encontré evidencia en la base:`;
+
+      return `${header}\n\n` + top.map(formatEvidence).join("\n\n");
+    }
+
+    // ---- UI actions ----
+    function send(){
+      const q = $("q").value.trim();
+      if(!q) return;
+
+      addMsg("me", q);
+      $("q").value = "";
+
+      const tone = $("tone").checked;
+      const prefix = tone ? "Pío pío 🐥. " : "";
+
+      const resp = answerFromKB(q);
+      addMsg("bot", prefix + resp);
+    }
+
+    $("btnSend").addEventListener("click", send);
+    $("q").addEventListener("keydown", (e)=>{
+      if(e.key==="Enter"){
+        e.preventDefault();
         send();
-      });
-      chipsEl.appendChild(b);
-    });
-  }
-
-  function greeting(){
-    chatEl.innerHTML = "";
-    const msg =
-`Hola, soy Albito 🐤.
-Puedo ayudarte a encontrar ideas específicas para la Jornada Directiva usando los documentos entregados por la Dirección de Desarrollo Institucional.
-
-Cuéntame un país, un eje o un concepto y te respondo con evidencia.`;
-    addMsg("bot", msg);
-  }
-
-  // ---- KB loading (robusto en embed + GitHub Pages) ----
-  async function loadKB(){
-    setKbStatus("loading", "cargando KB…");
-
-    // Usamos URL relativa a ESTE index.html (sirve en /repo/ y en iframe).
-    const base = new URL(".", location.href);
-    const candidates = [
-      new URL("kb_udl.json", base).toString(),
-      "./kb_udl.json",
-      "../kb_udl.json"
-    ];
-
-    for(const url of candidates){
-      try{
-        const r = await fetch(url, { cache: "no-store" });
-        if(!r.ok) continue;
-        const data = await r.json();
-        if(!data || !Array.isArray(data.blocks)) continue;
-
-        // Pre-index simple
-        data._indexed = data.blocks.map(b => {
-          const title = (b.title || "").toString();
-          const tags  = Array.isArray(b.tags) ? b.tags.join(" ") : "";
-          const text  = (b.text || "").toString();
-          const hay   = (title + " " + tags + " " + text).toLowerCase();
-          return { b, hay };
-        });
-
-        KB = data;
-        KB_LOADED_FROM = url;
-
-        setKbStatus("ok", `KB lista · ${data.blocks.length} bloques`);
-        return true;
-      } catch(e){
-        // sigue intentando
       }
-    }
-
-    KB = null;
-    KB_LOADED_FROM = candidates[0];
-    setKbStatus("bad", "no pude cargar KB");
-    addMsg("bot", `No pude cargar la base (kb_udl.json).\nEstoy intentando desde: ${candidates.join(" | ")}`);
-    return false;
-  }
-
-  // ---- Retrieval / respuesta (sin inventar) ----
-  function normalizeWords(s){
-    return (s || "")
-      .toLowerCase()
-      .replace(/[^\p{L}\p{N}\s+]/gu, " ")
-      .replace(/\s+/g, " ")
-      .trim()
-      .split(" ")
-      .filter(w => w.length >= 3);
-  }
-
-  function scoreBlock(hay, words){
-    let score = 0;
-    for(const w of words){
-      if(hay.includes(w)) score += 1;
-    }
-    // bonus por consultas típicas con '+'
-    if(words.includes("ia") && hay.includes("ia")) score += 1;
-    return score;
-  }
-
-  function pickSentences(text, words, maxSentences){
-    const raw = (text || "").replace(/\s+/g, " ").trim();
-    if(!raw) return [];
-
-    const parts = raw.split(/(?<=[\.\!\?])\s+/);
-    const hits = [];
-    for(const p of parts){
-      const lc = p.toLowerCase();
-      let c = 0;
-      for(const w of words){
-        if(lc.includes(w)) c++;
-      }
-      if(c > 0) hits.push({ p: p.trim(), c });
-    }
-    hits.sort((a,b)=>b.c-a.c);
-    return hits.slice(0, maxSentences).map(x => x.p);
-  }
-
-  function formatSource(b){
-    const src = b.source ? `Fuente: ${b.source}` : "Fuente: (sin fuente)";
-    const pg = (Number.isFinite(b.page_start) && Number.isFinite(b.page_end))
-      ? ` (p. ${b.page_start}–${b.page_end})`
-      : (Number.isFinite(b.page_start) ? ` (p. ${b.page_start})` : "");
-    return src + pg;
-  }
-
-  function answerFromKB(query){
-    if(!KB || !KB._indexed){
-      return {
-        ok:false,
-        text: "Aún no tengo la base lista en este modo. Si estás viendo esto dentro de una página, normalmente es porque la KB se está buscando en otra ruta.\n\nTip técnico: el chat está intentando cargar: kb_udl.json"
-      };
-    }
-
-    const words = normalizeWords(query);
-    if(words.length === 0){
-      return { ok:false, text: "¿Me das un poquito más de precisión? Por ejemplo: país + tema (ej. “Reino Unido + IA + evaluación”)." };
-    }
-
-    const scored = KB._indexed
-      .map(({b, hay}) => ({ b, s: scoreBlock(hay, words) }))
-      .filter(x => x.s > 0)
-      .sort((a,b)=>b.s-a.s);
-
-    const mode = document.querySelector('input[name="detail"]:checked')?.value || "detail";
-    const wantEvidence = showEvidence.checked;
-    const nice = toneNice.checked;
-
-    const topN = (mode === "brief") ? 3 : 6;
-    const hits = scored.slice(0, topN);
-
-    if(hits.length === 0){
-      const pref = nice ? "Pío pío 🐤. " : "";
-      return { ok:false, text: pref + "No encontré evidencia suficiente en la base para responder eso. Prueba con otras palabras clave (o revisa si ese tema está en la KB)." };
-    }
-
-    // Construye respuesta
-    let out = "";
-    if(nice) out += "Listo 🐤. Encontré evidencia en la base:\n\n";
-
-    if(!wantEvidence){
-      // modo “síntesis”
-      const ideas = [];
-      for(const {b} of hits){
-        const sent = pickSentences(b.text || "", words, 1)[0];
-        if(sent) ideas.push("• " + sent);
-      }
-      out += ideas.slice(0, mode === "brief" ? 3 : 5).join("\n");
-      out += "\n\n";
-      out += "Referencias:\n" + hits.map(({b}) => "• " + formatSource(b)).join("\n");
-      return { ok:true, text: out };
-    }
-
-    // modo “con evidencia”
-    const maxSent = (mode === "brief") ? 1 : 2;
-
-    hits.forEach(({b}, i) => {
-      out += `${i+1}) ${formatSource(b)}\n`;
-      const ss = pickSentences(b.text || "", words, maxSent);
-      if(ss.length){
-        ss.forEach(s => out += `   - ${s}\n`);
-      } else if (b.text){
-        out += `   - ${b.text.toString().slice(0, 260)}…\n`;
-      } else {
-        out += `   - (bloque sin texto)\n`;
-      }
-      out += "\n";
     });
 
-    return { ok:true, text: out.trim() };
-  }
+    $("btnClear").addEventListener("click", ()=>{
+      chatEl.innerHTML = "";
+      greeting();
+    });
 
-  // ---- send ----
-  function send(){
-    const text = q.value.trim();
-    if(!text) return;
-    addMsg("user", text);
-    q.value = "";
-    const res = answerFromKB(text);
-    addMsg("bot", res.text);
-  }
+    $("btnCopy").addEventListener("click", async ()=>{
+      const bubbles = [...document.querySelectorAll(".row.bot .bubble .body")];
+      if(!bubbles.length) return;
+      const last = bubbles[bubbles.length-1].textContent || "";
+      try{ await navigator.clipboard.writeText(last.trim()); }catch(e){}
+    });
 
-  // ---- events ----
-  btnSend.addEventListener("click", send);
-  q.addEventListener("keydown", (e) => {
-    if(e.key === "Enter" && !e.shiftKey){
-      e.preventDefault();
-      send();
+    function greeting(){
+      addMsg("bot", "Hola, soy Albito 📌. Cuéntame un país, un eje o un concepto y te respondo con evidencia.");
     }
-  });
 
-  btnClear?.addEventListener("click", () => {
+    // Init
     greeting();
-  });
-
-  btnCopyLast?.addEventListener("click", async () => {
-    const bubbles = [...document.querySelectorAll(".bubble.bot")];
-    if(!bubbles.length) return;
-    const last = bubbles[bubbles.length - 1].innerText.trim();
-    try{
-      await navigator.clipboard.writeText(last);
-      // pequeño feedback
-      kbPill.animate([{transform:"scale(1)"},{transform:"scale(1.02)"},{transform:"scale(1)"}], {duration:220});
-    }catch(e){}
-  });
-
-  // ---- init ----
-  setChips(DEFAULT_CHIPS);
-  greeting();
-  loadKB();
-})();
-</script>
+    loadKB().then(ok=>{
+      if(!ok){
+        addMsg("bot","No pude cargar la KB. Asegúrate de que kb_udl.json esté en la misma carpeta que este chat (en GitHub Pages debe quedar en la raíz del repo).");
+      }
+    });
+  </script>
 </body>
 </html>
+
 
 
 
