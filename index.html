@@ -162,14 +162,21 @@
       overflow:hidden;
       border: 1px solid rgba(255,255,255,.18);
     }
-    .docIcon{
-      width:56px;height:56px;
-      border-radius:16px;
-      display:grid;
-      place-items:center;
-      background: rgba(255,255,255,.12);
-      border: 1px solid rgba(255,255,255,.22);
-    }
+    /* Ícono (ANTES estaba grande) -> ahora a la mitad */
+.docIcon{
+  width: 34px;          /* si tenías 68, esto es la mitad */
+  height: 34px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 10px;
+}
+
+.docIcon svg{
+  width: 18px;          /* antes típicamente ~36 */
+  height: 18px;
+}
+
     .docTitle{
       margin: 12px 0 8px;
       font-weight: 900;
@@ -289,6 +296,44 @@
             Apoyar la planificación del futuro institucional y alimentar el <b>PED</b> con
             <b>ejes, criterios y decisiones priorizadas</b>, usando evidencia y referencias de los documentos base.
           </p>
+          <!-- CTA Encuesta -->
+<div class="surveyCard">
+  <div class="surveyTop">
+    <div class="surveyTitle">¡Participa para construir una mejor estrategia!</div>
+    <div class="surveySub">
+      Tu respuesta toma 2–3 minutos y ayuda a priorizar ejes y decisiones para el PED.
+    </div>
+
+    <div class="surveyActions">
+      <a class="surveyBtn" href="https://forms.office.com/Pages/ResponsePage.aspx?id=rbOarnAXzk2SKrk2QcYFSRYfumAIRXtOgLvjhOPSestUQVkzTFBUQ1dSTE1QQVhJNkxIUEZVSlJUSy4u" target="_blank" rel="noopener">
+        Responder encuesta
+      </a>
+
+      <!-- QR (cambia el src al nombre real de tu imagen) -->
+      <div class="surveyQR">
+        <img src="qr_encuesta.png" alt="QR encuesta" />
+        <div class="surveyQRtxt">Escanea el QR</div>
+      </div>
+    </div>
+  </div>
+
+  <details class="surveyEmbed">
+    <summary>Ver encuesta aquí (opcional)</summary>
+    <div class="surveyFrame">
+      <iframe
+        src="https://forms.office.com/Pages/ResponsePage.aspx?id=rbOarnAXzk2SKrk2QcYFSRYfumAIRXtOgLvjhOPSestUQVkzTFBUQ1dSTE1QQVhJNkxIUEZVSlJUSy4u&embed=true"
+        frameborder="0"
+        marginwidth="0"
+        marginheight="0"
+        allowfullscreen
+        webkitallowfullscreen
+        mozallowfullscreen
+        msallowfullscreen>
+      </iframe>
+    </div>
+  </details>
+</div>
+
 
           <div class="sep"></div>
 
@@ -324,13 +369,13 @@ function pdf(name) {
 
 const DOCS = [
   {
-    title: "Directrices (países)",
+    title: "Experiencias Internacionales",
     sub: "PDF · referencia internacional",
     file: pdf("Directrices (paises)"),
     icon: "globe",
   },
   {
-    title: "Discusiones universidades del futuro (VF)",
+    title: "Discusiones sobres las Universidades del Futuro",
     sub: "PDF · discusiones y tensiones",
     file: pdf("Discusiones sobre las Universidades del futuro_VF"),
     icon: "chat",
@@ -342,31 +387,19 @@ const DOCS = [
     icon: "doc",
   },
   {
-    title: "Resumen Estrategia Educación Superior",
-    sub: "PDF · síntesis",
-    file: pdf("Resumen Estrategia Educación Superior"),
-    icon: "doc",
-  },
-  {
-    title: "Informe EM09",
+    title: "Informe Estudio de Mercado Educación Superior",
     sub: "PDF · estudio de mercado",
     file: pdf("Informe EM09"),
     icon: "doc",
   },
   {
-    title: "Resumen Estudio de Mercado (EM09)",
+    title: "Resumen Estudio de Mercado sobre Educación Superior",
     sub: "PDF · síntesis ejecutiva",
     file: pdf("Resumen Estudio de Mercado sobre Educación Superior (EM09)"),
     icon: "doc",
   },
   {
-    title: "Proyecto Institucional",
-    sub: "PDF · marco institucional",
-    file: pdf("Proyecto Institucional"),
-    icon: "doc",
-  },
-  {
-    title: "Tabla Autores vs Objetivos",
+    title: "Matriz comparativa autores y ejes estratégicos",
     sub: "PDF · comparativo",
     file: pdf("Tabla Autores vs Objetivos"),
     icon: "doc",
