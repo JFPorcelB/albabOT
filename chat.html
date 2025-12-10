@@ -300,7 +300,7 @@
       </div>
 
       <div class="tipbar">
-        <div><b>Tip:</b> pregunta por <b>país</b>, <b>eje</b>, <b>concepto</b> o <b>objetivo</b>.</div>
+        <div><b>Tip:</b> pregunta por<b>eje</b>, <b>concepto</b> o <b>objetivo</b>.</div>
         <div>Tip: cambia el nivel de detalle abajo.</div>
       </div>
 
@@ -666,6 +666,64 @@ if(!answers.length){
 // Si quieres mantener el “tono evidencia” como etiqueta (sin mostrar fuente),
 // podrías cambiar este return, pero por ahora lo dejamos limpio:
 return answers.map(a => `• ${firstSentences(a, detailMode === "detail" ? 520 : 320)}`).join("\n");
+// ---- Small-talk / fuera de base (saludos, gracias, etc.) ----
+const GREETINGS = [
+  "hola","holi","hello","buenas","buenos dias","buenas tardes","buenas noches",
+  "hey","que tal","qué tal","holaa"
+];
+const THANKS = ["gracias","muchas gracias","vale","bacan","bkn","genial","perfecto","ok gracias"];
+const BYE = ["chao","chau","adios","adiós","hasta luego","nos vemos","bye"];
+const WHO = ["quien eres","quién eres","que eres","qué eres","que haces","qué haces","como funcionas","cómo funcionas","ayuda","help"];
+
+function matchAnyPhrase(qNorm, phrases){
+  return phrases.some(p => {
+    const pn = normalize(p);
+    return qNorm === pn || qNorm.startsWith(pn + " ") || qNorm.includes(" " + pn + " ");
+  });
+}
+
+function detectIntent(q){
+  const qNorm = normalize(q);
+
+  if (!qNorm) return "empty";
+  if (matchAnyPhrase(qNorm, GREETINGS)) return "greet";
+  if (matchAnyPhrase(qNorm, THANKS)) return "thanks";
+  if (matchAnyPhrase(qNorm, BYE)) return "bye";
+  if (matchAnyPhrase(qNorm, WHO)) return "who";
+  if (qNorm.length <= 3) return "too_short";
+
+  return null; // sigue al KB normal
+}
+
+function replyForIntent(intent){
+  switch(intent){
+    case "empty":
+    case "too_short":
+      return `¿Qué quieres revisar? Puedo responder usando los textos.
+Ejemplos:
+• “microcredenciales”
+• “gobernanza”
+• “objetivo 6”
+• “¿Qué propone la Estrategia de Educación Superior sobre docencia?”`;
+
+    case "greet":
+      return `¡Hola! 🐥 Dime un concepto, eje u objetivo y te respondo desde los textos.
+Ejemplos: “microcredenciales”, “I+D”, “gobernanza”, “objetivo 2”.`;
+
+    case "thanks":
+      return `¡De nada! 🐥 Si quieres, dime un concepto, eje u objetivo y lo buscamos en los textos.`;
+
+    case "bye":
+      return `¡Listo! 🐥 Si vuelves, dime un concepto, eje u objetivo y seguimos.`;
+
+    case "who":
+      return `Soy Albito 🐥. Respondo usando los textos cargados (sin inventar).
+Pídeme un concepto, eje u objetivo y te contesto con una síntesis.`;
+
+    default:
+      return `Puedo ayudarte sólo con lo que está en los textos. Dime un concepto, eje u objetivo.`;
+  }
+}
 
   function send() {
     const qEl = $("q");
@@ -680,8 +738,14 @@ return answers.map(a => `• ${firstSentences(a, detailMode === "detail" ? 520 :
     const prefix = tone ? "¡Listo!🐥. " : "";
 
     try {
-      const resp = answerFromKB(q);
-      addMsg("bot", prefix + resp);
+      const intent = detectIntent(q);
+if(intent){
+  addMsg("bot", prefix + replyForIntent(intent));
+  return;
+}
+
+const resp = answerFromKB(q);
+addMsg("bot", prefix + resp);
     } catch (err) {
       console.error(err);
       addMsg("bot", "Ups… hubo un error interno al responder. (Revisa la consola F12 → Console)");
