@@ -647,8 +647,7 @@ function extractAnswerFromBlockText(raw){
   return "Lo siento, no encontré evidencia suficiente. Prueba con otras palabras clave (país, eje o concepto).";
 }
 
-const detailMode = $("modeDetail").checked ? "detail" : "brief";
-const wantEvidence = $("showEvidence").checked;
+  }
 
 // ⚠️ A partir de ahora devolvemos SOLO respuestas (sin Q y sin Fuente),
 // incluso si “Mostrar evidencia” está activado.
@@ -775,4 +774,4 @@ addMsg("bot", prefix + resp);
 </script>
 
 </body>
-</html>
+</html>      
