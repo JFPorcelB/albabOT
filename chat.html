@@ -325,8 +325,8 @@
     </div>
   </div>
 
-  <script>
-  // ====== Config ======
+ <script>
+  // ====== Config (SOLO estos 4 archivos) ======
   const QA_FILES = [
     { url: "./estrategia_es_QA_50_enriquecido.json",        source: "Estrategia ES" },
     { url: "./universidades_futuro_QA_50.json",             source: "Universidades del futuro" },
@@ -383,6 +383,7 @@
     $("kbText").textContent = text;
   }
 
+  // ====== Texto: normalización y utilidades ======
   function normalize(s) {
     return (s || "")
       .toString()
@@ -393,42 +394,23 @@
       .trim();
   }
 
-  const STOP = new Set(["de","la","el","los","las","y","o","un","una","para","por","en","a","del","al","que","con","sin","sobre","como","mas","más","es","son","se","su","sus"]);
+  const STOP = new Set([
+    "de","la","el","los","las","y","o","un","una","para","por","en","a","del","al",
+    "que","con","sin","sobre","como","mas","más","es","son","se","su","sus"
+  ]);
+
   function tokens(q) {
     const t = normalize(q).split(" ").filter(Boolean).filter(w => !STOP.has(w));
     return [...new Set(t)];
-  }
-  function onlyAnswerFromBlock(b){
-  // Si viene separado (ideal)
-  if (b && typeof b.answer === "string" && b.answer.trim()) return b.answer.trim();
-
-  const t = String((b && b.text) || "");
-  // Busca "A:" en cualquier parte
-  const m = t.match(/\nA:\s*([\s\S]*)/i);
-  let a = (m ? m[1] : t).trim();
-
-  // Corta cualquier cosa tipo "Fuente:" o "Q:" que venga después
-  a = a.replace(/\nFuente:\s*[\s\S]*/i, "").trim();
-  a = a.replace(/^Q:\s*[\s\S]*?\nA:\s*/i, "").trim(); // por si quedó pegado
-
-  return a;
-}
-
-
-  function safeSentences(txt) {
-    const s = (txt || "").replace(/\s+/g, " ").trim();
-    if (!s) return [];
-    // corta por puntos sin usar lookbehind (más compatible)
-    return s.split(/(?<=[.!?])\s+|[\n\r]+/g).filter(Boolean);
   }
 
   function firstSentences(raw, maxChars) {
     const s = (raw || "").replace(/\s+/g, " ").trim();
     if (!s) return "";
-    const parts = safeSentences(s);
+    const parts = s.match(/[^.!?\n]+[.!?]?/g) || [s]; // sin lookbehind (más compatible)
     let out = "";
     for (const p of parts) {
-      const next = (out ? out + " " : "") + p;
+      const next = (out ? out + " " : "") + p.trim();
       if (next.length > maxChars) break;
       out = next;
       if (out.length >= Math.min(220, maxChars)) break;
@@ -438,14 +420,61 @@
     return out;
   }
 
+  // ====== Small-talk / fuera de base ======
+  const GREETINGS = ["hola","holi","hello","buenas","buenos dias","buenas tardes","buenas noches","hey","que tal","qué tal"];
+  const THANKS    = ["gracias","muchas gracias","vale","bacan","bkn","genial","perfecto","ok gracias","ok"];
+  const BYE       = ["chao","chau","adios","adiós","hasta luego","nos vemos","bye"];
+  const WHO       = ["quien eres","quién eres","que eres","qué eres","que haces","qué haces","como funcionas","cómo funcionas","ayuda","help"];
+
+  function matchAnyPhrase(qNorm, phrases){
+    return phrases.some(p => {
+      const pn = normalize(p);
+      return qNorm === pn || qNorm.startsWith(pn + " ") || qNorm.includes(" " + pn + " ");
+    });
+  }
+
+  function detectIntent(q){
+    const qNorm = normalize(q);
+    if (!qNorm) return "empty";
+    if (matchAnyPhrase(qNorm, GREETINGS)) return "greet";
+    if (matchAnyPhrase(qNorm, THANKS)) return "thanks";
+    if (matchAnyPhrase(qNorm, BYE)) return "bye";
+    if (matchAnyPhrase(qNorm, WHO)) return "who";
+    if (qNorm.length <= 3) return "too_short";
+    return null;
+  }
+
+  function replyForIntent(intent){
+    switch(intent){
+      case "empty":
+      case "too_short":
+        return `¿Qué quieres revisar? Puedo responder usando los textos.
+Ejemplos: “microcredenciales”, “gobernanza”, “objetivo 6”, “I+D”, “FUN”.`;
+      case "greet":
+        return `¡Hola! 🐥 Dime un concepto, eje u objetivo y te respondo desde los textos.
+Ejemplos: “microcredenciales”, “I+D”, “gobernanza”, “objetivo 2”.`;
+      case "thanks":
+        return `¡De nada! 🐥 Si quieres, dime un concepto, eje u objetivo y lo buscamos en los textos.`;
+      case "bye":
+        return `¡Listo! 🐥 Si vuelves, dime un concepto, eje u objetivo y seguimos.`;
+      case "who":
+        return `Soy Albito 🐥. Respondo usando los textos cargados (sin inventar).
+Pídeme un concepto, eje u objetivo y te doy una síntesis.`;
+      default:
+        return `Puedo ayudarte sólo con lo que está en los textos. Dime un concepto, eje u objetivo.`;
+    }
+  }
+
   // ====== KB ======
-  let BLOCKS = []; // <- ÚNICA fuente para responder
+  let BLOCKS = []; // ÚNICA variable global
 
   async function fetchJson(url, ms = 12000) {
     const ctrl = new AbortController();
     const t = setTimeout(() => ctrl.abort(), ms);
     try {
-      const res = await fetch(url, { cache: "no-store", signal: ctrl.signal });
+      // cache-buster suave por si GH te muestra viejo
+      const u = url + (url.includes("?") ? "&" : "?") + "v=" + Date.now();
+      const res = await fetch(u, { cache: "no-store", signal: ctrl.signal });
       if (!res.ok) throw new Error(`${url} -> HTTP ${res.status}`);
       return await res.json();
     } finally {
@@ -453,76 +482,61 @@
     }
   }
 
-  function splitQA(text){
-  const raw = (text ?? "").toString();
-  // intenta separar "Q: ... A: ..."
-  const idx = raw.search(/\n\s*A:\s*/i);
-  if (idx === -1) return { q: "", a: raw.trim() };
+  function normalizeToBlocks(json, sourceName, fileUrl) {
+    const out = [];
 
-  const qPart = raw.slice(0, idx).replace(/^Q:\s*/i, "").trim();
-  const aPart = raw.slice(idx).replace(/^\s*A:\s*/i, "").trim();
-  return { q: qPart, a: aPart };
-}
+    // Caso A: { blocks: [...] }
+    if (json && Array.isArray(json.blocks)) {
+      json.blocks.forEach((b, i) => {
+        const t = (b.text ?? "").toString().trim();
+        if (!t) return;
 
-function normalizeToBlocks(json, sourceName, fileUrl) {
-  const out = [];
+        // intenta separar Q/A si venía pegado
+        const m = t.match(/(?:^|\n)\s*Q:\s*([\s\S]*?)(?:\n\s*A:\s*|\s*$)([\s\S]*)/i);
+        const q = (b.title ?? (m ? m[1] : "")).toString().trim();
+        const a = (m ? m[2] : t).toString().trim();
 
-  // Caso A: { blocks: [...] }
-  if (json && Array.isArray(json.blocks)) {
-    json.blocks.forEach((b, i) => {
-      const t = (b.text ?? "").toString().trim();
-      const { q, a } = splitQA(t);
-
-      const title = (b.title ?? q ?? "").toString().trim();
-      const text  = (a || t).toString().trim(); // <- RESPUESTA en text
-
-      if (!title && !text) return;
-
-      out.push({
-        id: b.id ?? `${sourceName}-block-${i}`,
-        title,               // pregunta / título
-        text,                // respuesta (lo que mostraremos)
-        tags: Array.isArray(b.tags) ? b.tags.map(String) : [],
-        source: b.source ?? sourceName,
-        meta: { ...(b.meta || {}), fileUrl }
+        if (!q && !a) return;
+        out.push({
+          id: b.id ?? `${sourceName}-block-${i}`,
+          title: q,          // pregunta/título (solo para buscar)
+          text: a,           // respuesta (lo que devolvemos)
+          tags: Array.isArray(b.tags) ? b.tags.map(String) : [],
+          source: b.source ?? sourceName,
+          meta: { ...(b.meta || {}), fileUrl }
+        });
       });
-    });
+      return out;
+    }
+
+    // Caso B: array de QAs o json.qas
+    const arr =
+      Array.isArray(json) ? json :
+      (json && Array.isArray(json.qas)) ? json.qas :
+      (json && Array.isArray(json.qa)) ? json.qa :
+      null;
+
+    if (arr) {
+      arr.forEach((qa, i) => {
+        const q = (qa.question ?? qa.pregunta ?? qa.q ?? "").toString().trim();
+        const a = (qa.answer ?? qa.respuesta ?? qa.a ?? "").toString().trim();
+        if (!q && !a) return;
+
+        out.push({
+          id: qa.id ?? `${sourceName}-qa-${i}`,
+          title: q,
+          text: a,
+          tags: Array.isArray(qa.tags) ? qa.tags.map(String) : [],
+          source: sourceName,
+          meta: { fileUrl }
+        });
+      });
+      return out;
+    }
+
     return out;
   }
 
-  // Caso B: array de QAs [{question, answer, ...}, ...]
-  const arr =
-    Array.isArray(json) ? json :
-    (json && Array.isArray(json.qas)) ? json.qas :
-    (json && Array.isArray(json.qa)) ? json.qa :
-    null;
-
-  if (arr) {
-    arr.forEach((qa, i) => {
-      const q = (qa.question ?? qa.pregunta ?? qa.q ?? "").toString().trim();
-      const a = (qa.answer ?? qa.respuesta ?? qa.a ?? "").toString().trim();
-      if (!q && !a) return;
-
-      const doc = (qa.doc ?? qa.documento ?? qa.document ?? qa.fuente ?? "").toString().trim();
-      const section = (qa.source_section ?? qa.section ?? qa.seccion ?? "").toString().trim();
-
-      out.push({
-        id: qa.id ?? `${sourceName}-qa-${i}`,
-        title: q,          // <- pregunta acá
-        text: a,           // <- respuesta acá (CLAVE)
-        tags: Array.isArray(qa.tags) ? qa.tags.map(String) : [],
-        source: sourceName,
-        meta: { fileUrl, doc, section }
-      });
-    });
-    return out;
-  }
-
-  return out;
-}
-
-
-  
   function scoreBlock(b, qTokens, qNorm) {
     const title = normalize(b.title);
     const text  = normalize(b.text);
@@ -530,71 +544,6 @@ function normalizeToBlocks(json, sourceName, fileUrl) {
     const tags  = Array.isArray(b.tags) ? b.tags.map(normalize) : [];
 
     let s = 0;
-    // ===== KB global (la usa answerFromKB) =====
-let BLOCKS = [];
-
-async function loadKB() {
-  setKBStatus("loading", "cargando base...");
-
-  try {
-    const settled = await Promise.allSettled(
-      QA_FILES.map(async (f) => {
-        const json = await fetchJson(f.url);   // <- tu fetchJson
-        return { file: f, json };
-      })
-    );
-
-    const loaded = settled.filter(r => r.status === "fulfilled").length;
-
-    let blocks = [];
-    for (const r of settled) {
-      if (r.status !== "fulfilled") continue;
-      const { file, json } = r.value;
-      blocks = blocks.concat(normalizeToBlocks(json, file.source, file.url));
-    }
-
-    // dedupe
-    const seen = new Set();
-    const uniq = [];
-    for (const b of blocks) {
-      const key = (b.text || "").trim();
-      if (!key || seen.has(key)) continue;
-      seen.add(key);
-      uniq.push(b);
-    }
-    // Si no cargó nada, no te quedes pegada en "cargando..."
-if(!uniq.length){
-  setKBStatus("bad", "KB vacía");
-  return;
-}
-
-// ESTA es la asignación importante:
-BLOCKS = uniq;
-
-setKBStatus("ok", `KB lista · ${BLOCKS.length} bloques`);
-
-
-    // ✅ CLAVE: asignar al global que usa el chat
-    BLOCKS = uniq;
-
-    // ✅ CLAVE: nunca te quedes en loading
-    if (!BLOCKS.length) {
-      setKBStatus("bad", `KB vacía · ${loaded}/${QA_FILES.length} archivos`);
-      addMsg("bot", "Cargué los archivos, pero no pude convertirlos a bloques. Revisa el formato de los JSON (question/answer).");
-      return false;
-    }
-
-    setKBStatus("ok", `KB lista · ${BLOCKS.length} bloques · ${loaded}/${QA_FILES.length} archivos`);
-    return true;
-
-  } catch (err) {
-    console.error(err);
-    setKBStatus("bad", "KB no cargó");
-    addMsg("bot", `No pude cargar la base (${err?.message ?? err}).`);
-    return false;
-  }
-}
-
     if (qNorm && (title.includes(qNorm) || text.includes(qNorm))) s += 18;
 
     for (const t of qTokens) {
@@ -608,141 +557,111 @@ setKBStatus("ok", `KB lista · ${BLOCKS.length} bloques`);
     return s;
   }
 
- function formatEvidence(block){
-  const ans = onlyAnswerFromBlock(block);
-  return firstSentences(ans, 420);
-}
+  async function loadKB() {
+    setKBStatus("loading", "cargando base...");
 
+    try {
+      const settled = await Promise.allSettled(
+        QA_FILES.map(async (f) => {
+          const json = await fetchJson(f.url);
+          return { file: f, json };
+        })
+      );
 
-function extractAnswerFromBlockText(raw){
-  const text = String(raw || "");
-  const lines = text.split(/\r?\n/);
+      const loaded = settled.filter(r => r.status === "fulfilled").length;
 
-  // Busca la línea que empieza con "A:"
-  let start = -1;
-  for (let i = 0; i < lines.length; i++){
-    if (lines[i].trim().startsWith("A:")) { start = i; break; }
-  }
-  if (start === -1) return "";
+      let blocks = [];
+      for (const r of settled) {
+        if (r.status !== "fulfilled") continue;
+        const { file, json } = r.value;
+        blocks = blocks.concat(normalizeToBlocks(json, file.source, file.url));
+      }
 
-  // Toma desde "A:" hasta antes de cualquier bloque meta
-  const stopRe = /^(Q:|Fuente:|Documento:|Sección:|Variantes:|Tags:|País:|Período:)/i;
+      // dedupe (por respuesta)
+      const seen = new Set();
+      const uniq = [];
+      for (const b of blocks) {
+        const key = normalize((b.title || "") + " || " + (b.text || ""));
+        if (!key || seen.has(key)) continue;
+        seen.add(key);
+        uniq.push(b);
+      }
 
-  let out = [];
-  // Primera línea: quitar "A:"
-  out.push(lines[start].replace(/^A:\s*/i, "").trim());
+      BLOCKS = uniq;
 
-  for (let i = start + 1; i < lines.length; i++){
-    const ln = lines[i].trim();
-    if (!ln) continue;
-    if (stopRe.test(ln)) break;
-    out.push(ln);
-  }
+      if (!BLOCKS.length) {
+        setKBStatus("bad", `KB vacía · ${loaded}/${QA_FILES.length} archivos`);
+        addMsg("bot", "Cargué los archivos, pero no pude convertirlos a respuestas. Revisa el formato (question/answer) en los JSON.");
+        return false;
+      }
 
-  return out.join(" ").replace(/\s+/g, " ").trim();
-}
+      setKBStatus("ok", `KB lista · ${BLOCKS.length} bloques · ${loaded}/${QA_FILES.length} archivos`);
+      return true;
 
-  function answerFromKB(q){
-  if(!BLOCKS.length){
-    return "Aún no tengo la base cargada en este modo.";
-  }
-
-  const qNorm = normalize(q);
-  const qTok = tokens(q);
-
-  if(qTok.length === 0 && qNorm.length < 3){
-    return "Dime un concepto, eje u objetivo (con palabras clave).";
-  }
-
-  const scored = BLOCKS
-    .map(b => ({ b, s: scoreBlock(b, qTok, qNorm) }))
-    .filter(x => x.s > 0)
-    .sort((a,b)=> b.s - a.s);
-
-  const detailMode = $("modeDetail").checked ? "detail" : "brief";
-  const take = detailMode === "detail" ? 6 : 2;
-  const top = scored.slice(0, take).map(x=>x.b);
-
-  if(top.length === 0){
-  return "Lo siento, no encontré evidencia suficiente. Prueba con otras palabras clave (país, eje o concepto).";
-}
-
+    } catch (err) {
+      console.error(err);
+      setKBStatus("bad", "KB no cargó");
+      addMsg("bot", `No pude cargar la base (${err?.message ?? err}).`);
+      return false;
+    }
   }
 
-// ⚠️ A partir de ahora devolvemos SOLO respuestas (sin Q y sin Fuente),
-// incluso si “Mostrar evidencia” está activado.
-const maxItems = (detailMode === "detail") ? 4 : 2;
+  function answerFromKB(q) {
+    if (!BLOCKS.length) {
+      return "Estoy cargando la base todavía. Si en 10–15 segundos sigue igual, recarga la página.";
+    }
 
-const answers = top
-  .map(b => extractAnswerFromBlockText(b.text))
-  .filter(Boolean)
-  .slice(0, maxItems);
+    const qNorm = normalize(q);
+    const qTok = tokens(q);
 
-if(!answers.length){
-  return "Encontré material relacionado, pero no pude extraer una respuesta clara desde los bloques disponibles.";
-}
+    if (qTok.length === 0 && qNorm.length < 3) {
+      return "Dime un concepto, eje u objetivo (con palabras clave).";
+    }
 
-// Si quieres mantener el “tono evidencia” como etiqueta (sin mostrar fuente),
-// podrías cambiar este return, pero por ahora lo dejamos limpio:
-return answers.map(a => `• ${firstSentences(a, detailMode === "detail" ? 520 : 320)}`).join("\n");
-// ---- Small-talk / fuera de base (saludos, gracias, etc.) ----
-const GREETINGS = [
-  "hola","holi","hello","buenas","buenos dias","buenas tardes","buenas noches",
-  "hey","que tal","qué tal","holaa"
-];
-const THANKS = ["gracias","muchas gracias","vale","bacan","bkn","genial","perfecto","ok gracias"];
-const BYE = ["chao","chau","adios","adiós","hasta luego","nos vemos","bye"];
-const WHO = ["quien eres","quién eres","que eres","qué eres","que haces","qué haces","como funcionas","cómo funcionas","ayuda","help"];
+    const scored = BLOCKS
+      .map(b => ({ b, s: scoreBlock(b, qTok, qNorm) }))
+      .filter(x => x.s > 0)
+      .sort((a, b) => b.s - a.s);
 
-function matchAnyPhrase(qNorm, phrases){
-  return phrases.some(p => {
-    const pn = normalize(p);
-    return qNorm === pn || qNorm.startsWith(pn + " ") || qNorm.includes(" " + pn + " ");
-  });
-}
+    const detailMode = $("modeDetail")?.checked ? "detail" : "brief";
+    const wantEvidence = $("showEvidence")?.checked; // lo respetamos, pero sin fuentes ni preguntas
 
-function detectIntent(q){
-  const qNorm = normalize(q);
+    const take = (detailMode === "detail") ? 6 : 2;
+    const top = scored.slice(0, take).map(x => x.b);
 
-  if (!qNorm) return "empty";
-  if (matchAnyPhrase(qNorm, GREETINGS)) return "greet";
-  if (matchAnyPhrase(qNorm, THANKS)) return "thanks";
-  if (matchAnyPhrase(qNorm, BYE)) return "bye";
-  if (matchAnyPhrase(qNorm, WHO)) return "who";
-  if (qNorm.length <= 3) return "too_short";
+    if (!top.length) {
+      return "No encontré una respuesta en los textos para eso. Prueba con otras palabras clave (concepto, eje u objetivo).";
+    }
 
-  return null; // sigue al KB normal
-}
+    // Respuestas únicas
+    const seen = new Set();
+    const answers = [];
+    for (const b of top) {
+      const a = (b.text || "").toString().trim();
+      const k = normalize(a);
+      if (!k || seen.has(k)) continue;
+      seen.add(k);
+      answers.push(a);
+    }
 
-function replyForIntent(intent){
-  switch(intent){
-    case "empty":
-    case "too_short":
-      return `¿Qué quieres revisar? Puedo responder usando los textos.
-Ejemplos:
-• “microcredenciales”
-• “gobernanza”
-• “objetivo 6”
-• “¿Qué propone la Estrategia de Educación Superior sobre docencia?”`;
+    // “Sin evidencia” = síntesis en párrafo (funciona más “bonito”)
+    if (!wantEvidence) {
+      const pieces = answers.map(a => firstSentences(a, 220));
+      const joined = pieces.join(" ");
+      return joined.length ? joined : firstSentences(answers[0], 420);
+    }
 
-    case "greet":
-      return `¡Hola! 🐥 Dime un concepto, eje u objetivo y te respondo desde los textos.
-Ejemplos: “microcredenciales”, “I+D”, “gobernanza”, “objetivo 2”.`;
-
-    case "thanks":
-      return `¡De nada! 🐥 Si quieres, dime un concepto, eje u objetivo y lo buscamos en los textos.`;
-
-    case "bye":
-      return `¡Listo! 🐥 Si vuelves, dime un concepto, eje u objetivo y seguimos.`;
-
-    case "who":
-      return `Soy Albito 🐥. Respondo usando los textos cargados (sin inventar).
-Pídeme un concepto, eje u objetivo y te contesto con una síntesis.`;
-
-    default:
-      return `Puedo ayudarte sólo con lo que está en los textos. Dime un concepto, eje u objetivo.`;
+    // “Con evidencia” = bullets, PERO solo respuesta (sin Q y sin Fuente)
+    const maxItems = (detailMode === "detail") ? 4 : 2;
+    return answers
+      .slice(0, maxItems)
+      .map(a => `• ${firstSentences(a, detailMode === "detail" ? 520 : 320)}`)
+      .join("\n");
   }
-}
+
+  function greeting() {
+    addMsg("bot", "Hola, soy Albito 🐥 y te ayudaré en esta jornada con la información cargada (sin inventar).");
+  }
 
   function send() {
     const qEl = $("q");
@@ -752,46 +671,48 @@ Pídeme un concepto, eje u objetivo y te contesto con una síntesis.`;
     addMsg("me", q);
     if (qEl) qEl.value = "";
 
-    const toneEl = $("tone");
-    const tone = toneEl ? toneEl.checked : true;
-    const prefix = tone ? "¡Listo!🐥. " : "";
+    const tone = $("tone")?.checked ?? true;
+    const prefix = tone ? "Pío pío 🐥. " : "";
 
     try {
       const intent = detectIntent(q);
-if(intent){
-  addMsg("bot", prefix + replyForIntent(intent));
-  return;
-}
+      if (intent) {
+        addMsg("bot", prefix + replyForIntent(intent));
+        return;
+      }
 
-const resp = answerFromKB(q);
-addMsg("bot", prefix + resp);
+      const resp = answerFromKB(q);
+      addMsg("bot", prefix + resp);
     } catch (err) {
       console.error(err);
-      addMsg("bot", "Ups… hubo un error interno al responder. (Revisa la consola F12 → Console)");
+      addMsg("bot", "Ups… hubo un error interno al responder. (F12 → Console)");
     }
   }
 
-  $("btnSend").addEventListener("click", send);
-  $("q").addEventListener("keydown", (e) => {
+  // ====== Eventos ======
+  $("btnSend")?.addEventListener("click", send);
+  $("q")?.addEventListener("keydown", (e) => {
     if (e.key === "Enter") { e.preventDefault(); send(); }
   });
 
-  $("btnClear").addEventListener("click", () => {
+  $("btnClear")?.addEventListener("click", () => {
     chatEl.innerHTML = "";
     greeting();
   });
 
-  $("btnCopy").addEventListener("click", async () => {
+  $("btnCopy")?.addEventListener("click", async () => {
     const bodies = [...document.querySelectorAll(".row.bot .bubble .body")];
     if (!bodies.length) return;
     const last = bodies[bodies.length - 1].textContent || "";
     try { await navigator.clipboard.writeText(last.trim()); } catch {}
   });
 
-  // Init
+  // ====== Init ======
   greeting();
   loadKB();
 </script>
+
+ 
 
 </body>
 </html>      
