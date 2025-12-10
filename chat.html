@@ -325,8 +325,8 @@
     </div>
   </div>
 
- <script>
-  // ====== Config (SOLO estos 4 archivos) ======
+<script>
+  // ====== Config ======
   const QA_FILES = [
     { url: "./estrategia_es_QA_50_enriquecido.json",        source: "Estrategia ES" },
     { url: "./universidades_futuro_QA_50.json",             source: "Universidades del futuro" },
@@ -383,7 +383,6 @@
     $("kbText").textContent = text;
   }
 
-  // ====== Texto: normalización y utilidades ======
   function normalize(s) {
     return (s || "")
       .toString()
@@ -394,11 +393,7 @@
       .trim();
   }
 
-  const STOP = new Set([
-    "de","la","el","los","las","y","o","un","una","para","por","en","a","del","al",
-    "que","con","sin","sobre","como","mas","más","es","son","se","su","sus"
-  ]);
-
+  const STOP = new Set(["de","la","el","los","las","y","o","un","una","para","por","en","a","del","al","que","con","sin","sobre","como","mas","más","es","son","se","su","sus"]);
   function tokens(q) {
     const t = normalize(q).split(" ").filter(Boolean).filter(w => !STOP.has(w));
     return [...new Set(t)];
@@ -407,7 +402,8 @@
   function firstSentences(raw, maxChars) {
     const s = (raw || "").replace(/\s+/g, " ").trim();
     if (!s) return "";
-    const parts = s.match(/[^.!?\n]+[.!?]?/g) || [s]; // sin lookbehind (más compatible)
+    // sin lookbehind (más compatible)
+    const parts = s.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [s];
     let out = "";
     for (const p of parts) {
       const next = (out ? out + " " : "") + p.trim();
@@ -420,11 +416,11 @@
     return out;
   }
 
-  // ====== Small-talk / fuera de base ======
+  // ====== Small-talk ======
   const GREETINGS = ["hola","holi","hello","buenas","buenos dias","buenas tardes","buenas noches","hey","que tal","qué tal"];
-  const THANKS    = ["gracias","muchas gracias","vale","bacan","bkn","genial","perfecto","ok gracias","ok"];
-  const BYE       = ["chao","chau","adios","adiós","hasta luego","nos vemos","bye"];
-  const WHO       = ["quien eres","quién eres","que eres","qué eres","que haces","qué haces","como funcionas","cómo funcionas","ayuda","help"];
+  const THANKS = ["gracias","muchas gracias","vale","bacan","bkn","genial","perfecto","ok gracias"];
+  const BYE = ["chao","chau","adios","adiós","hasta luego","nos vemos","bye"];
+  const WHO = ["quien eres","quién eres","que eres","qué eres","que haces","qué haces","como funcionas","cómo funcionas","ayuda","help"];
 
   function matchAnyPhrase(qNorm, phrases){
     return phrases.some(p => {
@@ -448,33 +444,30 @@
     switch(intent){
       case "empty":
       case "too_short":
-        return `¿Qué quieres revisar? Puedo responder usando los textos.
-Ejemplos: “microcredenciales”, “gobernanza”, “objetivo 6”, “I+D”, “FUN”.`;
+        return `¿Qué quieres revisar? Dime un concepto, eje u objetivo.\nEjemplos: “microcredenciales”, “gobernanza”, “objetivo 6”.`;
       case "greet":
-        return `¡Hola! 🐥 Dime un concepto, eje u objetivo y te respondo desde los textos.
-Ejemplos: “microcredenciales”, “I+D”, “gobernanza”, “objetivo 2”.`;
+        return `¡Hola! 🐥 Dime un concepto, eje u objetivo y te respondo desde los textos.`;
       case "thanks":
-        return `¡De nada! 🐥 Si quieres, dime un concepto, eje u objetivo y lo buscamos en los textos.`;
+        return `¡De nada! 🐥 Dime un concepto, eje u objetivo y lo buscamos en los textos.`;
       case "bye":
         return `¡Listo! 🐥 Si vuelves, dime un concepto, eje u objetivo y seguimos.`;
       case "who":
-        return `Soy Albito 🐥. Respondo usando los textos cargados (sin inventar).
-Pídeme un concepto, eje u objetivo y te doy una síntesis.`;
+        return `Soy Albito 🐥. Respondo usando los textos cargados (sin inventar). Pídeme un concepto, eje u objetivo.`;
       default:
-        return `Puedo ayudarte sólo con lo que está en los textos. Dime un concepto, eje u objetivo.`;
+        return `Puedo ayudar sólo con lo que está en los textos. Dime un concepto, eje u objetivo.`;
     }
   }
 
   // ====== KB ======
-  let BLOCKS = []; // ÚNICA variable global
+  let BLOCKS = []; // ÚNICA fuente para responder
 
   async function fetchJson(url, ms = 12000) {
     const ctrl = new AbortController();
     const t = setTimeout(() => ctrl.abort(), ms);
     try {
-      // cache-buster suave por si GH te muestra viejo
-      const u = url + (url.includes("?") ? "&" : "?") + "v=" + Date.now();
-      const res = await fetch(u, { cache: "no-store", signal: ctrl.signal });
+      // cache-buster para GitHub Pages
+      const bust = url + (url.includes("?") ? "&" : "?") + "v=" + Date.now();
+      const res = await fetch(bust, { cache: "no-store", signal: ctrl.signal });
       if (!res.ok) throw new Error(`${url} -> HTTP ${res.status}`);
       return await res.json();
     } finally {
@@ -485,76 +478,30 @@ Pídeme un concepto, eje u objetivo y te doy una síntesis.`;
   function normalizeToBlocks(json, sourceName, fileUrl) {
     const out = [];
 
-    // Caso A: { blocks: [...] }
-    if (json && Array.isArray(json.blocks)) {
-      json.blocks.forEach((b, i) => {
-        const t = (b.text ?? "").toString().trim();
-        if (!t) return;
-
-        // intenta separar Q/A si venía pegado
-        const m = t.match(/(?:^|\n)\s*Q:\s*([\s\S]*?)(?:\n\s*A:\s*|\s*$)([\s\S]*)/i);
-        const q = (b.title ?? (m ? m[1] : "")).toString().trim();
-        const a = (m ? m[2] : t).toString().trim();
-
-        if (!q && !a) return;
-        out.push({
-          id: b.id ?? `${sourceName}-block-${i}`,
-          title: q,          // pregunta/título (solo para buscar)
-          text: a,           // respuesta (lo que devolvemos)
-          tags: Array.isArray(b.tags) ? b.tags.map(String) : [],
-          source: b.source ?? sourceName,
-          meta: { ...(b.meta || {}), fileUrl }
-        });
-      });
-      return out;
-    }
-
-    // Caso B: array de QAs o json.qas
     const arr =
       Array.isArray(json) ? json :
       (json && Array.isArray(json.qas)) ? json.qas :
       (json && Array.isArray(json.qa)) ? json.qa :
       null;
 
-    if (arr) {
-      arr.forEach((qa, i) => {
-        const q = (qa.question ?? qa.pregunta ?? qa.q ?? "").toString().trim();
-        const a = (qa.answer ?? qa.respuesta ?? qa.a ?? "").toString().trim();
-        if (!q && !a) return;
+    if (!arr) return out;
 
-        out.push({
-          id: qa.id ?? `${sourceName}-qa-${i}`,
-          title: q,
-          text: a,
-          tags: Array.isArray(qa.tags) ? qa.tags.map(String) : [],
-          source: sourceName,
-          meta: { fileUrl }
-        });
+    arr.forEach((qa, i) => {
+      const q = (qa.question ?? qa.pregunta ?? qa.q ?? "").toString().trim();
+      const a = (qa.answer ?? qa.respuesta ?? qa.a ?? "").toString().trim();
+      if (!q && !a) return;
+
+      out.push({
+        id: qa.id ?? `${sourceName}-qa-${i}`,
+        title: q,
+        text: a,
+        tags: Array.isArray(qa.tags) ? qa.tags.map(String) : [],
+        source: sourceName,
+        meta: { fileUrl }
       });
-      return out;
-    }
+    });
 
     return out;
-  }
-
-  function scoreBlock(b, qTokens, qNorm) {
-    const title = normalize(b.title);
-    const text  = normalize(b.text);
-    const id    = normalize(b.id);
-    const tags  = Array.isArray(b.tags) ? b.tags.map(normalize) : [];
-
-    let s = 0;
-    if (qNorm && (title.includes(qNorm) || text.includes(qNorm))) s += 18;
-
-    for (const t of qTokens) {
-      if (tags.includes(t)) s += 10;
-      if (title.includes(t)) s += 6;
-      if (id.includes(t)) s += 4;
-      if (text.includes(t)) s += 2;
-    }
-
-    if (b.source) s += 1;
-    return s;
   }
 
   async function loadKB() {
@@ -577,11 +524,11 @@ Pídeme un concepto, eje u objetivo y te doy una síntesis.`;
         blocks = blocks.concat(normalizeToBlocks(json, file.source, file.url));
       }
 
-      // dedupe (por respuesta)
+      // dedupe por texto
       const seen = new Set();
       const uniq = [];
       for (const b of blocks) {
-        const key = normalize((b.title || "") + " || " + (b.text || ""));
+        const key = (b.text || "").trim();
         if (!key || seen.has(key)) continue;
         seen.add(key);
         uniq.push(b);
@@ -591,7 +538,7 @@ Pídeme un concepto, eje u objetivo y te doy una síntesis.`;
 
       if (!BLOCKS.length) {
         setKBStatus("bad", `KB vacía · ${loaded}/${QA_FILES.length} archivos`);
-        addMsg("bot", "Cargué los archivos, pero no pude convertirlos a respuestas. Revisa el formato (question/answer) en los JSON.");
+        addMsg("bot", "No pude construir respuestas desde los JSON. Revisa que cada item tenga campos question/answer (o q/a).");
         return false;
       }
 
@@ -606,61 +553,56 @@ Pídeme un concepto, eje u objetivo y te doy una síntesis.`;
     }
   }
 
-  function answerFromKB(q) {
-    if (!BLOCKS.length) {
-      return "Estoy cargando la base todavía. Si en 10–15 segundos sigue igual, recarga la página.";
-    }
+  function scoreBlock(b, qTokens, qNorm) {
+    const title = normalize(b.title);
+    const text  = normalize(b.text);
+    const tags  = Array.isArray(b.tags) ? b.tags.map(normalize) : [];
 
+    let s = 0;
+    if (qNorm && (title.includes(qNorm) || text.includes(qNorm))) s += 18;
+
+    for (const t of qTokens) {
+      if (tags.includes(t)) s += 10;
+      if (title.includes(t)) s += 6;
+      if (text.includes(t)) s += 2;
+    }
+    return s;
+  }
+
+  function answerFromKB(q){
+    if(!BLOCKS.length) return "Aún estoy cargando la base. Si esto persiste, recarga la página.";
     const qNorm = normalize(q);
     const qTok = tokens(q);
 
-    if (qTok.length === 0 && qNorm.length < 3) {
+    if(qTok.length === 0 && qNorm.length < 3){
       return "Dime un concepto, eje u objetivo (con palabras clave).";
     }
 
     const scored = BLOCKS
       .map(b => ({ b, s: scoreBlock(b, qTok, qNorm) }))
       .filter(x => x.s > 0)
-      .sort((a, b) => b.s - a.s);
+      .sort((a,b)=> b.s - a.s);
 
-    const detailMode = $("modeDetail")?.checked ? "detail" : "brief";
-    const wantEvidence = $("showEvidence")?.checked; // lo respetamos, pero sin fuentes ni preguntas
+    const detailMode = $("modeDetail").checked ? "detail" : "brief";
+    const take = detailMode === "detail" ? 4 : 2;
+    const top = scored.slice(0, take).map(x=>x.b);
 
-    const take = (detailMode === "detail") ? 6 : 2;
-    const top = scored.slice(0, take).map(x => x.b);
-
-    if (!top.length) {
-      return "No encontré una respuesta en los textos para eso. Prueba con otras palabras clave (concepto, eje u objetivo).";
+    if(!top.length){
+      return "No encontré evidencia suficiente. Prueba con otras palabras clave (concepto, eje u objetivo).";
     }
 
-    // Respuestas únicas
-    const seen = new Set();
-    const answers = [];
-    for (const b of top) {
-      const a = (b.text || "").toString().trim();
-      const k = normalize(a);
-      if (!k || seen.has(k)) continue;
-      seen.add(k);
-      answers.push(a);
-    }
+    // SOLO respuesta (sin fuente y sin pregunta)
+    const bullets = top
+      .map(b => firstSentences(b.text, detailMode === "detail" ? 520 : 320))
+      .filter(Boolean)
+      .map(t => `• ${t}`);
 
-    // “Sin evidencia” = síntesis en párrafo (funciona más “bonito”)
-    if (!wantEvidence) {
-      const pieces = answers.map(a => firstSentences(a, 220));
-      const joined = pieces.join(" ");
-      return joined.length ? joined : firstSentences(answers[0], 420);
-    }
-
-    // “Con evidencia” = bullets, PERO solo respuesta (sin Q y sin Fuente)
-    const maxItems = (detailMode === "detail") ? 4 : 2;
-    return answers
-      .slice(0, maxItems)
-      .map(a => `• ${firstSentences(a, detailMode === "detail" ? 520 : 320)}`)
-      .join("\n");
+    return bullets.join("\n");
   }
 
-  function greeting() {
-    addMsg("bot", "Hola, soy Albito 🐥 y te ayudaré en esta jornada con la información cargada (sin inventar).");
+  // ====== UI actions ======
+  function greeting(){
+    addMsg("bot", "Hola, soy Albito 🐥 y te ayudaré con la información de los textos disponibles.");
   }
 
   function send() {
@@ -676,7 +618,7 @@ Pídeme un concepto, eje u objetivo y te doy una síntesis.`;
 
     try {
       const intent = detectIntent(q);
-      if (intent) {
+      if(intent){
         addMsg("bot", prefix + replyForIntent(intent));
         return;
       }
@@ -685,22 +627,21 @@ Pídeme un concepto, eje u objetivo y te doy una síntesis.`;
       addMsg("bot", prefix + resp);
     } catch (err) {
       console.error(err);
-      addMsg("bot", "Ups… hubo un error interno al responder. (F12 → Console)");
+      addMsg("bot", "Ups… hubo un error interno al responder. (Revisa la consola F12 → Console)");
     }
   }
 
-  // ====== Eventos ======
-  $("btnSend")?.addEventListener("click", send);
-  $("q")?.addEventListener("keydown", (e) => {
+  $("btnSend").addEventListener("click", send);
+  $("q").addEventListener("keydown", (e) => {
     if (e.key === "Enter") { e.preventDefault(); send(); }
   });
 
-  $("btnClear")?.addEventListener("click", () => {
+  $("btnClear").addEventListener("click", () => {
     chatEl.innerHTML = "";
     greeting();
   });
 
-  $("btnCopy")?.addEventListener("click", async () => {
+  $("btnCopy").addEventListener("click", async () => {
     const bodies = [...document.querySelectorAll(".row.bot .bubble .body")];
     if (!bodies.length) return;
     const last = bodies[bodies.length - 1].textContent || "";
@@ -711,6 +652,7 @@ Pídeme un concepto, eje u objetivo y te doy una síntesis.`;
   greeting();
   loadKB();
 </script>
+
 
  
 
