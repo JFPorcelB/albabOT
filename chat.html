@@ -398,6 +398,22 @@
     const t = normalize(q).split(" ").filter(Boolean).filter(w => !STOP.has(w));
     return [...new Set(t)];
   }
+  function onlyAnswerFromBlock(b){
+  // Si viene separado (ideal)
+  if (b && typeof b.answer === "string" && b.answer.trim()) return b.answer.trim();
+
+  const t = String((b && b.text) || "");
+  // Busca "A:" en cualquier parte
+  const m = t.match(/\nA:\s*([\s\S]*)/i);
+  let a = (m ? m[1] : t).trim();
+
+  // Corta cualquier cosa tipo "Fuente:" o "Q:" que venga después
+  a = a.replace(/\nFuente:\s*[\s\S]*/i, "").trim();
+  a = a.replace(/^Q:\s*[\s\S]*?\nA:\s*/i, "").trim(); // por si quedó pegado
+
+  return a;
+}
+
 
   function safeSentences(txt) {
     const s = (txt || "").replace(/\s+/g, " ").trim();
@@ -572,15 +588,39 @@ function normalizeToBlocks(json, sourceName, fileUrl) {
     return s;
   }
 
- function formatEvidence(block) {
-  const src = block.source ? `Fuente: ${block.source}` : "Fuente: (sin fuente)";
-  const doc = block.meta?.doc ? ` · Documento: ${block.meta.doc}` : "";
-  const sec = block.meta?.section ? ` · Sección: ${block.meta.section}` : "";
-  const qLine = block.title ? `\nQ: ${block.title}` : "";
-  const excerpt = firstSentences(block.text, 320); // <- ahora es la RESPUESTA
-  return `${src}${doc}${sec}${qLine}\nA: ${excerpt}`;
+ function formatEvidence(block){
+  const ans = onlyAnswerFromBlock(block);
+  return firstSentences(ans, 420);
 }
 
+
+function extractAnswerFromBlockText(raw){
+  const text = String(raw || "");
+  const lines = text.split(/\r?\n/);
+
+  // Busca la línea que empieza con "A:"
+  let start = -1;
+  for (let i = 0; i < lines.length; i++){
+    if (lines[i].trim().startsWith("A:")) { start = i; break; }
+  }
+  if (start === -1) return "";
+
+  // Toma desde "A:" hasta antes de cualquier bloque meta
+  const stopRe = /^(Q:|Fuente:|Documento:|Sección:|Variantes:|Tags:|País:|Período:)/i;
+
+  let out = [];
+  // Primera línea: quitar "A:"
+  out.push(lines[start].replace(/^A:\s*/i, "").trim());
+
+  for (let i = start + 1; i < lines.length; i++){
+    const ln = lines[i].trim();
+    if (!ln) continue;
+    if (stopRe.test(ln)) break;
+    out.push(ln);
+  }
+
+  return out.join(" ").replace(/\s+/g, " ").trim();
+}
 
   function answerFromKB(q){
   if(!BLOCKS.length){
@@ -591,7 +631,7 @@ function normalizeToBlocks(json, sourceName, fileUrl) {
   const qTok = tokens(q);
 
   if(qTok.length === 0 && qNorm.length < 3){
-    return "Dime un país, eje o concepto (con palabras clave).";
+    return "Dime un concepto, eje u objetivo (con palabras clave).";
   }
 
   const scored = BLOCKS
@@ -604,23 +644,28 @@ function normalizeToBlocks(json, sourceName, fileUrl) {
   const top = scored.slice(0, take).map(x=>x.b);
 
   if(top.length === 0){
-    return "Lo siento, no encontré evidencia suficiente. Prueba con otras palabras.";
-  }
-
-  // SOLO RESPUESTAS (sin fuente ni pregunta)
-  const maxChars = detailMode === "detail" ? 520 : 260;
-  const answers = top
-    .map(b => firstSentences(b.text, maxChars))
-    .filter(Boolean);
-
-  // Si hay varias, las separamos con un salto para que sea legible
-  return answers.join("\n\n");
+  return "Lo siento, no encontré evidencia suficiente. Prueba con otras palabras clave (país, eje o concepto).";
 }
 
-  // ====== UI actions ======
-  function greeting() {
-    addMsg("bot", "Hola, soy Albito 🐦 y te ayudaré en esta jornada con la información dada por la Dirección General de Desarrollo Institucional.");
-  }
+const detailMode = $("modeDetail").checked ? "detail" : "brief";
+const wantEvidence = $("showEvidence").checked;
+
+// ⚠️ A partir de ahora devolvemos SOLO respuestas (sin Q y sin Fuente),
+// incluso si “Mostrar evidencia” está activado.
+const maxItems = (detailMode === "detail") ? 4 : 2;
+
+const answers = top
+  .map(b => extractAnswerFromBlockText(b.text))
+  .filter(Boolean)
+  .slice(0, maxItems);
+
+if(!answers.length){
+  return "Encontré material relacionado, pero no pude extraer una respuesta clara desde los bloques disponibles.";
+}
+
+// Si quieres mantener el “tono evidencia” como etiqueta (sin mostrar fuente),
+// podrías cambiar este return, pero por ahora lo dejamos limpio:
+return answers.map(a => `• ${firstSentences(a, detailMode === "detail" ? 520 : 320)}`).join("\n");
 
   function send() {
     const qEl = $("q");
@@ -632,7 +677,7 @@ function normalizeToBlocks(json, sourceName, fileUrl) {
 
     const toneEl = $("tone");
     const tone = toneEl ? toneEl.checked : true;
-    const prefix = tone ? "Pío pío 🐥. " : "";
+    const prefix = tone ? "¡Listo!🐥. " : "";
 
     try {
       const resp = answerFromKB(q);
