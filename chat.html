@@ -582,50 +582,40 @@ function normalizeToBlocks(json, sourceName, fileUrl) {
 }
 
 
-  function answerFromKB(q) {
-    if (!Array.isArray(BLOCKS) || BLOCKS.length === 0) {
-      return "Aún no tengo la base cargada. Si ves “KB lista”, recarga la página.";
-    }
-
-    const qNorm = normalize(q);
-    const qTok = tokens(q);
-
-    if (qTok.length === 0 && qNorm.length < 3) {
-      return "Dime qué tema o concepto quieres consultar (con 2–3 palabras clave).";
-    }
-
-    const scored = BLOCKS
-      .map(b => ({ b, s: scoreBlock(b, qTok, qNorm) }))
-      .filter(x => x.s > 0)
-      .sort((a, b) => b.s - a.s);
-
-    const modeDetailEl = $("modeDetail");
-    const showEvidenceEl = $("showEvidence");
-    const detailMode = (modeDetailEl && modeDetailEl.checked) ? "detail" : "brief";
-    const wantEvidence = showEvidenceEl ? showEvidenceEl.checked : true;
-
-    const take = detailMode === "detail" ? 6 : 2;
-    const top = scored.slice(0, take).map(x => x.b);
-
-    if (top.length === 0) {
-      return "No encontré evidencia suficiente en los textos para responder eso. Prueba con otras palabras clave.";
-    }
-
-    if (!wantEvidence) {
-      const bullets = top
-        .map(b => firstSentences(b.text, 180))
-        .filter(Boolean)
-        .slice(0, detailMode === "detail" ? 4 : 2)
-        .map(x => `• ${x}`);
-      return `Síntesis (sin evidencia mostrada):\n${bullets.join("\n")}`;
-    }
-
-    const header = (detailMode === "detail")
-      ? `Encontré evidencia (top ${top.length}):`
-      : `Encontré evidencia:`;
-
-    return `${header}\n\n${top.map(formatEvidence).join("\n\n")}`;
+  function answerFromKB(q){
+  if(!BLOCKS.length){
+    return "Aún no tengo la base cargada en este modo.";
   }
+
+  const qNorm = normalize(q);
+  const qTok = tokens(q);
+
+  if(qTok.length === 0 && qNorm.length < 3){
+    return "Dime un país, eje o concepto (con palabras clave).";
+  }
+
+  const scored = BLOCKS
+    .map(b => ({ b, s: scoreBlock(b, qTok, qNorm) }))
+    .filter(x => x.s > 0)
+    .sort((a,b)=> b.s - a.s);
+
+  const detailMode = $("modeDetail").checked ? "detail" : "brief";
+  const take = detailMode === "detail" ? 6 : 2;
+  const top = scored.slice(0, take).map(x=>x.b);
+
+  if(top.length === 0){
+    return "Lo siento, no encontré evidencia suficiente. Prueba con otras palabras.";
+  }
+
+  // SOLO RESPUESTAS (sin fuente ni pregunta)
+  const maxChars = detailMode === "detail" ? 520 : 260;
+  const answers = top
+    .map(b => firstSentences(b.text, maxChars))
+    .filter(Boolean);
+
+  // Si hay varias, las separamos con un salto para que sea legible
+  return answers.join("\n\n");
+}
 
   // ====== UI actions ======
   function greeting() {
