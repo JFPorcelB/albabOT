@@ -437,58 +437,74 @@
     }
   }
 
-  function normalizeToBlocks(json, sourceName, fileUrl) {
-    const out = [];
+  function splitQA(text){
+  const raw = (text ?? "").toString();
+  // intenta separar "Q: ... A: ..."
+  const idx = raw.search(/\n\s*A:\s*/i);
+  if (idx === -1) return { q: "", a: raw.trim() };
 
-    // Caso A: { blocks: [...] }
-    if (json && Array.isArray(json.blocks)) {
-      json.blocks.forEach((b, i) => {
-        const text = (b.text ?? b.answer ?? "").toString().trim();
-        const title = (b.title ?? b.question ?? "").toString().trim();
-        if (!text && !title) return;
+  const qPart = raw.slice(0, idx).replace(/^Q:\s*/i, "").trim();
+  const aPart = raw.slice(idx).replace(/^\s*A:\s*/i, "").trim();
+  return { q: qPart, a: aPart };
+}
 
-        out.push({
-          id: b.id ?? `${sourceName}-block-${i}`,
-          title,
-          text: title ? `${title}\n\n${text}` : text,
-          tags: Array.isArray(b.tags) ? b.tags.map(String) : [],
-          source: b.source ?? sourceName,
-          meta: { ...(b.meta || {}), fileUrl }
-        });
+function normalizeToBlocks(json, sourceName, fileUrl) {
+  const out = [];
+
+  // Caso A: { blocks: [...] }
+  if (json && Array.isArray(json.blocks)) {
+    json.blocks.forEach((b, i) => {
+      const t = (b.text ?? "").toString().trim();
+      const { q, a } = splitQA(t);
+
+      const title = (b.title ?? q ?? "").toString().trim();
+      const text  = (a || t).toString().trim(); // <- RESPUESTA en text
+
+      if (!title && !text) return;
+
+      out.push({
+        id: b.id ?? `${sourceName}-block-${i}`,
+        title,               // pregunta / título
+        text,                // respuesta (lo que mostraremos)
+        tags: Array.isArray(b.tags) ? b.tags.map(String) : [],
+        source: b.source ?? sourceName,
+        meta: { ...(b.meta || {}), fileUrl }
       });
-      return out;
-    }
-
-    // Caso B: array de QAs [{question, answer, ...}, ...]
-    const arr =
-      Array.isArray(json) ? json :
-      (json && Array.isArray(json.qas)) ? json.qas :
-      (json && Array.isArray(json.qa)) ? json.qa :
-      null;
-
-    if (arr) {
-      arr.forEach((qa, i) => {
-        const q = (qa.question ?? qa.pregunta ?? qa.q ?? "").toString().trim();
-        const a = (qa.answer ?? qa.respuesta ?? qa.a ?? "").toString().trim();
-        if (!q && !a) return;
-
-        const doc = (qa.doc ?? qa.documento ?? qa.document ?? qa.fuente ?? "").toString().trim();
-        const section = (qa.source_section ?? qa.section ?? qa.seccion ?? "").toString().trim();
-
-        out.push({
-          id: qa.id ?? `${sourceName}-qa-${i}`,
-          title: q,
-          text: `Q: ${q}\n\nA: ${a}`.trim(),
-          tags: Array.isArray(qa.tags) ? qa.tags.map(String) : [],
-          source: sourceName,
-          meta: { fileUrl, doc, section }
-        });
-      });
-      return out;
-    }
-
+    });
     return out;
   }
+
+  // Caso B: array de QAs [{question, answer, ...}, ...]
+  const arr =
+    Array.isArray(json) ? json :
+    (json && Array.isArray(json.qas)) ? json.qas :
+    (json && Array.isArray(json.qa)) ? json.qa :
+    null;
+
+  if (arr) {
+    arr.forEach((qa, i) => {
+      const q = (qa.question ?? qa.pregunta ?? qa.q ?? "").toString().trim();
+      const a = (qa.answer ?? qa.respuesta ?? qa.a ?? "").toString().trim();
+      if (!q && !a) return;
+
+      const doc = (qa.doc ?? qa.documento ?? qa.document ?? qa.fuente ?? "").toString().trim();
+      const section = (qa.source_section ?? qa.section ?? qa.seccion ?? "").toString().trim();
+
+      out.push({
+        id: qa.id ?? `${sourceName}-qa-${i}`,
+        title: q,          // <- pregunta acá
+        text: a,           // <- respuesta acá (CLAVE)
+        tags: Array.isArray(qa.tags) ? qa.tags.map(String) : [],
+        source: sourceName,
+        meta: { fileUrl, doc, section }
+      });
+    });
+    return out;
+  }
+
+  return out;
+}
+
 
   async function loadKB() {
     setKBStatus("loading", "cargando base…");
@@ -556,13 +572,15 @@
     return s;
   }
 
-  function formatEvidence(block) {
-    const src = block.source ? `Fuente: ${block.source}` : "Fuente: (sin fuente)";
-    const doc = block.meta?.doc ? ` · Documento: ${block.meta.doc}` : "";
-    const sec = block.meta?.section ? ` · Sección: ${block.meta.section}` : "";
-    const excerpt = firstSentences(block.text, 320);
-    return `${src}${doc}${sec}\n  ${excerpt}`;
-  }
+ function formatEvidence(block) {
+  const src = block.source ? `Fuente: ${block.source}` : "Fuente: (sin fuente)";
+  const doc = block.meta?.doc ? ` · Documento: ${block.meta.doc}` : "";
+  const sec = block.meta?.section ? ` · Sección: ${block.meta.section}` : "";
+  const qLine = block.title ? `\nQ: ${block.title}` : "";
+  const excerpt = firstSentences(block.text, 320); // <- ahora es la RESPUESTA
+  return `${src}${doc}${sec}${qLine}\nA: ${excerpt}`;
+}
+
 
   function answerFromKB(q) {
     if (!Array.isArray(BLOCKS) || BLOCKS.length === 0) {
