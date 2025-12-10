@@ -274,7 +274,7 @@
       </div>
       <div class="titles">
         <h1>Jornada Directiva de Planificación 2025</h1>
-        <p>Documentos base descargables + Albito (chat) con evidencia desde <b>kb_udl.json</b>.</p>
+        <p>Todo el material que necesitas para esta jornada + Albito (chat) con evidencia desde los textos.</p>
       </div>
     </div>
   </header>
@@ -303,7 +303,7 @@
       <section class="card">
         <div class="chatHeader">
           <h2>Chat</h2>
-          <p>Consulta por país, eje o concepto. Albito responde con evidencia desde la base.</p>
+          <p>Consulta por cualquier duda respecto al material. Albito responde con evidencia desde los textos.</p>
         </div>
         <div class="chatBody">
           <!-- Importante: tu chat está en chat.html -->
@@ -316,38 +316,64 @@
   <script>
     // Ajusta aquí si cambian nombres de archivos o descripciones.
     // (Se asume que los PDFs están en /docs/)
-    const DOCS = [
-      {
-        title: "Directrices (países)",
-        sub: "PDF · referencia internacional",
-        file: "docs/Directrices (paises).pdf",
-        icon: "globe"
-      },
-      {
-        title: "Debate universidades del futuro",
-        sub: "PDF · discusiones y tensiones",
-        file: "docs/Debate universidades del futuro.pdf",
-        icon: "chat"
-      },
-      {
-        title: "Estrategia ES",
-        sub: "PDF · documento base",
-        file: "docs/Estrategia ES.pdf",
-        icon: "file"
-      },
-      {
-        title: "Resumen ES",
-        sub: "PDF · síntesis",
-        file: "docs/Resumen ES.pdf",
-        icon: "file"
-      },
-      {
-        title: "Autores vs Objetivos",
-        sub: "PDF · comparativo",
-        file: "docs/Autores vs Objetivos.pdf",
-        icon: "file"
-      }
-    ];
+   // Helper: arma URLs seguras aunque el archivo tenga espacios/acentos/paréntesis
+function pdf(name) {
+  const file = name.toLowerCase().endsWith(".pdf") ? name : `${name}.pdf`;
+  return `./docs/${encodeURIComponent(file)}`;
+}
+
+const DOCS = [
+  {
+    title: "Directrices (países)",
+    sub: "PDF · referencia internacional",
+    file: pdf("Directrices (paises)"),
+    icon: "globe",
+  },
+  {
+    title: "Discusiones universidades del futuro (VF)",
+    sub: "PDF · discusiones y tensiones",
+    file: pdf("Discusiones sobre las Universidades del futuro_VF"),
+    icon: "chat",
+  },
+  {
+    title: "Estrategia Educación Superior",
+    sub: "PDF · documento base",
+    file: pdf("Estrategia Educación Superior"),
+    icon: "doc",
+  },
+  {
+    title: "Resumen Estrategia Educación Superior",
+    sub: "PDF · síntesis",
+    file: pdf("Resumen Estrategia Educación Superior"),
+    icon: "doc",
+  },
+  {
+    title: "Informe EM09",
+    sub: "PDF · estudio de mercado",
+    file: pdf("Informe EM09"),
+    icon: "doc",
+  },
+  {
+    title: "Resumen Estudio de Mercado (EM09)",
+    sub: "PDF · síntesis ejecutiva",
+    file: pdf("Resumen Estudio de Mercado sobre Educación Superior (EM09)"),
+    icon: "doc",
+  },
+  {
+    title: "Proyecto Institucional",
+    sub: "PDF · marco institucional",
+    file: pdf("Proyecto Institucional"),
+    icon: "doc",
+  },
+  {
+    title: "Tabla Autores vs Objetivos",
+    sub: "PDF · comparativo",
+    file: pdf("Tabla Autores vs Objetivos"),
+    icon: "doc",
+  },
+];
+
+
 
     function iconSVG(kind){
       const common = 'width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"';
