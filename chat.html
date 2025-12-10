@@ -522,51 +522,7 @@ function normalizeToBlocks(json, sourceName, fileUrl) {
 }
 
 
-  async function loadKB() {
-    setKBStatus("loading", "cargando base…");
-
-    try {
-      const settled = await Promise.allSettled(
-        QA_FILES.map(async (f) => {
-          const json = await fetchJson(f.url);
-          return { file: f, json };
-        })
-      );
-
-      const loaded = settled.filter(r => r.status === "fulfilled").length;
-
-      let blocks = [];
-      for (const r of settled) {
-        if (r.status !== "fulfilled") continue;
-        const { file, json } = r.value;
-        blocks = blocks.concat(normalizeToBlocks(json, file.source, file.url));
-      }
-
-      // dedupe
-      const seen = new Set();
-      const uniq = [];
-      for (const b of blocks) {
-        const key = (b.text || "").trim();
-        if (!key || seen.has(key)) continue;
-        seen.add(key);
-        uniq.push(b);
-      }
-
-      if (!uniq.length) {
-        setKBStatus("bad", `KB vacía · ${loaded}/4 archivos`);
-        addMsg("bot", "No pude construir la base (quedó vacía). Revisa que los 4 JSON tengan Q/A válidos.");
-        return;
-      }
-
-      BLOCKS = uniq;
-      setKBStatus("ok", `KB lista · ${BLOCKS.length} bloques · ${loaded}/4 archivos`);
-    } catch (err) {
-      console.error(err);
-      setKBStatus("bad", "KB no cargó");
-      addMsg("bot", `No pude cargar la base (${err?.message ?? err}).`);
-    }
-  }
-
+  
   function scoreBlock(b, qTokens, qNorm) {
     const title = normalize(b.title);
     const text  = normalize(b.text);
@@ -574,6 +530,70 @@ function normalizeToBlocks(json, sourceName, fileUrl) {
     const tags  = Array.isArray(b.tags) ? b.tags.map(normalize) : [];
 
     let s = 0;
+    // ===== KB global (la usa answerFromKB) =====
+let BLOCKS = [];
+
+async function loadKB() {
+  setKBStatus("loading", "cargando base...");
+
+  try {
+    const settled = await Promise.allSettled(
+      QA_FILES.map(async (f) => {
+        const json = await fetchJson(f.url);   // <- tu fetchJson
+        return { file: f, json };
+      })
+    );
+
+    const loaded = settled.filter(r => r.status === "fulfilled").length;
+
+    let blocks = [];
+    for (const r of settled) {
+      if (r.status !== "fulfilled") continue;
+      const { file, json } = r.value;
+      blocks = blocks.concat(normalizeToBlocks(json, file.source, file.url));
+    }
+
+    // dedupe
+    const seen = new Set();
+    const uniq = [];
+    for (const b of blocks) {
+      const key = (b.text || "").trim();
+      if (!key || seen.has(key)) continue;
+      seen.add(key);
+      uniq.push(b);
+    }
+    // Si no cargó nada, no te quedes pegada en "cargando..."
+if(!uniq.length){
+  setKBStatus("bad", "KB vacía");
+  return;
+}
+
+// ESTA es la asignación importante:
+BLOCKS = uniq;
+
+setKBStatus("ok", `KB lista · ${BLOCKS.length} bloques`);
+
+
+    // ✅ CLAVE: asignar al global que usa el chat
+    BLOCKS = uniq;
+
+    // ✅ CLAVE: nunca te quedes en loading
+    if (!BLOCKS.length) {
+      setKBStatus("bad", `KB vacía · ${loaded}/${QA_FILES.length} archivos`);
+      addMsg("bot", "Cargué los archivos, pero no pude convertirlos a bloques. Revisa el formato de los JSON (question/answer).");
+      return false;
+    }
+
+    setKBStatus("ok", `KB lista · ${BLOCKS.length} bloques · ${loaded}/${QA_FILES.length} archivos`);
+    return true;
+
+  } catch (err) {
+    console.error(err);
+    setKBStatus("bad", "KB no cargó");
+    addMsg("bot", `No pude cargar la base (${err?.message ?? err}).`);
+    return false;
+  }
+}
 
     if (qNorm && (title.includes(qNorm) || text.includes(qNorm))) s += 18;
 
