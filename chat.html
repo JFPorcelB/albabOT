@@ -412,8 +412,14 @@ function tokens(q) {
 function safeSentences(txt) {
   const s = (txt || "").replace(/\s+/g, " ").trim();
   if (!s) return [];
-  return s.split(/(?<=[.!?])\s+|[\n\r]+/g).filter(Boolean);
+  // Versión simple: separa por punto, signo de exclamación o interrogación
+  const parts = s
+    .split(/[.!?]+/g)
+    .map(x => x.trim())
+    .filter(Boolean);
+  return parts;
 }
+
 
 function firstSentences(raw, maxChars) {
   const s = (raw || "").replace(/\s+/g, " ").trim();
