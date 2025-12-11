@@ -437,6 +437,19 @@ function firstSentences(raw, maxChars) {
   if (out.length < s.length) out += "…";
   return out;
 }
+// Quita las frases que son preguntas (terminan en "?")
+// para evitar que las respuestas salgan llenas de preguntas guía.
+function stripQuestionSentences(raw) {
+  const parts = safeSentences(raw);
+  if (!parts.length) return raw;
+
+  const kept = parts.filter(p => !p.trim().endsWith("?"));
+
+  // Si nos pasamos de estrictos y borramos todo, volvemos al original
+  if (!kept.length) return raw;
+
+  return kept.join(" ");
+}
 
 // ================== KB / CARGA JSON ==================
 let BLOCKS = [];
@@ -658,9 +671,10 @@ function answerFromKB(q) {
 
   const maxItems = detailMode === "detail" ? 4 : 2;
   const answers = topBlocks
-    .map(b => (b.text || "").toString())
+    .map(b => stripQuestionSentences((b.text || "").toString()))
     .filter(Boolean)
     .slice(0, maxItems);
+
 
   if (!answers.length) {
     return "Encontré material relacionado, pero no pude extraer una respuesta clara desde los bloques disponibles.";
