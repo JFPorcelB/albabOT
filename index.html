@@ -42,6 +42,124 @@
       min-height:100vh;
     }
 
+
+/* ===== Burbuja flotante Albito (mejorada) ===== */
+.chatBubble {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+
+  /* círculo un poco más grande */
+  width: 76px;
+  height: 76px;
+
+  border-radius: 50%;
+  background: linear-gradient(180deg, #ffffff, #f5f5f7);
+  border: 2px solid rgba(224,0,77,.35);
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* misma sombra que las cards (punto 3) */
+  box-shadow: 0 18px 60px rgba(0,0,0,.28);
+
+  cursor: pointer;
+  z-index: 9999;
+
+  /* animación tipo "breathing" (punto 1) */
+  animation: breathing 3.6s infinite ease-in-out;
+
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease,
+    background .2s ease;
+}
+
+.chatBubble:hover {
+  transform: scale(1.06);
+  /* mantiene la sombra fuerte + glow institucional (punto 1 + 3) */
+  box-shadow:
+    0 18px 60px rgba(0,0,0,.32),
+    0 0 18px rgba(224,0,77,.55);
+}
+
+.chatBubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ===== Tooltip Albito ===== */
+.chatBubbleTooltip {
+  position: fixed;
+  bottom: 118px; /* un poco sobre la burbuja */
+  right: 28px;
+  padding: 8px 14px;
+
+  background: rgba(255,255,255,.97);
+  border-radius: 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #061E3D;
+  white-space: nowrap;
+
+  /* consistencia institucional (punto 3) */
+  border: 1px solid rgba(224,0,77,.22);
+  border-left: 4px solid #E0004D;
+  box-shadow: 0 18px 40px rgba(0,0,0,.22);
+
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity .22s ease, transform .22s ease;
+
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* Flecha del tooltip (punto 1: versión pro) */
+.chatBubbleTooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  right: 20px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: rgba(255,255,255,.97) transparent transparent transparent;
+}
+
+/* Tooltip aparece al hacer hover en la burbuja */
+.chatBubble:hover + .chatBubbleTooltip {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ===== Animación breathing (punto 1) ===== */
+@keyframes breathing {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.028); }
+  100% { transform: scale(1); }
+}
+
+/* Versión más pequeña en móviles */
+@media (max-width: 600px){
+  .chatBubble {
+    width: 64px;
+    height: 64px;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .chatBubbleTooltip {
+    bottom: 104px;
+    right: 16px;
+    font-size: 12px;
+  }
+}
+
+
+
     /* Topbar (título blanco) */
     .topbar{
       height:var(--topbarH);
@@ -355,62 +473,47 @@
   </header>
 
   <main class="wrap">
-    <div class="grid">
-      <!-- Columna izquierda -->
-      <section class="card">
-        <div class="cardPad">
-          <h2 class="h2">Objetivo</h2>
-          <p class="p">
-            Apoyar la planificación del futuro institucional y alimentar el <b>PED</b> con
-            <b>ejes, criterios y decisiones priorizadas</b>, usando evidencia y referencias de los documentos base.
-          </p>
-          <div class="sep"></div>
-
-<div class="surveyBox">
-  <div class="surveyText">
-    <div class="surveyTitle">¡Participa para construir una mejor estrategia!</div>
-    <p class="surveySub">
-      Tu respuesta toma 2–3 minutos y ayuda a priorizar ejes y decisiones para el PED.
-    </p>
-
-    <div class="surveyActions">
-      <a class="surveyBtn"
-         href="https://forms.office.com/Pages/ResponsePage.aspx?id=rbOarnAXzk2SKrk2QcYFSRYfumAIRXtOgLvjhOPSestUQVkzTFBUQ1dSTE1QQVhJNkxIUEZVSlJUSy4u"
-         target="_blank" rel="noopener">
-        Responder encuesta
-      </a>
-    </div>
-  </div>
-
-  
+  <div class="grid" style="grid-template-columns: 1fr; max-width: 900px; margin: 0 auto;">
     
-  </a>
-</div>
+    <section class="card">
+      <div class="cardPad">
+        <h2 class="h2">Objetivo</h2>
+        <p class="p">
+          Apoyar la planificación del futuro institucional y alimentar el <b>PED</b> con
+          <b>ejes, criterios y decisiones priorizadas</b>, usando evidencia y referencias de los documentos base.
+        </p>
 
-<div class="sep"></div>
+        <div class="sep"></div>
 
-          <div class="sep"></div>
+        <div class="surveyBox">
+          <div class="surveyText">
+            <div class="surveyTitle">¡Participa para construir una mejor estrategia!</div>
+            <p class="surveySub">
+              Tu respuesta toma 2–3 minutos y ayuda a priorizar ejes y decisiones para el PED.
+            </p>
 
-          <h2 class="h2">Descargar documentos</h2>
-          <p class="muted">Acá están las síntesis y análisis de la documentación enviada a los correos. También puedes consultarlos con Albito en el chat.</p>
-
-          <div id="docsGrid" class="docsGrid" aria-label="Documentos descargables"></div>
+            <div class="surveyActions">
+              <a class="surveyBtn"
+                 href="https://forms.office.com/Pages/ResponsePage.aspx?id=rbOarnAXzk2SKrk2QcYFSRYfumAIRXtOgLvjhOPSestUQVkzTFBUQ1dSTE1QQVhJNkxIUEZVSlJUSy4u"
+                 target="_blank" rel="noopener">
+                Responder encuesta
+              </a>
+            </div>
+          </div>
         </div>
-      </section>
 
-      <!-- Columna derecha: Chat (iframe) -->
-      <section class="card">
-        <div class="chatHeader">
-          <h2>Chat</h2>
-          <p>Consulta por cualquier duda respecto al material. Albito responde con evidencia desde los textos.</p>
-        </div>
-        <div class="chatBody">
-          <!-- Importante: tu chat está en chat.html -->
-          <iframe class="chatFrame" src="./chat.html?embed=1" title="Chat Albito"></iframe>
-        </div>
-      </section>
-    </div>
-  </main>
+        <div class="sep"></div>
+
+        <h2 class="h2">Descargar documentos</h2>
+        <p class="muted">Acá están las síntesis y análisis de la documentación enviada a los correos.</p>
+
+        <div id="docsGrid" class="docsGrid" aria-label="Documentos descargables"></div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
 
   <script>
     // Ajusta aquí si cambian nombres de archivos o descripciones.
@@ -489,6 +592,15 @@ const DOCS = [
       grid.appendChild(card);
     });
   </script>
+<a class="chatBubble" 
+   href="https://chatgpt.com/g/g-693b10c54a348191981eff9107e34354-universidad-del-alba"
+   target="_blank" rel="noopener">
+  <img src="albito.jpeg" alt="Albito">
+</a>
+
+<div class="chatBubbleTooltip">Habla con Albito</div>
+
+
 </body>
 </html>
 
