@@ -327,12 +327,43 @@
 
 <script>
   // ====== Config ======
-  const QA_FILES = [
-    { url: "./estrategia_es_QA_50_enriquecido.json",        source: "Estrategia ES" },
-    { url: "./universidades_futuro_QA_50.json",             source: "Universidades del futuro" },
-    { url: "./autores_vs_objetivos_QA_50_enriquecido.json", source: "Autores vs Objetivos" },
-    { url: "./directrices_paises_QA_50_enriquecido.json",   source: "Directrices (países)" },
-  ];
+  // ====== Config ======
+const QA_FILES = [
+  // Proyecto institucional UDALBA
+  { url: "./preguntas_universidad_alba_300.json",
+    source: "Proyecto Institucional" },
+
+  // Estudio de mercado EM09
+  { url: "./preguntas_em09.json",
+    source: "Estudio de Mercado EM09" },
+
+  // Estrategia de Educación Superior
+  { url: "./preguntas_estrategia_educacion_superior_enriquecido.json",
+    source: "Estrategia Educación Superior (preguntas)" },
+
+  // Universidades del futuro
+  { url: "./preguntas_universidades_futuro_enriquecido.json",
+    source: "Universidades del Futuro (preguntas)" },
+
+  // Autores vs objetivos (preguntas extendidas)
+  { url: "./preguntas_autores_objetivos_150.json",
+    source: "Autores vs Objetivos (preguntas)" },
+
+  // Directrices por país (este ya lo teníamos)
+  { url: "./directrices_paises_QA_50_enriquecido.json",
+    source: "Directrices por país" },
+
+  // --- OPCIONAL: mantén también los conjuntos originales de 50 QA ---
+  { url: "./estrategia_es_QA_50_enriquecido.json",
+    source: "Estrategia Educación Superior (QA 50)" },
+
+  { url: "./universidades_futuro_QA_50.json",
+    source: "Universidades del Futuro (QA 50)" },
+
+  { url: "./autores_vs_objetivos_QA_50_enriquecido.json",
+    source: "Autores vs Objetivos (QA 50)" },
+];
+
 
   // ---- Embed mode (para iframe) ----
   const params = new URLSearchParams(location.search);
@@ -602,7 +633,7 @@
 
   // ====== UI actions ======
   function greeting(){
-    addMsg("bot", "Hola, soy Albito 🐥 y te ayudaré con la información de los textos disponibles.");
+    addMsg("bot", "Hola, soy Albito 🐥 y te ayudaré con la información proporcionada por la Dirección General de Desarrollo Institucional.");
   }
 
   function send() {

@@ -1,0 +1,2132 @@
+{
+  "metadata": {
+    "fuente": "Universidad del Alba 2025-2045",
+    "documento": "objetivos taller Universidad del Alba 2025 2045.docx",
+    "version": "2025-12-11",
+    "nota": "Preguntas generadas cruzando cada objetivo con temas proporcionados por la usuaria"
+  },
+  "temas": [
+    "Universidades del futuro",
+    "Estrategia institucional",
+    "Estudio de mercado",
+    "Benchmark internacional (otros países)",
+    "Gobernanza",
+    "Modelo educativo",
+    "Transformación digital",
+    "Educación virtual e híbrida",
+    "Investigación e innovación",
+    "Inclusión y equidad",
+    "Impacto regional",
+    "Finanzas y sostenibilidad",
+    "Infraestructura",
+    "Gestión del cambio",
+    "Clima laboral",
+    "Inteligencia Artificial",
+    "Simulación y laboratorios",
+    "Alianzas y cooperación",
+    "Seguridad y ética de datos",
+    "Marca y comunicaciones"
+  ],
+  "preguntas": [
+    {
+      "id": 1,
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "tema": "Universidades del futuro",
+      "pregunta": "¿Cómo este objetivo posiciona a la Universidad del Alba dentro del concepto de universidades del futuro? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 2,
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "tema": "Estrategia institucional",
+      "pregunta": "¿Qué decisiones estratégicas concretas habilita este objetivo a corto y mediano plazo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 3,
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "tema": "Estudio de mercado",
+      "pregunta": "¿Qué hallazgos de mercado deben incorporarse para que este objetivo sea pertinente? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 4,
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "tema": "Benchmark internacional (otros países)",
+      "pregunta": "¿Qué buenas prácticas de otros países se pueden adaptar para cumplir este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 5,
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "tema": "Gobernanza",
+      "pregunta": "¿Qué ajustes de gobernanza se requieren para implementar este objetivo con trazabilidad? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 6,
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "tema": "Modelo educativo",
+      "pregunta": "¿Cómo se refleja este objetivo en el modelo educativo y sus metodologías? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 7,
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "tema": "Transformación digital",
+      "pregunta": "¿Qué capacidades digitales son necesarias para ejecutar este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 8,
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "tema": "Educación virtual e híbrida",
+      "pregunta": "¿Qué implicancias tiene este objetivo sobre la oferta virtual e híbrida? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 9,
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "tema": "Investigación e innovación",
+      "pregunta": "¿Cómo impulsa este objetivo la investigación aplicada y la innovación? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 10,
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "tema": "Inclusión y equidad",
+      "pregunta": "¿Qué salvaguardas asegurarán que la implementación de este objetivo sea equitativa e inclusiva? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 11,
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "tema": "Impacto regional",
+      "pregunta": "¿Qué resultados territoriales se esperan al ejecutar este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 12,
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "tema": "Finanzas y sostenibilidad",
+      "pregunta": "¿Cómo se financia este objetivo y qué retorno académico/operativo se proyecta? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 13,
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "tema": "Infraestructura",
+      "pregunta": "¿Qué cambios en infraestructura física/tecnológica son necesarios para este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 14,
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "tema": "Gestión del cambio",
+      "pregunta": "¿Qué acciones de gestión del cambio facilitarán la adopción de este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 15,
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "tema": "Clima laboral",
+      "pregunta": "¿Cómo impactará este objetivo en el clima laboral y la retención de talento? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 16,
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "tema": "Inteligencia Artificial",
+      "pregunta": "¿Qué usos responsables de IA habilitan o aceleran este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 17,
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "tema": "Estrategia institucional",
+      "pregunta": "¿Qué decisiones estratégicas concretas habilita este objetivo a corto y mediano plazo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 18,
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "tema": "Estudio de mercado",
+      "pregunta": "¿Qué hallazgos de mercado deben incorporarse para que este objetivo sea pertinente? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 19,
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "tema": "Benchmark internacional (otros países)",
+      "pregunta": "¿Qué buenas prácticas de otros países se pueden adaptar para cumplir este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 20,
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "tema": "Gobernanza",
+      "pregunta": "¿Qué ajustes de gobernanza se requieren para implementar este objetivo con trazabilidad? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 21,
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "tema": "Modelo educativo",
+      "pregunta": "¿Cómo se refleja este objetivo en el modelo educativo y sus metodologías? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 22,
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "tema": "Transformación digital",
+      "pregunta": "¿Qué capacidades digitales son necesarias para ejecutar este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 23,
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "tema": "Educación virtual e híbrida",
+      "pregunta": "¿Qué implicancias tiene este objetivo sobre la oferta virtual e híbrida? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 24,
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "tema": "Investigación e innovación",
+      "pregunta": "¿Cómo impulsa este objetivo la investigación aplicada y la innovación? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 25,
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "tema": "Inclusión y equidad",
+      "pregunta": "¿Qué salvaguardas asegurarán que la implementación de este objetivo sea equitativa e inclusiva? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 26,
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "tema": "Impacto regional",
+      "pregunta": "¿Qué resultados territoriales se esperan al ejecutar este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 27,
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "tema": "Finanzas y sostenibilidad",
+      "pregunta": "¿Cómo se financia este objetivo y qué retorno académico/operativo se proyecta? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 28,
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "tema": "Infraestructura",
+      "pregunta": "¿Qué cambios en infraestructura física/tecnológica son necesarios para este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 29,
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "tema": "Gestión del cambio",
+      "pregunta": "¿Qué acciones de gestión del cambio facilitarán la adopción de este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 30,
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "tema": "Clima laboral",
+      "pregunta": "¿Cómo impactará este objetivo en el clima laboral y la retención de talento? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 31,
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "tema": "Inteligencia Artificial",
+      "pregunta": "¿Qué usos responsables de IA habilitan o aceleran este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 32,
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "tema": "Simulación y laboratorios",
+      "pregunta": "¿Qué capacidades de simulación/laboratorios se requieren para este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 33,
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "tema": "Estudio de mercado",
+      "pregunta": "¿Qué hallazgos de mercado deben incorporarse para que este objetivo sea pertinente? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 34,
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "tema": "Benchmark internacional (otros países)",
+      "pregunta": "¿Qué buenas prácticas de otros países se pueden adaptar para cumplir este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 35,
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "tema": "Gobernanza",
+      "pregunta": "¿Qué ajustes de gobernanza se requieren para implementar este objetivo con trazabilidad? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 36,
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "tema": "Modelo educativo",
+      "pregunta": "¿Cómo se refleja este objetivo en el modelo educativo y sus metodologías? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 37,
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "tema": "Transformación digital",
+      "pregunta": "¿Qué capacidades digitales son necesarias para ejecutar este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 38,
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "tema": "Educación virtual e híbrida",
+      "pregunta": "¿Qué implicancias tiene este objetivo sobre la oferta virtual e híbrida? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 39,
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "tema": "Investigación e innovación",
+      "pregunta": "¿Cómo impulsa este objetivo la investigación aplicada y la innovación? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 40,
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "tema": "Inclusión y equidad",
+      "pregunta": "¿Qué salvaguardas asegurarán que la implementación de este objetivo sea equitativa e inclusiva? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 41,
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "tema": "Impacto regional",
+      "pregunta": "¿Qué resultados territoriales se esperan al ejecutar este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 42,
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "tema": "Finanzas y sostenibilidad",
+      "pregunta": "¿Cómo se financia este objetivo y qué retorno académico/operativo se proyecta? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 43,
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "tema": "Infraestructura",
+      "pregunta": "¿Qué cambios en infraestructura física/tecnológica son necesarios para este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 44,
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "tema": "Gestión del cambio",
+      "pregunta": "¿Qué acciones de gestión del cambio facilitarán la adopción de este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 45,
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "tema": "Clima laboral",
+      "pregunta": "¿Cómo impactará este objetivo en el clima laboral y la retención de talento? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 46,
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "tema": "Inteligencia Artificial",
+      "pregunta": "¿Qué usos responsables de IA habilitan o aceleran este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 47,
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "tema": "Simulación y laboratorios",
+      "pregunta": "¿Qué capacidades de simulación/laboratorios se requieren para este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 48,
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "tema": "Alianzas y cooperación",
+      "pregunta": "¿Qué alianzas estratégicas (público-privadas) potenciarán los resultados de este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 49,
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "tema": "Benchmark internacional (otros países)",
+      "pregunta": "¿Qué buenas prácticas de otros países se pueden adaptar para cumplir este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 50,
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "tema": "Gobernanza",
+      "pregunta": "¿Qué ajustes de gobernanza se requieren para implementar este objetivo con trazabilidad? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 51,
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "tema": "Modelo educativo",
+      "pregunta": "¿Cómo se refleja este objetivo en el modelo educativo y sus metodologías? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 52,
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "tema": "Transformación digital",
+      "pregunta": "¿Qué capacidades digitales son necesarias para ejecutar este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 53,
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "tema": "Educación virtual e híbrida",
+      "pregunta": "¿Qué implicancias tiene este objetivo sobre la oferta virtual e híbrida? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 54,
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "tema": "Investigación e innovación",
+      "pregunta": "¿Cómo impulsa este objetivo la investigación aplicada y la innovación? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 55,
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "tema": "Inclusión y equidad",
+      "pregunta": "¿Qué salvaguardas asegurarán que la implementación de este objetivo sea equitativa e inclusiva? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 56,
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "tema": "Impacto regional",
+      "pregunta": "¿Qué resultados territoriales se esperan al ejecutar este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 57,
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "tema": "Finanzas y sostenibilidad",
+      "pregunta": "¿Cómo se financia este objetivo y qué retorno académico/operativo se proyecta? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 58,
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "tema": "Infraestructura",
+      "pregunta": "¿Qué cambios en infraestructura física/tecnológica son necesarios para este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 59,
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "tema": "Gestión del cambio",
+      "pregunta": "¿Qué acciones de gestión del cambio facilitarán la adopción de este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 60,
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "tema": "Clima laboral",
+      "pregunta": "¿Cómo impactará este objetivo en el clima laboral y la retención de talento? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 61,
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "tema": "Inteligencia Artificial",
+      "pregunta": "¿Qué usos responsables de IA habilitan o aceleran este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 62,
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "tema": "Simulación y laboratorios",
+      "pregunta": "¿Qué capacidades de simulación/laboratorios se requieren para este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 63,
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "tema": "Alianzas y cooperación",
+      "pregunta": "¿Qué alianzas estratégicas (público-privadas) potenciarán los resultados de este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 64,
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "tema": "Seguridad y ética de datos",
+      "pregunta": "¿Qué políticas de seguridad y ética de datos se deben aplicar al ejecutar este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 65,
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "tema": "Gobernanza",
+      "pregunta": "¿Qué ajustes de gobernanza se requieren para implementar este objetivo con trazabilidad? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 66,
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "tema": "Modelo educativo",
+      "pregunta": "¿Cómo se refleja este objetivo en el modelo educativo y sus metodologías? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 67,
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "tema": "Transformación digital",
+      "pregunta": "¿Qué capacidades digitales son necesarias para ejecutar este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 68,
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "tema": "Educación virtual e híbrida",
+      "pregunta": "¿Qué implicancias tiene este objetivo sobre la oferta virtual e híbrida? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 69,
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "tema": "Investigación e innovación",
+      "pregunta": "¿Cómo impulsa este objetivo la investigación aplicada y la innovación? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 70,
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "tema": "Inclusión y equidad",
+      "pregunta": "¿Qué salvaguardas asegurarán que la implementación de este objetivo sea equitativa e inclusiva? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 71,
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "tema": "Impacto regional",
+      "pregunta": "¿Qué resultados territoriales se esperan al ejecutar este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 72,
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "tema": "Finanzas y sostenibilidad",
+      "pregunta": "¿Cómo se financia este objetivo y qué retorno académico/operativo se proyecta? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 73,
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "tema": "Infraestructura",
+      "pregunta": "¿Qué cambios en infraestructura física/tecnológica son necesarios para este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 74,
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "tema": "Gestión del cambio",
+      "pregunta": "¿Qué acciones de gestión del cambio facilitarán la adopción de este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 75,
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "tema": "Clima laboral",
+      "pregunta": "¿Cómo impactará este objetivo en el clima laboral y la retención de talento? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 76,
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "tema": "Inteligencia Artificial",
+      "pregunta": "¿Qué usos responsables de IA habilitan o aceleran este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 77,
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "tema": "Simulación y laboratorios",
+      "pregunta": "¿Qué capacidades de simulación/laboratorios se requieren para este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 78,
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "tema": "Alianzas y cooperación",
+      "pregunta": "¿Qué alianzas estratégicas (público-privadas) potenciarán los resultados de este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 79,
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "tema": "Seguridad y ética de datos",
+      "pregunta": "¿Qué políticas de seguridad y ética de datos se deben aplicar al ejecutar este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 80,
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "tema": "Marca y comunicaciones",
+      "pregunta": "¿Cómo se comunicará este objetivo para fortalecer la marca y la confianza? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 81,
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "tema": "Modelo educativo",
+      "pregunta": "¿Cómo se refleja este objetivo en el modelo educativo y sus metodologías? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 82,
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "tema": "Transformación digital",
+      "pregunta": "¿Qué capacidades digitales son necesarias para ejecutar este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 83,
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "tema": "Educación virtual e híbrida",
+      "pregunta": "¿Qué implicancias tiene este objetivo sobre la oferta virtual e híbrida? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 84,
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "tema": "Investigación e innovación",
+      "pregunta": "¿Cómo impulsa este objetivo la investigación aplicada y la innovación? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 85,
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "tema": "Inclusión y equidad",
+      "pregunta": "¿Qué salvaguardas asegurarán que la implementación de este objetivo sea equitativa e inclusiva? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 86,
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "tema": "Impacto regional",
+      "pregunta": "¿Qué resultados territoriales se esperan al ejecutar este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 87,
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "tema": "Finanzas y sostenibilidad",
+      "pregunta": "¿Cómo se financia este objetivo y qué retorno académico/operativo se proyecta? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 88,
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "tema": "Infraestructura",
+      "pregunta": "¿Qué cambios en infraestructura física/tecnológica son necesarios para este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 89,
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "tema": "Gestión del cambio",
+      "pregunta": "¿Qué acciones de gestión del cambio facilitarán la adopción de este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 90,
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "tema": "Clima laboral",
+      "pregunta": "¿Cómo impactará este objetivo en el clima laboral y la retención de talento? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 91,
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "tema": "Inteligencia Artificial",
+      "pregunta": "¿Qué usos responsables de IA habilitan o aceleran este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 92,
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "tema": "Simulación y laboratorios",
+      "pregunta": "¿Qué capacidades de simulación/laboratorios se requieren para este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 93,
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "tema": "Alianzas y cooperación",
+      "pregunta": "¿Qué alianzas estratégicas (público-privadas) potenciarán los resultados de este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 94,
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "tema": "Seguridad y ética de datos",
+      "pregunta": "¿Qué políticas de seguridad y ética de datos se deben aplicar al ejecutar este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 95,
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "tema": "Marca y comunicaciones",
+      "pregunta": "¿Cómo se comunicará este objetivo para fortalecer la marca y la confianza? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 96,
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "tema": "Universidades del futuro",
+      "pregunta": "¿Cómo este objetivo posiciona a la Universidad del Alba dentro del concepto de universidades del futuro? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 97,
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "tema": "Transformación digital",
+      "pregunta": "¿Qué capacidades digitales son necesarias para ejecutar este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 98,
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "tema": "Educación virtual e híbrida",
+      "pregunta": "¿Qué implicancias tiene este objetivo sobre la oferta virtual e híbrida? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 99,
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "tema": "Investigación e innovación",
+      "pregunta": "¿Cómo impulsa este objetivo la investigación aplicada y la innovación? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 100,
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "tema": "Inclusión y equidad",
+      "pregunta": "¿Qué salvaguardas asegurarán que la implementación de este objetivo sea equitativa e inclusiva? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 101,
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "tema": "Impacto regional",
+      "pregunta": "¿Qué resultados territoriales se esperan al ejecutar este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 102,
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "tema": "Finanzas y sostenibilidad",
+      "pregunta": "¿Cómo se financia este objetivo y qué retorno académico/operativo se proyecta? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 103,
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "tema": "Infraestructura",
+      "pregunta": "¿Qué cambios en infraestructura física/tecnológica son necesarios para este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 104,
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "tema": "Gestión del cambio",
+      "pregunta": "¿Qué acciones de gestión del cambio facilitarán la adopción de este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 105,
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "tema": "Clima laboral",
+      "pregunta": "¿Cómo impactará este objetivo en el clima laboral y la retención de talento? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 106,
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "tema": "Inteligencia Artificial",
+      "pregunta": "¿Qué usos responsables de IA habilitan o aceleran este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 107,
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "tema": "Simulación y laboratorios",
+      "pregunta": "¿Qué capacidades de simulación/laboratorios se requieren para este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 108,
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "tema": "Alianzas y cooperación",
+      "pregunta": "¿Qué alianzas estratégicas (público-privadas) potenciarán los resultados de este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 109,
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "tema": "Seguridad y ética de datos",
+      "pregunta": "¿Qué políticas de seguridad y ética de datos se deben aplicar al ejecutar este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 110,
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "tema": "Marca y comunicaciones",
+      "pregunta": "¿Cómo se comunicará este objetivo para fortalecer la marca y la confianza? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 111,
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "tema": "Universidades del futuro",
+      "pregunta": "¿Cómo este objetivo posiciona a la Universidad del Alba dentro del concepto de universidades del futuro? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 112,
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "tema": "Estrategia institucional",
+      "pregunta": "¿Qué decisiones estratégicas concretas habilita este objetivo a corto y mediano plazo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 113,
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "tema": "Educación virtual e híbrida",
+      "pregunta": "¿Qué implicancias tiene este objetivo sobre la oferta virtual e híbrida? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 114,
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "tema": "Investigación e innovación",
+      "pregunta": "¿Cómo impulsa este objetivo la investigación aplicada y la innovación? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 115,
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "tema": "Inclusión y equidad",
+      "pregunta": "¿Qué salvaguardas asegurarán que la implementación de este objetivo sea equitativa e inclusiva? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 116,
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "tema": "Impacto regional",
+      "pregunta": "¿Qué resultados territoriales se esperan al ejecutar este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 117,
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "tema": "Finanzas y sostenibilidad",
+      "pregunta": "¿Cómo se financia este objetivo y qué retorno académico/operativo se proyecta? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 118,
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "tema": "Infraestructura",
+      "pregunta": "¿Qué cambios en infraestructura física/tecnológica son necesarios para este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 119,
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "tema": "Gestión del cambio",
+      "pregunta": "¿Qué acciones de gestión del cambio facilitarán la adopción de este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 120,
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "tema": "Clima laboral",
+      "pregunta": "¿Cómo impactará este objetivo en el clima laboral y la retención de talento? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 121,
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "tema": "Inteligencia Artificial",
+      "pregunta": "¿Qué usos responsables de IA habilitan o aceleran este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 122,
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "tema": "Simulación y laboratorios",
+      "pregunta": "¿Qué capacidades de simulación/laboratorios se requieren para este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 123,
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "tema": "Alianzas y cooperación",
+      "pregunta": "¿Qué alianzas estratégicas (público-privadas) potenciarán los resultados de este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 124,
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "tema": "Seguridad y ética de datos",
+      "pregunta": "¿Qué políticas de seguridad y ética de datos se deben aplicar al ejecutar este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 125,
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "tema": "Marca y comunicaciones",
+      "pregunta": "¿Cómo se comunicará este objetivo para fortalecer la marca y la confianza? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 126,
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "tema": "Universidades del futuro",
+      "pregunta": "¿Cómo este objetivo posiciona a la Universidad del Alba dentro del concepto de universidades del futuro? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 127,
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "tema": "Estrategia institucional",
+      "pregunta": "¿Qué decisiones estratégicas concretas habilita este objetivo a corto y mediano plazo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 128,
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "tema": "Estudio de mercado",
+      "pregunta": "¿Qué hallazgos de mercado deben incorporarse para que este objetivo sea pertinente? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 129,
+      "objetivo_numero": 9,
+      "objetivo_nombre": "Simulación y Laboratorios Virtuales",
+      "tema": "Investigación e innovación",
+      "pregunta": "¿Cómo impulsa este objetivo la investigación aplicada y la innovación? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 130,
+      "objetivo_numero": 9,
+      "objetivo_nombre": "Simulación y Laboratorios Virtuales",
+      "tema": "Inclusión y equidad",
+      "pregunta": "¿Qué salvaguardas asegurarán que la implementación de este objetivo sea equitativa e inclusiva? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 131,
+      "objetivo_numero": 9,
+      "objetivo_nombre": "Simulación y Laboratorios Virtuales",
+      "tema": "Impacto regional",
+      "pregunta": "¿Qué resultados territoriales se esperan al ejecutar este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 132,
+      "objetivo_numero": 9,
+      "objetivo_nombre": "Simulación y Laboratorios Virtuales",
+      "tema": "Finanzas y sostenibilidad",
+      "pregunta": "¿Cómo se financia este objetivo y qué retorno académico/operativo se proyecta? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 133,
+      "objetivo_numero": 9,
+      "objetivo_nombre": "Simulación y Laboratorios Virtuales",
+      "tema": "Infraestructura",
+      "pregunta": "¿Qué cambios en infraestructura física/tecnológica son necesarios para este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 134,
+      "objetivo_numero": 9,
+      "objetivo_nombre": "Simulación y Laboratorios Virtuales",
+      "tema": "Gestión del cambio",
+      "pregunta": "¿Qué acciones de gestión del cambio facilitarán la adopción de este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 135,
+      "objetivo_numero": 9,
+      "objetivo_nombre": "Simulación y Laboratorios Virtuales",
+      "tema": "Clima laboral",
+      "pregunta": "¿Cómo impactará este objetivo en el clima laboral y la retención de talento? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 136,
+      "objetivo_numero": 9,
+      "objetivo_nombre": "Simulación y Laboratorios Virtuales",
+      "tema": "Inteligencia Artificial",
+      "pregunta": "¿Qué usos responsables de IA habilitan o aceleran este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 137,
+      "objetivo_numero": 9,
+      "objetivo_nombre": "Simulación y Laboratorios Virtuales",
+      "tema": "Simulación y laboratorios",
+      "pregunta": "¿Qué capacidades de simulación/laboratorios se requieren para este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 138,
+      "objetivo_numero": 9,
+      "objetivo_nombre": "Simulación y Laboratorios Virtuales",
+      "tema": "Alianzas y cooperación",
+      "pregunta": "¿Qué alianzas estratégicas (público-privadas) potenciarán los resultados de este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 139,
+      "objetivo_numero": 9,
+      "objetivo_nombre": "Simulación y Laboratorios Virtuales",
+      "tema": "Seguridad y ética de datos",
+      "pregunta": "¿Qué políticas de seguridad y ética de datos se deben aplicar al ejecutar este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 140,
+      "objetivo_numero": 9,
+      "objetivo_nombre": "Simulación y Laboratorios Virtuales",
+      "tema": "Marca y comunicaciones",
+      "pregunta": "¿Cómo se comunicará este objetivo para fortalecer la marca y la confianza? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 141,
+      "objetivo_numero": 9,
+      "objetivo_nombre": "Simulación y Laboratorios Virtuales",
+      "tema": "Universidades del futuro",
+      "pregunta": "¿Cómo este objetivo posiciona a la Universidad del Alba dentro del concepto de universidades del futuro? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 142,
+      "objetivo_numero": 9,
+      "objetivo_nombre": "Simulación y Laboratorios Virtuales",
+      "tema": "Estrategia institucional",
+      "pregunta": "¿Qué decisiones estratégicas concretas habilita este objetivo a corto y mediano plazo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 143,
+      "objetivo_numero": 9,
+      "objetivo_nombre": "Simulación y Laboratorios Virtuales",
+      "tema": "Estudio de mercado",
+      "pregunta": "¿Qué hallazgos de mercado deben incorporarse para que este objetivo sea pertinente? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 144,
+      "objetivo_numero": 9,
+      "objetivo_nombre": "Simulación y Laboratorios Virtuales",
+      "tema": "Benchmark internacional (otros países)",
+      "pregunta": "¿Qué buenas prácticas de otros países se pueden adaptar para cumplir este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 145,
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "tema": "Inclusión y equidad",
+      "pregunta": "¿Qué salvaguardas asegurarán que la implementación de este objetivo sea equitativa e inclusiva? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 146,
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "tema": "Impacto regional",
+      "pregunta": "¿Qué resultados territoriales se esperan al ejecutar este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 147,
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "tema": "Finanzas y sostenibilidad",
+      "pregunta": "¿Cómo se financia este objetivo y qué retorno académico/operativo se proyecta? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 148,
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "tema": "Infraestructura",
+      "pregunta": "¿Qué cambios en infraestructura física/tecnológica son necesarios para este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 149,
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "tema": "Gestión del cambio",
+      "pregunta": "¿Qué acciones de gestión del cambio facilitarán la adopción de este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 150,
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "tema": "Clima laboral",
+      "pregunta": "¿Cómo impactará este objetivo en el clima laboral y la retención de talento? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 151,
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "tema": "Inteligencia Artificial",
+      "pregunta": "¿Qué usos responsables de IA habilitan o aceleran este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 152,
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "tema": "Simulación y laboratorios",
+      "pregunta": "¿Qué capacidades de simulación/laboratorios se requieren para este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 153,
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "tema": "Alianzas y cooperación",
+      "pregunta": "¿Qué alianzas estratégicas (público-privadas) potenciarán los resultados de este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 154,
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "tema": "Seguridad y ética de datos",
+      "pregunta": "¿Qué políticas de seguridad y ética de datos se deben aplicar al ejecutar este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 155,
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "tema": "Marca y comunicaciones",
+      "pregunta": "¿Cómo se comunicará este objetivo para fortalecer la marca y la confianza? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 156,
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "tema": "Universidades del futuro",
+      "pregunta": "¿Cómo este objetivo posiciona a la Universidad del Alba dentro del concepto de universidades del futuro? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 157,
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "tema": "Estrategia institucional",
+      "pregunta": "¿Qué decisiones estratégicas concretas habilita este objetivo a corto y mediano plazo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 158,
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "tema": "Estudio de mercado",
+      "pregunta": "¿Qué hallazgos de mercado deben incorporarse para que este objetivo sea pertinente? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 159,
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "tema": "Benchmark internacional (otros países)",
+      "pregunta": "¿Qué buenas prácticas de otros países se pueden adaptar para cumplir este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 160,
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "tema": "Gobernanza",
+      "pregunta": "¿Qué ajustes de gobernanza se requieren para implementar este objetivo con trazabilidad? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 161,
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "tema": "Impacto regional",
+      "pregunta": "¿Qué resultados territoriales se esperan al ejecutar este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 162,
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "tema": "Finanzas y sostenibilidad",
+      "pregunta": "¿Cómo se financia este objetivo y qué retorno académico/operativo se proyecta? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 163,
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "tema": "Infraestructura",
+      "pregunta": "¿Qué cambios en infraestructura física/tecnológica son necesarios para este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 164,
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "tema": "Gestión del cambio",
+      "pregunta": "¿Qué acciones de gestión del cambio facilitarán la adopción de este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 165,
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "tema": "Clima laboral",
+      "pregunta": "¿Cómo impactará este objetivo en el clima laboral y la retención de talento? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 166,
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "tema": "Inteligencia Artificial",
+      "pregunta": "¿Qué usos responsables de IA habilitan o aceleran este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 167,
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "tema": "Simulación y laboratorios",
+      "pregunta": "¿Qué capacidades de simulación/laboratorios se requieren para este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 168,
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "tema": "Alianzas y cooperación",
+      "pregunta": "¿Qué alianzas estratégicas (público-privadas) potenciarán los resultados de este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 169,
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "tema": "Seguridad y ética de datos",
+      "pregunta": "¿Qué políticas de seguridad y ética de datos se deben aplicar al ejecutar este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 170,
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "tema": "Marca y comunicaciones",
+      "pregunta": "¿Cómo se comunicará este objetivo para fortalecer la marca y la confianza? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 171,
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "tema": "Universidades del futuro",
+      "pregunta": "¿Cómo este objetivo posiciona a la Universidad del Alba dentro del concepto de universidades del futuro? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 172,
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "tema": "Estrategia institucional",
+      "pregunta": "¿Qué decisiones estratégicas concretas habilita este objetivo a corto y mediano plazo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 173,
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "tema": "Estudio de mercado",
+      "pregunta": "¿Qué hallazgos de mercado deben incorporarse para que este objetivo sea pertinente? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 174,
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "tema": "Benchmark internacional (otros países)",
+      "pregunta": "¿Qué buenas prácticas de otros países se pueden adaptar para cumplir este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 175,
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "tema": "Gobernanza",
+      "pregunta": "¿Qué ajustes de gobernanza se requieren para implementar este objetivo con trazabilidad? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 176,
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "tema": "Modelo educativo",
+      "pregunta": "¿Cómo se refleja este objetivo en el modelo educativo y sus metodologías? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 177,
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "tema": "Finanzas y sostenibilidad",
+      "pregunta": "¿Cómo se financia este objetivo y qué retorno académico/operativo se proyecta? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 178,
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "tema": "Infraestructura",
+      "pregunta": "¿Qué cambios en infraestructura física/tecnológica son necesarios para este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 179,
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "tema": "Gestión del cambio",
+      "pregunta": "¿Qué acciones de gestión del cambio facilitarán la adopción de este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 180,
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "tema": "Clima laboral",
+      "pregunta": "¿Cómo impactará este objetivo en el clima laboral y la retención de talento? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 181,
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "tema": "Inteligencia Artificial",
+      "pregunta": "¿Qué usos responsables de IA habilitan o aceleran este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 182,
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "tema": "Simulación y laboratorios",
+      "pregunta": "¿Qué capacidades de simulación/laboratorios se requieren para este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 183,
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "tema": "Alianzas y cooperación",
+      "pregunta": "¿Qué alianzas estratégicas (público-privadas) potenciarán los resultados de este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 184,
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "tema": "Seguridad y ética de datos",
+      "pregunta": "¿Qué políticas de seguridad y ética de datos se deben aplicar al ejecutar este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 185,
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "tema": "Marca y comunicaciones",
+      "pregunta": "¿Cómo se comunicará este objetivo para fortalecer la marca y la confianza? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 186,
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "tema": "Universidades del futuro",
+      "pregunta": "¿Cómo este objetivo posiciona a la Universidad del Alba dentro del concepto de universidades del futuro? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 187,
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "tema": "Estrategia institucional",
+      "pregunta": "¿Qué decisiones estratégicas concretas habilita este objetivo a corto y mediano plazo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 188,
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "tema": "Estudio de mercado",
+      "pregunta": "¿Qué hallazgos de mercado deben incorporarse para que este objetivo sea pertinente? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 189,
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "tema": "Benchmark internacional (otros países)",
+      "pregunta": "¿Qué buenas prácticas de otros países se pueden adaptar para cumplir este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 190,
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "tema": "Gobernanza",
+      "pregunta": "¿Qué ajustes de gobernanza se requieren para implementar este objetivo con trazabilidad? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 191,
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "tema": "Modelo educativo",
+      "pregunta": "¿Cómo se refleja este objetivo en el modelo educativo y sus metodologías? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 192,
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "tema": "Transformación digital",
+      "pregunta": "¿Qué capacidades digitales son necesarias para ejecutar este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 193,
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "tema": "Infraestructura",
+      "pregunta": "¿Qué cambios en infraestructura física/tecnológica son necesarios para este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 194,
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "tema": "Gestión del cambio",
+      "pregunta": "¿Qué acciones de gestión del cambio facilitarán la adopción de este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 195,
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "tema": "Clima laboral",
+      "pregunta": "¿Cómo impactará este objetivo en el clima laboral y la retención de talento? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 196,
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "tema": "Inteligencia Artificial",
+      "pregunta": "¿Qué usos responsables de IA habilitan o aceleran este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 197,
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "tema": "Simulación y laboratorios",
+      "pregunta": "¿Qué capacidades de simulación/laboratorios se requieren para este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 198,
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "tema": "Alianzas y cooperación",
+      "pregunta": "¿Qué alianzas estratégicas (público-privadas) potenciarán los resultados de este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 199,
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "tema": "Seguridad y ética de datos",
+      "pregunta": "¿Qué políticas de seguridad y ética de datos se deben aplicar al ejecutar este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 200,
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "tema": "Marca y comunicaciones",
+      "pregunta": "¿Cómo se comunicará este objetivo para fortalecer la marca y la confianza? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 201,
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "tema": "Universidades del futuro",
+      "pregunta": "¿Cómo este objetivo posiciona a la Universidad del Alba dentro del concepto de universidades del futuro? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 202,
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "tema": "Estrategia institucional",
+      "pregunta": "¿Qué decisiones estratégicas concretas habilita este objetivo a corto y mediano plazo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 203,
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "tema": "Estudio de mercado",
+      "pregunta": "¿Qué hallazgos de mercado deben incorporarse para que este objetivo sea pertinente? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 204,
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "tema": "Benchmark internacional (otros países)",
+      "pregunta": "¿Qué buenas prácticas de otros países se pueden adaptar para cumplir este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 205,
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "tema": "Gobernanza",
+      "pregunta": "¿Qué ajustes de gobernanza se requieren para implementar este objetivo con trazabilidad? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 206,
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "tema": "Modelo educativo",
+      "pregunta": "¿Cómo se refleja este objetivo en el modelo educativo y sus metodologías? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 207,
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "tema": "Transformación digital",
+      "pregunta": "¿Qué capacidades digitales son necesarias para ejecutar este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 208,
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "tema": "Educación virtual e híbrida",
+      "pregunta": "¿Qué implicancias tiene este objetivo sobre la oferta virtual e híbrida? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 209,
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "tema": "Gestión del cambio",
+      "pregunta": "¿Qué acciones de gestión del cambio facilitarán la adopción de este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 210,
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "tema": "Clima laboral",
+      "pregunta": "¿Cómo impactará este objetivo en el clima laboral y la retención de talento? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 211,
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "tema": "Inteligencia Artificial",
+      "pregunta": "¿Qué usos responsables de IA habilitan o aceleran este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 212,
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "tema": "Simulación y laboratorios",
+      "pregunta": "¿Qué capacidades de simulación/laboratorios se requieren para este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 213,
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "tema": "Alianzas y cooperación",
+      "pregunta": "¿Qué alianzas estratégicas (público-privadas) potenciarán los resultados de este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 214,
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "tema": "Seguridad y ética de datos",
+      "pregunta": "¿Qué políticas de seguridad y ética de datos se deben aplicar al ejecutar este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 215,
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "tema": "Marca y comunicaciones",
+      "pregunta": "¿Cómo se comunicará este objetivo para fortalecer la marca y la confianza? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 216,
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "tema": "Universidades del futuro",
+      "pregunta": "¿Cómo este objetivo posiciona a la Universidad del Alba dentro del concepto de universidades del futuro? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 217,
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "tema": "Estrategia institucional",
+      "pregunta": "¿Qué decisiones estratégicas concretas habilita este objetivo a corto y mediano plazo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 218,
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "tema": "Estudio de mercado",
+      "pregunta": "¿Qué hallazgos de mercado deben incorporarse para que este objetivo sea pertinente? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 219,
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "tema": "Benchmark internacional (otros países)",
+      "pregunta": "¿Qué buenas prácticas de otros países se pueden adaptar para cumplir este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 220,
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "tema": "Gobernanza",
+      "pregunta": "¿Qué ajustes de gobernanza se requieren para implementar este objetivo con trazabilidad? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 221,
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "tema": "Modelo educativo",
+      "pregunta": "¿Cómo se refleja este objetivo en el modelo educativo y sus metodologías? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 222,
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "tema": "Transformación digital",
+      "pregunta": "¿Qué capacidades digitales son necesarias para ejecutar este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 223,
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "tema": "Educación virtual e híbrida",
+      "pregunta": "¿Qué implicancias tiene este objetivo sobre la oferta virtual e híbrida? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 224,
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "tema": "Investigación e innovación",
+      "pregunta": "¿Cómo impulsa este objetivo la investigación aplicada y la innovación? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 225,
+      "objetivo_numero": 15,
+      "objetivo_nombre": "Universidad de la Experiencia: Educación Continua y Reconversión Laboral",
+      "tema": "Clima laboral",
+      "pregunta": "¿Cómo impactará este objetivo en el clima laboral y la retención de talento? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 226,
+      "objetivo_numero": 15,
+      "objetivo_nombre": "Universidad de la Experiencia: Educación Continua y Reconversión Laboral",
+      "tema": "Inteligencia Artificial",
+      "pregunta": "¿Qué usos responsables de IA habilitan o aceleran este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 227,
+      "objetivo_numero": 15,
+      "objetivo_nombre": "Universidad de la Experiencia: Educación Continua y Reconversión Laboral",
+      "tema": "Simulación y laboratorios",
+      "pregunta": "¿Qué capacidades de simulación/laboratorios se requieren para este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 228,
+      "objetivo_numero": 15,
+      "objetivo_nombre": "Universidad de la Experiencia: Educación Continua y Reconversión Laboral",
+      "tema": "Alianzas y cooperación",
+      "pregunta": "¿Qué alianzas estratégicas (público-privadas) potenciarán los resultados de este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 229,
+      "objetivo_numero": 15,
+      "objetivo_nombre": "Universidad de la Experiencia: Educación Continua y Reconversión Laboral",
+      "tema": "Seguridad y ética de datos",
+      "pregunta": "¿Qué políticas de seguridad y ética de datos se deben aplicar al ejecutar este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 230,
+      "objetivo_numero": 15,
+      "objetivo_nombre": "Universidad de la Experiencia: Educación Continua y Reconversión Laboral",
+      "tema": "Marca y comunicaciones",
+      "pregunta": "¿Cómo se comunicará este objetivo para fortalecer la marca y la confianza? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 231,
+      "objetivo_numero": 15,
+      "objetivo_nombre": "Universidad de la Experiencia: Educación Continua y Reconversión Laboral",
+      "tema": "Universidades del futuro",
+      "pregunta": "¿Cómo este objetivo posiciona a la Universidad del Alba dentro del concepto de universidades del futuro? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 232,
+      "objetivo_numero": 15,
+      "objetivo_nombre": "Universidad de la Experiencia: Educación Continua y Reconversión Laboral",
+      "tema": "Estrategia institucional",
+      "pregunta": "¿Qué decisiones estratégicas concretas habilita este objetivo a corto y mediano plazo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 233,
+      "objetivo_numero": 15,
+      "objetivo_nombre": "Universidad de la Experiencia: Educación Continua y Reconversión Laboral",
+      "tema": "Estudio de mercado",
+      "pregunta": "¿Qué hallazgos de mercado deben incorporarse para que este objetivo sea pertinente? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 234,
+      "objetivo_numero": 15,
+      "objetivo_nombre": "Universidad de la Experiencia: Educación Continua y Reconversión Laboral",
+      "tema": "Benchmark internacional (otros países)",
+      "pregunta": "¿Qué buenas prácticas de otros países se pueden adaptar para cumplir este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 235,
+      "objetivo_numero": 15,
+      "objetivo_nombre": "Universidad de la Experiencia: Educación Continua y Reconversión Laboral",
+      "tema": "Gobernanza",
+      "pregunta": "¿Qué ajustes de gobernanza se requieren para implementar este objetivo con trazabilidad? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 236,
+      "objetivo_numero": 15,
+      "objetivo_nombre": "Universidad de la Experiencia: Educación Continua y Reconversión Laboral",
+      "tema": "Modelo educativo",
+      "pregunta": "¿Cómo se refleja este objetivo en el modelo educativo y sus metodologías? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 237,
+      "objetivo_numero": 15,
+      "objetivo_nombre": "Universidad de la Experiencia: Educación Continua y Reconversión Laboral",
+      "tema": "Transformación digital",
+      "pregunta": "¿Qué capacidades digitales son necesarias para ejecutar este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 238,
+      "objetivo_numero": 15,
+      "objetivo_nombre": "Universidad de la Experiencia: Educación Continua y Reconversión Laboral",
+      "tema": "Educación virtual e híbrida",
+      "pregunta": "¿Qué implicancias tiene este objetivo sobre la oferta virtual e híbrida? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 239,
+      "objetivo_numero": 15,
+      "objetivo_nombre": "Universidad de la Experiencia: Educación Continua y Reconversión Laboral",
+      "tema": "Investigación e innovación",
+      "pregunta": "¿Cómo impulsa este objetivo la investigación aplicada y la innovación? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 240,
+      "objetivo_numero": 15,
+      "objetivo_nombre": "Universidad de la Experiencia: Educación Continua y Reconversión Laboral",
+      "tema": "Inclusión y equidad",
+      "pregunta": "¿Qué salvaguardas asegurarán que la implementación de este objetivo sea equitativa e inclusiva? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 241,
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "tema": "Inteligencia Artificial",
+      "pregunta": "¿Qué usos responsables de IA habilitan o aceleran este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 242,
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "tema": "Simulación y laboratorios",
+      "pregunta": "¿Qué capacidades de simulación/laboratorios se requieren para este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 243,
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "tema": "Alianzas y cooperación",
+      "pregunta": "¿Qué alianzas estratégicas (público-privadas) potenciarán los resultados de este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 244,
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "tema": "Seguridad y ética de datos",
+      "pregunta": "¿Qué políticas de seguridad y ética de datos se deben aplicar al ejecutar este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 245,
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "tema": "Marca y comunicaciones",
+      "pregunta": "¿Cómo se comunicará este objetivo para fortalecer la marca y la confianza? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 246,
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "tema": "Universidades del futuro",
+      "pregunta": "¿Cómo este objetivo posiciona a la Universidad del Alba dentro del concepto de universidades del futuro? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 247,
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "tema": "Estrategia institucional",
+      "pregunta": "¿Qué decisiones estratégicas concretas habilita este objetivo a corto y mediano plazo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 248,
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "tema": "Estudio de mercado",
+      "pregunta": "¿Qué hallazgos de mercado deben incorporarse para que este objetivo sea pertinente? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 249,
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "tema": "Benchmark internacional (otros países)",
+      "pregunta": "¿Qué buenas prácticas de otros países se pueden adaptar para cumplir este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 250,
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "tema": "Gobernanza",
+      "pregunta": "¿Qué ajustes de gobernanza se requieren para implementar este objetivo con trazabilidad? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 251,
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "tema": "Modelo educativo",
+      "pregunta": "¿Cómo se refleja este objetivo en el modelo educativo y sus metodologías? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 252,
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "tema": "Transformación digital",
+      "pregunta": "¿Qué capacidades digitales son necesarias para ejecutar este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 253,
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "tema": "Educación virtual e híbrida",
+      "pregunta": "¿Qué implicancias tiene este objetivo sobre la oferta virtual e híbrida? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 254,
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "tema": "Investigación e innovación",
+      "pregunta": "¿Cómo impulsa este objetivo la investigación aplicada y la innovación? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 255,
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "tema": "Inclusión y equidad",
+      "pregunta": "¿Qué salvaguardas asegurarán que la implementación de este objetivo sea equitativa e inclusiva? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 256,
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "tema": "Impacto regional",
+      "pregunta": "¿Qué resultados territoriales se esperan al ejecutar este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 257,
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "tema": "Simulación y laboratorios",
+      "pregunta": "¿Qué capacidades de simulación/laboratorios se requieren para este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 258,
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "tema": "Alianzas y cooperación",
+      "pregunta": "¿Qué alianzas estratégicas (público-privadas) potenciarán los resultados de este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 259,
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "tema": "Seguridad y ética de datos",
+      "pregunta": "¿Qué políticas de seguridad y ética de datos se deben aplicar al ejecutar este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 260,
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "tema": "Marca y comunicaciones",
+      "pregunta": "¿Cómo se comunicará este objetivo para fortalecer la marca y la confianza? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 261,
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "tema": "Universidades del futuro",
+      "pregunta": "¿Cómo este objetivo posiciona a la Universidad del Alba dentro del concepto de universidades del futuro? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 262,
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "tema": "Estrategia institucional",
+      "pregunta": "¿Qué decisiones estratégicas concretas habilita este objetivo a corto y mediano plazo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 263,
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "tema": "Estudio de mercado",
+      "pregunta": "¿Qué hallazgos de mercado deben incorporarse para que este objetivo sea pertinente? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 264,
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "tema": "Benchmark internacional (otros países)",
+      "pregunta": "¿Qué buenas prácticas de otros países se pueden adaptar para cumplir este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 265,
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "tema": "Gobernanza",
+      "pregunta": "¿Qué ajustes de gobernanza se requieren para implementar este objetivo con trazabilidad? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 266,
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "tema": "Modelo educativo",
+      "pregunta": "¿Cómo se refleja este objetivo en el modelo educativo y sus metodologías? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 267,
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "tema": "Transformación digital",
+      "pregunta": "¿Qué capacidades digitales son necesarias para ejecutar este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 268,
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "tema": "Educación virtual e híbrida",
+      "pregunta": "¿Qué implicancias tiene este objetivo sobre la oferta virtual e híbrida? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 269,
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "tema": "Investigación e innovación",
+      "pregunta": "¿Cómo impulsa este objetivo la investigación aplicada y la innovación? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 270,
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "tema": "Inclusión y equidad",
+      "pregunta": "¿Qué salvaguardas asegurarán que la implementación de este objetivo sea equitativa e inclusiva? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 271,
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "tema": "Impacto regional",
+      "pregunta": "¿Qué resultados territoriales se esperan al ejecutar este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 272,
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "tema": "Finanzas y sostenibilidad",
+      "pregunta": "¿Cómo se financia este objetivo y qué retorno académico/operativo se proyecta? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 273,
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "tema": "Alianzas y cooperación",
+      "pregunta": "¿Qué alianzas estratégicas (público-privadas) potenciarán los resultados de este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 274,
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "tema": "Seguridad y ética de datos",
+      "pregunta": "¿Qué políticas de seguridad y ética de datos se deben aplicar al ejecutar este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 275,
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "tema": "Marca y comunicaciones",
+      "pregunta": "¿Cómo se comunicará este objetivo para fortalecer la marca y la confianza? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 276,
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "tema": "Universidades del futuro",
+      "pregunta": "¿Cómo este objetivo posiciona a la Universidad del Alba dentro del concepto de universidades del futuro? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 277,
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "tema": "Estrategia institucional",
+      "pregunta": "¿Qué decisiones estratégicas concretas habilita este objetivo a corto y mediano plazo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 278,
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "tema": "Estudio de mercado",
+      "pregunta": "¿Qué hallazgos de mercado deben incorporarse para que este objetivo sea pertinente? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 279,
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "tema": "Benchmark internacional (otros países)",
+      "pregunta": "¿Qué buenas prácticas de otros países se pueden adaptar para cumplir este objetivo? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 280,
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "tema": "Gobernanza",
+      "pregunta": "¿Qué ajustes de gobernanza se requieren para implementar este objetivo con trazabilidad? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 281,
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "tema": "Modelo educativo",
+      "pregunta": "¿Cómo se refleja este objetivo en el modelo educativo y sus metodologías? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 282,
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "tema": "Transformación digital",
+      "pregunta": "¿Qué capacidades digitales son necesarias para ejecutar este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 283,
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "tema": "Educación virtual e híbrida",
+      "pregunta": "¿Qué implicancias tiene este objetivo sobre la oferta virtual e híbrida? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 284,
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "tema": "Investigación e innovación",
+      "pregunta": "¿Cómo impulsa este objetivo la investigación aplicada y la innovación? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 285,
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "tema": "Inclusión y equidad",
+      "pregunta": "¿Qué salvaguardas asegurarán que la implementación de este objetivo sea equitativa e inclusiva? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 286,
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "tema": "Impacto regional",
+      "pregunta": "¿Qué resultados territoriales se esperan al ejecutar este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 287,
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "tema": "Finanzas y sostenibilidad",
+      "pregunta": "¿Cómo se financia este objetivo y qué retorno académico/operativo se proyecta? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 288,
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "tema": "Infraestructura",
+      "pregunta": "¿Qué cambios en infraestructura física/tecnológica son necesarios para este objetivo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 289,
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "tema": "Seguridad y ética de datos",
+      "pregunta": "¿Qué políticas de seguridad y ética de datos se deben aplicar al ejecutar este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 290,
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "tema": "Marca y comunicaciones",
+      "pregunta": "¿Cómo se comunicará este objetivo para fortalecer la marca y la confianza? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 291,
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "tema": "Universidades del futuro",
+      "pregunta": "¿Cómo este objetivo posiciona a la Universidad del Alba dentro del concepto de universidades del futuro? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 292,
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "tema": "Estrategia institucional",
+      "pregunta": "¿Qué decisiones estratégicas concretas habilita este objetivo a corto y mediano plazo? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 293,
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "tema": "Estudio de mercado",
+      "pregunta": "¿Qué hallazgos de mercado deben incorporarse para que este objetivo sea pertinente? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 294,
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "tema": "Benchmark internacional (otros países)",
+      "pregunta": "¿Qué buenas prácticas de otros países se pueden adaptar para cumplir este objetivo? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 295,
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "tema": "Gobernanza",
+      "pregunta": "¿Qué ajustes de gobernanza se requieren para implementar este objetivo con trazabilidad? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 296,
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "tema": "Modelo educativo",
+      "pregunta": "¿Cómo se refleja este objetivo en el modelo educativo y sus metodologías? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    },
+    {
+      "id": 297,
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "tema": "Transformación digital",
+      "pregunta": "¿Qué capacidades digitales son necesarias para ejecutar este objetivo? ¿Cuáles son los hitos intermedios que verificarán avances en este objetivo respecto al tema?"
+    },
+    {
+      "id": 298,
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "tema": "Educación virtual e híbrida",
+      "pregunta": "¿Qué implicancias tiene este objetivo sobre la oferta virtual e híbrida? ¿Qué indicadores clave (KPIs) se usarán para medir este cruce objetivo-tema?"
+    },
+    {
+      "id": 299,
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "tema": "Investigación e innovación",
+      "pregunta": "¿Cómo impulsa este objetivo la investigación aplicada y la innovación? ¿Qué riesgos y mitigaciones se contemplan en este cruce?"
+    },
+    {
+      "id": 300,
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "tema": "Inclusión y equidad",
+      "pregunta": "¿Qué salvaguardas asegurarán que la implementación de este objetivo sea equitativa e inclusiva? ¿Qué capacidades (personas, procesos, tecnología) son críticas en este cruce?"
+    }
+  ]
+}

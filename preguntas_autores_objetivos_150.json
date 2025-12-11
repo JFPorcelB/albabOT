@@ -1,0 +1,1510 @@
+{
+  "metadata": {
+    "fuente": "Tabla Autores vs Objetivos",
+    "documento": "Tabla Autores vs Objetivos.pdf",
+    "version": "2025-12-11",
+    "nota": "150 preguntas que cruzan textos/autores con los objetivos UDALBA 2025–2045"
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "Universidad por capas",
+      "autor": "Valenzuela Migoya & Cuéllar Medina",
+      "anio": 2022,
+      "concepto_resumen": "Modelo por capas (núcleo en transformación + campus diferenciado; fijo–fluido–flexible).",
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "pregunta": "Desde 'Universidad por capas' (Valenzuela Migoya & Cuéllar Medina, 2022), ¿Cómo se implementan dinámicas fijo–fluido–flexible en este objetivo? En relación con el objetivo 1 - 'Factores de Desarrollo Institucional', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 2,
+      "texto": "Universidad por capas",
+      "autor": "Valenzuela Migoya & Cuéllar Medina",
+      "anio": 2022,
+      "concepto_resumen": "Modelo por capas (núcleo en transformación + campus diferenciado; fijo–fluido–flexible).",
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "pregunta": "Desde 'Universidad por capas' (Valenzuela Migoya & Cuéllar Medina, 2022), ¿De qué forma el campus diferenciado contribuye al logro del objetivo? En relación con el objetivo 2 - 'Excelencia Académica y Calidad Educativa', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 3,
+      "texto": "Universidad por capas",
+      "autor": "Valenzuela Migoya & Cuéllar Medina",
+      "anio": 2022,
+      "concepto_resumen": "Modelo por capas (núcleo en transformación + campus diferenciado; fijo–fluido–flexible).",
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "pregunta": "Desde 'Universidad por capas' (Valenzuela Migoya & Cuéllar Medina, 2022), ¿Qué ajustes de propósito e impacto se requieren en este objetivo? En relación con el objetivo 6 - 'Desarrollo de Infraestructura Física y Tecnológica', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 4,
+      "texto": "Universidad por capas",
+      "autor": "Valenzuela Migoya & Cuéllar Medina",
+      "anio": 2022,
+      "concepto_resumen": "Modelo por capas (núcleo en transformación + campus diferenciado; fijo–fluido–flexible).",
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "pregunta": "Desde 'Universidad por capas' (Valenzuela Migoya & Cuéllar Medina, 2022), ¿Cómo se implementan dinámicas fijo–fluido–flexible en este objetivo? En relación con el objetivo 7 - 'Transformación Digital y Educación del Futuro', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 5,
+      "texto": "Universidad por capas",
+      "autor": "Valenzuela Migoya & Cuéllar Medina",
+      "anio": 2022,
+      "concepto_resumen": "Modelo por capas (núcleo en transformación + campus diferenciado; fijo–fluido–flexible).",
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "pregunta": "Desde 'Universidad por capas' (Valenzuela Migoya & Cuéllar Medina, 2022), ¿De qué forma el campus diferenciado contribuye al logro del objetivo? En relación con el objetivo 8 - 'Educación Virtual y Modalidades Híbridas', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 6,
+      "texto": "Universidad por capas",
+      "autor": "Valenzuela Migoya & Cuéllar Medina",
+      "anio": 2022,
+      "concepto_resumen": "Modelo por capas (núcleo en transformación + campus diferenciado; fijo–fluido–flexible).",
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "pregunta": "Desde 'Universidad por capas' (Valenzuela Migoya & Cuéllar Medina, 2022), ¿Qué ajustes de propósito e impacto se requieren en este objetivo? En relación con el objetivo 10 - 'Integración Estratégica de TICs', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 7,
+      "texto": "Universidad por capas",
+      "autor": "Valenzuela Migoya & Cuéllar Medina",
+      "anio": 2022,
+      "concepto_resumen": "Modelo por capas (núcleo en transformación + campus diferenciado; fijo–fluido–flexible).",
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "pregunta": "Desde 'Universidad por capas' (Valenzuela Migoya & Cuéllar Medina, 2022), ¿Cómo se implementan dinámicas fijo–fluido–flexible en este objetivo? En relación con el objetivo 13 - 'Enfoque Centrado en el Estudiante', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 8,
+      "texto": "Universidad por capas",
+      "autor": "Valenzuela Migoya & Cuéllar Medina",
+      "anio": 2022,
+      "concepto_resumen": "Modelo por capas (núcleo en transformación + campus diferenciado; fijo–fluido–flexible).",
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "pregunta": "Desde 'Universidad por capas' (Valenzuela Migoya & Cuéllar Medina, 2022), ¿De qué forma el campus diferenciado contribuye al logro del objetivo? En relación con el objetivo 14 - 'Impacto Regional y Pertinencia Territorial', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 9,
+      "texto": "Universidad por capas",
+      "autor": "Valenzuela Migoya & Cuéllar Medina",
+      "anio": 2022,
+      "concepto_resumen": "Modelo por capas (núcleo en transformación + campus diferenciado; fijo–fluido–flexible).",
+      "objetivo_numero": 15,
+      "objetivo_nombre": "Universidad de la Experiencia: Educación Continua y Reconversión Laboral",
+      "pregunta": "Desde 'Universidad por capas' (Valenzuela Migoya & Cuéllar Medina, 2022), ¿Qué ajustes de propósito e impacto se requieren en este objetivo? En relación con el objetivo 15 - 'Universidad de la Experiencia: Educación Continua y Reconversión Laboral', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 10,
+      "texto": "Universidad por capas",
+      "autor": "Valenzuela Migoya & Cuéllar Medina",
+      "anio": 2022,
+      "concepto_resumen": "Modelo por capas (núcleo en transformación + campus diferenciado; fijo–fluido–flexible).",
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "pregunta": "Desde 'Universidad por capas' (Valenzuela Migoya & Cuéllar Medina, 2022), ¿Cómo se implementan dinámicas fijo–fluido–flexible en este objetivo? En relación con el objetivo 17 - 'Adaptación a las Futuras Disrupciones Tecnológicas', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 11,
+      "texto": "Universidad por capas",
+      "autor": "Valenzuela Migoya & Cuéllar Medina",
+      "anio": 2022,
+      "concepto_resumen": "Modelo por capas (núcleo en transformación + campus diferenciado; fijo–fluido–flexible).",
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "pregunta": "Desde 'Universidad por capas' (Valenzuela Migoya & Cuéllar Medina, 2022), ¿De qué forma el campus diferenciado contribuye al logro del objetivo? En relación con el objetivo 19 - 'Gestión del Cambio', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 12,
+      "texto": "Universidad por capas",
+      "autor": "Valenzuela Migoya & Cuéllar Medina",
+      "anio": 2022,
+      "concepto_resumen": "Modelo por capas (núcleo en transformación + campus diferenciado; fijo–fluido–flexible).",
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "pregunta": "Desde 'Universidad por capas' (Valenzuela Migoya & Cuéllar Medina, 2022), ¿Qué ajustes de propósito e impacto se requieren en este objetivo? En relación con el objetivo 1 - 'Factores de Desarrollo Institucional', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 13,
+      "texto": "Universidad por capas",
+      "autor": "Valenzuela Migoya & Cuéllar Medina",
+      "anio": 2022,
+      "concepto_resumen": "Modelo por capas (núcleo en transformación + campus diferenciado; fijo–fluido–flexible).",
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "pregunta": "Desde 'Universidad por capas' (Valenzuela Migoya & Cuéllar Medina, 2022), ¿Cómo se implementan dinámicas fijo–fluido–flexible en este objetivo? En relación con el objetivo 2 - 'Excelencia Académica y Calidad Educativa', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 14,
+      "texto": "Universidad por capas",
+      "autor": "Valenzuela Migoya & Cuéllar Medina",
+      "anio": 2022,
+      "concepto_resumen": "Modelo por capas (núcleo en transformación + campus diferenciado; fijo–fluido–flexible).",
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "pregunta": "Desde 'Universidad por capas' (Valenzuela Migoya & Cuéllar Medina, 2022), ¿De qué forma el campus diferenciado contribuye al logro del objetivo? En relación con el objetivo 6 - 'Desarrollo de Infraestructura Física y Tecnológica', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 15,
+      "texto": "Universidad por capas",
+      "autor": "Valenzuela Migoya & Cuéllar Medina",
+      "anio": 2022,
+      "concepto_resumen": "Modelo por capas (núcleo en transformación + campus diferenciado; fijo–fluido–flexible).",
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "pregunta": "Desde 'Universidad por capas' (Valenzuela Migoya & Cuéllar Medina, 2022), ¿Qué ajustes de propósito e impacto se requieren en este objetivo? En relación con el objetivo 7 - 'Transformación Digital y Educación del Futuro', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 16,
+      "texto": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski",
+      "anio": 2023,
+      "concepto_resumen": "Integración intencional del campus físico y virtual; gobernanza emprendedora basada en datos; diversificación de ingresos.",
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "pregunta": "Desde 'Universidad híbrida y expandida' (Pardo Kuklinski, 2023), ¿Cómo cambia la gobernanza basada en datos al ejecutar este objetivo? En relación con el objetivo 1 - 'Factores de Desarrollo Institucional', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 17,
+      "texto": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski",
+      "anio": 2023,
+      "concepto_resumen": "Integración intencional del campus físico y virtual; gobernanza emprendedora basada en datos; diversificación de ingresos.",
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "pregunta": "Desde 'Universidad híbrida y expandida' (Pardo Kuklinski, 2023), ¿Qué oportunidades de diversificación de ingresos habilita este objetivo? En relación con el objetivo 4 - 'Desarrollo del Talento Humano y Carrera Académica/Administrativa', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 18,
+      "texto": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski",
+      "anio": 2023,
+      "concepto_resumen": "Integración intencional del campus físico y virtual; gobernanza emprendedora basada en datos; diversificación de ingresos.",
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "pregunta": "Desde 'Universidad híbrida y expandida' (Pardo Kuklinski, 2023), ¿Cómo se redefine el rol docente como diseñador de experiencias en este objetivo? En relación con el objetivo 5 - 'Planificación Presupuestaria y Sostenibilidad Financiera', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 19,
+      "texto": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski",
+      "anio": 2023,
+      "concepto_resumen": "Integración intencional del campus físico y virtual; gobernanza emprendedora basada en datos; diversificación de ingresos.",
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "pregunta": "Desde 'Universidad híbrida y expandida' (Pardo Kuklinski, 2023), ¿Cómo cambia la gobernanza basada en datos al ejecutar este objetivo? En relación con el objetivo 6 - 'Desarrollo de Infraestructura Física y Tecnológica', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 20,
+      "texto": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski",
+      "anio": 2023,
+      "concepto_resumen": "Integración intencional del campus físico y virtual; gobernanza emprendedora basada en datos; diversificación de ingresos.",
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "pregunta": "Desde 'Universidad híbrida y expandida' (Pardo Kuklinski, 2023), ¿Qué oportunidades de diversificación de ingresos habilita este objetivo? En relación con el objetivo 7 - 'Transformación Digital y Educación del Futuro', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 21,
+      "texto": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski",
+      "anio": 2023,
+      "concepto_resumen": "Integración intencional del campus físico y virtual; gobernanza emprendedora basada en datos; diversificación de ingresos.",
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "pregunta": "Desde 'Universidad híbrida y expandida' (Pardo Kuklinski, 2023), ¿Cómo se redefine el rol docente como diseñador de experiencias en este objetivo? En relación con el objetivo 8 - 'Educación Virtual y Modalidades Híbridas', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 22,
+      "texto": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski",
+      "anio": 2023,
+      "concepto_resumen": "Integración intencional del campus físico y virtual; gobernanza emprendedora basada en datos; diversificación de ingresos.",
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "pregunta": "Desde 'Universidad híbrida y expandida' (Pardo Kuklinski, 2023), ¿Cómo cambia la gobernanza basada en datos al ejecutar este objetivo? En relación con el objetivo 10 - 'Integración Estratégica de TICs', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 23,
+      "texto": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski",
+      "anio": 2023,
+      "concepto_resumen": "Integración intencional del campus físico y virtual; gobernanza emprendedora basada en datos; diversificación de ingresos.",
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "pregunta": "Desde 'Universidad híbrida y expandida' (Pardo Kuklinski, 2023), ¿Qué oportunidades de diversificación de ingresos habilita este objetivo? En relación con el objetivo 11 - 'Fortalecimiento de la Investigación e Innovación', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 24,
+      "texto": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski",
+      "anio": 2023,
+      "concepto_resumen": "Integración intencional del campus físico y virtual; gobernanza emprendedora basada en datos; diversificación de ingresos.",
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "pregunta": "Desde 'Universidad híbrida y expandida' (Pardo Kuklinski, 2023), ¿Cómo se redefine el rol docente como diseñador de experiencias en este objetivo? En relación con el objetivo 13 - 'Enfoque Centrado en el Estudiante', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 25,
+      "texto": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski",
+      "anio": 2023,
+      "concepto_resumen": "Integración intencional del campus físico y virtual; gobernanza emprendedora basada en datos; diversificación de ingresos.",
+      "objetivo_numero": 15,
+      "objetivo_nombre": "Universidad de la Experiencia: Educación Continua y Reconversión Laboral",
+      "pregunta": "Desde 'Universidad híbrida y expandida' (Pardo Kuklinski, 2023), ¿Cómo cambia la gobernanza basada en datos al ejecutar este objetivo? En relación con el objetivo 15 - 'Universidad de la Experiencia: Educación Continua y Reconversión Laboral', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 26,
+      "texto": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski",
+      "anio": 2023,
+      "concepto_resumen": "Integración intencional del campus físico y virtual; gobernanza emprendedora basada en datos; diversificación de ingresos.",
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "pregunta": "Desde 'Universidad híbrida y expandida' (Pardo Kuklinski, 2023), ¿Qué oportunidades de diversificación de ingresos habilita este objetivo? En relación con el objetivo 17 - 'Adaptación a las Futuras Disrupciones Tecnológicas', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 27,
+      "texto": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski",
+      "anio": 2023,
+      "concepto_resumen": "Integración intencional del campus físico y virtual; gobernanza emprendedora basada en datos; diversificación de ingresos.",
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "pregunta": "Desde 'Universidad híbrida y expandida' (Pardo Kuklinski, 2023), ¿Cómo se redefine el rol docente como diseñador de experiencias en este objetivo? En relación con el objetivo 19 - 'Gestión del Cambio', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 28,
+      "texto": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski",
+      "anio": 2023,
+      "concepto_resumen": "Integración intencional del campus físico y virtual; gobernanza emprendedora basada en datos; diversificación de ingresos.",
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "pregunta": "Desde 'Universidad híbrida y expandida' (Pardo Kuklinski, 2023), ¿Cómo cambia la gobernanza basada en datos al ejecutar este objetivo? En relación con el objetivo 1 - 'Factores de Desarrollo Institucional', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 29,
+      "texto": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski",
+      "anio": 2023,
+      "concepto_resumen": "Integración intencional del campus físico y virtual; gobernanza emprendedora basada en datos; diversificación de ingresos.",
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "pregunta": "Desde 'Universidad híbrida y expandida' (Pardo Kuklinski, 2023), ¿Qué oportunidades de diversificación de ingresos habilita este objetivo? En relación con el objetivo 4 - 'Desarrollo del Talento Humano y Carrera Académica/Administrativa', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 30,
+      "texto": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski",
+      "anio": 2023,
+      "concepto_resumen": "Integración intencional del campus físico y virtual; gobernanza emprendedora basada en datos; diversificación de ingresos.",
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "pregunta": "Desde 'Universidad híbrida y expandida' (Pardo Kuklinski, 2023), ¿Cómo se redefine el rol docente como diseñador de experiencias en este objetivo? En relación con el objetivo 5 - 'Planificación Presupuestaria y Sostenibilidad Financiera', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 31,
+      "texto": "TIC e IA para mejorar",
+      "autor": "Mora, Ochoa, Cango & Gutiérrez",
+      "anio": 2024,
+      "concepto_resumen": "Integración estratégica de TIC e IA en enseñanza y evaluación; personalización y retroalimentación continua.",
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "pregunta": "Desde 'TIC e IA para mejorar' (Mora, Ochoa, Cango & Gutiérrez, 2024), ¿Qué usos de IA personalizan la enseñanza vinculada a este objetivo? En relación con el objetivo 2 - 'Excelencia Académica y Calidad Educativa', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 32,
+      "texto": "TIC e IA para mejorar",
+      "autor": "Mora, Ochoa, Cango & Gutiérrez",
+      "anio": 2024,
+      "concepto_resumen": "Integración estratégica de TIC e IA en enseñanza y evaluación; personalización y retroalimentación continua.",
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "pregunta": "Desde 'TIC e IA para mejorar' (Mora, Ochoa, Cango & Gutiérrez, 2024), ¿Cómo se garantiza retroalimentación en tiempo real sin perder el componente formativo? En relación con el objetivo 4 - 'Desarrollo del Talento Humano y Carrera Académica/Administrativa', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 33,
+      "texto": "TIC e IA para mejorar",
+      "autor": "Mora, Ochoa, Cango & Gutiérrez",
+      "anio": 2024,
+      "concepto_resumen": "Integración estratégica de TIC e IA en enseñanza y evaluación; personalización y retroalimentación continua.",
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "pregunta": "Desde 'TIC e IA para mejorar' (Mora, Ochoa, Cango & Gutiérrez, 2024), ¿Qué brechas digitales deben cerrarse para cumplir este objetivo? En relación con el objetivo 6 - 'Desarrollo de Infraestructura Física y Tecnológica', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 34,
+      "texto": "TIC e IA para mejorar",
+      "autor": "Mora, Ochoa, Cango & Gutiérrez",
+      "anio": 2024,
+      "concepto_resumen": "Integración estratégica de TIC e IA en enseñanza y evaluación; personalización y retroalimentación continua.",
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "pregunta": "Desde 'TIC e IA para mejorar' (Mora, Ochoa, Cango & Gutiérrez, 2024), ¿Qué usos de IA personalizan la enseñanza vinculada a este objetivo? En relación con el objetivo 7 - 'Transformación Digital y Educación del Futuro', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 35,
+      "texto": "TIC e IA para mejorar",
+      "autor": "Mora, Ochoa, Cango & Gutiérrez",
+      "anio": 2024,
+      "concepto_resumen": "Integración estratégica de TIC e IA en enseñanza y evaluación; personalización y retroalimentación continua.",
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "pregunta": "Desde 'TIC e IA para mejorar' (Mora, Ochoa, Cango & Gutiérrez, 2024), ¿Cómo se garantiza retroalimentación en tiempo real sin perder el componente formativo? En relación con el objetivo 8 - 'Educación Virtual y Modalidades Híbridas', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 36,
+      "texto": "TIC e IA para mejorar",
+      "autor": "Mora, Ochoa, Cango & Gutiérrez",
+      "anio": 2024,
+      "concepto_resumen": "Integración estratégica de TIC e IA en enseñanza y evaluación; personalización y retroalimentación continua.",
+      "objetivo_numero": 9,
+      "objetivo_nombre": "Simulación y Laboratorios Virtuales",
+      "pregunta": "Desde 'TIC e IA para mejorar' (Mora, Ochoa, Cango & Gutiérrez, 2024), ¿Qué brechas digitales deben cerrarse para cumplir este objetivo? En relación con el objetivo 9 - 'Simulación y Laboratorios Virtuales', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 37,
+      "texto": "TIC e IA para mejorar",
+      "autor": "Mora, Ochoa, Cango & Gutiérrez",
+      "anio": 2024,
+      "concepto_resumen": "Integración estratégica de TIC e IA en enseñanza y evaluación; personalización y retroalimentación continua.",
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "pregunta": "Desde 'TIC e IA para mejorar' (Mora, Ochoa, Cango & Gutiérrez, 2024), ¿Qué usos de IA personalizan la enseñanza vinculada a este objetivo? En relación con el objetivo 10 - 'Integración Estratégica de TICs', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 38,
+      "texto": "TIC e IA para mejorar",
+      "autor": "Mora, Ochoa, Cango & Gutiérrez",
+      "anio": 2024,
+      "concepto_resumen": "Integración estratégica de TIC e IA en enseñanza y evaluación; personalización y retroalimentación continua.",
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "pregunta": "Desde 'TIC e IA para mejorar' (Mora, Ochoa, Cango & Gutiérrez, 2024), ¿Cómo se garantiza retroalimentación en tiempo real sin perder el componente formativo? En relación con el objetivo 13 - 'Enfoque Centrado en el Estudiante', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 39,
+      "texto": "TIC e IA para mejorar",
+      "autor": "Mora, Ochoa, Cango & Gutiérrez",
+      "anio": 2024,
+      "concepto_resumen": "Integración estratégica de TIC e IA en enseñanza y evaluación; personalización y retroalimentación continua.",
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "pregunta": "Desde 'TIC e IA para mejorar' (Mora, Ochoa, Cango & Gutiérrez, 2024), ¿Qué brechas digitales deben cerrarse para cumplir este objetivo? En relación con el objetivo 16 - 'Inteligencia Artificial en Proceso Formativo', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 40,
+      "texto": "TIC e IA para mejorar",
+      "autor": "Mora, Ochoa, Cango & Gutiérrez",
+      "anio": 2024,
+      "concepto_resumen": "Integración estratégica de TIC e IA en enseñanza y evaluación; personalización y retroalimentación continua.",
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "pregunta": "Desde 'TIC e IA para mejorar' (Mora, Ochoa, Cango & Gutiérrez, 2024), ¿Qué usos de IA personalizan la enseñanza vinculada a este objetivo? En relación con el objetivo 17 - 'Adaptación a las Futuras Disrupciones Tecnológicas', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 41,
+      "texto": "TIC e IA para mejorar",
+      "autor": "Mora, Ochoa, Cango & Gutiérrez",
+      "anio": 2024,
+      "concepto_resumen": "Integración estratégica de TIC e IA en enseñanza y evaluación; personalización y retroalimentación continua.",
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "pregunta": "Desde 'TIC e IA para mejorar' (Mora, Ochoa, Cango & Gutiérrez, 2024), ¿Cómo se garantiza retroalimentación en tiempo real sin perder el componente formativo? En relación con el objetivo 2 - 'Excelencia Académica y Calidad Educativa', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 42,
+      "texto": "TIC e IA para mejorar",
+      "autor": "Mora, Ochoa, Cango & Gutiérrez",
+      "anio": 2024,
+      "concepto_resumen": "Integración estratégica de TIC e IA en enseñanza y evaluación; personalización y retroalimentación continua.",
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "pregunta": "Desde 'TIC e IA para mejorar' (Mora, Ochoa, Cango & Gutiérrez, 2024), ¿Qué brechas digitales deben cerrarse para cumplir este objetivo? En relación con el objetivo 4 - 'Desarrollo del Talento Humano y Carrera Académica/Administrativa', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 43,
+      "texto": "TIC e IA para mejorar",
+      "autor": "Mora, Ochoa, Cango & Gutiérrez",
+      "anio": 2024,
+      "concepto_resumen": "Integración estratégica de TIC e IA en enseñanza y evaluación; personalización y retroalimentación continua.",
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "pregunta": "Desde 'TIC e IA para mejorar' (Mora, Ochoa, Cango & Gutiérrez, 2024), ¿Qué usos de IA personalizan la enseñanza vinculada a este objetivo? En relación con el objetivo 6 - 'Desarrollo de Infraestructura Física y Tecnológica', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 44,
+      "texto": "TIC e IA para mejorar",
+      "autor": "Mora, Ochoa, Cango & Gutiérrez",
+      "anio": 2024,
+      "concepto_resumen": "Integración estratégica de TIC e IA en enseñanza y evaluación; personalización y retroalimentación continua.",
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "pregunta": "Desde 'TIC e IA para mejorar' (Mora, Ochoa, Cango & Gutiérrez, 2024), ¿Cómo se garantiza retroalimentación en tiempo real sin perder el componente formativo? En relación con el objetivo 7 - 'Transformación Digital y Educación del Futuro', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 45,
+      "texto": "TIC e IA para mejorar",
+      "autor": "Mora, Ochoa, Cango & Gutiérrez",
+      "anio": 2024,
+      "concepto_resumen": "Integración estratégica de TIC e IA en enseñanza y evaluación; personalización y retroalimentación continua.",
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "pregunta": "Desde 'TIC e IA para mejorar' (Mora, Ochoa, Cango & Gutiérrez, 2024), ¿Qué brechas digitales deben cerrarse para cumplir este objetivo? En relación con el objetivo 8 - 'Educación Virtual y Modalidades Híbridas', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 46,
+      "texto": "Universidad ubicua",
+      "autor": "Pedroza",
+      "anio": 2021,
+      "concepto_resumen": "Universidad presente en todas partes; inteligencia social y artificial; crítica a planificación lineal.",
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "pregunta": "Desde 'Universidad ubicua' (Pedroza, 2021), ¿Cómo se traslada este objetivo más allá del campus físico? En relación con el objetivo 1 - 'Factores de Desarrollo Institucional', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 47,
+      "texto": "Universidad ubicua",
+      "autor": "Pedroza",
+      "anio": 2021,
+      "concepto_resumen": "Universidad presente en todas partes; inteligencia social y artificial; crítica a planificación lineal.",
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "pregunta": "Desde 'Universidad ubicua' (Pedroza, 2021), ¿Qué implica articular inteligencia social y artificial en este objetivo? En relación con el objetivo 6 - 'Desarrollo de Infraestructura Física y Tecnológica', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 48,
+      "texto": "Universidad ubicua",
+      "autor": "Pedroza",
+      "anio": 2021,
+      "concepto_resumen": "Universidad presente en todas partes; inteligencia social y artificial; crítica a planificación lineal.",
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "pregunta": "Desde 'Universidad ubicua' (Pedroza, 2021), ¿Qué aspectos de la planificación lineal deben superarse en este objetivo? En relación con el objetivo 7 - 'Transformación Digital y Educación del Futuro', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 49,
+      "texto": "Universidad ubicua",
+      "autor": "Pedroza",
+      "anio": 2021,
+      "concepto_resumen": "Universidad presente en todas partes; inteligencia social y artificial; crítica a planificación lineal.",
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "pregunta": "Desde 'Universidad ubicua' (Pedroza, 2021), ¿Cómo se traslada este objetivo más allá del campus físico? En relación con el objetivo 8 - 'Educación Virtual y Modalidades Híbridas', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 50,
+      "texto": "Universidad ubicua",
+      "autor": "Pedroza",
+      "anio": 2021,
+      "concepto_resumen": "Universidad presente en todas partes; inteligencia social y artificial; crítica a planificación lineal.",
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "pregunta": "Desde 'Universidad ubicua' (Pedroza, 2021), ¿Qué implica articular inteligencia social y artificial en este objetivo? En relación con el objetivo 10 - 'Integración Estratégica de TICs', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 51,
+      "texto": "Universidad ubicua",
+      "autor": "Pedroza",
+      "anio": 2021,
+      "concepto_resumen": "Universidad presente en todas partes; inteligencia social y artificial; crítica a planificación lineal.",
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "pregunta": "Desde 'Universidad ubicua' (Pedroza, 2021), ¿Qué aspectos de la planificación lineal deben superarse en este objetivo? En relación con el objetivo 16 - 'Inteligencia Artificial en Proceso Formativo', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 52,
+      "texto": "Universidad ubicua",
+      "autor": "Pedroza",
+      "anio": 2021,
+      "concepto_resumen": "Universidad presente en todas partes; inteligencia social y artificial; crítica a planificación lineal.",
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "pregunta": "Desde 'Universidad ubicua' (Pedroza, 2021), ¿Cómo se traslada este objetivo más allá del campus físico? En relación con el objetivo 17 - 'Adaptación a las Futuras Disrupciones Tecnológicas', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 53,
+      "texto": "Universidad ubicua",
+      "autor": "Pedroza",
+      "anio": 2021,
+      "concepto_resumen": "Universidad presente en todas partes; inteligencia social y artificial; crítica a planificación lineal.",
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "pregunta": "Desde 'Universidad ubicua' (Pedroza, 2021), ¿Qué implica articular inteligencia social y artificial en este objetivo? En relación con el objetivo 19 - 'Gestión del Cambio', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 54,
+      "texto": "Universidad ubicua",
+      "autor": "Pedroza",
+      "anio": 2021,
+      "concepto_resumen": "Universidad presente en todas partes; inteligencia social y artificial; crítica a planificación lineal.",
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "pregunta": "Desde 'Universidad ubicua' (Pedroza, 2021), ¿Qué aspectos de la planificación lineal deben superarse en este objetivo? En relación con el objetivo 1 - 'Factores de Desarrollo Institucional', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 55,
+      "texto": "Universidad ubicua",
+      "autor": "Pedroza",
+      "anio": 2021,
+      "concepto_resumen": "Universidad presente en todas partes; inteligencia social y artificial; crítica a planificación lineal.",
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "pregunta": "Desde 'Universidad ubicua' (Pedroza, 2021), ¿Cómo se traslada este objetivo más allá del campus físico? En relación con el objetivo 6 - 'Desarrollo de Infraestructura Física y Tecnológica', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 56,
+      "texto": "Universidad ubicua",
+      "autor": "Pedroza",
+      "anio": 2021,
+      "concepto_resumen": "Universidad presente en todas partes; inteligencia social y artificial; crítica a planificación lineal.",
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "pregunta": "Desde 'Universidad ubicua' (Pedroza, 2021), ¿Qué implica articular inteligencia social y artificial en este objetivo? En relación con el objetivo 7 - 'Transformación Digital y Educación del Futuro', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 57,
+      "texto": "Universidad ubicua",
+      "autor": "Pedroza",
+      "anio": 2021,
+      "concepto_resumen": "Universidad presente en todas partes; inteligencia social y artificial; crítica a planificación lineal.",
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "pregunta": "Desde 'Universidad ubicua' (Pedroza, 2021), ¿Qué aspectos de la planificación lineal deben superarse en este objetivo? En relación con el objetivo 8 - 'Educación Virtual y Modalidades Híbridas', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 58,
+      "texto": "Universidad ubicua",
+      "autor": "Pedroza",
+      "anio": 2021,
+      "concepto_resumen": "Universidad presente en todas partes; inteligencia social y artificial; crítica a planificación lineal.",
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "pregunta": "Desde 'Universidad ubicua' (Pedroza, 2021), ¿Cómo se traslada este objetivo más allá del campus físico? En relación con el objetivo 10 - 'Integración Estratégica de TICs', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 59,
+      "texto": "Universidad ubicua",
+      "autor": "Pedroza",
+      "anio": 2021,
+      "concepto_resumen": "Universidad presente en todas partes; inteligencia social y artificial; crítica a planificación lineal.",
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "pregunta": "Desde 'Universidad ubicua' (Pedroza, 2021), ¿Qué implica articular inteligencia social y artificial en este objetivo? En relación con el objetivo 16 - 'Inteligencia Artificial en Proceso Formativo', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 60,
+      "texto": "Universidad ubicua",
+      "autor": "Pedroza",
+      "anio": 2021,
+      "concepto_resumen": "Universidad presente en todas partes; inteligencia social y artificial; crítica a planificación lineal.",
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "pregunta": "Desde 'Universidad ubicua' (Pedroza, 2021), ¿Qué aspectos de la planificación lineal deben superarse en este objetivo? En relación con el objetivo 17 - 'Adaptación a las Futuras Disrupciones Tecnológicas', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 61,
+      "texto": "Gobernanza anticipatoria en la universidad",
+      "autor": "Comisión Desafíos del Futuro (Senado Chile)",
+      "anio": 2022,
+      "concepto_resumen": "Prospectiva, escenarios, observatorios; decisiones con horizonte largo; cultura de agilidad y resiliencia.",
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "pregunta": "Desde 'Gobernanza anticipatoria en la universidad' (Comisión Desafíos del Futuro (Senado Chile), 2022), ¿Qué escenarios de largo plazo informan decisiones sobre este objetivo? En relación con el objetivo 1 - 'Factores de Desarrollo Institucional', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 62,
+      "texto": "Gobernanza anticipatoria en la universidad",
+      "autor": "Comisión Desafíos del Futuro (Senado Chile)",
+      "anio": 2022,
+      "concepto_resumen": "Prospectiva, escenarios, observatorios; decisiones con horizonte largo; cultura de agilidad y resiliencia.",
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "pregunta": "Desde 'Gobernanza anticipatoria en la universidad' (Comisión Desafíos del Futuro (Senado Chile), 2022), ¿Qué métricas del observatorio de tendencias se asociarán a este objetivo? En relación con el objetivo 5 - 'Planificación Presupuestaria y Sostenibilidad Financiera', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 63,
+      "texto": "Gobernanza anticipatoria en la universidad",
+      "autor": "Comisión Desafíos del Futuro (Senado Chile)",
+      "anio": 2022,
+      "concepto_resumen": "Prospectiva, escenarios, observatorios; decisiones con horizonte largo; cultura de agilidad y resiliencia.",
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "pregunta": "Desde 'Gobernanza anticipatoria en la universidad' (Comisión Desafíos del Futuro (Senado Chile), 2022), ¿Cómo se instala una cultura de resiliencia para este objetivo? En relación con el objetivo 6 - 'Desarrollo de Infraestructura Física y Tecnológica', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 64,
+      "texto": "Gobernanza anticipatoria en la universidad",
+      "autor": "Comisión Desafíos del Futuro (Senado Chile)",
+      "anio": 2022,
+      "concepto_resumen": "Prospectiva, escenarios, observatorios; decisiones con horizonte largo; cultura de agilidad y resiliencia.",
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "pregunta": "Desde 'Gobernanza anticipatoria en la universidad' (Comisión Desafíos del Futuro (Senado Chile), 2022), ¿Qué escenarios de largo plazo informan decisiones sobre este objetivo? En relación con el objetivo 7 - 'Transformación Digital y Educación del Futuro', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 65,
+      "texto": "Gobernanza anticipatoria en la universidad",
+      "autor": "Comisión Desafíos del Futuro (Senado Chile)",
+      "anio": 2022,
+      "concepto_resumen": "Prospectiva, escenarios, observatorios; decisiones con horizonte largo; cultura de agilidad y resiliencia.",
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "pregunta": "Desde 'Gobernanza anticipatoria en la universidad' (Comisión Desafíos del Futuro (Senado Chile), 2022), ¿Qué métricas del observatorio de tendencias se asociarán a este objetivo? En relación con el objetivo 14 - 'Impacto Regional y Pertinencia Territorial', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 66,
+      "texto": "Gobernanza anticipatoria en la universidad",
+      "autor": "Comisión Desafíos del Futuro (Senado Chile)",
+      "anio": 2022,
+      "concepto_resumen": "Prospectiva, escenarios, observatorios; decisiones con horizonte largo; cultura de agilidad y resiliencia.",
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "pregunta": "Desde 'Gobernanza anticipatoria en la universidad' (Comisión Desafíos del Futuro (Senado Chile), 2022), ¿Cómo se instala una cultura de resiliencia para este objetivo? En relación con el objetivo 17 - 'Adaptación a las Futuras Disrupciones Tecnológicas', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 67,
+      "texto": "Gobernanza anticipatoria en la universidad",
+      "autor": "Comisión Desafíos del Futuro (Senado Chile)",
+      "anio": 2022,
+      "concepto_resumen": "Prospectiva, escenarios, observatorios; decisiones con horizonte largo; cultura de agilidad y resiliencia.",
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "pregunta": "Desde 'Gobernanza anticipatoria en la universidad' (Comisión Desafíos del Futuro (Senado Chile), 2022), ¿Qué escenarios de largo plazo informan decisiones sobre este objetivo? En relación con el objetivo 19 - 'Gestión del Cambio', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 68,
+      "texto": "Gobernanza anticipatoria en la universidad",
+      "autor": "Comisión Desafíos del Futuro (Senado Chile)",
+      "anio": 2022,
+      "concepto_resumen": "Prospectiva, escenarios, observatorios; decisiones con horizonte largo; cultura de agilidad y resiliencia.",
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "pregunta": "Desde 'Gobernanza anticipatoria en la universidad' (Comisión Desafíos del Futuro (Senado Chile), 2022), ¿Qué métricas del observatorio de tendencias se asociarán a este objetivo? En relación con el objetivo 1 - 'Factores de Desarrollo Institucional', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 69,
+      "texto": "Gobernanza anticipatoria en la universidad",
+      "autor": "Comisión Desafíos del Futuro (Senado Chile)",
+      "anio": 2022,
+      "concepto_resumen": "Prospectiva, escenarios, observatorios; decisiones con horizonte largo; cultura de agilidad y resiliencia.",
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "pregunta": "Desde 'Gobernanza anticipatoria en la universidad' (Comisión Desafíos del Futuro (Senado Chile), 2022), ¿Cómo se instala una cultura de resiliencia para este objetivo? En relación con el objetivo 5 - 'Planificación Presupuestaria y Sostenibilidad Financiera', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 70,
+      "texto": "Gobernanza anticipatoria en la universidad",
+      "autor": "Comisión Desafíos del Futuro (Senado Chile)",
+      "anio": 2022,
+      "concepto_resumen": "Prospectiva, escenarios, observatorios; decisiones con horizonte largo; cultura de agilidad y resiliencia.",
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "pregunta": "Desde 'Gobernanza anticipatoria en la universidad' (Comisión Desafíos del Futuro (Senado Chile), 2022), ¿Qué escenarios de largo plazo informan decisiones sobre este objetivo? En relación con el objetivo 6 - 'Desarrollo de Infraestructura Física y Tecnológica', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 71,
+      "texto": "Gobernanza anticipatoria en la universidad",
+      "autor": "Comisión Desafíos del Futuro (Senado Chile)",
+      "anio": 2022,
+      "concepto_resumen": "Prospectiva, escenarios, observatorios; decisiones con horizonte largo; cultura de agilidad y resiliencia.",
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "pregunta": "Desde 'Gobernanza anticipatoria en la universidad' (Comisión Desafíos del Futuro (Senado Chile), 2022), ¿Qué métricas del observatorio de tendencias se asociarán a este objetivo? En relación con el objetivo 7 - 'Transformación Digital y Educación del Futuro', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 72,
+      "texto": "Gobernanza anticipatoria en la universidad",
+      "autor": "Comisión Desafíos del Futuro (Senado Chile)",
+      "anio": 2022,
+      "concepto_resumen": "Prospectiva, escenarios, observatorios; decisiones con horizonte largo; cultura de agilidad y resiliencia.",
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "pregunta": "Desde 'Gobernanza anticipatoria en la universidad' (Comisión Desafíos del Futuro (Senado Chile), 2022), ¿Cómo se instala una cultura de resiliencia para este objetivo? En relación con el objetivo 14 - 'Impacto Regional y Pertinencia Territorial', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 73,
+      "texto": "Gobernanza anticipatoria en la universidad",
+      "autor": "Comisión Desafíos del Futuro (Senado Chile)",
+      "anio": 2022,
+      "concepto_resumen": "Prospectiva, escenarios, observatorios; decisiones con horizonte largo; cultura de agilidad y resiliencia.",
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "pregunta": "Desde 'Gobernanza anticipatoria en la universidad' (Comisión Desafíos del Futuro (Senado Chile), 2022), ¿Qué escenarios de largo plazo informan decisiones sobre este objetivo? En relación con el objetivo 17 - 'Adaptación a las Futuras Disrupciones Tecnológicas', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 74,
+      "texto": "Gobernanza anticipatoria en la universidad",
+      "autor": "Comisión Desafíos del Futuro (Senado Chile)",
+      "anio": 2022,
+      "concepto_resumen": "Prospectiva, escenarios, observatorios; decisiones con horizonte largo; cultura de agilidad y resiliencia.",
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "pregunta": "Desde 'Gobernanza anticipatoria en la universidad' (Comisión Desafíos del Futuro (Senado Chile), 2022), ¿Qué métricas del observatorio de tendencias se asociarán a este objetivo? En relación con el objetivo 19 - 'Gestión del Cambio', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 75,
+      "texto": "Gobernanza anticipatoria en la universidad",
+      "autor": "Comisión Desafíos del Futuro (Senado Chile)",
+      "anio": 2022,
+      "concepto_resumen": "Prospectiva, escenarios, observatorios; decisiones con horizonte largo; cultura de agilidad y resiliencia.",
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "pregunta": "Desde 'Gobernanza anticipatoria en la universidad' (Comisión Desafíos del Futuro (Senado Chile), 2022), ¿Cómo se instala una cultura de resiliencia para este objetivo? En relación con el objetivo 1 - 'Factores de Desarrollo Institucional', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 76,
+      "texto": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías",
+      "anio": 2024,
+      "concepto_resumen": "Competencias digitales docentes; diagnóstico de brechas; formación continua; ética y ciudadanía digital.",
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "pregunta": "Desde 'Competencias Digitales y TICs en Universidades' (Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías, 2024), ¿Qué diagnóstico de competencias digitales es necesario para este objetivo? En relación con el objetivo 2 - 'Excelencia Académica y Calidad Educativa', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 77,
+      "texto": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías",
+      "anio": 2024,
+      "concepto_resumen": "Competencias digitales docentes; diagnóstico de brechas; formación continua; ética y ciudadanía digital.",
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "pregunta": "Desde 'Competencias Digitales y TICs en Universidades' (Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías, 2024), ¿Qué plan de formación continua habilita el cumplimiento del objetivo? En relación con el objetivo 3 - 'Investigación Formativa como Sello Institucional', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 78,
+      "texto": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías",
+      "anio": 2024,
+      "concepto_resumen": "Competencias digitales docentes; diagnóstico de brechas; formación continua; ética y ciudadanía digital.",
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "pregunta": "Desde 'Competencias Digitales y TICs en Universidades' (Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías, 2024), ¿Cómo se incorpora ciudadanía digital y ética en este objetivo? En relación con el objetivo 4 - 'Desarrollo del Talento Humano y Carrera Académica/Administrativa', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 79,
+      "texto": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías",
+      "anio": 2024,
+      "concepto_resumen": "Competencias digitales docentes; diagnóstico de brechas; formación continua; ética y ciudadanía digital.",
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "pregunta": "Desde 'Competencias Digitales y TICs en Universidades' (Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías, 2024), ¿Qué diagnóstico de competencias digitales es necesario para este objetivo? En relación con el objetivo 6 - 'Desarrollo de Infraestructura Física y Tecnológica', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 80,
+      "texto": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías",
+      "anio": 2024,
+      "concepto_resumen": "Competencias digitales docentes; diagnóstico de brechas; formación continua; ética y ciudadanía digital.",
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "pregunta": "Desde 'Competencias Digitales y TICs en Universidades' (Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías, 2024), ¿Qué plan de formación continua habilita el cumplimiento del objetivo? En relación con el objetivo 7 - 'Transformación Digital y Educación del Futuro', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 81,
+      "texto": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías",
+      "anio": 2024,
+      "concepto_resumen": "Competencias digitales docentes; diagnóstico de brechas; formación continua; ética y ciudadanía digital.",
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "pregunta": "Desde 'Competencias Digitales y TICs en Universidades' (Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías, 2024), ¿Cómo se incorpora ciudadanía digital y ética en este objetivo? En relación con el objetivo 10 - 'Integración Estratégica de TICs', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 82,
+      "texto": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías",
+      "anio": 2024,
+      "concepto_resumen": "Competencias digitales docentes; diagnóstico de brechas; formación continua; ética y ciudadanía digital.",
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "pregunta": "Desde 'Competencias Digitales y TICs en Universidades' (Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías, 2024), ¿Qué diagnóstico de competencias digitales es necesario para este objetivo? En relación con el objetivo 12 - 'Inclusión Social y Equidad Educativa', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 83,
+      "texto": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías",
+      "anio": 2024,
+      "concepto_resumen": "Competencias digitales docentes; diagnóstico de brechas; formación continua; ética y ciudadanía digital.",
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "pregunta": "Desde 'Competencias Digitales y TICs en Universidades' (Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías, 2024), ¿Qué plan de formación continua habilita el cumplimiento del objetivo? En relación con el objetivo 13 - 'Enfoque Centrado en el Estudiante', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 84,
+      "texto": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías",
+      "anio": 2024,
+      "concepto_resumen": "Competencias digitales docentes; diagnóstico de brechas; formación continua; ética y ciudadanía digital.",
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "pregunta": "Desde 'Competencias Digitales y TICs en Universidades' (Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías, 2024), ¿Cómo se incorpora ciudadanía digital y ética en este objetivo? En relación con el objetivo 19 - 'Gestión del Cambio', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 85,
+      "texto": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías",
+      "anio": 2024,
+      "concepto_resumen": "Competencias digitales docentes; diagnóstico de brechas; formación continua; ética y ciudadanía digital.",
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "pregunta": "Desde 'Competencias Digitales y TICs en Universidades' (Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías, 2024), ¿Qué diagnóstico de competencias digitales es necesario para este objetivo? En relación con el objetivo 2 - 'Excelencia Académica y Calidad Educativa', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 86,
+      "texto": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías",
+      "anio": 2024,
+      "concepto_resumen": "Competencias digitales docentes; diagnóstico de brechas; formación continua; ética y ciudadanía digital.",
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "pregunta": "Desde 'Competencias Digitales y TICs en Universidades' (Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías, 2024), ¿Qué plan de formación continua habilita el cumplimiento del objetivo? En relación con el objetivo 3 - 'Investigación Formativa como Sello Institucional', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 87,
+      "texto": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías",
+      "anio": 2024,
+      "concepto_resumen": "Competencias digitales docentes; diagnóstico de brechas; formación continua; ética y ciudadanía digital.",
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "pregunta": "Desde 'Competencias Digitales y TICs en Universidades' (Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías, 2024), ¿Cómo se incorpora ciudadanía digital y ética en este objetivo? En relación con el objetivo 4 - 'Desarrollo del Talento Humano y Carrera Académica/Administrativa', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 88,
+      "texto": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías",
+      "anio": 2024,
+      "concepto_resumen": "Competencias digitales docentes; diagnóstico de brechas; formación continua; ética y ciudadanía digital.",
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "pregunta": "Desde 'Competencias Digitales y TICs en Universidades' (Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías, 2024), ¿Qué diagnóstico de competencias digitales es necesario para este objetivo? En relación con el objetivo 6 - 'Desarrollo de Infraestructura Física y Tecnológica', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 89,
+      "texto": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías",
+      "anio": 2024,
+      "concepto_resumen": "Competencias digitales docentes; diagnóstico de brechas; formación continua; ética y ciudadanía digital.",
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "pregunta": "Desde 'Competencias Digitales y TICs en Universidades' (Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías, 2024), ¿Qué plan de formación continua habilita el cumplimiento del objetivo? En relación con el objetivo 7 - 'Transformación Digital y Educación del Futuro', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 90,
+      "texto": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías",
+      "anio": 2024,
+      "concepto_resumen": "Competencias digitales docentes; diagnóstico de brechas; formación continua; ética y ciudadanía digital.",
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "pregunta": "Desde 'Competencias Digitales y TICs en Universidades' (Moreira-Choez, Lamus de Rodríguez, Olmedo-Cañarte & Macías-Macías, 2024), ¿Cómo se incorpora ciudadanía digital y ética en este objetivo? En relación con el objetivo 10 - 'Integración Estratégica de TICs', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 91,
+      "texto": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió",
+      "anio": 2024,
+      "concepto_resumen": "Meritocracia con rendición de cuentas; profesionalización de la docencia; diversidad de perfiles.",
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "pregunta": "Desde 'Gobernanza meritocrática y docencia reinventada' (Ramió, 2024), ¿Qué ajustes meritocráticos de carrera académica impactan este objetivo? En relación con el objetivo 1 - 'Factores de Desarrollo Institucional', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 92,
+      "texto": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió",
+      "anio": 2024,
+      "concepto_resumen": "Meritocracia con rendición de cuentas; profesionalización de la docencia; diversidad de perfiles.",
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "pregunta": "Desde 'Gobernanza meritocrática y docencia reinventada' (Ramió, 2024), ¿Cómo se profesionaliza la docencia para lograr este objetivo? En relación con el objetivo 2 - 'Excelencia Académica y Calidad Educativa', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 93,
+      "texto": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió",
+      "anio": 2024,
+      "concepto_resumen": "Meritocracia con rendición de cuentas; profesionalización de la docencia; diversidad de perfiles.",
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "pregunta": "Desde 'Gobernanza meritocrática y docencia reinventada' (Ramió, 2024), ¿Qué mecanismos de rendición de cuentas aplican a este objetivo? En relación con el objetivo 3 - 'Investigación Formativa como Sello Institucional', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 94,
+      "texto": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió",
+      "anio": 2024,
+      "concepto_resumen": "Meritocracia con rendición de cuentas; profesionalización de la docencia; diversidad de perfiles.",
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "pregunta": "Desde 'Gobernanza meritocrática y docencia reinventada' (Ramió, 2024), ¿Qué ajustes meritocráticos de carrera académica impactan este objetivo? En relación con el objetivo 4 - 'Desarrollo del Talento Humano y Carrera Académica/Administrativa', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 95,
+      "texto": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió",
+      "anio": 2024,
+      "concepto_resumen": "Meritocracia con rendición de cuentas; profesionalización de la docencia; diversidad de perfiles.",
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "pregunta": "Desde 'Gobernanza meritocrática y docencia reinventada' (Ramió, 2024), ¿Cómo se profesionaliza la docencia para lograr este objetivo? En relación con el objetivo 5 - 'Planificación Presupuestaria y Sostenibilidad Financiera', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 96,
+      "texto": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió",
+      "anio": 2024,
+      "concepto_resumen": "Meritocracia con rendición de cuentas; profesionalización de la docencia; diversidad de perfiles.",
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "pregunta": "Desde 'Gobernanza meritocrática y docencia reinventada' (Ramió, 2024), ¿Qué mecanismos de rendición de cuentas aplican a este objetivo? En relación con el objetivo 11 - 'Fortalecimiento de la Investigación e Innovación', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 97,
+      "texto": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió",
+      "anio": 2024,
+      "concepto_resumen": "Meritocracia con rendición de cuentas; profesionalización de la docencia; diversidad de perfiles.",
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "pregunta": "Desde 'Gobernanza meritocrática y docencia reinventada' (Ramió, 2024), ¿Qué ajustes meritocráticos de carrera académica impactan este objetivo? En relación con el objetivo 18 - 'Ambiente Laboral (Best Place to Work)', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 98,
+      "texto": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió",
+      "anio": 2024,
+      "concepto_resumen": "Meritocracia con rendición de cuentas; profesionalización de la docencia; diversidad de perfiles.",
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "pregunta": "Desde 'Gobernanza meritocrática y docencia reinventada' (Ramió, 2024), ¿Cómo se profesionaliza la docencia para lograr este objetivo? En relación con el objetivo 19 - 'Gestión del Cambio', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 99,
+      "texto": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió",
+      "anio": 2024,
+      "concepto_resumen": "Meritocracia con rendición de cuentas; profesionalización de la docencia; diversidad de perfiles.",
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "pregunta": "Desde 'Gobernanza meritocrática y docencia reinventada' (Ramió, 2024), ¿Qué mecanismos de rendición de cuentas aplican a este objetivo? En relación con el objetivo 1 - 'Factores de Desarrollo Institucional', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 100,
+      "texto": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió",
+      "anio": 2024,
+      "concepto_resumen": "Meritocracia con rendición de cuentas; profesionalización de la docencia; diversidad de perfiles.",
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "pregunta": "Desde 'Gobernanza meritocrática y docencia reinventada' (Ramió, 2024), ¿Qué ajustes meritocráticos de carrera académica impactan este objetivo? En relación con el objetivo 2 - 'Excelencia Académica y Calidad Educativa', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 101,
+      "texto": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió",
+      "anio": 2024,
+      "concepto_resumen": "Meritocracia con rendición de cuentas; profesionalización de la docencia; diversidad de perfiles.",
+      "objetivo_numero": 3,
+      "objetivo_nombre": "Investigación Formativa como Sello Institucional",
+      "pregunta": "Desde 'Gobernanza meritocrática y docencia reinventada' (Ramió, 2024), ¿Cómo se profesionaliza la docencia para lograr este objetivo? En relación con el objetivo 3 - 'Investigación Formativa como Sello Institucional', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 102,
+      "texto": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió",
+      "anio": 2024,
+      "concepto_resumen": "Meritocracia con rendición de cuentas; profesionalización de la docencia; diversidad de perfiles.",
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "pregunta": "Desde 'Gobernanza meritocrática y docencia reinventada' (Ramió, 2024), ¿Qué mecanismos de rendición de cuentas aplican a este objetivo? En relación con el objetivo 4 - 'Desarrollo del Talento Humano y Carrera Académica/Administrativa', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 103,
+      "texto": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió",
+      "anio": 2024,
+      "concepto_resumen": "Meritocracia con rendición de cuentas; profesionalización de la docencia; diversidad de perfiles.",
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "pregunta": "Desde 'Gobernanza meritocrática y docencia reinventada' (Ramió, 2024), ¿Qué ajustes meritocráticos de carrera académica impactan este objetivo? En relación con el objetivo 5 - 'Planificación Presupuestaria y Sostenibilidad Financiera', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 104,
+      "texto": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió",
+      "anio": 2024,
+      "concepto_resumen": "Meritocracia con rendición de cuentas; profesionalización de la docencia; diversidad de perfiles.",
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "pregunta": "Desde 'Gobernanza meritocrática y docencia reinventada' (Ramió, 2024), ¿Cómo se profesionaliza la docencia para lograr este objetivo? En relación con el objetivo 11 - 'Fortalecimiento de la Investigación e Innovación', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 105,
+      "texto": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió",
+      "anio": 2024,
+      "concepto_resumen": "Meritocracia con rendición de cuentas; profesionalización de la docencia; diversidad de perfiles.",
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "pregunta": "Desde 'Gobernanza meritocrática y docencia reinventada' (Ramió, 2024), ¿Qué mecanismos de rendición de cuentas aplican a este objetivo? En relación con el objetivo 18 - 'Ambiente Laboral (Best Place to Work)', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 106,
+      "texto": "Un futuro líquido bien gobernado",
+      "autor": "Acosta",
+      "anio": 2025,
+      "concepto_resumen": "Agenda mínima: valor público, universalización con equidad, equilibrio presencial/virtual, mayor financiamiento.",
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "pregunta": "Desde 'Un futuro líquido bien gobernado' (Acosta, 2025), ¿Qué acciones aumentan el valor público asociadas a este objetivo? En relación con el objetivo 1 - 'Factores de Desarrollo Institucional', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 107,
+      "texto": "Un futuro líquido bien gobernado",
+      "autor": "Acosta",
+      "anio": 2025,
+      "concepto_resumen": "Agenda mínima: valor público, universalización con equidad, equilibrio presencial/virtual, mayor financiamiento.",
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "pregunta": "Desde 'Un futuro líquido bien gobernado' (Acosta, 2025), ¿Cómo se asegura universalización con equidad en este objetivo? En relación con el objetivo 2 - 'Excelencia Académica y Calidad Educativa', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 108,
+      "texto": "Un futuro líquido bien gobernado",
+      "autor": "Acosta",
+      "anio": 2025,
+      "concepto_resumen": "Agenda mínima: valor público, universalización con equidad, equilibrio presencial/virtual, mayor financiamiento.",
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "pregunta": "Desde 'Un futuro líquido bien gobernado' (Acosta, 2025), ¿Qué equilibrio presencial/virtual demanda este objetivo? En relación con el objetivo 4 - 'Desarrollo del Talento Humano y Carrera Académica/Administrativa', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 109,
+      "texto": "Un futuro líquido bien gobernado",
+      "autor": "Acosta",
+      "anio": 2025,
+      "concepto_resumen": "Agenda mínima: valor público, universalización con equidad, equilibrio presencial/virtual, mayor financiamiento.",
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "pregunta": "Desde 'Un futuro líquido bien gobernado' (Acosta, 2025), ¿Qué acciones aumentan el valor público asociadas a este objetivo? En relación con el objetivo 5 - 'Planificación Presupuestaria y Sostenibilidad Financiera', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 110,
+      "texto": "Un futuro líquido bien gobernado",
+      "autor": "Acosta",
+      "anio": 2025,
+      "concepto_resumen": "Agenda mínima: valor público, universalización con equidad, equilibrio presencial/virtual, mayor financiamiento.",
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "pregunta": "Desde 'Un futuro líquido bien gobernado' (Acosta, 2025), ¿Cómo se asegura universalización con equidad en este objetivo? En relación con el objetivo 8 - 'Educación Virtual y Modalidades Híbridas', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 111,
+      "texto": "Un futuro líquido bien gobernado",
+      "autor": "Acosta",
+      "anio": 2025,
+      "concepto_resumen": "Agenda mínima: valor público, universalización con equidad, equilibrio presencial/virtual, mayor financiamiento.",
+      "objetivo_numero": 11,
+      "objetivo_nombre": "Fortalecimiento de la Investigación e Innovación",
+      "pregunta": "Desde 'Un futuro líquido bien gobernado' (Acosta, 2025), ¿Qué equilibrio presencial/virtual demanda este objetivo? En relación con el objetivo 11 - 'Fortalecimiento de la Investigación e Innovación', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 112,
+      "texto": "Un futuro líquido bien gobernado",
+      "autor": "Acosta",
+      "anio": 2025,
+      "concepto_resumen": "Agenda mínima: valor público, universalización con equidad, equilibrio presencial/virtual, mayor financiamiento.",
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "pregunta": "Desde 'Un futuro líquido bien gobernado' (Acosta, 2025), ¿Qué acciones aumentan el valor público asociadas a este objetivo? En relación con el objetivo 12 - 'Inclusión Social y Equidad Educativa', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 113,
+      "texto": "Un futuro líquido bien gobernado",
+      "autor": "Acosta",
+      "anio": 2025,
+      "concepto_resumen": "Agenda mínima: valor público, universalización con equidad, equilibrio presencial/virtual, mayor financiamiento.",
+      "objetivo_numero": 14,
+      "objetivo_nombre": "Impacto Regional y Pertinencia Territorial",
+      "pregunta": "Desde 'Un futuro líquido bien gobernado' (Acosta, 2025), ¿Cómo se asegura universalización con equidad en este objetivo? En relación con el objetivo 14 - 'Impacto Regional y Pertinencia Territorial', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 114,
+      "texto": "Un futuro líquido bien gobernado",
+      "autor": "Acosta",
+      "anio": 2025,
+      "concepto_resumen": "Agenda mínima: valor público, universalización con equidad, equilibrio presencial/virtual, mayor financiamiento.",
+      "objetivo_numero": 17,
+      "objetivo_nombre": "Adaptación a las Futuras Disrupciones Tecnológicas",
+      "pregunta": "Desde 'Un futuro líquido bien gobernado' (Acosta, 2025), ¿Qué equilibrio presencial/virtual demanda este objetivo? En relación con el objetivo 17 - 'Adaptación a las Futuras Disrupciones Tecnológicas', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 115,
+      "texto": "Un futuro líquido bien gobernado",
+      "autor": "Acosta",
+      "anio": 2025,
+      "concepto_resumen": "Agenda mínima: valor público, universalización con equidad, equilibrio presencial/virtual, mayor financiamiento.",
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "pregunta": "Desde 'Un futuro líquido bien gobernado' (Acosta, 2025), ¿Qué acciones aumentan el valor público asociadas a este objetivo? En relación con el objetivo 19 - 'Gestión del Cambio', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 116,
+      "texto": "Un futuro líquido bien gobernado",
+      "autor": "Acosta",
+      "anio": 2025,
+      "concepto_resumen": "Agenda mínima: valor público, universalización con equidad, equilibrio presencial/virtual, mayor financiamiento.",
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "pregunta": "Desde 'Un futuro líquido bien gobernado' (Acosta, 2025), ¿Cómo se asegura universalización con equidad en este objetivo? En relación con el objetivo 1 - 'Factores de Desarrollo Institucional', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 117,
+      "texto": "Un futuro líquido bien gobernado",
+      "autor": "Acosta",
+      "anio": 2025,
+      "concepto_resumen": "Agenda mínima: valor público, universalización con equidad, equilibrio presencial/virtual, mayor financiamiento.",
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "pregunta": "Desde 'Un futuro líquido bien gobernado' (Acosta, 2025), ¿Qué equilibrio presencial/virtual demanda este objetivo? En relación con el objetivo 2 - 'Excelencia Académica y Calidad Educativa', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 118,
+      "texto": "Un futuro líquido bien gobernado",
+      "autor": "Acosta",
+      "anio": 2025,
+      "concepto_resumen": "Agenda mínima: valor público, universalización con equidad, equilibrio presencial/virtual, mayor financiamiento.",
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "pregunta": "Desde 'Un futuro líquido bien gobernado' (Acosta, 2025), ¿Qué acciones aumentan el valor público asociadas a este objetivo? En relación con el objetivo 4 - 'Desarrollo del Talento Humano y Carrera Académica/Administrativa', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 119,
+      "texto": "Un futuro líquido bien gobernado",
+      "autor": "Acosta",
+      "anio": 2025,
+      "concepto_resumen": "Agenda mínima: valor público, universalización con equidad, equilibrio presencial/virtual, mayor financiamiento.",
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "pregunta": "Desde 'Un futuro líquido bien gobernado' (Acosta, 2025), ¿Cómo se asegura universalización con equidad en este objetivo? En relación con el objetivo 5 - 'Planificación Presupuestaria y Sostenibilidad Financiera', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 120,
+      "texto": "Un futuro líquido bien gobernado",
+      "autor": "Acosta",
+      "anio": 2025,
+      "concepto_resumen": "Agenda mínima: valor público, universalización con equidad, equilibrio presencial/virtual, mayor financiamiento.",
+      "objetivo_numero": 8,
+      "objetivo_nombre": "Educación Virtual y Modalidades Híbridas",
+      "pregunta": "Desde 'Un futuro líquido bien gobernado' (Acosta, 2025), ¿Qué equilibrio presencial/virtual demanda este objetivo? En relación con el objetivo 8 - 'Educación Virtual y Modalidades Híbridas', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 121,
+      "texto": "La Universidad en la Era Digital",
+      "autor": "Castilla",
+      "anio": 2024,
+      "concepto_resumen": "Estudiante adulto/profesional; revolución digital como motor; equidad y accesibilidad; IA aliada.",
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "pregunta": "Desde 'La Universidad en la Era Digital' (Castilla, 2024), ¿Cómo se refleja la andragogía en el cumplimiento de este objetivo? En relación con el objetivo 2 - 'Excelencia Académica y Calidad Educativa', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 122,
+      "texto": "La Universidad en la Era Digital",
+      "autor": "Castilla",
+      "anio": 2024,
+      "concepto_resumen": "Estudiante adulto/profesional; revolución digital como motor; equidad y accesibilidad; IA aliada.",
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "pregunta": "Desde 'La Universidad en la Era Digital' (Castilla, 2024), ¿Qué competencias digitales en estudiantes/docentes requiere este objetivo? En relación con el objetivo 4 - 'Desarrollo del Talento Humano y Carrera Académica/Administrativa', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 123,
+      "texto": "La Universidad en la Era Digital",
+      "autor": "Castilla",
+      "anio": 2024,
+      "concepto_resumen": "Estudiante adulto/profesional; revolución digital como motor; equidad y accesibilidad; IA aliada.",
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "pregunta": "Desde 'La Universidad en la Era Digital' (Castilla, 2024), ¿Qué criterios de accesibilidad y equidad digital se incorporan al objetivo? En relación con el objetivo 6 - 'Desarrollo de Infraestructura Física y Tecnológica', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 124,
+      "texto": "La Universidad en la Era Digital",
+      "autor": "Castilla",
+      "anio": 2024,
+      "concepto_resumen": "Estudiante adulto/profesional; revolución digital como motor; equidad y accesibilidad; IA aliada.",
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "pregunta": "Desde 'La Universidad en la Era Digital' (Castilla, 2024), ¿Cómo se refleja la andragogía en el cumplimiento de este objetivo? En relación con el objetivo 7 - 'Transformación Digital y Educación del Futuro', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 125,
+      "texto": "La Universidad en la Era Digital",
+      "autor": "Castilla",
+      "anio": 2024,
+      "concepto_resumen": "Estudiante adulto/profesional; revolución digital como motor; equidad y accesibilidad; IA aliada.",
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "pregunta": "Desde 'La Universidad en la Era Digital' (Castilla, 2024), ¿Qué competencias digitales en estudiantes/docentes requiere este objetivo? En relación con el objetivo 10 - 'Integración Estratégica de TICs', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 126,
+      "texto": "La Universidad en la Era Digital",
+      "autor": "Castilla",
+      "anio": 2024,
+      "concepto_resumen": "Estudiante adulto/profesional; revolución digital como motor; equidad y accesibilidad; IA aliada.",
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "pregunta": "Desde 'La Universidad en la Era Digital' (Castilla, 2024), ¿Qué criterios de accesibilidad y equidad digital se incorporan al objetivo? En relación con el objetivo 12 - 'Inclusión Social y Equidad Educativa', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 127,
+      "texto": "La Universidad en la Era Digital",
+      "autor": "Castilla",
+      "anio": 2024,
+      "concepto_resumen": "Estudiante adulto/profesional; revolución digital como motor; equidad y accesibilidad; IA aliada.",
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "pregunta": "Desde 'La Universidad en la Era Digital' (Castilla, 2024), ¿Cómo se refleja la andragogía en el cumplimiento de este objetivo? En relación con el objetivo 13 - 'Enfoque Centrado en el Estudiante', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 128,
+      "texto": "La Universidad en la Era Digital",
+      "autor": "Castilla",
+      "anio": 2024,
+      "concepto_resumen": "Estudiante adulto/profesional; revolución digital como motor; equidad y accesibilidad; IA aliada.",
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "pregunta": "Desde 'La Universidad en la Era Digital' (Castilla, 2024), ¿Qué competencias digitales en estudiantes/docentes requiere este objetivo? En relación con el objetivo 19 - 'Gestión del Cambio', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 129,
+      "texto": "La Universidad en la Era Digital",
+      "autor": "Castilla",
+      "anio": 2024,
+      "concepto_resumen": "Estudiante adulto/profesional; revolución digital como motor; equidad y accesibilidad; IA aliada.",
+      "objetivo_numero": 2,
+      "objetivo_nombre": "Excelencia Académica y Calidad Educativa",
+      "pregunta": "Desde 'La Universidad en la Era Digital' (Castilla, 2024), ¿Qué criterios de accesibilidad y equidad digital se incorporan al objetivo? En relación con el objetivo 2 - 'Excelencia Académica y Calidad Educativa', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 130,
+      "texto": "La Universidad en la Era Digital",
+      "autor": "Castilla",
+      "anio": 2024,
+      "concepto_resumen": "Estudiante adulto/profesional; revolución digital como motor; equidad y accesibilidad; IA aliada.",
+      "objetivo_numero": 4,
+      "objetivo_nombre": "Desarrollo del Talento Humano y Carrera Académica/Administrativa",
+      "pregunta": "Desde 'La Universidad en la Era Digital' (Castilla, 2024), ¿Cómo se refleja la andragogía en el cumplimiento de este objetivo? En relación con el objetivo 4 - 'Desarrollo del Talento Humano y Carrera Académica/Administrativa', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 131,
+      "texto": "La Universidad en la Era Digital",
+      "autor": "Castilla",
+      "anio": 2024,
+      "concepto_resumen": "Estudiante adulto/profesional; revolución digital como motor; equidad y accesibilidad; IA aliada.",
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "pregunta": "Desde 'La Universidad en la Era Digital' (Castilla, 2024), ¿Qué competencias digitales en estudiantes/docentes requiere este objetivo? En relación con el objetivo 6 - 'Desarrollo de Infraestructura Física y Tecnológica', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 132,
+      "texto": "La Universidad en la Era Digital",
+      "autor": "Castilla",
+      "anio": 2024,
+      "concepto_resumen": "Estudiante adulto/profesional; revolución digital como motor; equidad y accesibilidad; IA aliada.",
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "pregunta": "Desde 'La Universidad en la Era Digital' (Castilla, 2024), ¿Qué criterios de accesibilidad y equidad digital se incorporan al objetivo? En relación con el objetivo 7 - 'Transformación Digital y Educación del Futuro', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 133,
+      "texto": "La Universidad en la Era Digital",
+      "autor": "Castilla",
+      "anio": 2024,
+      "concepto_resumen": "Estudiante adulto/profesional; revolución digital como motor; equidad y accesibilidad; IA aliada.",
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "pregunta": "Desde 'La Universidad en la Era Digital' (Castilla, 2024), ¿Cómo se refleja la andragogía en el cumplimiento de este objetivo? En relación con el objetivo 10 - 'Integración Estratégica de TICs', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 134,
+      "texto": "La Universidad en la Era Digital",
+      "autor": "Castilla",
+      "anio": 2024,
+      "concepto_resumen": "Estudiante adulto/profesional; revolución digital como motor; equidad y accesibilidad; IA aliada.",
+      "objetivo_numero": 12,
+      "objetivo_nombre": "Inclusión Social y Equidad Educativa",
+      "pregunta": "Desde 'La Universidad en la Era Digital' (Castilla, 2024), ¿Qué competencias digitales en estudiantes/docentes requiere este objetivo? En relación con el objetivo 12 - 'Inclusión Social y Equidad Educativa', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 135,
+      "texto": "La Universidad en la Era Digital",
+      "autor": "Castilla",
+      "anio": 2024,
+      "concepto_resumen": "Estudiante adulto/profesional; revolución digital como motor; equidad y accesibilidad; IA aliada.",
+      "objetivo_numero": 13,
+      "objetivo_nombre": "Enfoque Centrado en el Estudiante",
+      "pregunta": "Desde 'La Universidad en la Era Digital' (Castilla, 2024), ¿Qué criterios de accesibilidad y equidad digital se incorporan al objetivo? En relación con el objetivo 13 - 'Enfoque Centrado en el Estudiante', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 136,
+      "texto": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, Vasco Delgado & Alvear Dávalos",
+      "anio": 2024,
+      "concepto_resumen": "IA como eje estratégico; gobernanza de datos sólida; infraestructura interoperable; ética y transparencia.",
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "pregunta": "Desde 'IA y gobernanza universitaria' (Ruiz Muñoz, Vasco Delgado & Alvear Dávalos, 2024), ¿Qué políticas de gobernanza de datos sustentan este objetivo? En relación con el objetivo 1 - 'Factores de Desarrollo Institucional', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 137,
+      "texto": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, Vasco Delgado & Alvear Dávalos",
+      "anio": 2024,
+      "concepto_resumen": "IA como eje estratégico; gobernanza de datos sólida; infraestructura interoperable; ética y transparencia.",
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "pregunta": "Desde 'IA y gobernanza universitaria' (Ruiz Muñoz, Vasco Delgado & Alvear Dávalos, 2024), ¿Cómo se integra IA de forma ética y transparente en este objetivo? En relación con el objetivo 5 - 'Planificación Presupuestaria y Sostenibilidad Financiera', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 138,
+      "texto": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, Vasco Delgado & Alvear Dávalos",
+      "anio": 2024,
+      "concepto_resumen": "IA como eje estratégico; gobernanza de datos sólida; infraestructura interoperable; ética y transparencia.",
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "pregunta": "Desde 'IA y gobernanza universitaria' (Ruiz Muñoz, Vasco Delgado & Alvear Dávalos, 2024), ¿Qué interoperabilidad tecnológica es necesaria para este objetivo? En relación con el objetivo 6 - 'Desarrollo de Infraestructura Física y Tecnológica', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 139,
+      "texto": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, Vasco Delgado & Alvear Dávalos",
+      "anio": 2024,
+      "concepto_resumen": "IA como eje estratégico; gobernanza de datos sólida; infraestructura interoperable; ética y transparencia.",
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "pregunta": "Desde 'IA y gobernanza universitaria' (Ruiz Muñoz, Vasco Delgado & Alvear Dávalos, 2024), ¿Qué políticas de gobernanza de datos sustentan este objetivo? En relación con el objetivo 7 - 'Transformación Digital y Educación del Futuro', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 140,
+      "texto": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, Vasco Delgado & Alvear Dávalos",
+      "anio": 2024,
+      "concepto_resumen": "IA como eje estratégico; gobernanza de datos sólida; infraestructura interoperable; ética y transparencia.",
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "pregunta": "Desde 'IA y gobernanza universitaria' (Ruiz Muñoz, Vasco Delgado & Alvear Dávalos, 2024), ¿Cómo se integra IA de forma ética y transparente en este objetivo? En relación con el objetivo 10 - 'Integración Estratégica de TICs', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 141,
+      "texto": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, Vasco Delgado & Alvear Dávalos",
+      "anio": 2024,
+      "concepto_resumen": "IA como eje estratégico; gobernanza de datos sólida; infraestructura interoperable; ética y transparencia.",
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "pregunta": "Desde 'IA y gobernanza universitaria' (Ruiz Muñoz, Vasco Delgado & Alvear Dávalos, 2024), ¿Qué interoperabilidad tecnológica es necesaria para este objetivo? En relación con el objetivo 16 - 'Inteligencia Artificial en Proceso Formativo', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 142,
+      "texto": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, Vasco Delgado & Alvear Dávalos",
+      "anio": 2024,
+      "concepto_resumen": "IA como eje estratégico; gobernanza de datos sólida; infraestructura interoperable; ética y transparencia.",
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "pregunta": "Desde 'IA y gobernanza universitaria' (Ruiz Muñoz, Vasco Delgado & Alvear Dávalos, 2024), ¿Qué políticas de gobernanza de datos sustentan este objetivo? En relación con el objetivo 18 - 'Ambiente Laboral (Best Place to Work)', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 143,
+      "texto": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, Vasco Delgado & Alvear Dávalos",
+      "anio": 2024,
+      "concepto_resumen": "IA como eje estratégico; gobernanza de datos sólida; infraestructura interoperable; ética y transparencia.",
+      "objetivo_numero": 19,
+      "objetivo_nombre": "Gestión del Cambio",
+      "pregunta": "Desde 'IA y gobernanza universitaria' (Ruiz Muñoz, Vasco Delgado & Alvear Dávalos, 2024), ¿Cómo se integra IA de forma ética y transparente en este objetivo? En relación con el objetivo 19 - 'Gestión del Cambio', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 144,
+      "texto": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, Vasco Delgado & Alvear Dávalos",
+      "anio": 2024,
+      "concepto_resumen": "IA como eje estratégico; gobernanza de datos sólida; infraestructura interoperable; ética y transparencia.",
+      "objetivo_numero": 1,
+      "objetivo_nombre": "Factores de Desarrollo Institucional",
+      "pregunta": "Desde 'IA y gobernanza universitaria' (Ruiz Muñoz, Vasco Delgado & Alvear Dávalos, 2024), ¿Qué interoperabilidad tecnológica es necesaria para este objetivo? En relación con el objetivo 1 - 'Factores de Desarrollo Institucional', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 145,
+      "texto": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, Vasco Delgado & Alvear Dávalos",
+      "anio": 2024,
+      "concepto_resumen": "IA como eje estratégico; gobernanza de datos sólida; infraestructura interoperable; ética y transparencia.",
+      "objetivo_numero": 5,
+      "objetivo_nombre": "Planificación Presupuestaria y Sostenibilidad Financiera",
+      "pregunta": "Desde 'IA y gobernanza universitaria' (Ruiz Muñoz, Vasco Delgado & Alvear Dávalos, 2024), ¿Qué políticas de gobernanza de datos sustentan este objetivo? En relación con el objetivo 5 - 'Planificación Presupuestaria y Sostenibilidad Financiera', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 146,
+      "texto": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, Vasco Delgado & Alvear Dávalos",
+      "anio": 2024,
+      "concepto_resumen": "IA como eje estratégico; gobernanza de datos sólida; infraestructura interoperable; ética y transparencia.",
+      "objetivo_numero": 6,
+      "objetivo_nombre": "Desarrollo de Infraestructura Física y Tecnológica",
+      "pregunta": "Desde 'IA y gobernanza universitaria' (Ruiz Muñoz, Vasco Delgado & Alvear Dávalos, 2024), ¿Cómo se integra IA de forma ética y transparente en este objetivo? En relación con el objetivo 6 - 'Desarrollo de Infraestructura Física y Tecnológica', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    },
+    {
+      "id": 147,
+      "texto": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, Vasco Delgado & Alvear Dávalos",
+      "anio": 2024,
+      "concepto_resumen": "IA como eje estratégico; gobernanza de datos sólida; infraestructura interoperable; ética y transparencia.",
+      "objetivo_numero": 7,
+      "objetivo_nombre": "Transformación Digital y Educación del Futuro",
+      "pregunta": "Desde 'IA y gobernanza universitaria' (Ruiz Muñoz, Vasco Delgado & Alvear Dávalos, 2024), ¿Qué interoperabilidad tecnológica es necesaria para este objetivo? En relación con el objetivo 7 - 'Transformación Digital y Educación del Futuro', ¿Qué hitos intermedios permitirán validar el progreso?"
+    },
+    {
+      "id": 148,
+      "texto": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, Vasco Delgado & Alvear Dávalos",
+      "anio": 2024,
+      "concepto_resumen": "IA como eje estratégico; gobernanza de datos sólida; infraestructura interoperable; ética y transparencia.",
+      "objetivo_numero": 10,
+      "objetivo_nombre": "Integración Estratégica de TICs",
+      "pregunta": "Desde 'IA y gobernanza universitaria' (Ruiz Muñoz, Vasco Delgado & Alvear Dávalos, 2024), ¿Qué políticas de gobernanza de datos sustentan este objetivo? En relación con el objetivo 10 - 'Integración Estratégica de TICs', ¿Qué KPIs evidenciarán el avance en este objetivo?"
+    },
+    {
+      "id": 149,
+      "texto": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, Vasco Delgado & Alvear Dávalos",
+      "anio": 2024,
+      "concepto_resumen": "IA como eje estratégico; gobernanza de datos sólida; infraestructura interoperable; ética y transparencia.",
+      "objetivo_numero": 16,
+      "objetivo_nombre": "Inteligencia Artificial en Proceso Formativo",
+      "pregunta": "Desde 'IA y gobernanza universitaria' (Ruiz Muñoz, Vasco Delgado & Alvear Dávalos, 2024), ¿Cómo se integra IA de forma ética y transparente en este objetivo? En relación con el objetivo 16 - 'Inteligencia Artificial en Proceso Formativo', ¿Qué riesgos y dependencias críticas existen al cruzar este objetivo con el enfoque del texto?"
+    },
+    {
+      "id": 150,
+      "texto": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, Vasco Delgado & Alvear Dávalos",
+      "anio": 2024,
+      "concepto_resumen": "IA como eje estratégico; gobernanza de datos sólida; infraestructura interoperable; ética y transparencia.",
+      "objetivo_numero": 18,
+      "objetivo_nombre": "Ambiente Laboral (Best Place to Work)",
+      "pregunta": "Desde 'IA y gobernanza universitaria' (Ruiz Muñoz, Vasco Delgado & Alvear Dávalos, 2024), ¿Qué interoperabilidad tecnológica es necesaria para este objetivo? En relación con el objetivo 18 - 'Ambiente Laboral (Best Place to Work)', ¿Qué capacidades (personas, procesos, tecnología) se requieren para materializar este cruce?"
+    }
+  ]
+}

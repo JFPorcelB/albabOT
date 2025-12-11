@@ -1,0 +1,4943 @@
+{
+  "metadata": {
+    "dataset_id": "preguntas_universidades_futuro_v1",
+    "version": "1.0",
+    "lenguaje": "es-CL",
+    "fuente_documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+    "fuente_hash_md5": "23f2bbb766da0bb7a849a5f5518f5df9",
+    "created_at": "2025-12-11T14:05:53.189049+00:00",
+    "total": 150
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "texto_id": 1,
+      "texto_fuente": "Universidad por capas",
+      "autor": "Valenzuela Migoya, F.; Cuéllar Medina, A.",
+      "anio": 2022,
+      "tema_principal": "Modelo institucional por capas, multiversidad, impacto social, itinerarios personalizados",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Cómo define el modelo de 'universidad por capas' y qué problema del modelo tradicional busca resolver?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "2-4",
+        "seccion": "Texto 1 – Universidad por capas"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "texto_id": 1,
+      "texto_fuente": "Universidad por capas",
+      "autor": "Valenzuela Migoya, F.; Cuéllar Medina, A.",
+      "anio": 2022,
+      "tema_principal": "Modelo institucional por capas, multiversidad, impacto social, itinerarios personalizados",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Qué elementos fijos, fluidos y flexibles propone para reorganizar campus, tiempos y servicios?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "2-4",
+        "seccion": "Texto 1 – Universidad por capas"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "texto_id": 1,
+      "texto_fuente": "Universidad por capas",
+      "autor": "Valenzuela Migoya, F.; Cuéllar Medina, A.",
+      "anio": 2022,
+      "tema_principal": "Modelo institucional por capas, multiversidad, impacto social, itinerarios personalizados",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Por qué se pasa de medir aprendizaje a evaluar impacto social y económico en comunidades?",
+      "tipo": "abierta",
+      "intencion": "razonamiento",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "2-4",
+        "seccion": "Texto 1 – Universidad por capas"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "texto_id": 1,
+      "texto_fuente": "Universidad por capas",
+      "autor": "Valenzuela Migoya, F.; Cuéllar Medina, A.",
+      "anio": 2022,
+      "tema_principal": "Modelo institucional por capas, multiversidad, impacto social, itinerarios personalizados",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Qué significa 'menos UNIversidades, más posibilidades' en términos de proveedores y rutas formativas?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "2-4",
+        "seccion": "Texto 1 – Universidad por capas"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "texto_id": 1,
+      "texto_fuente": "Universidad por capas",
+      "autor": "Valenzuela Migoya, F.; Cuéllar Medina, A.",
+      "anio": 2022,
+      "tema_principal": "Modelo institucional por capas, multiversidad, impacto social, itinerarios personalizados",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Cómo se describe la 'multiversidad' y qué tecnologías la habilitan (IA, blockchain, inmersivos)?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "2-4",
+        "seccion": "Texto 1 – Universidad por capas"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "texto_id": 1,
+      "texto_fuente": "Universidad por capas",
+      "autor": "Valenzuela Migoya, F.; Cuéllar Medina, A.",
+      "anio": 2022,
+      "tema_principal": "Modelo institucional por capas, multiversidad, impacto social, itinerarios personalizados",
+      "categoria": "Competencias digitales",
+      "subtemas": [
+        "competencia digital",
+        "alfabetización",
+        "ciudadanía digital"
+      ],
+      "pregunta": "¿Qué implica integrar a la universidad en un ecosistema con empresas, gobiernos y organizaciones sociales?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "2-4",
+        "seccion": "Texto 1 – Universidad por capas"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "texto_id": 1,
+      "texto_fuente": "Universidad por capas",
+      "autor": "Valenzuela Migoya, F.; Cuéllar Medina, A.",
+      "anio": 2022,
+      "tema_principal": "Modelo institucional por capas, multiversidad, impacto social, itinerarios personalizados",
+      "categoria": "Financiamiento y sostenibilidad",
+      "subtemas": [
+        "financiamiento",
+        "sostenibilidad",
+        "diversificación"
+      ],
+      "pregunta": "¿Cómo se redefinen métricas hacia propósito e impacto y qué riesgos se evitan?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "2-4",
+        "seccion": "Texto 1 – Universidad por capas"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "texto_id": 1,
+      "texto_fuente": "Universidad por capas",
+      "autor": "Valenzuela Migoya, F.; Cuéllar Medina, A.",
+      "anio": 2022,
+      "tema_principal": "Modelo institucional por capas, multiversidad, impacto social, itinerarios personalizados",
+      "categoria": "Interoperabilidad y datos",
+      "subtemas": [
+        "datos",
+        "interoperabilidad",
+        "estándares",
+        "gobernanza de datos"
+      ],
+      "pregunta": "¿Qué analogía del metro vs tren ilustra los viajes y caminos del estudiante?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "2-4",
+        "seccion": "Texto 1 – Universidad por capas"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "texto_id": 1,
+      "texto_fuente": "Universidad por capas",
+      "autor": "Valenzuela Migoya, F.; Cuéllar Medina, A.",
+      "anio": 2022,
+      "tema_principal": "Modelo institucional por capas, multiversidad, impacto social, itinerarios personalizados",
+      "categoria": "Gestión del cambio",
+      "subtemas": [
+        "gestión del cambio",
+        "capacitación",
+        "resistencia",
+        "hoja de ruta"
+      ],
+      "pregunta": "¿Cómo se conciben experiencias de aprendizaje aumentadas con datos, analítica e IA?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "2-4",
+        "seccion": "Texto 1 – Universidad por capas"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "texto_id": 1,
+      "texto_fuente": "Universidad por capas",
+      "autor": "Valenzuela Migoya, F.; Cuéllar Medina, A.",
+      "anio": 2022,
+      "tema_principal": "Modelo institucional por capas, multiversidad, impacto social, itinerarios personalizados",
+      "categoria": "Sostenibilidad ambiental",
+      "subtemas": [
+        "ambiental",
+        "energía",
+        "huella",
+        "reciclaje"
+      ],
+      "pregunta": "¿Qué capacidades institucionales de gobernanza y colaboración hacen viable este modelo?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "2-4",
+        "seccion": "Texto 1 – Universidad por capas"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "texto_id": 1,
+      "texto_fuente": "Universidad por capas",
+      "autor": "Valenzuela Migoya, F.; Cuéllar Medina, A.",
+      "anio": 2022,
+      "tema_principal": "Modelo institucional por capas, multiversidad, impacto social, itinerarios personalizados",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Cómo se posiciona la universidad como dispositivo para lifelong learning en este enfoque?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "2-4",
+        "seccion": "Texto 1 – Universidad por capas"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "texto_id": 1,
+      "texto_fuente": "Universidad por capas",
+      "autor": "Valenzuela Migoya, F.; Cuéllar Medina, A.",
+      "anio": 2022,
+      "tema_principal": "Modelo institucional por capas, multiversidad, impacto social, itinerarios personalizados",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Qué cambios en perfiles académicos y roles institucionales sugiere la propuesta?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "2-4",
+        "seccion": "Texto 1 – Universidad por capas"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "texto_id": 1,
+      "texto_fuente": "Universidad por capas",
+      "autor": "Valenzuela Migoya, F.; Cuéllar Medina, A.",
+      "anio": 2022,
+      "tema_principal": "Modelo institucional por capas, multiversidad, impacto social, itinerarios personalizados",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Cómo se usa la analítica de datos para personalizar y escalar experiencias de aprendizaje?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "2-4",
+        "seccion": "Texto 1 – Universidad por capas"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "texto_id": 1,
+      "texto_fuente": "Universidad por capas",
+      "autor": "Valenzuela Migoya, F.; Cuéllar Medina, A.",
+      "anio": 2022,
+      "tema_principal": "Modelo institucional por capas, multiversidad, impacto social, itinerarios personalizados",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Qué tensiones del núcleo institucional se identifican como fuerzas en descenso/ascenso?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "2-4",
+        "seccion": "Texto 1 – Universidad por capas"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "texto_id": 1,
+      "texto_fuente": "Universidad por capas",
+      "autor": "Valenzuela Migoya, F.; Cuéllar Medina, A.",
+      "anio": 2022,
+      "tema_principal": "Modelo institucional por capas, multiversidad, impacto social, itinerarios personalizados",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Qué exigencias organizacionales y culturales se necesitan para pasar de horizonte deseable a agenda concreta?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "2-4",
+        "seccion": "Texto 1 – Universidad por capas"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "texto_id": 2,
+      "texto_fuente": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski, H.",
+      "anio": 2023,
+      "tema_principal": "Campus físico-virtual, gobernanza emprendedora, rol docente como diseñador",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Qué caracteriza a la 'universidad híbrida y expandida' respecto del campus físico y virtual?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "5-7",
+        "seccion": "Texto 2 – Universidad híbrida y expandida"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "texto_id": 2,
+      "texto_fuente": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski, H.",
+      "anio": 2023,
+      "tema_principal": "Campus físico-virtual, gobernanza emprendedora, rol docente como diseñador",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Cómo se define la gobernanza emprendedora y basada en datos en este modelo?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "5-7",
+        "seccion": "Texto 2 – Universidad híbrida y expandida"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "texto_id": 2,
+      "texto_fuente": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski, H.",
+      "anio": 2023,
+      "tema_principal": "Campus físico-virtual, gobernanza emprendedora, rol docente como diseñador",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Qué estrategias propone para diversificar ingresos sin perder pertinencia académica?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "5-7",
+        "seccion": "Texto 2 – Universidad híbrida y expandida"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "texto_id": 2,
+      "texto_fuente": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski, H.",
+      "anio": 2023,
+      "tema_principal": "Campus físico-virtual, gobernanza emprendedora, rol docente como diseñador",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Cómo se rediseña el campus físico para colaboración, bienestar y vida comunitaria?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "5-7",
+        "seccion": "Texto 2 – Universidad híbrida y expandida"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "texto_id": 2,
+      "texto_fuente": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski, H.",
+      "anio": 2023,
+      "tema_principal": "Campus físico-virtual, gobernanza emprendedora, rol docente como diseñador",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Qué capacidades requiere un campus virtual robusto que compita en la economía de la atención?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "5-7",
+        "seccion": "Texto 2 – Universidad híbrida y expandida"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "texto_id": 2,
+      "texto_fuente": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski, H.",
+      "anio": 2023,
+      "tema_principal": "Campus físico-virtual, gobernanza emprendedora, rol docente como diseñador",
+      "categoria": "Competencias digitales",
+      "subtemas": [
+        "competencia digital",
+        "alfabetización",
+        "ciudadanía digital"
+      ],
+      "pregunta": "¿Cómo cambia el rol docente hacia diseñador de experiencias y conector con redes profesionales?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "5-7",
+        "seccion": "Texto 2 – Universidad híbrida y expandida"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "texto_id": 2,
+      "texto_fuente": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski, H.",
+      "anio": 2023,
+      "tema_principal": "Campus físico-virtual, gobernanza emprendedora, rol docente como diseñador",
+      "categoria": "Financiamiento y sostenibilidad",
+      "subtemas": [
+        "financiamiento",
+        "sostenibilidad",
+        "diversificación"
+      ],
+      "pregunta": "¿Qué perfiles académicos integrados (docencia-investigación-vinculación) se reconocen y apoyan?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "5-7",
+        "seccion": "Texto 2 – Universidad híbrida y expandida"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "texto_id": 2,
+      "texto_fuente": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski, H.",
+      "anio": 2023,
+      "tema_principal": "Campus físico-virtual, gobernanza emprendedora, rol docente como diseñador",
+      "categoria": "Interoperabilidad y datos",
+      "subtemas": [
+        "datos",
+        "interoperabilidad",
+        "estándares",
+        "gobernanza de datos"
+      ],
+      "pregunta": "¿Qué significa corresponsabilidad con mercado laboral y trayectorias de vida de egresados?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "5-7",
+        "seccion": "Texto 2 – Universidad híbrida y expandida"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "texto_id": 2,
+      "texto_fuente": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski, H.",
+      "anio": 2023,
+      "tema_principal": "Campus físico-virtual, gobernanza emprendedora, rol docente como diseñador",
+      "categoria": "Gestión del cambio",
+      "subtemas": [
+        "gestión del cambio",
+        "capacitación",
+        "resistencia",
+        "hoja de ruta"
+      ],
+      "pregunta": "¿Cómo se articulan programas, prácticas y proyectos con necesidades del entorno productivo y social?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "5-7",
+        "seccion": "Texto 2 – Universidad híbrida y expandida"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "texto_id": 2,
+      "texto_fuente": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski, H.",
+      "anio": 2023,
+      "tema_principal": "Campus físico-virtual, gobernanza emprendedora, rol docente como diseñador",
+      "categoria": "Sostenibilidad ambiental",
+      "subtemas": [
+        "ambiental",
+        "energía",
+        "huella",
+        "reciclaje"
+      ],
+      "pregunta": "¿Qué uso estratégico de datos se sugiere para anticipar riesgos y mejorar decisiones?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "5-7",
+        "seccion": "Texto 2 – Universidad híbrida y expandida"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "texto_id": 2,
+      "texto_fuente": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski, H.",
+      "anio": 2023,
+      "tema_principal": "Campus físico-virtual, gobernanza emprendedora, rol docente como diseñador",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Cómo se amplía la comunicación del conocimiento en formatos digitales y abiertos?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "5-7",
+        "seccion": "Texto 2 – Universidad híbrida y expandida"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "texto_id": 2,
+      "texto_fuente": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski, H.",
+      "anio": 2023,
+      "tema_principal": "Campus físico-virtual, gobernanza emprendedora, rol docente como diseñador",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Qué postura propone frente a tecnologías de frontera (IA, blockchain, inmersivos)?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "5-7",
+        "seccion": "Texto 2 – Universidad híbrida y expandida"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "texto_id": 2,
+      "texto_fuente": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski, H.",
+      "anio": 2023,
+      "tema_principal": "Campus físico-virtual, gobernanza emprendedora, rol docente como diseñador",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Cómo innovar bajo restricciones: priorizar, pilotear, escalar y abandonar?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "5-7",
+        "seccion": "Texto 2 – Universidad híbrida y expandida"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "texto_id": 2,
+      "texto_fuente": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski, H.",
+      "anio": 2023,
+      "tema_principal": "Campus físico-virtual, gobernanza emprendedora, rol docente como diseñador",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Qué hoja de ruta flexible sugiere para adaptar la transformación a cada contexto?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "5-7",
+        "seccion": "Texto 2 – Universidad híbrida y expandida"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "texto_id": 2,
+      "texto_fuente": "Universidad híbrida y expandida",
+      "autor": "Pardo Kuklinski, H.",
+      "anio": 2023,
+      "tema_principal": "Campus físico-virtual, gobernanza emprendedora, rol docente como diseñador",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Qué riesgos se advierten si se ignoran las fuerzas de cambio en curso?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "5-7",
+        "seccion": "Texto 2 – Universidad híbrida y expandida"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "texto_id": 3,
+      "texto_fuente": "TIC e IA para mejorar",
+      "autor": "Mora, M.; Ochoa, C.; Cango, M.; Gutiérrez, J.",
+      "anio": 2024,
+      "tema_principal": "Personalización del aprendizaje, evaluación continua, ética y protección de datos",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Por qué integrar TIC e IA requiere rediseñar enseñanza y evaluación, más allá de sumar herramientas?",
+      "tipo": "abierta",
+      "intencion": "razonamiento",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "7-9",
+        "seccion": "Texto 3 – TIC e IA para mejorar"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "texto_id": 3,
+      "texto_fuente": "TIC e IA para mejorar",
+      "autor": "Mora, M.; Ochoa, C.; Cango, M.; Gutiérrez, J.",
+      "anio": 2024,
+      "tema_principal": "Personalización del aprendizaje, evaluación continua, ética y protección de datos",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Cómo personalizar el aprendizaje con tutoría inteligente y retroalimentación en tiempo real?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "7-9",
+        "seccion": "Texto 3 – TIC e IA para mejorar"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "texto_id": 3,
+      "texto_fuente": "TIC e IA para mejorar",
+      "autor": "Mora, M.; Ochoa, C.; Cango, M.; Gutiérrez, J.",
+      "anio": 2024,
+      "tema_principal": "Personalización del aprendizaje, evaluación continua, ética y protección de datos",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Qué ventajas y límites tiene la evaluación automatizada (pruebas, autoevaluaciones, adaptativas)?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "7-9",
+        "seccion": "Texto 3 – TIC e IA para mejorar"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "texto_id": 3,
+      "texto_fuente": "TIC e IA para mejorar",
+      "autor": "Mora, M.; Ochoa, C.; Cango, M.; Gutiérrez, J.",
+      "anio": 2024,
+      "tema_principal": "Personalización del aprendizaje, evaluación continua, ética y protección de datos",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Cómo fortalecer la evaluación formativa como parte del aprendizaje continuo?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "7-9",
+        "seccion": "Texto 3 – TIC e IA para mejorar"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "texto_id": 3,
+      "texto_fuente": "TIC e IA para mejorar",
+      "autor": "Mora, M.; Ochoa, C.; Cango, M.; Gutiérrez, J.",
+      "anio": 2024,
+      "tema_principal": "Personalización del aprendizaje, evaluación continua, ética y protección de datos",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Qué implica un plan permanente de formación docente en competencias digitales e IA?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "7-9",
+        "seccion": "Texto 3 – TIC e IA para mejorar"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "texto_id": 3,
+      "texto_fuente": "TIC e IA para mejorar",
+      "autor": "Mora, M.; Ochoa, C.; Cango, M.; Gutiérrez, J.",
+      "anio": 2024,
+      "tema_principal": "Personalización del aprendizaje, evaluación continua, ética y protección de datos",
+      "categoria": "Competencias digitales",
+      "subtemas": [
+        "competencia digital",
+        "alfabetización",
+        "ciudadanía digital"
+      ],
+      "pregunta": "¿Cómo acompañar el rediseño de asignaturas para articular TIC/IA con resultados de aprendizaje?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "7-9",
+        "seccion": "Texto 3 – TIC e IA para mejorar"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "texto_id": 3,
+      "texto_fuente": "TIC e IA para mejorar",
+      "autor": "Mora, M.; Ochoa, C.; Cango, M.; Gutiérrez, J.",
+      "anio": 2024,
+      "tema_principal": "Personalización del aprendizaje, evaluación continua, ética y protección de datos",
+      "categoria": "Financiamiento y sostenibilidad",
+      "subtemas": [
+        "financiamiento",
+        "sostenibilidad",
+        "diversificación"
+      ],
+      "pregunta": "¿Qué infraestructuras y políticas evitan nuevas brechas de acceso a recursos digitales?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "7-9",
+        "seccion": "Texto 3 – TIC e IA para mejorar"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "texto_id": 3,
+      "texto_fuente": "TIC e IA para mejorar",
+      "autor": "Mora, M.; Ochoa, C.; Cango, M.; Gutiérrez, J.",
+      "anio": 2024,
+      "tema_principal": "Personalización del aprendizaje, evaluación continua, ética y protección de datos",
+      "categoria": "Interoperabilidad y datos",
+      "subtemas": [
+        "datos",
+        "interoperabilidad",
+        "estándares",
+        "gobernanza de datos"
+      ],
+      "pregunta": "¿Cómo se protege la privacidad y se gobiernan los datos en contextos de analítica educativa?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "7-9",
+        "seccion": "Texto 3 – TIC e IA para mejorar"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "texto_id": 3,
+      "texto_fuente": "TIC e IA para mejorar",
+      "autor": "Mora, M.; Ochoa, C.; Cango, M.; Gutiérrez, J.",
+      "anio": 2024,
+      "tema_principal": "Personalización del aprendizaje, evaluación continua, ética y protección de datos",
+      "categoria": "Gestión del cambio",
+      "subtemas": [
+        "gestión del cambio",
+        "capacitación",
+        "resistencia",
+        "hoja de ruta"
+      ],
+      "pregunta": "¿Qué principios éticos (transparencia, no discriminación, consentimiento) deben guiar la IA?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "7-9",
+        "seccion": "Texto 3 – TIC e IA para mejorar"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "texto_id": 3,
+      "texto_fuente": "TIC e IA para mejorar",
+      "autor": "Mora, M.; Ochoa, C.; Cango, M.; Gutiérrez, J.",
+      "anio": 2024,
+      "tema_principal": "Personalización del aprendizaje, evaluación continua, ética y protección de datos",
+      "categoria": "Sostenibilidad ambiental",
+      "subtemas": [
+        "ambiental",
+        "energía",
+        "huella",
+        "reciclaje"
+      ],
+      "pregunta": "¿Cómo fomentar innovación colaborativa entre docentes, edtech y decisores institucionales?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "7-9",
+        "seccion": "Texto 3 – TIC e IA para mejorar"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "texto_id": 3,
+      "texto_fuente": "TIC e IA para mejorar",
+      "autor": "Mora, M.; Ochoa, C.; Cango, M.; Gutiérrez, J.",
+      "anio": 2024,
+      "tema_principal": "Personalización del aprendizaje, evaluación continua, ética y protección de datos",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Qué evidencia se debe recolectar para ajustar políticas e inversiones en TIC/IA?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "7-9",
+        "seccion": "Texto 3 – TIC e IA para mejorar"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "texto_id": 3,
+      "texto_fuente": "TIC e IA para mejorar",
+      "autor": "Mora, M.; Ochoa, C.; Cango, M.; Gutiérrez, J.",
+      "anio": 2024,
+      "tema_principal": "Personalización del aprendizaje, evaluación continua, ética y protección de datos",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Cómo evaluar impacto en aprendizajes, retención, participación y equidad?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "7-9",
+        "seccion": "Texto 3 – TIC e IA para mejorar"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "texto_id": 3,
+      "texto_fuente": "TIC e IA para mejorar",
+      "autor": "Mora, M.; Ochoa, C.; Cango, M.; Gutiérrez, J.",
+      "anio": 2024,
+      "tema_principal": "Personalización del aprendizaje, evaluación continua, ética y protección de datos",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Qué riesgos operativos aparecen al automatizar procesos de evaluación?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "7-9",
+        "seccion": "Texto 3 – TIC e IA para mejorar"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "texto_id": 3,
+      "texto_fuente": "TIC e IA para mejorar",
+      "autor": "Mora, M.; Ochoa, C.; Cango, M.; Gutiérrez, J.",
+      "anio": 2024,
+      "tema_principal": "Personalización del aprendizaje, evaluación continua, ética y protección de datos",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Cómo equilibrar automatización con juicio pedagógico y retroalimentación humana?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "7-9",
+        "seccion": "Texto 3 – TIC e IA para mejorar"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "texto_id": 3,
+      "texto_fuente": "TIC e IA para mejorar",
+      "autor": "Mora, M.; Ochoa, C.; Cango, M.; Gutiérrez, J.",
+      "anio": 2024,
+      "tema_principal": "Personalización del aprendizaje, evaluación continua, ética y protección de datos",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Qué criterios definen cuándo mantener, ampliar o descartar una herramienta digital?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "7-9",
+        "seccion": "Texto 3 – TIC e IA para mejorar"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "texto_id": 4,
+      "texto_fuente": "Universidad Ubicua",
+      "autor": "Pedroza, R.",
+      "anio": 2021,
+      "tema_principal": "Escenarios múltiples, presencia global, inteligencia social+artificial",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Qué critica el texto a la planificación lineal centrada en rankings y eficiencia?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "9-11",
+        "seccion": "Texto 4 – Universidad Ubicua"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "texto_id": 4,
+      "texto_fuente": "Universidad Ubicua",
+      "autor": "Pedroza, R.",
+      "anio": 2021,
+      "tema_principal": "Escenarios múltiples, presencia global, inteligencia social+artificial",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Cómo proponen los estudios del futuro abrir escenarios alternativos para la universidad?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "9-11",
+        "seccion": "Texto 4 – Universidad Ubicua"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "texto_id": 4,
+      "texto_fuente": "Universidad Ubicua",
+      "autor": "Pedroza, R.",
+      "anio": 2021,
+      "tema_principal": "Escenarios múltiples, presencia global, inteligencia social+artificial",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Por qué 'transformarse o desaparecer' es un dilema para la universidad tradicional?",
+      "tipo": "abierta",
+      "intencion": "razonamiento",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "9-11",
+        "seccion": "Texto 4 – Universidad Ubicua"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "texto_id": 4,
+      "texto_fuente": "Universidad Ubicua",
+      "autor": "Pedroza, R.",
+      "anio": 2021,
+      "tema_principal": "Escenarios múltiples, presencia global, inteligencia social+artificial",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Qué presiones globales y tecnológicas convergen sobre la educación superior?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "9-11",
+        "seccion": "Texto 4 – Universidad Ubicua"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "texto_id": 4,
+      "texto_fuente": "Universidad Ubicua",
+      "autor": "Pedroza, R.",
+      "anio": 2021,
+      "tema_principal": "Escenarios múltiples, presencia global, inteligencia social+artificial",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Cómo se describe la universidad ubicua más allá del campus físico?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "9-11",
+        "seccion": "Texto 4 – Universidad Ubicua"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "texto_id": 4,
+      "texto_fuente": "Universidad Ubicua",
+      "autor": "Pedroza, R.",
+      "anio": 2021,
+      "tema_principal": "Escenarios múltiples, presencia global, inteligencia social+artificial",
+      "categoria": "Competencias digitales",
+      "subtemas": [
+        "competencia digital",
+        "alfabetización",
+        "ciudadanía digital"
+      ],
+      "pregunta": "¿Qué significa operar como 'cerebro de inteligencia aumentada' (social + artificial)?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "9-11",
+        "seccion": "Texto 4 – Universidad Ubicua"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 52,
+      "texto_id": 4,
+      "texto_fuente": "Universidad Ubicua",
+      "autor": "Pedroza, R.",
+      "anio": 2021,
+      "tema_principal": "Escenarios múltiples, presencia global, inteligencia social+artificial",
+      "categoria": "Financiamiento y sostenibilidad",
+      "subtemas": [
+        "financiamiento",
+        "sostenibilidad",
+        "diversificación"
+      ],
+      "pregunta": "¿Cómo cambia la función desde transmisión de contenidos a exploración de lo desconocido?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "9-11",
+        "seccion": "Texto 4 – Universidad Ubicua"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 53,
+      "texto_id": 4,
+      "texto_fuente": "Universidad Ubicua",
+      "autor": "Pedroza, R.",
+      "anio": 2021,
+      "tema_principal": "Escenarios múltiples, presencia global, inteligencia social+artificial",
+      "categoria": "Interoperabilidad y datos",
+      "subtemas": [
+        "datos",
+        "interoperabilidad",
+        "estándares",
+        "gobernanza de datos"
+      ],
+      "pregunta": "¿Qué nodos y terminales distribuidos conforman la red ubicua de conocimiento?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "9-11",
+        "seccion": "Texto 4 – Universidad Ubicua"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 54,
+      "texto_id": 4,
+      "texto_fuente": "Universidad Ubicua",
+      "autor": "Pedroza, R.",
+      "anio": 2021,
+      "tema_principal": "Escenarios múltiples, presencia global, inteligencia social+artificial",
+      "categoria": "Gestión del cambio",
+      "subtemas": [
+        "gestión del cambio",
+        "capacitación",
+        "resistencia",
+        "hoja de ruta"
+      ],
+      "pregunta": "¿Cómo se diluye la frontera entre 'universitarios' y 'no universitarios'?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "9-11",
+        "seccion": "Texto 4 – Universidad Ubicua"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 55,
+      "texto_id": 4,
+      "texto_fuente": "Universidad Ubicua",
+      "autor": "Pedroza, R.",
+      "anio": 2021,
+      "tema_principal": "Escenarios múltiples, presencia global, inteligencia social+artificial",
+      "categoria": "Sostenibilidad ambiental",
+      "subtemas": [
+        "ambiental",
+        "energía",
+        "huella",
+        "reciclaje"
+      ],
+      "pregunta": "¿Qué instituciones quedarán relegadas según la 'selección natural' propuesta?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "9-11",
+        "seccion": "Texto 4 – Universidad Ubicua"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 56,
+      "texto_id": 4,
+      "texto_fuente": "Universidad Ubicua",
+      "autor": "Pedroza, R.",
+      "anio": 2021,
+      "tema_principal": "Escenarios múltiples, presencia global, inteligencia social+artificial",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Qué alianzas y capacidades habilitan esta ubicuidad?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "9-11",
+        "seccion": "Texto 4 – Universidad Ubicua"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 57,
+      "texto_id": 4,
+      "texto_fuente": "Universidad Ubicua",
+      "autor": "Pedroza, R.",
+      "anio": 2021,
+      "tema_principal": "Escenarios múltiples, presencia global, inteligencia social+artificial",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Cómo se redefine la gobernanza académica para este paradigma?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "9-11",
+        "seccion": "Texto 4 – Universidad Ubicua"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 58,
+      "texto_id": 4,
+      "texto_fuente": "Universidad Ubicua",
+      "autor": "Pedroza, R.",
+      "anio": 2021,
+      "tema_principal": "Escenarios múltiples, presencia global, inteligencia social+artificial",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Qué riesgos éticos y sociales emergen de una universidad ubicua?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "9-11",
+        "seccion": "Texto 4 – Universidad Ubicua"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "texto_id": 4,
+      "texto_fuente": "Universidad Ubicua",
+      "autor": "Pedroza, R.",
+      "anio": 2021,
+      "tema_principal": "Escenarios múltiples, presencia global, inteligencia social+artificial",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Cómo se evalúa calidad en entornos no físicos y distribuidos?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "9-11",
+        "seccion": "Texto 4 – Universidad Ubicua"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 60,
+      "texto_id": 4,
+      "texto_fuente": "Universidad Ubicua",
+      "autor": "Pedroza, R.",
+      "anio": 2021,
+      "tema_principal": "Escenarios múltiples, presencia global, inteligencia social+artificial",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Qué papel asigna el texto a la investigación e innovación en este tránsito?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "9-11",
+        "seccion": "Texto 4 – Universidad Ubicua"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 61,
+      "texto_id": 5,
+      "texto_fuente": "Gobernanza Anticipatoria",
+      "autor": "Comisión Desafíos del Futuro (Senado de Chile)",
+      "anio": 2022,
+      "tema_principal": "Prospectiva, vigilancia de tendencias, innovación y decisión basada en datos",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Cómo se define la gobernanza anticipatoria en decisiones académicas y financieras?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "11-12",
+        "seccion": "Texto 5 – Gobernanza Anticipatoria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 62,
+      "texto_id": 5,
+      "texto_fuente": "Gobernanza Anticipatoria",
+      "autor": "Comisión Desafíos del Futuro (Senado de Chile)",
+      "anio": 2022,
+      "tema_principal": "Prospectiva, vigilancia de tendencias, innovación y decisión basada en datos",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Qué capacidades institucionales requiere (observatorios, comités, vigilancia de tendencias)?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "11-12",
+        "seccion": "Texto 5 – Gobernanza Anticipatoria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 63,
+      "texto_id": 5,
+      "texto_fuente": "Gobernanza Anticipatoria",
+      "autor": "Comisión Desafíos del Futuro (Senado de Chile)",
+      "anio": 2022,
+      "tema_principal": "Prospectiva, vigilancia de tendencias, innovación y decisión basada en datos",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Cómo usar datos y escenarios para orientar oferta formativa e infraestructura?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "11-12",
+        "seccion": "Texto 5 – Gobernanza Anticipatoria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 64,
+      "texto_id": 5,
+      "texto_fuente": "Gobernanza Anticipatoria",
+      "autor": "Comisión Desafíos del Futuro (Senado de Chile)",
+      "anio": 2022,
+      "tema_principal": "Prospectiva, vigilancia de tendencias, innovación y decisión basada en datos",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Qué diferencia a la gobernanza anticipatoria de la reacción a crisis coyunturales?",
+      "tipo": "comparativa",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "11-12",
+        "seccion": "Texto 5 – Gobernanza Anticipatoria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 65,
+      "texto_id": 5,
+      "texto_fuente": "Gobernanza Anticipatoria",
+      "autor": "Comisión Desafíos del Futuro (Senado de Chile)",
+      "anio": 2022,
+      "tema_principal": "Prospectiva, vigilancia de tendencias, innovación y decisión basada en datos",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Qué riesgos y oportunidades deben monitorearse (demográficos, tecnológicos, regulatorios, laborales, ambientales)?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "11-12",
+        "seccion": "Texto 5 – Gobernanza Anticipatoria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 66,
+      "texto_id": 5,
+      "texto_fuente": "Gobernanza Anticipatoria",
+      "autor": "Comisión Desafíos del Futuro (Senado de Chile)",
+      "anio": 2022,
+      "tema_principal": "Prospectiva, vigilancia de tendencias, innovación y decisión basada en datos",
+      "categoria": "Competencias digitales",
+      "subtemas": [
+        "competencia digital",
+        "alfabetización",
+        "ciudadanía digital"
+      ],
+      "pregunta": "¿Cómo probar y escalar innovaciones antes de que el entorno vuelva obsoletos modelos?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "11-12",
+        "seccion": "Texto 5 – Gobernanza Anticipatoria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 67,
+      "texto_id": 5,
+      "texto_fuente": "Gobernanza Anticipatoria",
+      "autor": "Comisión Desafíos del Futuro (Senado de Chile)",
+      "anio": 2022,
+      "tema_principal": "Prospectiva, vigilancia de tendencias, innovación y decisión basada en datos",
+      "categoria": "Financiamiento y sostenibilidad",
+      "subtemas": [
+        "financiamiento",
+        "sostenibilidad",
+        "diversificación"
+      ],
+      "pregunta": "¿Qué horizontes temporales se sugieren (10, 20, 30 años) y por qué?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "11-12",
+        "seccion": "Texto 5 – Gobernanza Anticipatoria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 68,
+      "texto_id": 5,
+      "texto_fuente": "Gobernanza Anticipatoria",
+      "autor": "Comisión Desafíos del Futuro (Senado de Chile)",
+      "anio": 2022,
+      "tema_principal": "Prospectiva, vigilancia de tendencias, innovación y decisión basada en datos",
+      "categoria": "Interoperabilidad y datos",
+      "subtemas": [
+        "datos",
+        "interoperabilidad",
+        "estándares",
+        "gobernanza de datos"
+      ],
+      "pregunta": "¿Cómo legitimar esta gobernanza frente a la comunidad universitaria?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "11-12",
+        "seccion": "Texto 5 – Gobernanza Anticipatoria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 69,
+      "texto_id": 5,
+      "texto_fuente": "Gobernanza Anticipatoria",
+      "autor": "Comisión Desafíos del Futuro (Senado de Chile)",
+      "anio": 2022,
+      "tema_principal": "Prospectiva, vigilancia de tendencias, innovación y decisión basada en datos",
+      "categoria": "Gestión del cambio",
+      "subtemas": [
+        "gestión del cambio",
+        "capacitación",
+        "resistencia",
+        "hoja de ruta"
+      ],
+      "pregunta": "¿Qué rol juega la vida colegiada y la discusión estratégica formal?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "11-12",
+        "seccion": "Texto 5 – Gobernanza Anticipatoria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 70,
+      "texto_id": 5,
+      "texto_fuente": "Gobernanza Anticipatoria",
+      "autor": "Comisión Desafíos del Futuro (Senado de Chile)",
+      "anio": 2022,
+      "tema_principal": "Prospectiva, vigilancia de tendencias, innovación y decisión basada en datos",
+      "categoria": "Sostenibilidad ambiental",
+      "subtemas": [
+        "ambiental",
+        "energía",
+        "huella",
+        "reciclaje"
+      ],
+      "pregunta": "¿Cómo se articulan decisiones de recursos con prospectiva y pertinencia social?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "11-12",
+        "seccion": "Texto 5 – Gobernanza Anticipatoria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 71,
+      "texto_id": 5,
+      "texto_fuente": "Gobernanza Anticipatoria",
+      "autor": "Comisión Desafíos del Futuro (Senado de Chile)",
+      "anio": 2022,
+      "tema_principal": "Prospectiva, vigilancia de tendencias, innovación y decisión basada en datos",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Qué métricas evalúan pertinencia, sostenibilidad e impacto futuro?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "11-12",
+        "seccion": "Texto 5 – Gobernanza Anticipatoria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 72,
+      "texto_id": 5,
+      "texto_fuente": "Gobernanza Anticipatoria",
+      "autor": "Comisión Desafíos del Futuro (Senado de Chile)",
+      "anio": 2022,
+      "tema_principal": "Prospectiva, vigilancia de tendencias, innovación y decisión basada en datos",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Cómo evitar sesgos en la anticipación y construcción de escenarios?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "11-12",
+        "seccion": "Texto 5 – Gobernanza Anticipatoria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 73,
+      "texto_id": 5,
+      "texto_fuente": "Gobernanza Anticipatoria",
+      "autor": "Comisión Desafíos del Futuro (Senado de Chile)",
+      "anio": 2022,
+      "tema_principal": "Prospectiva, vigilancia de tendencias, innovación y decisión basada en datos",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Qué implicancias tiene para alianzas y redes externas?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "11-12",
+        "seccion": "Texto 5 – Gobernanza Anticipatoria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 74,
+      "texto_id": 5,
+      "texto_fuente": "Gobernanza Anticipatoria",
+      "autor": "Comisión Desafíos del Futuro (Senado de Chile)",
+      "anio": 2022,
+      "tema_principal": "Prospectiva, vigilancia de tendencias, innovación y decisión basada en datos",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Cómo se integra la anticipación en la cultura organizacional cotidiana?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "11-12",
+        "seccion": "Texto 5 – Gobernanza Anticipatoria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 75,
+      "texto_id": 5,
+      "texto_fuente": "Gobernanza Anticipatoria",
+      "autor": "Comisión Desafíos del Futuro (Senado de Chile)",
+      "anio": 2022,
+      "tema_principal": "Prospectiva, vigilancia de tendencias, innovación y decisión basada en datos",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Qué limitaciones comunes enfrentan universidades al intentar implementar este enfoque?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "11-12",
+        "seccion": "Texto 5 – Gobernanza Anticipatoria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 76,
+      "texto_id": 6,
+      "texto_fuente": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, J. S.; Lamus de Rodríguez, T. M.; Olmedo-Cañarte, P. A.; Macías-Macías, J. D.",
+      "anio": 2024,
+      "tema_principal": "Competencia digital docente, formación continua, ciudadanía digital",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Por qué la competencia digital docente debe ser prioridad estratégica?",
+      "tipo": "abierta",
+      "intencion": "razonamiento",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "12-14",
+        "seccion": "Texto 6 – Competencias Digitales y TICs en Universidades"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 77,
+      "texto_id": 6,
+      "texto_fuente": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, J. S.; Lamus de Rodríguez, T. M.; Olmedo-Cañarte, P. A.; Macías-Macías, J. D.",
+      "anio": 2024,
+      "tema_principal": "Competencia digital docente, formación continua, ciudadanía digital",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Qué instrumentos de diagnóstico (p. ej., CDES) permiten medir alfabetización y ciudadanía digital?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "12-14",
+        "seccion": "Texto 6 – Competencias Digitales y TICs en Universidades"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 78,
+      "texto_id": 6,
+      "texto_fuente": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, J. S.; Lamus de Rodríguez, T. M.; Olmedo-Cañarte, P. A.; Macías-Macías, J. D.",
+      "anio": 2024,
+      "tema_principal": "Competencia digital docente, formación continua, ciudadanía digital",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Cómo usar diagnósticos para decisiones de gestión de personas y formación?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "12-14",
+        "seccion": "Texto 6 – Competencias Digitales y TICs en Universidades"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 79,
+      "texto_id": 6,
+      "texto_fuente": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, J. S.; Lamus de Rodríguez, T. M.; Olmedo-Cañarte, P. A.; Macías-Macías, J. D.",
+      "anio": 2024,
+      "tema_principal": "Competencia digital docente, formación continua, ciudadanía digital",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Qué diseño de formación continua y personalizada se propone para distintas disciplinas y trayectorias?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "12-14",
+        "seccion": "Texto 6 – Competencias Digitales y TICs en Universidades"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 80,
+      "texto_id": 6,
+      "texto_fuente": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, J. S.; Lamus de Rodríguez, T. M.; Olmedo-Cañarte, P. A.; Macías-Macías, J. D.",
+      "anio": 2024,
+      "tema_principal": "Competencia digital docente, formación continua, ciudadanía digital",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Cómo integrar TIC en la práctica pedagógica más allá de lo administrativo?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "12-14",
+        "seccion": "Texto 6 – Competencias Digitales y TICs en Universidades"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 81,
+      "texto_id": 6,
+      "texto_fuente": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, J. S.; Lamus de Rodríguez, T. M.; Olmedo-Cañarte, P. A.; Macías-Macías, J. D.",
+      "anio": 2024,
+      "tema_principal": "Competencia digital docente, formación continua, ciudadanía digital",
+      "categoria": "Competencias digitales",
+      "subtemas": [
+        "competencia digital",
+        "alfabetización",
+        "ciudadanía digital"
+      ],
+      "pregunta": "¿Qué rol juega la evaluación formativa apoyada en plataformas digitales?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "12-14",
+        "seccion": "Texto 6 – Competencias Digitales y TICs en Universidades"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 82,
+      "texto_id": 6,
+      "texto_fuente": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, J. S.; Lamus de Rodríguez, T. M.; Olmedo-Cañarte, P. A.; Macías-Macías, J. D.",
+      "anio": 2024,
+      "tema_principal": "Competencia digital docente, formación continua, ciudadanía digital",
+      "categoria": "Financiamiento y sostenibilidad",
+      "subtemas": [
+        "financiamiento",
+        "sostenibilidad",
+        "diversificación"
+      ],
+      "pregunta": "¿Cómo modelar uso responsable: derechos de autor, protección de datos, comportamiento en línea?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "12-14",
+        "seccion": "Texto 6 – Competencias Digitales y TICs en Universidades"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 83,
+      "texto_id": 6,
+      "texto_fuente": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, J. S.; Lamus de Rodríguez, T. M.; Olmedo-Cañarte, P. A.; Macías-Macías, J. D.",
+      "anio": 2024,
+      "tema_principal": "Competencia digital docente, formación continua, ciudadanía digital",
+      "categoria": "Interoperabilidad y datos",
+      "subtemas": [
+        "datos",
+        "interoperabilidad",
+        "estándares",
+        "gobernanza de datos"
+      ],
+      "pregunta": "¿Qué estrategias para reducir brechas de acceso y experiencia digital entre docentes?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "12-14",
+        "seccion": "Texto 6 – Competencias Digitales y TICs en Universidades"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 84,
+      "texto_id": 6,
+      "texto_fuente": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, J. S.; Lamus de Rodríguez, T. M.; Olmedo-Cañarte, P. A.; Macías-Macías, J. D.",
+      "anio": 2024,
+      "tema_principal": "Competencia digital docente, formación continua, ciudadanía digital",
+      "categoria": "Gestión del cambio",
+      "subtemas": [
+        "gestión del cambio",
+        "capacitación",
+        "resistencia",
+        "hoja de ruta"
+      ],
+      "pregunta": "¿Cómo fomentar creatividad, innovación y proyectos interdisciplinarios con TIC?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "12-14",
+        "seccion": "Texto 6 – Competencias Digitales y TICs en Universidades"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 85,
+      "texto_id": 6,
+      "texto_fuente": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, J. S.; Lamus de Rodríguez, T. M.; Olmedo-Cañarte, P. A.; Macías-Macías, J. D.",
+      "anio": 2024,
+      "tema_principal": "Competencia digital docente, formación continua, ciudadanía digital",
+      "categoria": "Sostenibilidad ambiental",
+      "subtemas": [
+        "ambiental",
+        "energía",
+        "huella",
+        "reciclaje"
+      ],
+      "pregunta": "¿Qué comunidades profesionales en línea pueden apoyar la innovación docente?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "12-14",
+        "seccion": "Texto 6 – Competencias Digitales y TICs en Universidades"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 86,
+      "texto_id": 6,
+      "texto_fuente": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, J. S.; Lamus de Rodríguez, T. M.; Olmedo-Cañarte, P. A.; Macías-Macías, J. D.",
+      "anio": 2024,
+      "tema_principal": "Competencia digital docente, formación continua, ciudadanía digital",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Cómo articular competencias digitales con resultados de aprendizaje y evaluación?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "12-14",
+        "seccion": "Texto 6 – Competencias Digitales y TICs en Universidades"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 87,
+      "texto_id": 6,
+      "texto_fuente": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, J. S.; Lamus de Rodríguez, T. M.; Olmedo-Cañarte, P. A.; Macías-Macías, J. D.",
+      "anio": 2024,
+      "tema_principal": "Competencia digital docente, formación continua, ciudadanía digital",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Qué políticas institucionales deben incorporar estas competencias (perfiles, promoción, evaluación)?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "12-14",
+        "seccion": "Texto 6 – Competencias Digitales y TICs en Universidades"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 88,
+      "texto_id": 6,
+      "texto_fuente": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, J. S.; Lamus de Rodríguez, T. M.; Olmedo-Cañarte, P. A.; Macías-Macías, J. D.",
+      "anio": 2024,
+      "tema_principal": "Competencia digital docente, formación continua, ciudadanía digital",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Qué indicadores permiten monitorear progresos en competencia digital?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "12-14",
+        "seccion": "Texto 6 – Competencias Digitales y TICs en Universidades"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 89,
+      "texto_id": 6,
+      "texto_fuente": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, J. S.; Lamus de Rodríguez, T. M.; Olmedo-Cañarte, P. A.; Macías-Macías, J. D.",
+      "anio": 2024,
+      "tema_principal": "Competencia digital docente, formación continua, ciudadanía digital",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Cómo asegurar infraestructura mínima: conectividad, soporte, plataformas?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "12-14",
+        "seccion": "Texto 6 – Competencias Digitales y TICs en Universidades"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 90,
+      "texto_id": 6,
+      "texto_fuente": "Competencias Digitales y TICs en Universidades",
+      "autor": "Moreira-Choez, J. S.; Lamus de Rodríguez, T. M.; Olmedo-Cañarte, P. A.; Macías-Macías, J. D.",
+      "anio": 2024,
+      "tema_principal": "Competencia digital docente, formación continua, ciudadanía digital",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Qué riesgos de sobrecarga y tecnocentrismo deben evitarse?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "12-14",
+        "seccion": "Texto 6 – Competencias Digitales y TICs en Universidades"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 91,
+      "texto_id": 7,
+      "texto_fuente": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió, C.",
+      "anio": 2024,
+      "tema_principal": "Autonomía, diversidad de roles institucionales, calidad y profesionalización docente",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Por qué la supervivencia de universidades públicas ya no está garantizada?",
+      "tipo": "abierta",
+      "intencion": "razonamiento",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "14-16",
+        "seccion": "Texto 7 – Gobernanza meritocrática y docencia reinventada"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 92,
+      "texto_id": 7,
+      "texto_fuente": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió, C.",
+      "anio": 2024,
+      "tema_principal": "Autonomía, diversidad de roles institucionales, calidad y profesionalización docente",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Qué implica pasar de sistemas homogéneos a una universidad pública diversa en roles y funciones?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "14-16",
+        "seccion": "Texto 7 – Gobernanza meritocrática y docencia reinventada"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 93,
+      "texto_id": 7,
+      "texto_fuente": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió, C.",
+      "anio": 2024,
+      "tema_principal": "Autonomía, diversidad de roles institucionales, calidad y profesionalización docente",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Cómo vincular financiación diferenciada a resultados y perfiles institucionales?",
+      "tipo": "comparativa",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "14-16",
+        "seccion": "Texto 7 – Gobernanza meritocrática y docencia reinventada"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 94,
+      "texto_id": 7,
+      "texto_fuente": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió, C.",
+      "anio": 2024,
+      "tema_principal": "Autonomía, diversidad de roles institucionales, calidad y profesionalización docente",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Qué autonomía real se propone y cómo combinarla con rendición de cuentas exigente?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "14-16",
+        "seccion": "Texto 7 – Gobernanza meritocrática y docencia reinventada"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 95,
+      "texto_id": 7,
+      "texto_fuente": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió, C.",
+      "anio": 2024,
+      "tema_principal": "Autonomía, diversidad de roles institucionales, calidad y profesionalización docente",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Por qué reformar la gobernanza desde democracia corporativa hacia meritocracia?",
+      "tipo": "abierta",
+      "intencion": "razonamiento",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "14-16",
+        "seccion": "Texto 7 – Gobernanza meritocrática y docencia reinventada"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 96,
+      "texto_id": 7,
+      "texto_fuente": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió, C.",
+      "anio": 2024,
+      "tema_principal": "Autonomía, diversidad de roles institucionales, calidad y profesionalización docente",
+      "categoria": "Competencias digitales",
+      "subtemas": [
+        "competencia digital",
+        "alfabetización",
+        "ciudadanía digital"
+      ],
+      "pregunta": "¿Cómo seleccionar equipos de gobierno con criterios de competencia directiva y proyecto institucional?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "14-16",
+        "seccion": "Texto 7 – Gobernanza meritocrática y docencia reinventada"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 97,
+      "texto_id": 7,
+      "texto_fuente": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió, C.",
+      "anio": 2024,
+      "tema_principal": "Autonomía, diversidad de roles institucionales, calidad y profesionalización docente",
+      "categoria": "Financiamiento y sostenibilidad",
+      "subtemas": [
+        "financiamiento",
+        "sostenibilidad",
+        "diversificación"
+      ],
+      "pregunta": "¿Qué significa reinventar la función docente como núcleo de legitimidad social?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "14-16",
+        "seccion": "Texto 7 – Gobernanza meritocrática y docencia reinventada"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 98,
+      "texto_id": 7,
+      "texto_fuente": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió, C.",
+      "anio": 2024,
+      "tema_principal": "Autonomía, diversidad de roles institucionales, calidad y profesionalización docente",
+      "categoria": "Interoperabilidad y datos",
+      "subtemas": [
+        "datos",
+        "interoperabilidad",
+        "estándares",
+        "gobernanza de datos"
+      ],
+      "pregunta": "¿Cómo exigir calidad docente equiparable a la investigación en estabilidad y promoción?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "14-16",
+        "seccion": "Texto 7 – Gobernanza meritocrática y docencia reinventada"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 99,
+      "texto_id": 7,
+      "texto_fuente": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió, C.",
+      "anio": 2024,
+      "tema_principal": "Autonomía, diversidad de roles institucionales, calidad y profesionalización docente",
+      "categoria": "Gestión del cambio",
+      "subtemas": [
+        "gestión del cambio",
+        "capacitación",
+        "resistencia",
+        "hoja de ruta"
+      ],
+      "pregunta": "¿Qué mecanismos incentivan que los mejores docentes impartan cursos troncales e iniciales?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "14-16",
+        "seccion": "Texto 7 – Gobernanza meritocrática y docencia reinventada"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 100,
+      "texto_id": 7,
+      "texto_fuente": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió, C.",
+      "anio": 2024,
+      "tema_principal": "Autonomía, diversidad de roles institucionales, calidad y profesionalización docente",
+      "categoria": "Sostenibilidad ambiental",
+      "subtemas": [
+        "ambiental",
+        "energía",
+        "huella",
+        "reciclaje"
+      ],
+      "pregunta": "¿Cómo profesionalizar la docencia (formación sistemática, metodologías activas, tecnologías)?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "14-16",
+        "seccion": "Texto 7 – Gobernanza meritocrática y docencia reinventada"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 101,
+      "texto_id": 7,
+      "texto_fuente": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió, C.",
+      "anio": 2024,
+      "tema_principal": "Autonomía, diversidad de roles institucionales, calidad y profesionalización docente",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Qué canales hacen visible la innovación docente en evaluaciones e incentivos?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "14-16",
+        "seccion": "Texto 7 – Gobernanza meritocrática y docencia reinventada"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 102,
+      "texto_id": 7,
+      "texto_fuente": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió, C.",
+      "anio": 2024,
+      "tema_principal": "Autonomía, diversidad de roles institucionales, calidad y profesionalización docente",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Por qué flexibilizar carreras académicas y reconocer perfiles diferenciados?",
+      "tipo": "comparativa",
+      "intencion": "razonamiento",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "14-16",
+        "seccion": "Texto 7 – Gobernanza meritocrática y docencia reinventada"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 103,
+      "texto_id": 7,
+      "texto_fuente": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió, C.",
+      "anio": 2024,
+      "tema_principal": "Autonomía, diversidad de roles institucionales, calidad y profesionalización docente",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Cómo combinar estabilidad institucional con capacidad de cambio ante crisis inéditas?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "14-16",
+        "seccion": "Texto 7 – Gobernanza meritocrática y docencia reinventada"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 104,
+      "texto_id": 7,
+      "texto_fuente": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió, C.",
+      "anio": 2024,
+      "tema_principal": "Autonomía, diversidad de roles institucionales, calidad y profesionalización docente",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Qué universidades públicas tienen más posibilidades de sobrevivir según el enfoque?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "14-16",
+        "seccion": "Texto 7 – Gobernanza meritocrática y docencia reinventada"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 105,
+      "texto_id": 7,
+      "texto_fuente": "Gobernanza meritocrática y docencia reinventada",
+      "autor": "Ramió, C.",
+      "anio": 2024,
+      "tema_principal": "Autonomía, diversidad de roles institucionales, calidad y profesionalización docente",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Qué riesgos y resistencias pueden bloquear esta transformación?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "14-16",
+        "seccion": "Texto 7 – Gobernanza meritocrática y docencia reinventada"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 106,
+      "texto_id": 8,
+      "texto_fuente": "Un futuro líquido bien gobernado: agenda mínima",
+      "autor": "Acosta, A.",
+      "anio": 2025,
+      "tema_principal": "Valor público, equidad, financiamiento, gobernanza y sistemas de información",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Qué significa dar mayor valor público a la educación superior en América Latina?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "17-18",
+        "seccion": "Texto 8 – Un futuro líquido bien gobernado: agenda mínima"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 107,
+      "texto_id": 8,
+      "texto_fuente": "Un futuro líquido bien gobernado: agenda mínima",
+      "autor": "Acosta, A.",
+      "anio": 2025,
+      "tema_principal": "Valor público, equidad, financiamiento, gobernanza y sistemas de información",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Cómo universalizar el acceso con equidad real más allá de aumentar matrícula?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "17-18",
+        "seccion": "Texto 8 – Un futuro líquido bien gobernado: agenda mínima"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 108,
+      "texto_id": 8,
+      "texto_fuente": "Un futuro líquido bien gobernado: agenda mínima",
+      "autor": "Acosta, A.",
+      "anio": 2025,
+      "tema_principal": "Valor público, equidad, financiamiento, gobernanza y sistemas de información",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Qué implica ecualizar formatos presenciales, virtuales e híbridos en calidad y soporte?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "17-18",
+        "seccion": "Texto 8 – Un futuro líquido bien gobernado: agenda mínima"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 109,
+      "texto_id": 8,
+      "texto_fuente": "Un futuro líquido bien gobernado: agenda mínima",
+      "autor": "Acosta, A.",
+      "anio": 2025,
+      "tema_principal": "Valor público, equidad, financiamiento, gobernanza y sistemas de información",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Por qué incrementar sustancialmente el financiamiento es un 'talón de Aquiles'?",
+      "tipo": "abierta",
+      "intencion": "razonamiento",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "17-18",
+        "seccion": "Texto 8 – Un futuro líquido bien gobernado: agenda mínima"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 110,
+      "texto_id": 8,
+      "texto_fuente": "Un futuro líquido bien gobernado: agenda mínima",
+      "autor": "Acosta, A.",
+      "anio": 2025,
+      "tema_principal": "Valor público, equidad, financiamiento, gobernanza y sistemas de información",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Cómo reestructurar la carrera académica para atraer nuevas generaciones?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "17-18",
+        "seccion": "Texto 8 – Un futuro líquido bien gobernado: agenda mínima"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 111,
+      "texto_id": 8,
+      "texto_fuente": "Un futuro líquido bien gobernado: agenda mínima",
+      "autor": "Acosta, A.",
+      "anio": 2025,
+      "tema_principal": "Valor público, equidad, financiamiento, gobernanza y sistemas de información",
+      "categoria": "Competencias digitales",
+      "subtemas": [
+        "competencia digital",
+        "alfabetización",
+        "ciudadanía digital"
+      ],
+      "pregunta": "¿Qué estrategias fortalecen la vinculación con problemas y territorios?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "17-18",
+        "seccion": "Texto 8 – Un futuro líquido bien gobernado: agenda mínima"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 112,
+      "texto_id": 8,
+      "texto_fuente": "Un futuro líquido bien gobernado: agenda mínima",
+      "autor": "Acosta, A.",
+      "anio": 2025,
+      "tema_principal": "Valor público, equidad, financiamiento, gobernanza y sistemas de información",
+      "categoria": "Financiamiento y sostenibilidad",
+      "subtemas": [
+        "financiamiento",
+        "sostenibilidad",
+        "diversificación"
+      ],
+      "pregunta": "¿Cómo instalar gobernanza anticipatoria y sistemas de información robustos?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "17-18",
+        "seccion": "Texto 8 – Un futuro líquido bien gobernado: agenda mínima"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 113,
+      "texto_id": 8,
+      "texto_fuente": "Un futuro líquido bien gobernado: agenda mínima",
+      "autor": "Acosta, A.",
+      "anio": 2025,
+      "tema_principal": "Valor público, equidad, financiamiento, gobernanza y sistemas de información",
+      "categoria": "Interoperabilidad y datos",
+      "subtemas": [
+        "datos",
+        "interoperabilidad",
+        "estándares",
+        "gobernanza de datos"
+      ],
+      "pregunta": "¿Qué indicadores clave monitorear (calidad, cobertura, equidad, pertinencia, financiamiento)?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "17-18",
+        "seccion": "Texto 8 – Un futuro líquido bien gobernado: agenda mínima"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 114,
+      "texto_id": 8,
+      "texto_fuente": "Un futuro líquido bien gobernado: agenda mínima",
+      "autor": "Acosta, A.",
+      "anio": 2025,
+      "tema_principal": "Valor público, equidad, financiamiento, gobernanza y sistemas de información",
+      "categoria": "Gestión del cambio",
+      "subtemas": [
+        "gestión del cambio",
+        "capacitación",
+        "resistencia",
+        "hoja de ruta"
+      ],
+      "pregunta": "¿Qué escenarios deseables, catastróficos o intermedios se proyectan y cómo evitarlos?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "17-18",
+        "seccion": "Texto 8 – Un futuro líquido bien gobernado: agenda mínima"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 115,
+      "texto_id": 8,
+      "texto_fuente": "Un futuro líquido bien gobernado: agenda mínima",
+      "autor": "Acosta, A.",
+      "anio": 2025,
+      "tema_principal": "Valor público, equidad, financiamiento, gobernanza y sistemas de información",
+      "categoria": "Sostenibilidad ambiental",
+      "subtemas": [
+        "ambiental",
+        "energía",
+        "huella",
+        "reciclaje"
+      ],
+      "pregunta": "¿Cómo articular inversión pública con aportes privados de forma responsable?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "17-18",
+        "seccion": "Texto 8 – Un futuro líquido bien gobernado: agenda mínima"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 116,
+      "texto_id": 8,
+      "texto_fuente": "Un futuro líquido bien gobernado: agenda mínima",
+      "autor": "Acosta, A.",
+      "anio": 2025,
+      "tema_principal": "Valor público, equidad, financiamiento, gobernanza y sistemas de información",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Qué políticas reducen brechas territoriales y socioeconómicas efectivamente?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "17-18",
+        "seccion": "Texto 8 – Un futuro líquido bien gobernado: agenda mínima"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 117,
+      "texto_id": 8,
+      "texto_fuente": "Un futuro líquido bien gobernado: agenda mínima",
+      "autor": "Acosta, A.",
+      "anio": 2025,
+      "tema_principal": "Valor público, equidad, financiamiento, gobernanza y sistemas de información",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Cómo asegurar que educación en línea no sea de segunda categoría?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "17-18",
+        "seccion": "Texto 8 – Un futuro líquido bien gobernado: agenda mínima"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 118,
+      "texto_id": 8,
+      "texto_fuente": "Un futuro líquido bien gobernado: agenda mínima",
+      "autor": "Acosta, A.",
+      "anio": 2025,
+      "tema_principal": "Valor público, equidad, financiamiento, gobernanza y sistemas de información",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Qué vínculos con ecosistemas sociales, económicos y ambientales se priorizan?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "17-18",
+        "seccion": "Texto 8 – Un futuro líquido bien gobernado: agenda mínima"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 119,
+      "texto_id": 8,
+      "texto_fuente": "Un futuro líquido bien gobernado: agenda mínima",
+      "autor": "Acosta, A.",
+      "anio": 2025,
+      "tema_principal": "Valor público, equidad, financiamiento, gobernanza y sistemas de información",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Cómo usar prospectiva estratégica para ajustar decisiones hoy?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "17-18",
+        "seccion": "Texto 8 – Un futuro líquido bien gobernado: agenda mínima"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 120,
+      "texto_id": 8,
+      "texto_fuente": "Un futuro líquido bien gobernado: agenda mínima",
+      "autor": "Acosta, A.",
+      "anio": 2025,
+      "tema_principal": "Valor público, equidad, financiamiento, gobernanza y sistemas de información",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Qué riesgos institucionales y sistémicos amenazan la agenda mínima?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "17-18",
+        "seccion": "Texto 8 – Un futuro líquido bien gobernado: agenda mínima"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 121,
+      "texto_id": 9,
+      "texto_fuente": "La Universidad en la Era Digital",
+      "autor": "Castilla, J. G.",
+      "anio": 2024,
+      "tema_principal": "Andragogía universitaria, competencias digitales, sostenibilidad ambiental, equidad",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Qué implica pasar de lógica escolar a andragógica en la universidad?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "19-20",
+        "seccion": "Texto 9 – La Universidad en la Era Digital"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 122,
+      "texto_id": 9,
+      "texto_fuente": "La Universidad en la Era Digital",
+      "autor": "Castilla, J. G.",
+      "anio": 2024,
+      "tema_principal": "Andragogía universitaria, competencias digitales, sostenibilidad ambiental, equidad",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Cómo tratar a estudiantes como profesionales en formación en metodologías y evaluación?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "19-20",
+        "seccion": "Texto 9 – La Universidad en la Era Digital"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 123,
+      "texto_id": 9,
+      "texto_fuente": "La Universidad en la Era Digital",
+      "autor": "Castilla, J. G.",
+      "anio": 2024,
+      "tema_principal": "Andragogía universitaria, competencias digitales, sostenibilidad ambiental, equidad",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Qué cultura de innovación y emprendimiento se propone para evitar currículos desfasados?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "19-20",
+        "seccion": "Texto 9 – La Universidad en la Era Digital"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 124,
+      "texto_id": 9,
+      "texto_fuente": "La Universidad en la Era Digital",
+      "autor": "Castilla, J. G.",
+      "anio": 2024,
+      "tema_principal": "Andragogía universitaria, competencias digitales, sostenibilidad ambiental, equidad",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Cómo desarrollar competencias digitales en estudiantes y docentes de forma transversal?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "19-20",
+        "seccion": "Texto 9 – La Universidad en la Era Digital"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 125,
+      "texto_id": 9,
+      "texto_fuente": "La Universidad en la Era Digital",
+      "autor": "Castilla, J. G.",
+      "anio": 2024,
+      "tema_principal": "Andragogía universitaria, competencias digitales, sostenibilidad ambiental, equidad",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Por qué posicionar la IA como aliada y no como amenaza en docencia y evaluación?",
+      "tipo": "abierta",
+      "intencion": "razonamiento",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "19-20",
+        "seccion": "Texto 9 – La Universidad en la Era Digital"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 126,
+      "texto_id": 9,
+      "texto_fuente": "La Universidad en la Era Digital",
+      "autor": "Castilla, J. G.",
+      "anio": 2024,
+      "tema_principal": "Andragogía universitaria, competencias digitales, sostenibilidad ambiental, equidad",
+      "categoria": "Competencias digitales",
+      "subtemas": [
+        "competencia digital",
+        "alfabetización",
+        "ciudadanía digital"
+      ],
+      "pregunta": "¿Qué gobernanza flexible y anticipatoria se sugiere para adaptarse a la evolución tecnológica?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "19-20",
+        "seccion": "Texto 9 – La Universidad en la Era Digital"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 127,
+      "texto_id": 9,
+      "texto_fuente": "La Universidad en la Era Digital",
+      "autor": "Castilla, J. G.",
+      "anio": 2024,
+      "tema_principal": "Andragogía universitaria, competencias digitales, sostenibilidad ambiental, equidad",
+      "categoria": "Financiamiento y sostenibilidad",
+      "subtemas": [
+        "financiamiento",
+        "sostenibilidad",
+        "diversificación"
+      ],
+      "pregunta": "¿Cómo gestionar el impacto ambiental de la digitalización (energía, reciclaje, consumo responsable)?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "19-20",
+        "seccion": "Texto 9 – La Universidad en la Era Digital"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 128,
+      "texto_id": 9,
+      "texto_fuente": "La Universidad en la Era Digital",
+      "autor": "Castilla, J. G.",
+      "anio": 2024,
+      "tema_principal": "Andragogía universitaria, competencias digitales, sostenibilidad ambiental, equidad",
+      "categoria": "Interoperabilidad y datos",
+      "subtemas": [
+        "datos",
+        "interoperabilidad",
+        "estándares",
+        "gobernanza de datos"
+      ],
+      "pregunta": "¿Qué estrategias aseguran equidad y accesibilidad en entornos digitalizados?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "19-20",
+        "seccion": "Texto 9 – La Universidad en la Era Digital"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 129,
+      "texto_id": 9,
+      "texto_fuente": "La Universidad en la Era Digital",
+      "autor": "Castilla, J. G.",
+      "anio": 2024,
+      "tema_principal": "Andragogía universitaria, competencias digitales, sostenibilidad ambiental, equidad",
+      "categoria": "Gestión del cambio",
+      "subtemas": [
+        "gestión del cambio",
+        "capacitación",
+        "resistencia",
+        "hoja de ruta"
+      ],
+      "pregunta": "¿Cómo convertir a la universidad en generadora de ideas y prácticas ambientales?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "19-20",
+        "seccion": "Texto 9 – La Universidad en la Era Digital"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 130,
+      "texto_id": 9,
+      "texto_fuente": "La Universidad en la Era Digital",
+      "autor": "Castilla, J. G.",
+      "anio": 2024,
+      "tema_principal": "Andragogía universitaria, competencias digitales, sostenibilidad ambiental, equidad",
+      "categoria": "Sostenibilidad ambiental",
+      "subtemas": [
+        "ambiental",
+        "energía",
+        "huella",
+        "reciclaje"
+      ],
+      "pregunta": "¿Qué redes e interdisciplinariedad se impulsan para gobernanza futura?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "19-20",
+        "seccion": "Texto 9 – La Universidad en la Era Digital"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 131,
+      "texto_id": 9,
+      "texto_fuente": "La Universidad en la Era Digital",
+      "autor": "Castilla, J. G.",
+      "anio": 2024,
+      "tema_principal": "Andragogía universitaria, competencias digitales, sostenibilidad ambiental, equidad",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Cómo fortalecer diálogo y discusión reflexiva como prácticas andragógicas?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "19-20",
+        "seccion": "Texto 9 – La Universidad en la Era Digital"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 132,
+      "texto_id": 9,
+      "texto_fuente": "La Universidad en la Era Digital",
+      "autor": "Castilla, J. G.",
+      "anio": 2024,
+      "tema_principal": "Andragogía universitaria, competencias digitales, sostenibilidad ambiental, equidad",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Qué recursos de accesibilidad y becas deben priorizarse?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "19-20",
+        "seccion": "Texto 9 – La Universidad en la Era Digital"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 133,
+      "texto_id": 9,
+      "texto_fuente": "La Universidad en la Era Digital",
+      "autor": "Castilla, J. G.",
+      "anio": 2024,
+      "tema_principal": "Andragogía universitaria, competencias digitales, sostenibilidad ambiental, equidad",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Cómo operacionalizar la participación efectiva de actores universitarios en gobernanza?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "19-20",
+        "seccion": "Texto 9 – La Universidad en la Era Digital"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 134,
+      "texto_id": 9,
+      "texto_fuente": "La Universidad en la Era Digital",
+      "autor": "Castilla, J. G.",
+      "anio": 2024,
+      "tema_principal": "Andragogía universitaria, competencias digitales, sostenibilidad ambiental, equidad",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Qué riesgos de inequidad tecnológica se identifican y cómo mitigarlos?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "19-20",
+        "seccion": "Texto 9 – La Universidad en la Era Digital"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 135,
+      "texto_id": 9,
+      "texto_fuente": "La Universidad en la Era Digital",
+      "autor": "Castilla, J. G.",
+      "anio": 2024,
+      "tema_principal": "Andragogía universitaria, competencias digitales, sostenibilidad ambiental, equidad",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Qué métricas demuestran apertura y compromiso social de una universidad digitalizada?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "19-20",
+        "seccion": "Texto 9 – La Universidad en la Era Digital"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 136,
+      "texto_id": 10,
+      "texto_fuente": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, G.; Vasco Delgado, J.; Alvear Dávalos, J.",
+      "anio": 2024,
+      "tema_principal": "IA como eje estratégico, gobernanza de datos, gestión del cambio, ética",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Por qué la IA debe tratarse como eje estratégico de gestión universitaria?",
+      "tipo": "abierta",
+      "intencion": "razonamiento",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "21-22",
+        "seccion": "Texto 10 – IA y gobernanza universitaria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 137,
+      "texto_id": 10,
+      "texto_fuente": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, G.; Vasco Delgado, J.; Alvear Dávalos, J.",
+      "anio": 2024,
+      "tema_principal": "IA como eje estratégico, gobernanza de datos, gestión del cambio, ética",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Qué procesos administrativos y académicos pueden integrar IA con mayor impacto?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "21-22",
+        "seccion": "Texto 10 – IA y gobernanza universitaria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 138,
+      "texto_id": 10,
+      "texto_fuente": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, G.; Vasco Delgado, J.; Alvear Dávalos, J.",
+      "anio": 2024,
+      "tema_principal": "IA como eje estratégico, gobernanza de datos, gestión del cambio, ética",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Cómo se construye una gobernanza de datos sólida para modelos confiables?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "21-22",
+        "seccion": "Texto 10 – IA y gobernanza universitaria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 139,
+      "texto_id": 10,
+      "texto_fuente": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, G.; Vasco Delgado, J.; Alvear Dávalos, J.",
+      "anio": 2024,
+      "tema_principal": "IA como eje estratégico, gobernanza de datos, gestión del cambio, ética",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Qué infraestructuras modulares e interoperables facilitan integración con sistemas heredados?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "21-22",
+        "seccion": "Texto 10 – IA y gobernanza universitaria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 140,
+      "texto_id": 10,
+      "texto_fuente": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, G.; Vasco Delgado, J.; Alvear Dávalos, J.",
+      "anio": 2024,
+      "tema_principal": "IA como eje estratégico, gobernanza de datos, gestión del cambio, ética",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Cómo acompañar la tecnología con gestión del cambio y formación continua del personal?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "21-22",
+        "seccion": "Texto 10 – IA y gobernanza universitaria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 141,
+      "texto_id": 10,
+      "texto_fuente": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, G.; Vasco Delgado, J.; Alvear Dávalos, J.",
+      "anio": 2024,
+      "tema_principal": "IA como eje estratégico, gobernanza de datos, gestión del cambio, ética",
+      "categoria": "Competencias digitales",
+      "subtemas": [
+        "competencia digital",
+        "alfabetización",
+        "ciudadanía digital"
+      ],
+      "pregunta": "¿Qué estrategias de comunicación reducen resistencias y legitiman beneficios?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "21-22",
+        "seccion": "Texto 10 – IA y gobernanza universitaria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 142,
+      "texto_id": 10,
+      "texto_fuente": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, G.; Vasco Delgado, J.; Alvear Dávalos, J.",
+      "anio": 2024,
+      "tema_principal": "IA como eje estratégico, gobernanza de datos, gestión del cambio, ética",
+      "categoria": "Financiamiento y sostenibilidad",
+      "subtemas": [
+        "financiamiento",
+        "sostenibilidad",
+        "diversificación"
+      ],
+      "pregunta": "¿Cómo asegurar apoyo directivo y sostenibilidad financiera de largo plazo?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "21-22",
+        "seccion": "Texto 10 – IA y gobernanza universitaria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 143,
+      "texto_id": 10,
+      "texto_fuente": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, G.; Vasco Delgado, J.; Alvear Dávalos, J.",
+      "anio": 2024,
+      "tema_principal": "IA como eje estratégico, gobernanza de datos, gestión del cambio, ética",
+      "categoria": "Interoperabilidad y datos",
+      "subtemas": [
+        "datos",
+        "interoperabilidad",
+        "estándares",
+        "gobernanza de datos"
+      ],
+      "pregunta": "¿Qué porcentaje del presupuesto de TI debería dedicarse a IA y mantenimiento?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "21-22",
+        "seccion": "Texto 10 – IA y gobernanza universitaria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 144,
+      "texto_id": 10,
+      "texto_fuente": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, G.; Vasco Delgado, J.; Alvear Dávalos, J.",
+      "anio": 2024,
+      "tema_principal": "IA como eje estratégico, gobernanza de datos, gestión del cambio, ética",
+      "categoria": "Gestión del cambio",
+      "subtemas": [
+        "gestión del cambio",
+        "capacitación",
+        "resistencia",
+        "hoja de ruta"
+      ],
+      "pregunta": "¿Cómo usar analíticas y modelos predictivos en circuitos formales de decisión?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "21-22",
+        "seccion": "Texto 10 – IA y gobernanza universitaria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 145,
+      "texto_id": 10,
+      "texto_fuente": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, G.; Vasco Delgado, J.; Alvear Dávalos, J.",
+      "anio": 2024,
+      "tema_principal": "IA como eje estratégico, gobernanza de datos, gestión del cambio, ética",
+      "categoria": "Sostenibilidad ambiental",
+      "subtemas": [
+        "ambiental",
+        "energía",
+        "huella",
+        "reciclaje"
+      ],
+      "pregunta": "¿Qué indicadores de eficiencia, satisfacción y optimización legitiman las transformaciones?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "21-22",
+        "seccion": "Texto 10 – IA y gobernanza universitaria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 146,
+      "texto_id": 10,
+      "texto_fuente": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, G.; Vasco Delgado, J.; Alvear Dávalos, J.",
+      "anio": 2024,
+      "tema_principal": "IA como eje estratégico, gobernanza de datos, gestión del cambio, ética",
+      "categoria": "Gobernanza y prospectiva",
+      "subtemas": [
+        "gobernanza",
+        "anticipación",
+        "escenarios",
+        "política institucional"
+      ],
+      "pregunta": "¿Qué marcos éticos y límites de automatización deben definirse?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "21-22",
+        "seccion": "Texto 10 – IA y gobernanza universitaria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 147,
+      "texto_id": 10,
+      "texto_fuente": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, G.; Vasco Delgado, J.; Alvear Dávalos, J.",
+      "anio": 2024,
+      "tema_principal": "IA como eje estratégico, gobernanza de datos, gestión del cambio, ética",
+      "categoria": "Tecnología e IA",
+      "subtemas": [
+        "IA",
+        "TIC",
+        "analítica",
+        "automatización"
+      ],
+      "pregunta": "¿Cómo prevenir sesgos, proteger privacidad y asegurar transparencia de algoritmos?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "21-22",
+        "seccion": "Texto 10 – IA y gobernanza universitaria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 148,
+      "texto_id": 10,
+      "texto_fuente": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, G.; Vasco Delgado, J.; Alvear Dávalos, J.",
+      "anio": 2024,
+      "tema_principal": "IA como eje estratégico, gobernanza de datos, gestión del cambio, ética",
+      "categoria": "Docencia y evaluación",
+      "subtemas": [
+        "docencia",
+        "diseño de experiencias",
+        "evaluación",
+        "feedback"
+      ],
+      "pregunta": "¿Qué riesgos existen si la IA se usa para decisiones opacas o discriminatorias?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "21-22",
+        "seccion": "Texto 10 – IA y gobernanza universitaria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 149,
+      "texto_id": 10,
+      "texto_fuente": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, G.; Vasco Delgado, J.; Alvear Dávalos, J.",
+      "anio": 2024,
+      "tema_principal": "IA como eje estratégico, gobernanza de datos, gestión del cambio, ética",
+      "categoria": "Campus y formatos",
+      "subtemas": [
+        "híbrido",
+        "virtual",
+        "campus",
+        "infraestructura"
+      ],
+      "pregunta": "¿Cómo alinear el uso de IA con calidad y equidad en la gestión universitaria?",
+      "tipo": "abierta",
+      "intencion": "explicación",
+      "nivel": "avanzado",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "21-22",
+        "seccion": "Texto 10 – IA y gobernanza universitaria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    },
+    {
+      "id": 150,
+      "texto_id": 10,
+      "texto_fuente": "IA y gobernanza universitaria",
+      "autor": "Ruiz Muñoz, G.; Vasco Delgado, J.; Alvear Dávalos, J.",
+      "anio": 2024,
+      "tema_principal": "IA como eje estratégico, gobernanza de datos, gestión del cambio, ética",
+      "categoria": "Equidad e impacto social",
+      "subtemas": [
+        "equidad",
+        "inclusión",
+        "impacto",
+        "territorios"
+      ],
+      "pregunta": "¿Qué capacidades internas se requieren para sostener operación y mejora continua de IA?",
+      "tipo": "abierta",
+      "intencion": "identificación",
+      "nivel": "intermedio",
+      "fuente": {
+        "documento": "Discusiones sobre las Universidades del futuro_VF.pdf",
+        "paginas": "21-22",
+        "seccion": "Texto 10 – IA y gobernanza universitaria"
+      },
+      "orientacion_respuesta": {
+        "formato_sugerido": "2–3 párrafos basados únicamente en el documento",
+        "instrucciones": [
+          "Citar conceptos y etiquetas tal como aparecen en el texto",
+          "Evitar información externa y opiniones no fundamentadas en la fuente",
+          "Incluir referencia a páginas cuando corresponda",
+          "Si el punto no está cubierto, declararlo explícitamente"
+        ]
+      }
+    }
+  ]
+}

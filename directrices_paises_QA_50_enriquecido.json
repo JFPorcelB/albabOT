@@ -1,1366 +1,906 @@
-[
-  {
-    "id": 1,
-    "question": "¿Cómo concibe Singapur la universidad del futuro y con qué objetivos estratégicos conversa?",
-    "variants": [
-      "Resume la visión de Singapur sobre la universidad del futuro",
-      "¿Qué directrices de Singapur se alinean con los objetivos institucionales?",
-      "¿Qué elementos clave definen el modelo futuro en Singapur?"
-    ],
-    "answer": "Singapur prioriza: Aprendizaje permanente, credenciales apilables, gobernanza basada en datos y dashboards, subsidios mid-career, IA con políticas claras en NUS.. Esto conversa con objetivos como 1, 7, 10, 13, 15, 16, articulando flexibilidad, calidad, transformación digital, IA y/o impacto territorial según corresponda.",
-    "tags": [
-      "singapur",
-      "overview",
-      "directrices"
-    ],
-    "intent": "overview",
-    "difficulty": "básico",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–7",
-    "timeframe": "2025",
-    "country": "Singapur",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 2,
-    "question": "¿Qué políticas concretas de Singapur respaldan los objetivos 1 y 7?",
-    "variants": [
-      "Describe medidas clave de Singapur y su relación con objetivos institucionales",
-      "¿Qué instrumentos de Singapur permiten avanzar en los objetivos 1 y 7?",
-      "Ejemplos de implementación en Singapur para dichos objetivos"
-    ],
-    "answer": "Singapur despliega instrumentos y marcos que viabilizan los objetivos 1 y 7: según el documento, Aprendizaje permanente, credenciales apilables, gobernanza basada en datos y dashboards, subsidios mid-career, IA con políticas claras en NUS.. Se operacionalizan con estándares, datos, plataformas y financiamiento que aseguran calidad y escalabilidad.",
-    "tags": [
-      "singapur",
-      "objetivo-1",
-      "objetivo-7",
-      "policy-detail"
-    ],
-    "intent": "policy_detail",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers"
-    ],
-    "source_section": "p.3–7",
-    "timeframe": "2025",
-    "country": "Singapur",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 3,
-    "question": "¿Qué acciones podría adoptar UDALBA inspirándose en las directrices de Singapur?",
-    "variants": [
-      "Propón medidas aplicables en UDALBA basadas en Singapur",
-      "¿Qué pilotos y escalamiento se pueden diseñar tomando como referencia a Singapur?",
-      "¿Qué indicadores se usarían para seguir la implementación inspirada en Singapur?"
-    ],
-    "answer": "Acciones: diseñar pilotos con métricas claras, modularizar credenciales y rutas, fortalecer interoperabilidad y analítica, formar talento (docente/gestión) y asegurar financiamiento y soporte. Indicadores: progresión, retención, satisfacción, empleabilidad, uso de plataformas, calidad y equidad.",
-    "tags": [
-      "singapur",
-      "aplicación",
-      "implementación"
-    ],
-    "intent": "application",
-    "difficulty": "avanzado",
-    "tone": "práctico técnico",
-    "audience": [
-      "IES",
-      "escuelas"
-    ],
-    "source_section": "p.3–7",
-    "timeframe": "2025–2028",
-    "country": "Singapur",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 4,
-    "question": "¿Qué riesgos y mitigaciones son clave al adoptar elementos del modelo de Singapur?",
-    "variants": [
-      "Identifica salvaguardas éticas y de datos al adaptar prácticas de Singapur",
-      "¿Cómo evitar inequidades y resistencias en la implementación de directrices de Singapur?",
-      "¿Qué gobernanza del cambio se requiere para adoptar el enfoque de Singapur?"
-    ],
-    "answer": "Riesgos: sesgos/privacidad de datos, inequidad en acceso digital, fragmentación de calidad, fatiga organizacional. Mitigaciones: marcos éticos y de datos, interoperabilidad y estándares, apoyos y subsidios focalizados, formación continua, comunicación y participación, pilotaje con evaluación de impacto.",
-    "tags": [
-      "singapur",
-      "riesgos",
-      "mitigaciones"
-    ],
-    "intent": "risk_mitigation",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers"
-    ],
-    "source_section": "p.3–7",
-    "timeframe": "2025",
-    "country": "Singapur",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 5,
-    "question": "¿Cómo concibe Alemania la universidad del futuro y con qué objetivos estratégicos conversa?",
-    "variants": [
-      "Resume la visión de Alemania sobre la universidad del futuro",
-      "¿Qué directrices de Alemania se alinean con los objetivos institucionales?",
-      "¿Qué elementos clave definen el modelo futuro en Alemania?"
-    ],
-    "answer": "Alemania prioriza: Calidad estructural y mejora continua, profesionalización del talento académico, interoperabilidad y gobernanza digital, adopción responsable de IA, investigación de excelencia.. Esto conversa con objetivos como 2, 4, 6, 7, 11, 19, articulando flexibilidad, calidad, transformación digital, IA y/o impacto territorial según corresponda.",
-    "tags": [
-      "alemania",
-      "overview",
-      "directrices"
-    ],
-    "intent": "overview",
-    "difficulty": "básico",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.7–9",
-    "timeframe": "2025",
-    "country": "Alemania",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 6,
-    "question": "¿Qué políticas concretas de Alemania respaldan los objetivos 2 y 4?",
-    "variants": [
-      "Describe medidas clave de Alemania y su relación con objetivos institucionales",
-      "¿Qué instrumentos de Alemania permiten avanzar en los objetivos 2 y 4?",
-      "Ejemplos de implementación en Alemania para dichos objetivos"
-    ],
-    "answer": "Alemania despliega instrumentos y marcos que viabilizan los objetivos 2 y 4: según el documento, Calidad estructural y mejora continua, profesionalización del talento académico, interoperabilidad y gobernanza digital, adopción responsable de IA, investigación de excelencia.. Se operacionalizan con estándares, datos, plataformas y financiamiento que aseguran calidad y escalabilidad.",
-    "tags": [
-      "alemania",
-      "objetivo-2",
-      "objetivo-4",
-      "policy-detail"
-    ],
-    "intent": "policy_detail",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers"
-    ],
-    "source_section": "p.7–9",
-    "timeframe": "2025",
-    "country": "Alemania",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 7,
-    "question": "¿Qué acciones podría adoptar UDALBA inspirándose en las directrices de Alemania?",
-    "variants": [
-      "Propón medidas aplicables en UDALBA basadas en Alemania",
-      "¿Qué pilotos y escalamiento se pueden diseñar tomando como referencia a Alemania?",
-      "¿Qué indicadores se usarían para seguir la implementación inspirada en Alemania?"
-    ],
-    "answer": "Acciones: diseñar pilotos con métricas claras, modularizar credenciales y rutas, fortalecer interoperabilidad y analítica, formar talento (docente/gestión) y asegurar financiamiento y soporte. Indicadores: progresión, retención, satisfacción, empleabilidad, uso de plataformas, calidad y equidad.",
-    "tags": [
-      "alemania",
-      "aplicación",
-      "implementación"
-    ],
-    "intent": "application",
-    "difficulty": "avanzado",
-    "tone": "práctico técnico",
-    "audience": [
-      "IES",
-      "escuelas"
-    ],
-    "source_section": "p.7–9",
-    "timeframe": "2025–2028",
-    "country": "Alemania",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 8,
-    "question": "¿Qué riesgos y mitigaciones son clave al adoptar elementos del modelo de Alemania?",
-    "variants": [
-      "Identifica salvaguardas éticas y de datos al adaptar prácticas de Alemania",
-      "¿Cómo evitar inequidades y resistencias en la implementación de directrices de Alemania?",
-      "¿Qué gobernanza del cambio se requiere para adoptar el enfoque de Alemania?"
-    ],
-    "answer": "Riesgos: sesgos/privacidad de datos, inequidad en acceso digital, fragmentación de calidad, fatiga organizacional. Mitigaciones: marcos éticos y de datos, interoperabilidad y estándares, apoyos y subsidios focalizados, formación continua, comunicación y participación, pilotaje con evaluación de impacto.",
-    "tags": [
-      "alemania",
-      "riesgos",
-      "mitigaciones"
-    ],
-    "intent": "risk_mitigation",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers"
-    ],
-    "source_section": "p.7–9",
-    "timeframe": "2025",
-    "country": "Alemania",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 9,
-    "question": "¿Cómo concibe Países Bajos la universidad del futuro y con qué objetivos estratégicos conversa?",
-    "variants": [
-      "Resume la visión de Países Bajos sobre la universidad del futuro",
-      "¿Qué directrices de Países Bajos se alinean con los objetivos institucionales?",
-      "¿Qué elementos clave definen el modelo futuro en Países Bajos?"
-    ],
-    "answer": "Países Bajos prioriza: Cooperación sistémica, trayectorias flexibles, credenciales portables, infraestructura digital común e interoperable, ciencia abierta y revisión de incentivos.. Esto conversa con objetivos como 1, 2, 8, 10, 13, 15, articulando flexibilidad, calidad, transformación digital, IA y/o impacto territorial según corresponda.",
-    "tags": [
-      "países-bajos",
-      "overview",
-      "directrices"
-    ],
-    "intent": "overview",
-    "difficulty": "básico",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.9–10",
-    "timeframe": "2025",
-    "country": "Países Bajos",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 10,
-    "question": "¿Qué políticas concretas de Países Bajos respaldan los objetivos 1 y 2?",
-    "variants": [
-      "Describe medidas clave de Países Bajos y su relación con objetivos institucionales",
-      "¿Qué instrumentos de Países Bajos permiten avanzar en los objetivos 1 y 2?",
-      "Ejemplos de implementación en Países Bajos para dichos objetivos"
-    ],
-    "answer": "Países Bajos despliega instrumentos y marcos que viabilizan los objetivos 1 y 2: según el documento, Cooperación sistémica, trayectorias flexibles, credenciales portables, infraestructura digital común e interoperable, ciencia abierta y revisión de incentivos.. Se operacionalizan con estándares, datos, plataformas y financiamiento que aseguran calidad y escalabilidad.",
-    "tags": [
-      "países-bajos",
-      "objetivo-1",
-      "objetivo-2",
-      "policy-detail"
-    ],
-    "intent": "policy_detail",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers"
-    ],
-    "source_section": "p.9–10",
-    "timeframe": "2025",
-    "country": "Países Bajos",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 11,
-    "question": "¿Qué acciones podría adoptar UDALBA inspirándose en las directrices de Países Bajos?",
-    "variants": [
-      "Propón medidas aplicables en UDALBA basadas en Países Bajos",
-      "¿Qué pilotos y escalamiento se pueden diseñar tomando como referencia a Países Bajos?",
-      "¿Qué indicadores se usarían para seguir la implementación inspirada en Países Bajos?"
-    ],
-    "answer": "Acciones: diseñar pilotos con métricas claras, modularizar credenciales y rutas, fortalecer interoperabilidad y analítica, formar talento (docente/gestión) y asegurar financiamiento y soporte. Indicadores: progresión, retención, satisfacción, empleabilidad, uso de plataformas, calidad y equidad.",
-    "tags": [
-      "países-bajos",
-      "aplicación",
-      "implementación"
-    ],
-    "intent": "application",
-    "difficulty": "avanzado",
-    "tone": "práctico técnico",
-    "audience": [
-      "IES",
-      "escuelas"
-    ],
-    "source_section": "p.9–10",
-    "timeframe": "2025–2028",
-    "country": "Países Bajos",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 12,
-    "question": "¿Qué riesgos y mitigaciones son clave al adoptar elementos del modelo de Países Bajos?",
-    "variants": [
-      "Identifica salvaguardas éticas y de datos al adaptar prácticas de Países Bajos",
-      "¿Cómo evitar inequidades y resistencias en la implementación de directrices de Países Bajos?",
-      "¿Qué gobernanza del cambio se requiere para adoptar el enfoque de Países Bajos?"
-    ],
-    "answer": "Riesgos: sesgos/privacidad de datos, inequidad en acceso digital, fragmentación de calidad, fatiga organizacional. Mitigaciones: marcos éticos y de datos, interoperabilidad y estándares, apoyos y subsidios focalizados, formación continua, comunicación y participación, pilotaje con evaluación de impacto.",
-    "tags": [
-      "países-bajos",
-      "riesgos",
-      "mitigaciones"
-    ],
-    "intent": "risk_mitigation",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers"
-    ],
-    "source_section": "p.9–10",
-    "timeframe": "2025",
-    "country": "Países Bajos",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 13,
-    "question": "¿Cómo concibe Estados Unidos la universidad del futuro y con qué objetivos estratégicos conversa?",
-    "variants": [
-      "Resume la visión de Estados Unidos sobre la universidad del futuro",
-      "¿Qué directrices de Estados Unidos se alinean con los objetivos institucionales?",
-      "¿Qué elementos clave definen el modelo futuro en Estados Unidos?"
-    ],
-    "answer": "Estados Unidos prioriza: Hibridez como norma, portafolio de credenciales, IA y analítica para retención, estándares verificables de credenciales digitales, apertura científica.. Esto conversa con objetivos como 2, 8, 10, 12, 13, 14, 15, 16, articulando flexibilidad, calidad, transformación digital, IA y/o impacto territorial según corresponda.",
-    "tags": [
-      "estados-unidos",
-      "overview",
-      "directrices"
-    ],
-    "intent": "overview",
-    "difficulty": "básico",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.11–13",
-    "timeframe": "2025",
-    "country": "Estados Unidos",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 14,
-    "question": "¿Qué políticas concretas de Estados Unidos respaldan los objetivos 2 y 8?",
-    "variants": [
-      "Describe medidas clave de Estados Unidos y su relación con objetivos institucionales",
-      "¿Qué instrumentos de Estados Unidos permiten avanzar en los objetivos 2 y 8?",
-      "Ejemplos de implementación en Estados Unidos para dichos objetivos"
-    ],
-    "answer": "Estados Unidos despliega instrumentos y marcos que viabilizan los objetivos 2 y 8: según el documento, Hibridez como norma, portafolio de credenciales, IA y analítica para retención, estándares verificables de credenciales digitales, apertura científica.. Se operacionalizan con estándares, datos, plataformas y financiamiento que aseguran calidad y escalabilidad.",
-    "tags": [
-      "estados-unidos",
-      "objetivo-2",
-      "objetivo-8",
-      "policy-detail"
-    ],
-    "intent": "policy_detail",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers"
-    ],
-    "source_section": "p.11–13",
-    "timeframe": "2025",
-    "country": "Estados Unidos",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 15,
-    "question": "¿Qué acciones podría adoptar UDALBA inspirándose en las directrices de Estados Unidos?",
-    "variants": [
-      "Propón medidas aplicables en UDALBA basadas en Estados Unidos",
-      "¿Qué pilotos y escalamiento se pueden diseñar tomando como referencia a Estados Unidos?",
-      "¿Qué indicadores se usarían para seguir la implementación inspirada en Estados Unidos?"
-    ],
-    "answer": "Acciones: diseñar pilotos con métricas claras, modularizar credenciales y rutas, fortalecer interoperabilidad y analítica, formar talento (docente/gestión) y asegurar financiamiento y soporte. Indicadores: progresión, retención, satisfacción, empleabilidad, uso de plataformas, calidad y equidad.",
-    "tags": [
-      "estados-unidos",
-      "aplicación",
-      "implementación"
-    ],
-    "intent": "application",
-    "difficulty": "avanzado",
-    "tone": "práctico técnico",
-    "audience": [
-      "IES",
-      "escuelas"
-    ],
-    "source_section": "p.11–13",
-    "timeframe": "2025–2028",
-    "country": "Estados Unidos",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 16,
-    "question": "¿Qué riesgos y mitigaciones son clave al adoptar elementos del modelo de Estados Unidos?",
-    "variants": [
-      "Identifica salvaguardas éticas y de datos al adaptar prácticas de Estados Unidos",
-      "¿Cómo evitar inequidades y resistencias en la implementación de directrices de Estados Unidos?",
-      "¿Qué gobernanza del cambio se requiere para adoptar el enfoque de Estados Unidos?"
-    ],
-    "answer": "Riesgos: sesgos/privacidad de datos, inequidad en acceso digital, fragmentación de calidad, fatiga organizacional. Mitigaciones: marcos éticos y de datos, interoperabilidad y estándares, apoyos y subsidios focalizados, formación continua, comunicación y participación, pilotaje con evaluación de impacto.",
-    "tags": [
-      "estados-unidos",
-      "riesgos",
-      "mitigaciones"
-    ],
-    "intent": "risk_mitigation",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers"
-    ],
-    "source_section": "p.11–13",
-    "timeframe": "2025",
-    "country": "Estados Unidos",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 17,
-    "question": "¿Cómo concibe Reino Unido la universidad del futuro y con qué objetivos estratégicos conversa?",
-    "variants": [
-      "Resume la visión de Reino Unido sobre la universidad del futuro",
-      "¿Qué directrices de Reino Unido se alinean con los objetivos institucionales?",
-      "¿Qué elementos clave definen el modelo futuro en Reino Unido?"
-    ],
-    "answer": "Reino Unido prioriza: Modularidad (LLE), regulación de calidad centrada en resultados (OfS/TEF), transformación digital integral (Jisc), IA generativa y rediseño evaluativo (QAA/Russell Group), ciencia abierta (UKRI/REF).. Esto conversa con objetivos como 2, 7, 8, 15, 16, 19, articulando flexibilidad, calidad, transformación digital, IA y/o impacto territorial según corresponda.",
-    "tags": [
-      "reino-unido",
-      "overview",
-      "directrices"
-    ],
-    "intent": "overview",
-    "difficulty": "básico",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.13–15",
-    "timeframe": "2025",
-    "country": "Reino Unido",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 18,
-    "question": "¿Qué políticas concretas de Reino Unido respaldan los objetivos 2 y 7?",
-    "variants": [
-      "Describe medidas clave de Reino Unido y su relación con objetivos institucionales",
-      "¿Qué instrumentos de Reino Unido permiten avanzar en los objetivos 2 y 7?",
-      "Ejemplos de implementación en Reino Unido para dichos objetivos"
-    ],
-    "answer": "Reino Unido despliega instrumentos y marcos que viabilizan los objetivos 2 y 7: según el documento, Modularidad (LLE), regulación de calidad centrada en resultados (OfS/TEF), transformación digital integral (Jisc), IA generativa y rediseño evaluativo (QAA/Russell Group), ciencia abierta (UKRI/REF).. Se operacionalizan con estándares, datos, plataformas y financiamiento que aseguran calidad y escalabilidad.",
-    "tags": [
-      "reino-unido",
-      "objetivo-2",
-      "objetivo-7",
-      "policy-detail"
-    ],
-    "intent": "policy_detail",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers"
-    ],
-    "source_section": "p.13–15",
-    "timeframe": "2025",
-    "country": "Reino Unido",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 19,
-    "question": "¿Qué acciones podría adoptar UDALBA inspirándose en las directrices de Reino Unido?",
-    "variants": [
-      "Propón medidas aplicables en UDALBA basadas en Reino Unido",
-      "¿Qué pilotos y escalamiento se pueden diseñar tomando como referencia a Reino Unido?",
-      "¿Qué indicadores se usarían para seguir la implementación inspirada en Reino Unido?"
-    ],
-    "answer": "Acciones: diseñar pilotos con métricas claras, modularizar credenciales y rutas, fortalecer interoperabilidad y analítica, formar talento (docente/gestión) y asegurar financiamiento y soporte. Indicadores: progresión, retención, satisfacción, empleabilidad, uso de plataformas, calidad y equidad.",
-    "tags": [
-      "reino-unido",
-      "aplicación",
-      "implementación"
-    ],
-    "intent": "application",
-    "difficulty": "avanzado",
-    "tone": "práctico técnico",
-    "audience": [
-      "IES",
-      "escuelas"
-    ],
-    "source_section": "p.13–15",
-    "timeframe": "2025–2028",
-    "country": "Reino Unido",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 20,
-    "question": "¿Qué riesgos y mitigaciones son clave al adoptar elementos del modelo de Reino Unido?",
-    "variants": [
-      "Identifica salvaguardas éticas y de datos al adaptar prácticas de Reino Unido",
-      "¿Cómo evitar inequidades y resistencias en la implementación de directrices de Reino Unido?",
-      "¿Qué gobernanza del cambio se requiere para adoptar el enfoque de Reino Unido?"
-    ],
-    "answer": "Riesgos: sesgos/privacidad de datos, inequidad en acceso digital, fragmentación de calidad, fatiga organizacional. Mitigaciones: marcos éticos y de datos, interoperabilidad y estándares, apoyos y subsidios focalizados, formación continua, comunicación y participación, pilotaje con evaluación de impacto.",
-    "tags": [
-      "reino-unido",
-      "riesgos",
-      "mitigaciones"
-    ],
-    "intent": "risk_mitigation",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers"
-    ],
-    "source_section": "p.13–15",
-    "timeframe": "2025",
-    "country": "Reino Unido",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 21,
-    "question": "¿Cómo concibe Francia la universidad del futuro y con qué objetivos estratégicos conversa?",
-    "variants": [
-      "Resume la visión de Francia sobre la universidad del futuro",
-      "¿Qué directrices de Francia se alinean con los objetivos institucionales?",
-      "¿Qué elementos clave definen el modelo futuro en Francia?"
-    ],
-    "answer": "Francia prioriza: Transformación por programación pública: hibridación y plataformas nacionales (FUN), microcertificaciones con marcos comunes, inversión estratégica en I+D (France 2030/PEPR), ciencia abierta y transición ecológica, cultura de evaluación (Hcéres).. Esto conversa con objetivos como 2, 6, 8, 11, 14, 15, 19, articulando flexibilidad, calidad, transformación digital, IA y/o impacto territorial según corresponda.",
-    "tags": [
-      "francia",
-      "overview",
-      "directrices"
-    ],
-    "intent": "overview",
-    "difficulty": "básico",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.15–17",
-    "timeframe": "2025",
-    "country": "Francia",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 22,
-    "question": "¿Qué políticas concretas de Francia respaldan los objetivos 2 y 6?",
-    "variants": [
-      "Describe medidas clave de Francia y su relación con objetivos institucionales",
-      "¿Qué instrumentos de Francia permiten avanzar en los objetivos 2 y 6?",
-      "Ejemplos de implementación en Francia para dichos objetivos"
-    ],
-    "answer": "Francia despliega instrumentos y marcos que viabilizan los objetivos 2 y 6: según el documento, Transformación por programación pública: hibridación y plataformas nacionales (FUN), microcertificaciones con marcos comunes, inversión estratégica en I+D (France 2030/PEPR), ciencia abierta y transición ecológica, cultura de evaluación (Hcéres).. Se operacionalizan con estándares, datos, plataformas y financiamiento que aseguran calidad y escalabilidad.",
-    "tags": [
-      "francia",
-      "objetivo-2",
-      "objetivo-6",
-      "policy-detail"
-    ],
-    "intent": "policy_detail",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers"
-    ],
-    "source_section": "p.15–17",
-    "timeframe": "2025",
-    "country": "Francia",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 23,
-    "question": "¿Qué acciones podría adoptar UDALBA inspirándose en las directrices de Francia?",
-    "variants": [
-      "Propón medidas aplicables en UDALBA basadas en Francia",
-      "¿Qué pilotos y escalamiento se pueden diseñar tomando como referencia a Francia?",
-      "¿Qué indicadores se usarían para seguir la implementación inspirada en Francia?"
-    ],
-    "answer": "Acciones: diseñar pilotos con métricas claras, modularizar credenciales y rutas, fortalecer interoperabilidad y analítica, formar talento (docente/gestión) y asegurar financiamiento y soporte. Indicadores: progresión, retención, satisfacción, empleabilidad, uso de plataformas, calidad y equidad.",
-    "tags": [
-      "francia",
-      "aplicación",
-      "implementación"
-    ],
-    "intent": "application",
-    "difficulty": "avanzado",
-    "tone": "práctico técnico",
-    "audience": [
-      "IES",
-      "escuelas"
-    ],
-    "source_section": "p.15–17",
-    "timeframe": "2025–2028",
-    "country": "Francia",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 24,
-    "question": "¿Qué riesgos y mitigaciones son clave al adoptar elementos del modelo de Francia?",
-    "variants": [
-      "Identifica salvaguardas éticas y de datos al adaptar prácticas de Francia",
-      "¿Cómo evitar inequidades y resistencias en la implementación de directrices de Francia?",
-      "¿Qué gobernanza del cambio se requiere para adoptar el enfoque de Francia?"
-    ],
-    "answer": "Riesgos: sesgos/privacidad de datos, inequidad en acceso digital, fragmentación de calidad, fatiga organizacional. Mitigaciones: marcos éticos y de datos, interoperabilidad y estándares, apoyos y subsidios focalizados, formación continua, comunicación y participación, pilotaje con evaluación de impacto.",
-    "tags": [
-      "francia",
-      "riesgos",
-      "mitigaciones"
-    ],
-    "intent": "risk_mitigation",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers"
-    ],
-    "source_section": "p.15–17",
-    "timeframe": "2025",
-    "country": "Francia",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 25,
-    "question": "¿En qué se diferencian Singapur y Alemania respecto a gobernanza digital y uso de datos?",
-    "variants": [
-      "Compara enfoques de Singapur y Alemania en gobernanza digital y uso de datos",
-      "¿Qué ventajas y trade-offs muestran Singapur y Alemania en gobernanza digital y uso de datos?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Singapur y Alemania?"
-    ],
-    "answer": "Singapur pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Alemania prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "singapur",
-      "alemania",
-      "comparativa",
-      "gobernanza-digital-y-uso-de-datos"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 26,
-    "question": "¿En qué se diferencian Singapur y Países Bajos respecto a credenciales apilables e interoperabilidad?",
-    "variants": [
-      "Compara enfoques de Singapur y Países Bajos en credenciales apilables e interoperabilidad",
-      "¿Qué ventajas y trade-offs muestran Singapur y Países Bajos en credenciales apilables e interoperabilidad?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Singapur y Países Bajos?"
-    ],
-    "answer": "Singapur pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Países Bajos prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "singapur",
-      "países-bajos",
-      "comparativa",
-      "credenciales-apilables-e-interoperabilidad"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 27,
-    "question": "¿En qué se diferencian Estados Unidos y Reino Unido respecto a IA generativa y rediseño de evaluación?",
-    "variants": [
-      "Compara enfoques de Estados Unidos y Reino Unido en IA generativa y rediseño de evaluación",
-      "¿Qué ventajas y trade-offs muestran Estados Unidos y Reino Unido en IA generativa y rediseño de evaluación?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Estados Unidos y Reino Unido?"
-    ],
-    "answer": "Estados Unidos pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Reino Unido prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "estados-unidos",
-      "reino-unido",
-      "comparativa",
-      "IA-generativa-y-rediseño-de-evaluación"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 28,
-    "question": "¿En qué se diferencian Estados Unidos y Francia respecto a plataformas nacionales vs. mercado de credenciales?",
-    "variants": [
-      "Compara enfoques de Estados Unidos y Francia en plataformas nacionales vs. mercado de credenciales",
-      "¿Qué ventajas y trade-offs muestran Estados Unidos y Francia en plataformas nacionales vs. mercado de credenciales?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Estados Unidos y Francia?"
-    ],
-    "answer": "Estados Unidos pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Francia prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "estados-unidos",
-      "francia",
-      "comparativa",
-      "plataformas-nacionales-vs.-mercado-de-credenciales"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 29,
-    "question": "¿En qué se diferencian Países Bajos y Alemania respecto a cooperación sistémica e innovación docente?",
-    "variants": [
-      "Compara enfoques de Países Bajos y Alemania en cooperación sistémica e innovación docente",
-      "¿Qué ventajas y trade-offs muestran Países Bajos y Alemania en cooperación sistémica e innovación docente?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Países Bajos y Alemania?"
-    ],
-    "answer": "Países Bajos pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Alemania prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "países-bajos",
-      "alemania",
-      "comparativa",
-      "cooperación-sistémica-e-innovación-docente"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 30,
-    "question": "¿En qué se diferencian Reino Unido y Países Bajos respecto a modularidad y calidad regulada?",
-    "variants": [
-      "Compara enfoques de Reino Unido y Países Bajos en modularidad y calidad regulada",
-      "¿Qué ventajas y trade-offs muestran Reino Unido y Países Bajos en modularidad y calidad regulada?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Reino Unido y Países Bajos?"
-    ],
-    "answer": "Reino Unido pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Países Bajos prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "reino-unido",
-      "países-bajos",
-      "comparativa",
-      "modularidad-y-calidad-regulada"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 31,
-    "question": "¿En qué se diferencian Francia y Alemania respecto a programación pública e interoperabilidad?",
-    "variants": [
-      "Compara enfoques de Francia y Alemania en programación pública e interoperabilidad",
-      "¿Qué ventajas y trade-offs muestran Francia y Alemania en programación pública e interoperabilidad?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Francia y Alemania?"
-    ],
-    "answer": "Francia pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Alemania prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "francia",
-      "alemania",
-      "comparativa",
-      "programación-pública-e-interoperabilidad"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 32,
-    "question": "¿En qué se diferencian Singapur y Estados Unidos respecto a aprendizaje a lo largo de la vida y portafolio de credenciales?",
-    "variants": [
-      "Compara enfoques de Singapur y Estados Unidos en aprendizaje a lo largo de la vida y portafolio de credenciales",
-      "¿Qué ventajas y trade-offs muestran Singapur y Estados Unidos en aprendizaje a lo largo de la vida y portafolio de credenciales?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Singapur y Estados Unidos?"
-    ],
-    "answer": "Singapur pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Estados Unidos prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "singapur",
-      "estados-unidos",
-      "comparativa",
-      "aprendizaje-a-lo-largo-de-la-vida-y-portafolio-de-credenciales"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 33,
-    "question": "¿En qué se diferencian Reino Unido y Francia respecto a apertura científica y políticas de investigación?",
-    "variants": [
-      "Compara enfoques de Reino Unido y Francia en apertura científica y políticas de investigación",
-      "¿Qué ventajas y trade-offs muestran Reino Unido y Francia en apertura científica y políticas de investigación?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Reino Unido y Francia?"
-    ],
-    "answer": "Reino Unido pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Francia prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "reino-unido",
-      "francia",
-      "comparativa",
-      "apertura-científica-y-políticas-de-investigación"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 34,
-    "question": "¿En qué se diferencian Singapur y Reino Unido respecto a subsidios y financiamiento vs. LLE?",
-    "variants": [
-      "Compara enfoques de Singapur y Reino Unido en subsidios y financiamiento vs. LLE",
-      "¿Qué ventajas y trade-offs muestran Singapur y Reino Unido en subsidios y financiamiento vs. LLE?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Singapur y Reino Unido?"
-    ],
-    "answer": "Singapur pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Reino Unido prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "singapur",
-      "reino-unido",
-      "comparativa",
-      "subsidios-y-financiamiento-vs.-LLE"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 35,
-    "question": "¿En qué se diferencian Países Bajos y Estados Unidos respecto a badges/microcredenciales y verificabilidad?",
-    "variants": [
-      "Compara enfoques de Países Bajos y Estados Unidos en badges/microcredenciales y verificabilidad",
-      "¿Qué ventajas y trade-offs muestran Países Bajos y Estados Unidos en badges/microcredenciales y verificabilidad?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Países Bajos y Estados Unidos?"
-    ],
-    "answer": "Países Bajos pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Estados Unidos prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "países-bajos",
-      "estados-unidos",
-      "comparativa",
-      "badges/microcredenciales-y-verificabilidad"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 36,
-    "question": "¿En qué se diferencian Alemania y Reino Unido respecto a regulación de calidad y estándares mínimos?",
-    "variants": [
-      "Compara enfoques de Alemania y Reino Unido en regulación de calidad y estándares mínimos",
-      "¿Qué ventajas y trade-offs muestran Alemania y Reino Unido en regulación de calidad y estándares mínimos?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Alemania y Reino Unido?"
-    ],
-    "answer": "Alemania pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Reino Unido prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "alemania",
-      "reino-unido",
-      "comparativa",
-      "regulación-de-calidad-y-estándares-mínimos"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 37,
-    "question": "¿En qué se diferencian Francia y Países Bajos respecto a marcos comunes de credenciales y ciencia abierta?",
-    "variants": [
-      "Compara enfoques de Francia y Países Bajos en marcos comunes de credenciales y ciencia abierta",
-      "¿Qué ventajas y trade-offs muestran Francia y Países Bajos en marcos comunes de credenciales y ciencia abierta?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Francia y Países Bajos?"
-    ],
-    "answer": "Francia pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Países Bajos prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "francia",
-      "países-bajos",
-      "comparativa",
-      "marcos-comunes-de-credenciales-y-ciencia-abierta"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 38,
-    "question": "¿En qué se diferencian Estados Unidos y Alemania respecto a adopción de IA con marcos institucionales?",
-    "variants": [
-      "Compara enfoques de Estados Unidos y Alemania en adopción de IA con marcos institucionales",
-      "¿Qué ventajas y trade-offs muestran Estados Unidos y Alemania en adopción de IA con marcos institucionales?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Estados Unidos y Alemania?"
-    ],
-    "answer": "Estados Unidos pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Alemania prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "estados-unidos",
-      "alemania",
-      "comparativa",
-      "adopción-de-IA-con-marcos-institucionales"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 39,
-    "question": "¿En qué se diferencian Singapur y Francia respecto a IA con guías institucionales vs. misiones nacionales?",
-    "variants": [
-      "Compara enfoques de Singapur y Francia en IA con guías institucionales vs. misiones nacionales",
-      "¿Qué ventajas y trade-offs muestran Singapur y Francia en IA con guías institucionales vs. misiones nacionales?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Singapur y Francia?"
-    ],
-    "answer": "Singapur pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Francia prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "singapur",
-      "francia",
-      "comparativa",
-      "IA-con-guías-institucionales-vs.-misiones-nacionales"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 40,
-    "question": "¿En qué se diferencian Reino Unido y Estados Unidos respecto a equidad y accesibilidad en hibridez?",
-    "variants": [
-      "Compara enfoques de Reino Unido y Estados Unidos en equidad y accesibilidad en hibridez",
-      "¿Qué ventajas y trade-offs muestran Reino Unido y Estados Unidos en equidad y accesibilidad en hibridez?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Reino Unido y Estados Unidos?"
-    ],
-    "answer": "Reino Unido pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Estados Unidos prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "reino-unido",
-      "estados-unidos",
-      "comparativa",
-      "equidad-y-accesibilidad-en-hibridez"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 41,
-    "question": "¿En qué se diferencian Alemania y Estados Unidos respecto a interoperabilidad y estándares de credenciales?",
-    "variants": [
-      "Compara enfoques de Alemania y Estados Unidos en interoperabilidad y estándares de credenciales",
-      "¿Qué ventajas y trade-offs muestran Alemania y Estados Unidos en interoperabilidad y estándares de credenciales?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Alemania y Estados Unidos?"
-    ],
-    "answer": "Alemania pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Estados Unidos prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "alemania",
-      "estados-unidos",
-      "comparativa",
-      "interoperabilidad-y-estándares-de-credenciales"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 42,
-    "question": "¿En qué se diferencian Países Bajos y Singapur respecto a coordinación de sistema y dashboards de habilidades?",
-    "variants": [
-      "Compara enfoques de Países Bajos y Singapur en coordinación de sistema y dashboards de habilidades",
-      "¿Qué ventajas y trade-offs muestran Países Bajos y Singapur en coordinación de sistema y dashboards de habilidades?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Países Bajos y Singapur?"
-    ],
-    "answer": "Países Bajos pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Singapur prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "países-bajos",
-      "singapur",
-      "comparativa",
-      "coordinación-de-sistema-y-dashboards-de-habilidades"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 43,
-    "question": "¿En qué se diferencian Francia y Estados Unidos respecto a transición ecológica y apertura científica?",
-    "variants": [
-      "Compara enfoques de Francia y Estados Unidos en transición ecológica y apertura científica",
-      "¿Qué ventajas y trade-offs muestran Francia y Estados Unidos en transición ecológica y apertura científica?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Francia y Estados Unidos?"
-    ],
-    "answer": "Francia pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Estados Unidos prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "francia",
-      "estados-unidos",
-      "comparativa",
-      "transición-ecológica-y-apertura-científica"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 44,
-    "question": "¿En qué se diferencian Reino Unido y Alemania respecto a formación docente e innovación escalable?",
-    "variants": [
-      "Compara enfoques de Reino Unido y Alemania en formación docente e innovación escalable",
-      "¿Qué ventajas y trade-offs muestran Reino Unido y Alemania en formación docente e innovación escalable?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Reino Unido y Alemania?"
-    ],
-    "answer": "Reino Unido pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Alemania prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "reino-unido",
-      "alemania",
-      "comparativa",
-      "formación-docente-e-innovación-escalable"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 45,
-    "question": "¿En qué se diferencian Singapur y Reino Unido respecto a política de IA en docencia (NUS) vs. QAA/OfS?",
-    "variants": [
-      "Compara enfoques de Singapur y Reino Unido en política de IA en docencia (NUS) vs. QAA/OfS",
-      "¿Qué ventajas y trade-offs muestran Singapur y Reino Unido en política de IA en docencia (NUS) vs. QAA/OfS?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Singapur y Reino Unido?"
-    ],
-    "answer": "Singapur pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Reino Unido prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "singapur",
-      "reino-unido",
-      "comparativa",
-      "política-de-IA-en-docencia-(NUS)-vs.-QAA/OfS"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 46,
-    "question": "¿En qué se diferencian Países Bajos y Francia respecto a infraestructura digital común y plataformas nacionales?",
-    "variants": [
-      "Compara enfoques de Países Bajos y Francia en infraestructura digital común y plataformas nacionales",
-      "¿Qué ventajas y trade-offs muestran Países Bajos y Francia en infraestructura digital común y plataformas nacionales?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Países Bajos y Francia?"
-    ],
-    "answer": "Países Bajos pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Francia prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "países-bajos",
-      "francia",
-      "comparativa",
-      "infraestructura-digital-común-y-plataformas-nacionales"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 47,
-    "question": "¿En qué se diferencian Estados Unidos y Países Bajos respecto a rol de community colleges vs. cooperación interuniversitaria?",
-    "variants": [
-      "Compara enfoques de Estados Unidos y Países Bajos en rol de community colleges vs. cooperación interuniversitaria",
-      "¿Qué ventajas y trade-offs muestran Estados Unidos y Países Bajos en rol de community colleges vs. cooperación interuniversitaria?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Estados Unidos y Países Bajos?"
-    ],
-    "answer": "Estados Unidos pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Países Bajos prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "estados-unidos",
-      "países-bajos",
-      "comparativa",
-      "rol-de-community-colleges-vs.-cooperación-interuniversitaria"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 48,
-    "question": "¿En qué se diferencian Alemania y Francia respecto a exigencia de excelencia investigativa vs. misiones PEPR?",
-    "variants": [
-      "Compara enfoques de Alemania y Francia en exigencia de excelencia investigativa vs. misiones PEPR",
-      "¿Qué ventajas y trade-offs muestran Alemania y Francia en exigencia de excelencia investigativa vs. misiones PEPR?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Alemania y Francia?"
-    ],
-    "answer": "Alemania pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Francia prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "alemania",
-      "francia",
-      "comparativa",
-      "exigencia-de-excelencia-investigativa-vs.-misiones-PEPR"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 49,
-    "question": "¿En qué se diferencian Reino Unido y Singapur respecto a modularidad financiada (LLE) vs. subsidios SkillsFuture?",
-    "variants": [
-      "Compara enfoques de Reino Unido y Singapur en modularidad financiada (LLE) vs. subsidios SkillsFuture",
-      "¿Qué ventajas y trade-offs muestran Reino Unido y Singapur en modularidad financiada (LLE) vs. subsidios SkillsFuture?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Reino Unido y Singapur?"
-    ],
-    "answer": "Reino Unido pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Singapur prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "reino-unido",
-      "singapur",
-      "comparativa",
-      "modularidad-financiada-(LLE)-vs.-subsidios-SkillsFuture"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  },
-  {
-    "id": 50,
-    "question": "¿En qué se diferencian Estados Unidos y Singapur respecto a retención/analítica vs. cohortes de por vida?",
-    "variants": [
-      "Compara enfoques de Estados Unidos y Singapur en retención/analítica vs. cohortes de por vida",
-      "¿Qué ventajas y trade-offs muestran Estados Unidos y Singapur en retención/analítica vs. cohortes de por vida?",
-      "¿Qué lecciones aplicables a UDALBA surgen del contraste entre Estados Unidos y Singapur?"
-    ],
-    "answer": "Estados Unidos pone énfasis en sus directrices específicas y habilitadores (según el documento), mientras Singapur prioriza mecanismos complementarios en el mismo eje. Ambos comparten metas de calidad y pertinencia, pero difieren en gobernanza, financiamiento y velocidad de adopción.",
-    "tags": [
-      "estados-unidos",
-      "singapur",
-      "comparativa",
-      "retención/analítica-vs.-cohortes-de-por-vida"
-    ],
-    "intent": "comparison",
-    "difficulty": "intermedio",
-    "tone": "neutral técnico",
-    "audience": [
-      "IES",
-      "policymakers",
-      "docentes"
-    ],
-    "source_section": "p.3–17",
-    "timeframe": "2025",
-    "country": "Multi-país",
-    "doc": "Directrices (paises).pdf"
-  }
-]
+{
+  "fuente": "Directrices (paises).pdf",
+  "total": 150,
+  "preguntas": [
+    {
+      "id": 1,
+      "pais": "Singapur",
+      "categoria": "Aprendizaje permanente y credenciales modulares",
+      "pregunta": "¿Cómo describe el documento el paso de un modelo frontloaded hacia el aprendizaje a lo largo de la vida en Singapur?"
+    },
+    {
+      "id": 2,
+      "pais": "Singapur",
+      "categoria": "Transformación digital e integración de IA",
+      "pregunta": "¿Qué papel cumple el movimiento SkillsFuture dentro del ecosistema universitario del futuro en Singapur?"
+    },
+    {
+      "id": 3,
+      "pais": "Singapur",
+      "categoria": "Calidad educativa y gobernanza",
+      "pregunta": "¿Cómo funcionan las credenciales apilables (microcredenciales) en instituciones como SIT, NUS o NTU?"
+    },
+    {
+      "id": 4,
+      "pais": "Singapur",
+      "categoria": "Flexibilidad de trayectorias y educación híbrida",
+      "pregunta": "¿Qué es la 'Lifetime Cohort Participation Rate' y por qué se plantea su aumento?"
+    },
+    {
+      "id": 5,
+      "pais": "Singapur",
+      "categoria": "Investigación, innovación y ciencia abierta",
+      "pregunta": "¿De qué manera la analítica de datos y los dashboards de SSG informan decisiones sobre oferta y demanda de habilidades?"
+    },
+    {
+      "id": 6,
+      "pais": "Singapur",
+      "categoria": "Inclusión y pertinencia territorial",
+      "pregunta": "¿Cómo se articula el Jobs-Skills Portal con las rutas de formación propuestas?"
+    },
+    {
+      "id": 7,
+      "pais": "Singapur",
+      "categoria": "Financiamiento y subsidios",
+      "pregunta": "¿Qué subsidios individuales contempla SSG y cómo habilitan el retorno a estudiar en mid-career?"
+    },
+    {
+      "id": 8,
+      "pais": "Singapur",
+      "categoria": "Interoperabilidad y credenciales digitales",
+      "pregunta": "¿Qué enfoque adopta NUS respecto del uso de IA en docencia y evaluación?"
+    },
+    {
+      "id": 9,
+      "pais": "Singapur",
+      "categoria": "Evaluación y integridad académica",
+      "pregunta": "¿Por qué el documento desaconseja basarse únicamente en detectores de IA para sanciones académicas?"
+    },
+    {
+      "id": 10,
+      "pais": "Singapur",
+      "categoria": "Gestión del cambio organizacional",
+      "pregunta": "¿Qué estrategias de evaluación de habilidades de orden superior se sugieren para el contexto singapurense?"
+    },
+    {
+      "id": 11,
+      "pais": "Singapur",
+      "categoria": "Aprendizaje permanente y credenciales modulares",
+      "pregunta": "¿Cómo se definen los programas CSM de SIT y qué relación tienen con la empleabilidad?"
+    },
+    {
+      "id": 12,
+      "pais": "Singapur",
+      "categoria": "Transformación digital e integración de IA",
+      "pregunta": "¿Qué rol cumple NUS SCALE en la oferta de microcredenciales stackables?"
+    },
+    {
+      "id": 13,
+      "pais": "Singapur",
+      "categoria": "Calidad educativa y gobernanza",
+      "pregunta": "¿Cómo se integra la formación continua con rutas hacia grados en el caso de Applied Computing?"
+    },
+    {
+      "id": 14,
+      "pais": "Singapur",
+      "categoria": "Flexibilidad de trayectorias y educación híbrida",
+      "pregunta": "¿Qué alianzas (por ejemplo, con École 42) se mencionan y con qué objetivos?"
+    },
+    {
+      "id": 15,
+      "pais": "Singapur",
+      "categoria": "Investigación, innovación y ciencia abierta",
+      "pregunta": "¿Cómo se asegura la trazabilidad de créditos y reglas de apilamiento en Singapur?"
+    },
+    {
+      "id": 16,
+      "pais": "Singapur",
+      "categoria": "Inclusión y pertinencia territorial",
+      "pregunta": "¿Qué riesgos éticos reconoce el documento al usar IA y cómo se mitigan?"
+    },
+    {
+      "id": 17,
+      "pais": "Singapur",
+      "categoria": "Financiamiento y subsidios",
+      "pregunta": "¿Cómo conversa el enfoque singapurense con un 'Enfoque Centrado en el Estudiante'?"
+    },
+    {
+      "id": 18,
+      "pais": "Singapur",
+      "categoria": "Interoperabilidad y credenciales digitales",
+      "pregunta": "¿Qué sectores económicos (Care, Green, Digital) son priorizados y por qué?"
+    },
+    {
+      "id": 19,
+      "pais": "Singapur",
+      "categoria": "Evaluación y integridad académica",
+      "pregunta": "¿Cómo se plantea la reconversión laboral dentro del diseño modular de credenciales?"
+    },
+    {
+      "id": 20,
+      "pais": "Singapur",
+      "categoria": "Gestión del cambio organizacional",
+      "pregunta": "¿Qué mecanismos de transparencia se exigen cuando la IA se usa para feedback o calificaciones?"
+    },
+    {
+      "id": 21,
+      "pais": "Singapur",
+      "categoria": "Aprendizaje permanente y credenciales modulares",
+      "pregunta": "¿Cómo se define la gobernanza de datos en los portales y dashboards descritos?"
+    },
+    {
+      "id": 22,
+      "pais": "Singapur",
+      "categoria": "Transformación digital e integración de IA",
+      "pregunta": "¿De qué forma se propone acompañar el ciclo de vida estudiantil (captación–progreso–empleabilidad)?"
+    },
+    {
+      "id": 23,
+      "pais": "Singapur",
+      "categoria": "Calidad educativa y gobernanza",
+      "pregunta": "¿Qué condiciones habilitantes necesita la universidad del futuro en Singapur para escalar la modularidad?"
+    },
+    {
+      "id": 24,
+      "pais": "Singapur",
+      "categoria": "Flexibilidad de trayectorias y educación híbrida",
+      "pregunta": "¿Cómo se equilibra acceso, equidad e integridad académica al integrar IA?"
+    },
+    {
+      "id": 25,
+      "pais": "Singapur",
+      "categoria": "Investigación, innovación y ciencia abierta",
+      "pregunta": "¿Qué implicancias tiene para las universidades el aumento proyectado de participación subsidiada?"
+    },
+    {
+      "id": 26,
+      "pais": "Alemania",
+      "categoria": "Aprendizaje permanente y credenciales modulares",
+      "pregunta": "¿Cómo caracteriza el documento la visión sistémica (Bund–Länder) sobre la universidad del futuro en Alemania?"
+    },
+    {
+      "id": 27,
+      "pais": "Alemania",
+      "categoria": "Transformación digital e integración de IA",
+      "pregunta": "¿Qué significa fortalecer calidad y continuidad en la docencia como base de modernización?"
+    },
+    {
+      "id": 28,
+      "pais": "Alemania",
+      "categoria": "Calidad educativa y gobernanza",
+      "pregunta": "¿Qué rol cumplen los acuerdos de financiamiento para asegurar cupos y condiciones de estudio?"
+    },
+    {
+      "id": 29,
+      "pais": "Alemania",
+      "categoria": "Flexibilidad de trayectorias y educación híbrida",
+      "pregunta": "¿Cómo se concibe la innovación docente como transformación institucional y no solo pedagógica?"
+    },
+    {
+      "id": 30,
+      "pais": "Alemania",
+      "categoria": "Investigación, innovación y ciencia abierta",
+      "pregunta": "¿Qué relevancia tiene la interoperabilidad en la agenda de digitalización alemana?"
+    },
+    {
+      "id": 31,
+      "pais": "Alemania",
+      "categoria": "Inclusión y pertinencia territorial",
+      "pregunta": "¿Cómo se aborda la adopción responsable de IA en educación superior en Alemania?"
+    },
+    {
+      "id": 32,
+      "pais": "Alemania",
+      "categoria": "Financiamiento y subsidios",
+      "pregunta": "¿Qué iniciativas cooperativas se describen para orientar la integración de IA?"
+    },
+    {
+      "id": 33,
+      "pais": "Alemania",
+      "categoria": "Interoperabilidad y credenciales digitales",
+      "pregunta": "¿Cómo contribuye la profesionalización del rol académico/administrativo a la visión de futuro?"
+    },
+    {
+      "id": 34,
+      "pais": "Alemania",
+      "categoria": "Evaluación y integridad académica",
+      "pregunta": "¿Qué elementos de gobernanza de datos y estándares digitales se consideran críticos?"
+    },
+    {
+      "id": 35,
+      "pais": "Alemania",
+      "categoria": "Gestión del cambio organizacional",
+      "pregunta": "¿De qué manera la investigación de frontera y la excelencia internacional estructuran el sistema?"
+    },
+    {
+      "id": 36,
+      "pais": "Alemania",
+      "categoria": "Aprendizaje permanente y credenciales modulares",
+      "pregunta": "¿Cómo se evita que las innovaciones queden confinadas a pilotos aislados?"
+    },
+    {
+      "id": 37,
+      "pais": "Alemania",
+      "categoria": "Transformación digital e integración de IA",
+      "pregunta": "¿Qué capacidades institucionales se requieren para sostener calidad en contextos de alta masividad?"
+    },
+    {
+      "id": 38,
+      "pais": "Alemania",
+      "categoria": "Calidad educativa y gobernanza",
+      "pregunta": "¿Cómo se enmarca la gestión del cambio dentro de los procesos de modernización?"
+    },
+    {
+      "id": 39,
+      "pais": "Alemania",
+      "categoria": "Flexibilidad de trayectorias y educación híbrida",
+      "pregunta": "¿Qué tensiones entre docencia e investigación identifica el documento y cómo se abordan?"
+    },
+    {
+      "id": 40,
+      "pais": "Alemania",
+      "categoria": "Investigación, innovación y ciencia abierta",
+      "pregunta": "¿Cómo dialoga la digitalización con servicios estudiantiles, gestión y cooperación interinstitucional?"
+    },
+    {
+      "id": 41,
+      "pais": "Alemania",
+      "categoria": "Inclusión y pertinencia territorial",
+      "pregunta": "¿Qué criterios de equidad y evaluación se preservan al incorporar tecnologías emergentes?"
+    },
+    {
+      "id": 42,
+      "pais": "Alemania",
+      "categoria": "Financiamiento y subsidios",
+      "pregunta": "¿Cómo se detallan los mecanismos de transferencia y escalamiento de innovación entre universidades?"
+    },
+    {
+      "id": 43,
+      "pais": "Alemania",
+      "categoria": "Interoperabilidad y credenciales digitales",
+      "pregunta": "¿Qué estructuras habilitan la visibilidad global de la investigación alemana?"
+    },
+    {
+      "id": 44,
+      "pais": "Alemania",
+      "categoria": "Evaluación y integridad académica",
+      "pregunta": "¿Cómo se conciben los estándares y evidencias para aseguramiento de calidad?"
+    },
+    {
+      "id": 45,
+      "pais": "Alemania",
+      "categoria": "Gestión del cambio organizacional",
+      "pregunta": "¿Qué riesgos se identifican al adoptar IA sin marcos de implementación sólidos?"
+    },
+    {
+      "id": 46,
+      "pais": "Alemania",
+      "categoria": "Aprendizaje permanente y credenciales modulares",
+      "pregunta": "¿Cómo se articula la coordinación federal–regional para la transformación digital?"
+    },
+    {
+      "id": 47,
+      "pais": "Alemania",
+      "categoria": "Transformación digital e integración de IA",
+      "pregunta": "¿Qué implica entender a la universidad del futuro como 'sistema que aprende'?"
+    },
+    {
+      "id": 48,
+      "pais": "Alemania",
+      "categoria": "Calidad educativa y gobernanza",
+      "pregunta": "¿Qué estrategias permiten mantener integridad académica en escenarios digitales?"
+    },
+    {
+      "id": 49,
+      "pais": "Alemania",
+      "categoria": "Flexibilidad de trayectorias y educación híbrida",
+      "pregunta": "¿Cómo se planifica el cambio organizacional para sostener innovaciones?"
+    },
+    {
+      "id": 50,
+      "pais": "Alemania",
+      "categoria": "Investigación, innovación y ciencia abierta",
+      "pregunta": "¿Qué indicadores podrían usarse para evaluar el éxito de estas reformas?"
+    },
+    {
+      "id": 51,
+      "pais": "Países Bajos",
+      "categoria": "Aprendizaje permanente y credenciales modulares",
+      "pregunta": "¿Cómo se describe la transición desde competencia por volumen hacia perfiles institucionales complementarios?"
+    },
+    {
+      "id": 52,
+      "pais": "Países Bajos",
+      "categoria": "Transformación digital e integración de IA",
+      "pregunta": "¿Qué instrumentos habilitan trayectorias flexibles y reconocimiento de aprendizajes en los Países Bajos?"
+    },
+    {
+      "id": 53,
+      "pais": "Países Bajos",
+      "categoria": "Calidad educativa y gobernanza",
+      "pregunta": "¿Por qué la interoperabilidad y los estándares comunes son centrales en la digitalización neerlandesa?"
+    },
+    {
+      "id": 54,
+      "pais": "Países Bajos",
+      "categoria": "Flexibilidad de trayectorias y educación híbrida",
+      "pregunta": "¿Qué rol cumplen las credenciales digitales nacionales (p. ej., edubadges) en la portabilidad del aprendizaje?"
+    },
+    {
+      "id": 55,
+      "pais": "Países Bajos",
+      "categoria": "Investigación, innovación y ciencia abierta",
+      "pregunta": "¿Cómo se conciben los pilotos de microcredenciales para comparabilidad interinstitucional?"
+    },
+    {
+      "id": 56,
+      "pais": "Países Bajos",
+      "categoria": "Inclusión y pertinencia territorial",
+      "pregunta": "¿Qué capacidades docentes se fortalecen mediante Centers for Teaching & Learning?"
+    },
+    {
+      "id": 57,
+      "pais": "Países Bajos",
+      "categoria": "Financiamiento y subsidios",
+      "pregunta": "¿Cómo se asegura que la innovación pedagógica sea sostenible y transferible?"
+    },
+    {
+      "id": 58,
+      "pais": "Países Bajos",
+      "categoria": "Interoperabilidad y credenciales digitales",
+      "pregunta": "¿Qué cambios de incentivos académicos propone la agenda de Recognition & Rewards?"
+    },
+    {
+      "id": 59,
+      "pais": "Países Bajos",
+      "categoria": "Evaluación y integridad académica",
+      "pregunta": "¿Cómo se integra la ciencia abierta en la visión de futuro neerlandesa?"
+    },
+    {
+      "id": 60,
+      "pais": "Países Bajos",
+      "categoria": "Gestión del cambio organizacional",
+      "pregunta": "¿Qué tensiones del equilibrio docencia–investigación se intentan mitigar?"
+    },
+    {
+      "id": 61,
+      "pais": "Países Bajos",
+      "categoria": "Aprendizaje permanente y credenciales modulares",
+      "pregunta": "¿Cómo se diseñan ofertas modulares compatibles con trabajo y estudio?"
+    },
+    {
+      "id": 62,
+      "pais": "Países Bajos",
+      "categoria": "Transformación digital e integración de IA",
+      "pregunta": "¿Qué mecanismos se plantean para verificación y compartición de credenciales?"
+    },
+    {
+      "id": 63,
+      "pais": "Países Bajos",
+      "categoria": "Calidad educativa y gobernanza",
+      "pregunta": "¿Cómo se gobierna la adopción de IA con criterios de ética y calidad?"
+    },
+    {
+      "id": 64,
+      "pais": "Países Bajos",
+      "categoria": "Flexibilidad de trayectorias y educación híbrida",
+      "pregunta": "¿Qué papel tienen los acuerdos sectoriales para garantizar trazabilidad de credenciales?"
+    },
+    {
+      "id": 65,
+      "pais": "Países Bajos",
+      "categoria": "Investigación, innovación y ciencia abierta",
+      "pregunta": "¿Cómo contribuye la infraestructura digital común a la movilidad estudiantil?"
+    },
+    {
+      "id": 66,
+      "pais": "Países Bajos",
+      "categoria": "Inclusión y pertinencia territorial",
+      "pregunta": "¿Qué prácticas efectivas se identifican y cómo circulan entre instituciones?"
+    },
+    {
+      "id": 67,
+      "pais": "Países Bajos",
+      "categoria": "Financiamiento y subsidios",
+      "pregunta": "¿Cómo se define la legibilidad de competencias para empleadores en el sistema neerlandés?"
+    },
+    {
+      "id": 68,
+      "pais": "Países Bajos",
+      "categoria": "Interoperabilidad y credenciales digitales",
+      "pregunta": "¿Qué riesgos se asocian a mantener incentivos basados en cantidades?"
+    },
+    {
+      "id": 69,
+      "pais": "Países Bajos",
+      "categoria": "Evaluación y integridad académica",
+      "pregunta": "¿Cómo se estructura la cooperación interinstitucional para especialización acordada?"
+    },
+    {
+      "id": 70,
+      "pais": "Países Bajos",
+      "categoria": "Gestión del cambio organizacional",
+      "pregunta": "¿Qué tipo de evaluación se favorece en contextos híbridos según el documento?"
+    },
+    {
+      "id": 71,
+      "pais": "Países Bajos",
+      "categoria": "Aprendizaje permanente y credenciales modulares",
+      "pregunta": "¿Cómo se imaginan las rutas por etapas y su articulación hacia cualificaciones mayores?"
+    },
+    {
+      "id": 72,
+      "pais": "Países Bajos",
+      "categoria": "Transformación digital e integración de IA",
+      "pregunta": "¿Qué marcos de gobernanza de datos se requieren para interoperabilidad efectiva?"
+    },
+    {
+      "id": 73,
+      "pais": "Países Bajos",
+      "categoria": "Calidad educativa y gobernanza",
+      "pregunta": "¿Cómo se relaciona la formación continua con competitividad social y académica?"
+    },
+    {
+      "id": 74,
+      "pais": "Países Bajos",
+      "categoria": "Flexibilidad de trayectorias y educación híbrida",
+      "pregunta": "¿Qué ejemplos concretos de estándares compartidos se mencionan o sugieren?"
+    },
+    {
+      "id": 75,
+      "pais": "Países Bajos",
+      "categoria": "Investigación, innovación y ciencia abierta",
+      "pregunta": "¿Cómo se equilibra flexibilidad con aseguramiento de calidad en el sistema neerlandés?"
+    },
+    {
+      "id": 76,
+      "pais": "Estados Unidos",
+      "categoria": "Aprendizaje permanente y credenciales modulares",
+      "pregunta": "¿Cómo se explica la normalización del aprendizaje a distancia en el sistema estadounidense post-pandemia?"
+    },
+    {
+      "id": 77,
+      "pais": "Estados Unidos",
+      "categoria": "Transformación digital e integración de IA",
+      "pregunta": "¿Qué requisitos de calidad se vuelven críticos para experiencias híbridas y online?"
+    },
+    {
+      "id": 78,
+      "pais": "Estados Unidos",
+      "categoria": "Calidad educativa y gobernanza",
+      "pregunta": "¿Cómo conviven títulos, certificados y microcredenciales en el ecosistema de credenciales de EE. UU.?"
+    },
+    {
+      "id": 79,
+      "pais": "Estados Unidos",
+      "categoria": "Flexibilidad de trayectorias y educación híbrida",
+      "pregunta": "¿Por qué se enfatiza la transparencia e interoperabilidad para interpretar el valor de credenciales?"
+    },
+    {
+      "id": 80,
+      "pais": "Estados Unidos",
+      "categoria": "Investigación, innovación y ciencia abierta",
+      "pregunta": "¿Qué funciones estratégicas cumplen los community colleges en la universidad del futuro?"
+    },
+    {
+      "id": 81,
+      "pais": "Estados Unidos",
+      "categoria": "Inclusión y pertinencia territorial",
+      "pregunta": "¿Cómo se articulan rutas apilables sin diluir estándares académicos?"
+    },
+    {
+      "id": 82,
+      "pais": "Estados Unidos",
+      "categoria": "Financiamiento y subsidios",
+      "pregunta": "¿Qué riesgos y promesas se identifican en la adopción de IA (sesgos, privacidad, integridad)?"
+    },
+    {
+      "id": 83,
+      "pais": "Estados Unidos",
+      "categoria": "Interoperabilidad y credenciales digitales",
+      "pregunta": "¿Cómo se rediseña la evaluación para responder al uso de IA por estudiantes?"
+    },
+    {
+      "id": 84,
+      "pais": "Estados Unidos",
+      "categoria": "Evaluación y integridad académica",
+      "pregunta": "¿Qué estándares de verificabilidad se requieren para credenciales digitales (badges)?"
+    },
+    {
+      "id": 85,
+      "pais": "Estados Unidos",
+      "categoria": "Gestión del cambio organizacional",
+      "pregunta": "¿Cómo se garantiza la legibilidad de competencias fuera de la institución emisora?"
+    },
+    {
+      "id": 86,
+      "pais": "Estados Unidos",
+      "categoria": "Aprendizaje permanente y credenciales modulares",
+      "pregunta": "¿Qué políticas federales impulsan apertura de publicaciones y datos de investigación?"
+    },
+    {
+      "id": 87,
+      "pais": "Estados Unidos",
+      "categoria": "Transformación digital e integración de IA",
+      "pregunta": "¿Cómo impacta la apertura en repositorios, gestión de datos y cumplimiento institucional?"
+    },
+    {
+      "id": 88,
+      "pais": "Estados Unidos",
+      "categoria": "Calidad educativa y gobernanza",
+      "pregunta": "¿Qué datos o métricas se utilizan para retención y éxito estudiantil mediante analítica?"
+    },
+    {
+      "id": 89,
+      "pais": "Estados Unidos",
+      "categoria": "Flexibilidad de trayectorias y educación híbrida",
+      "pregunta": "¿Cómo se equilibra accesibilidad e inclusión en entornos digitales?"
+    },
+    {
+      "id": 90,
+      "pais": "Estados Unidos",
+      "categoria": "Investigación, innovación y ciencia abierta",
+      "pregunta": "¿Qué papel tiene el reconocimiento de aprendizajes previos en rutas modulares?"
+    },
+    {
+      "id": 91,
+      "pais": "Estados Unidos",
+      "categoria": "Inclusión y pertinencia territorial",
+      "pregunta": "¿Cómo deben prepararse las instituciones para operar en un sistema más orientado a resultados?"
+    },
+    {
+      "id": 92,
+      "pais": "Estados Unidos",
+      "categoria": "Financiamiento y subsidios",
+      "pregunta": "¿Qué implicancias tiene la diversidad de proveedores de credenciales para los estudiantes?"
+    },
+    {
+      "id": 93,
+      "pais": "Estados Unidos",
+      "categoria": "Interoperabilidad y credenciales digitales",
+      "pregunta": "¿Cómo se integran microcredenciales a programas mayores cuando corresponde?"
+    },
+    {
+      "id": 94,
+      "pais": "Estados Unidos",
+      "categoria": "Evaluación y integridad académica",
+      "pregunta": "¿Qué prácticas de evaluación auténtica sugiere el documento para contextos híbridos?"
+    },
+    {
+      "id": 95,
+      "pais": "Estados Unidos",
+      "categoria": "Gestión del cambio organizacional",
+      "pregunta": "¿Cómo se concibe la gobernanza de IA a nivel institucional en EE. UU.?"
+    },
+    {
+      "id": 96,
+      "pais": "Estados Unidos",
+      "categoria": "Aprendizaje permanente y credenciales modulares",
+      "pregunta": "¿Qué rol juega la analítica de datos para acompañamiento, retención y éxito estudiantil?"
+    },
+    {
+      "id": 97,
+      "pais": "Estados Unidos",
+      "categoria": "Transformación digital e integración de IA",
+      "pregunta": "¿Cómo se vincula la oferta formativa con empleabilidad y pertinencia regional?"
+    },
+    {
+      "id": 98,
+      "pais": "Estados Unidos",
+      "categoria": "Calidad educativa y gobernanza",
+      "pregunta": "¿Qué condiciones institucionales permiten escalar la modularidad en EE. UU.?"
+    },
+    {
+      "id": 99,
+      "pais": "Estados Unidos",
+      "categoria": "Flexibilidad de trayectorias y educación híbrida",
+      "pregunta": "¿Cómo se gestionan riesgos de opacidad y seguridad en herramientas de IA?"
+    },
+    {
+      "id": 100,
+      "pais": "Estados Unidos",
+      "categoria": "Investigación, innovación y ciencia abierta",
+      "pregunta": "¿Qué desafíos de comparabilidad de credenciales enfrentan estudiantes y empleadores?"
+    },
+    {
+      "id": 101,
+      "pais": "Reino Unido",
+      "categoria": "Aprendizaje permanente y credenciales modulares",
+      "pregunta": "¿Cómo se describe el Lifelong Learning Entitlement (LLE) y su impacto en trayectorias modulares?"
+    },
+    {
+      "id": 102,
+      "pais": "Reino Unido",
+      "categoria": "Transformación digital e integración de IA",
+      "pregunta": "¿Qué cambios introduce la regulación de calidad centrada en resultados del estudiante?"
+    },
+    {
+      "id": 103,
+      "pais": "Reino Unido",
+      "categoria": "Calidad educativa y gobernanza",
+      "pregunta": "¿Cómo se integra el TEF con mínimos regulatorios del OfS en la visión de futuro?"
+    },
+    {
+      "id": 104,
+      "pais": "Reino Unido",
+      "categoria": "Flexibilidad de trayectorias y educación híbrida",
+      "pregunta": "¿Qué significa entender la transformación digital como capacidad institucional (marco Jisc)?"
+    },
+    {
+      "id": 105,
+      "pais": "Reino Unido",
+      "categoria": "Investigación, innovación y ciencia abierta",
+      "pregunta": "¿Cómo obliga la IA generativa a rediseñar evaluación e integridad académica en el Reino Unido?"
+    },
+    {
+      "id": 106,
+      "pais": "Reino Unido",
+      "categoria": "Inclusión y pertinencia territorial",
+      "pregunta": "¿Qué principios sugiere el Russell Group para el uso de IA en educación?"
+    },
+    {
+      "id": 107,
+      "pais": "Reino Unido",
+      "categoria": "Financiamiento y subsidios",
+      "pregunta": "¿Qué tipo de evaluación auténtica se promueve para mitigar el fraude académico?"
+    },
+    {
+      "id": 108,
+      "pais": "Reino Unido",
+      "categoria": "Interoperabilidad y credenciales digitales",
+      "pregunta": "¿Cómo se conceptualiza la interoperabilidad y gobernanza de datos en universidades británicas?"
+    },
+    {
+      "id": 109,
+      "pais": "Reino Unido",
+      "categoria": "Evaluación y integridad académica",
+      "pregunta": "¿Qué expectativas de acceso abierto fija UKRI y cómo impactan en las universidades?"
+    },
+    {
+      "id": 110,
+      "pais": "Reino Unido",
+      "categoria": "Gestión del cambio organizacional",
+      "pregunta": "¿Cómo dialoga el REF 2029 con políticas de Open Access en investigación?"
+    },
+    {
+      "id": 111,
+      "pais": "Reino Unido",
+      "categoria": "Aprendizaje permanente y credenciales modulares",
+      "pregunta": "¿Qué capacidades requieren los servicios estudiantiles digitales robustos?"
+    },
+    {
+      "id": 112,
+      "pais": "Reino Unido",
+      "categoria": "Transformación digital e integración de IA",
+      "pregunta": "¿Cómo se diseñan módulos financiables bajo el LLE y su articulación hacia cualificaciones?"
+    },
+    {
+      "id": 113,
+      "pais": "Reino Unido",
+      "categoria": "Calidad educativa y gobernanza",
+      "pregunta": "¿Qué rol tiene la alfabetización crítica en IA en estudiantes y docentes?"
+    },
+    {
+      "id": 114,
+      "pais": "Reino Unido",
+      "categoria": "Flexibilidad de trayectorias y educación híbrida",
+      "pregunta": "¿Cómo se gestiona el cambio organizacional para sostener estándares en formatos híbridos?"
+    },
+    {
+      "id": 115,
+      "pais": "Reino Unido",
+      "categoria": "Investigación, innovación y ciencia abierta",
+      "pregunta": "¿Qué tensiones regulatorias aparecen al demostrar calidad de forma evidenciable?"
+    },
+    {
+      "id": 116,
+      "pais": "Reino Unido",
+      "categoria": "Inclusión y pertinencia territorial",
+      "pregunta": "¿Cómo se articulan políticas institucionales públicas sobre uso de IA en evaluación?"
+    },
+    {
+      "id": 117,
+      "pais": "Reino Unido",
+      "categoria": "Financiamiento y subsidios",
+      "pregunta": "¿Qué alianzas o recursos compartidos habilita el enfoque Jisc?"
+    },
+    {
+      "id": 118,
+      "pais": "Reino Unido",
+      "categoria": "Interoperabilidad y credenciales digitales",
+      "pregunta": "¿Cómo se equilibran beneficios pedagógicos de IA con riesgos y ética?"
+    },
+    {
+      "id": 119,
+      "pais": "Reino Unido",
+      "categoria": "Evaluación y integridad académica",
+      "pregunta": "¿Qué mecanismos de trazabilidad se requieren para microcredenciales según QAA?"
+    },
+    {
+      "id": 120,
+      "pais": "Reino Unido",
+      "categoria": "Gestión del cambio organizacional",
+      "pregunta": "¿Cómo se relaciona la universidad de la experiencia con transformación digital?"
+    },
+    {
+      "id": 121,
+      "pais": "Reino Unido",
+      "categoria": "Aprendizaje permanente y credenciales modulares",
+      "pregunta": "¿Qué herramientas o métricas podrían demostrar cumplimiento regulatorio de calidad?"
+    },
+    {
+      "id": 122,
+      "pais": "Reino Unido",
+      "categoria": "Transformación digital e integración de IA",
+      "pregunta": "¿Cómo se aseguran estándares comunes en modalidades virtuales e híbridas?"
+    },
+    {
+      "id": 123,
+      "pais": "Reino Unido",
+      "categoria": "Calidad educativa y gobernanza",
+      "pregunta": "¿Qué cambios culturales demanda la transformación digital integral?"
+    },
+    {
+      "id": 124,
+      "pais": "Reino Unido",
+      "categoria": "Flexibilidad de trayectorias y educación híbrida",
+      "pregunta": "¿Cómo afecta la apertura obligatoria a flujos editoriales y gestión de datos?"
+    },
+    {
+      "id": 125,
+      "pais": "Reino Unido",
+      "categoria": "Investigación, innovación y ciencia abierta",
+      "pregunta": "¿Qué aprendizajes derivados del LLE pueden transferirse a otros sistemas?"
+    },
+    {
+      "id": 126,
+      "pais": "Francia",
+      "categoria": "Aprendizaje permanente y credenciales modulares",
+      "pregunta": "¿Cómo se entiende la transformación universitaria como programación pública en Francia?"
+    },
+    {
+      "id": 127,
+      "pais": "Francia",
+      "categoria": "Transformación digital e integración de IA",
+      "pregunta": "¿Qué papel cumplen las plataformas nacionales (p. ej., FUN-MOOC) en la educación digital?"
+    },
+    {
+      "id": 128,
+      "pais": "Francia",
+      "categoria": "Calidad educativa y gobernanza",
+      "pregunta": "¿Cómo se concibe la hibridación pedagógica más allá de 'hacer más online'?"
+    },
+    {
+      "id": 129,
+      "pais": "Francia",
+      "categoria": "Flexibilidad de trayectorias y educación híbrida",
+      "pregunta": "¿Qué objetivo tiene la expansión de microcertificaciones y catálogos mutualizados en formación continua?"
+    },
+    {
+      "id": 130,
+      "pais": "Francia",
+      "categoria": "Investigación, innovación y ciencia abierta",
+      "pregunta": "¿Cómo se asegura la legibilidad y reconocimiento de credenciales dentro del ecosistema nacional de cualificaciones?"
+    },
+    {
+      "id": 131,
+      "pais": "Francia",
+      "categoria": "Inclusión y pertinencia territorial",
+      "pregunta": "¿Qué visión propone France 2030 para inversión y misiones científico-tecnológicas?"
+    },
+    {
+      "id": 132,
+      "pais": "Francia",
+      "categoria": "Financiamiento y subsidios",
+      "pregunta": "¿Cómo operan los PEPR para estructurar capacidades en áreas prioritarias (incluida IA)?"
+    },
+    {
+      "id": 133,
+      "pais": "Francia",
+      "categoria": "Interoperabilidad y credenciales digitales",
+      "pregunta": "¿Qué implica institucionalizar la ciencia abierta en publicaciones, datos y código?"
+    },
+    {
+      "id": 134,
+      "pais": "Francia",
+      "categoria": "Evaluación y integridad académica",
+      "pregunta": "¿Cómo se articulan gobernanza de repositorios y trazabilidad de datos en el enfoque francés?"
+    },
+    {
+      "id": 135,
+      "pais": "Francia",
+      "categoria": "Gestión del cambio organizacional",
+      "pregunta": "¿Qué relación se plantea entre formación, investigación e impacto territorial?"
+    },
+    {
+      "id": 136,
+      "pais": "Francia",
+      "categoria": "Aprendizaje permanente y credenciales modulares",
+      "pregunta": "¿Cómo se integra la transición ecológica como hoja de ruta institucional?"
+    },
+    {
+      "id": 137,
+      "pais": "Francia",
+      "categoria": "Transformación digital e integración de IA",
+      "pregunta": "¿Qué rol cumple Hcéres en evaluación y aseguramiento de calidad durante la transformación?"
+    },
+    {
+      "id": 138,
+      "pais": "Francia",
+      "categoria": "Calidad educativa y gobernanza",
+      "pregunta": "¿Cómo se planifica el cumplimiento de apertura sin comprometer ética y privacidad?"
+    },
+    {
+      "id": 139,
+      "pais": "Francia",
+      "categoria": "Flexibilidad de trayectorias y educación híbrida",
+      "pregunta": "¿Qué capacidades organizacionales habilitan la hibridación con estándares de calidad?"
+    },
+    {
+      "id": 140,
+      "pais": "Francia",
+      "categoria": "Investigación, innovación y ciencia abierta",
+      "pregunta": "¿Cómo se financia y acompaña la modernización a nivel de sistema y de instituciones?"
+    },
+    {
+      "id": 141,
+      "pais": "Francia",
+      "categoria": "Inclusión y pertinencia territorial",
+      "pregunta": "¿Qué riesgos identifica el documento ante adopciones tecnológicas sin gobernanza?"
+    },
+    {
+      "id": 142,
+      "pais": "Francia",
+      "categoria": "Financiamiento y subsidios",
+      "pregunta": "¿Cómo se profesionaliza la docencia y se equipa la innovación pedagógica?"
+    },
+    {
+      "id": 143,
+      "pais": "Francia",
+      "categoria": "Interoperabilidad y credenciales digitales",
+      "pregunta": "¿Qué mecanismos aseguran comparabilidad y trazabilidad de microcredenciales?"
+    },
+    {
+      "id": 144,
+      "pais": "Francia",
+      "categoria": "Evaluación y integridad académica",
+      "pregunta": "¿Cómo se integran ofertas cortas a itinerarios largos sin perder rigor académico?"
+    },
+    {
+      "id": 145,
+      "pais": "Francia",
+      "categoria": "Gestión del cambio organizacional",
+      "pregunta": "¿Qué exigencias de seguimiento y rendición se asocian a la transición ecológica?"
+    },
+    {
+      "id": 146,
+      "pais": "Francia",
+      "categoria": "Aprendizaje permanente y credenciales modulares",
+      "pregunta": "¿Cómo se conceptualiza la universidad del futuro como transformación integral?"
+    },
+    {
+      "id": 147,
+      "pais": "Francia",
+      "categoria": "Transformación digital e integración de IA",
+      "pregunta": "¿Qué marcos y plazos definen la generalización del acceso abierto?"
+    },
+    {
+      "id": 148,
+      "pais": "Francia",
+      "categoria": "Calidad educativa y gobernanza",
+      "pregunta": "¿Cómo se coordinan actores estatales y universidades en esta agenda?"
+    },
+    {
+      "id": 149,
+      "pais": "Francia",
+      "categoria": "Flexibilidad de trayectorias y educación híbrida",
+      "pregunta": "¿Qué métricas podrían demostrar impacto de France 2030 en universidades?"
+    },
+    {
+      "id": 150,
+      "pais": "Francia",
+      "categoria": "Investigación, innovación y ciencia abierta",
+      "pregunta": "¿Cómo se equilibra apertura del conocimiento con seguridad y soberanía tecnológica?"
+    }
+  ]
+}

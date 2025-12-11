@@ -1,0 +1,2252 @@
+[
+    {
+        "id": "Q001",
+        "pregunta": "¿Cómo influye segmentación en el contexto de competencia según el informe?",
+        "tema_principal": "Competencia",
+        "subtema": "Segmentación",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Competencia",
+            "pagina": 33
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q002",
+        "pregunta": "¿Cómo influye indicadores en el contexto de competencia según el informe?",
+        "tema_principal": "Competencia",
+        "subtema": "Indicadores",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Competencia",
+            "pagina": 44
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q003",
+        "pregunta": "¿Cómo influye expectativas en el contexto de satisfacción estudiantil según el informe?",
+        "tema_principal": "Satisfacción estudiantil",
+        "subtema": "Expectativas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Satisfacción estudiantil",
+            "pagina": 199
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q004",
+        "pregunta": "¿Cómo influye vpn en el contexto de empleabilidad según el informe?",
+        "tema_principal": "Empleabilidad",
+        "subtema": "VPN",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Empleabilidad",
+            "pagina": 95
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q005",
+        "pregunta": "¿Cómo influye patrones en el contexto de movilidad estudiantil según el informe?",
+        "tema_principal": "Movilidad estudiantil",
+        "subtema": "Patrones",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Movilidad estudiantil",
+            "pagina": 191
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q006",
+        "pregunta": "¿Cómo influye transformaciones en el contexto de evolución del sistema según el informe?",
+        "tema_principal": "Evolución del sistema",
+        "subtema": "Transformaciones",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Evolución del sistema",
+            "pagina": 268
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q007",
+        "pregunta": "¿Cómo influye calidad en el contexto de regulación según el informe?",
+        "tema_principal": "Regulación",
+        "subtema": "Calidad",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Regulación",
+            "pagina": 315
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q008",
+        "pregunta": "¿Cómo influye impacto en el contexto de recomendaciones según el informe?",
+        "tema_principal": "Recomendaciones",
+        "subtema": "Impacto",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Recomendaciones",
+            "pagina": 198
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q009",
+        "pregunta": "¿Cómo influye historia en el contexto de evolución del sistema según el informe?",
+        "tema_principal": "Evolución del sistema",
+        "subtema": "Historia",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Evolución del sistema",
+            "pagina": 29
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q010",
+        "pregunta": "¿Cómo influye calidad en el contexto de regulación según el informe?",
+        "tema_principal": "Regulación",
+        "subtema": "Calidad",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Regulación",
+            "pagina": 332
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q011",
+        "pregunta": "¿Cómo influye créditos en el contexto de financiamiento según el informe?",
+        "tema_principal": "Financiamiento",
+        "subtema": "Créditos",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Financiamiento",
+            "pagina": 222
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q012",
+        "pregunta": "¿Cómo influye estándares en el contexto de calidad según el informe?",
+        "tema_principal": "Calidad",
+        "subtema": "Estándares",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Calidad",
+            "pagina": 41
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q013",
+        "pregunta": "¿Cómo influye indicadores en el contexto de competencia según el informe?",
+        "tema_principal": "Competencia",
+        "subtema": "Indicadores",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Competencia",
+            "pagina": 238
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q014",
+        "pregunta": "¿Cómo influye atributos en el contexto de diferenciación de programas según el informe?",
+        "tema_principal": "Diferenciación de programas",
+        "subtema": "Atributos",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Diferenciación de programas",
+            "pagina": 199
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q015",
+        "pregunta": "¿Cómo influye calidad en el contexto de regulación según el informe?",
+        "tema_principal": "Regulación",
+        "subtema": "Calidad",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Regulación",
+            "pagina": 41
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q016",
+        "pregunta": "¿Cómo influye cobertura en el contexto de evolución del sistema según el informe?",
+        "tema_principal": "Evolución del sistema",
+        "subtema": "Cobertura",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Evolución del sistema",
+            "pagina": 56
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q017",
+        "pregunta": "¿Cómo influye patrones en el contexto de movilidad estudiantil según el informe?",
+        "tema_principal": "Movilidad estudiantil",
+        "subtema": "Patrones",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Movilidad estudiantil",
+            "pagina": 315
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q018",
+        "pregunta": "¿Cómo influye preferencias en el contexto de brechas de género según el informe?",
+        "tema_principal": "Brechas de género",
+        "subtema": "Preferencias",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Brechas de género",
+            "pagina": 173
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q019",
+        "pregunta": "¿Cómo influye encuestas en el contexto de satisfacción estudiantil según el informe?",
+        "tema_principal": "Satisfacción estudiantil",
+        "subtema": "Encuestas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Satisfacción estudiantil",
+            "pagina": 156
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q020",
+        "pregunta": "¿Cómo influye aranceles en el contexto de regulación según el informe?",
+        "tema_principal": "Regulación",
+        "subtema": "Aranceles",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Regulación",
+            "pagina": 301
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q021",
+        "pregunta": "¿Cómo influye segmentación en el contexto de competencia según el informe?",
+        "tema_principal": "Competencia",
+        "subtema": "Segmentación",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Competencia",
+            "pagina": 166
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q022",
+        "pregunta": "¿Cómo influye transformaciones en el contexto de evolución del sistema según el informe?",
+        "tema_principal": "Evolución del sistema",
+        "subtema": "Transformaciones",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Evolución del sistema",
+            "pagina": 97
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q023",
+        "pregunta": "¿Cómo influye aranceles en el contexto de regulación según el informe?",
+        "tema_principal": "Regulación",
+        "subtema": "Aranceles",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Regulación",
+            "pagina": 281
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q024",
+        "pregunta": "¿Cómo influye créditos en el contexto de financiamiento según el informe?",
+        "tema_principal": "Financiamiento",
+        "subtema": "Créditos",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Financiamiento",
+            "pagina": 205
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q025",
+        "pregunta": "¿Cómo influye interregional en el contexto de movilidad estudiantil según el informe?",
+        "tema_principal": "Movilidad estudiantil",
+        "subtema": "Interregional",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Movilidad estudiantil",
+            "pagina": 67
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q026",
+        "pregunta": "¿Cómo influye inserción laboral en el contexto de empleabilidad según el informe?",
+        "tema_principal": "Empleabilidad",
+        "subtema": "Inserción laboral",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Empleabilidad",
+            "pagina": 349
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q027",
+        "pregunta": "¿Cómo influye interregional en el contexto de movilidad estudiantil según el informe?",
+        "tema_principal": "Movilidad estudiantil",
+        "subtema": "Interregional",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Movilidad estudiantil",
+            "pagina": 342
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q028",
+        "pregunta": "¿Cómo influye interregional en el contexto de movilidad estudiantil según el informe?",
+        "tema_principal": "Movilidad estudiantil",
+        "subtema": "Interregional",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Movilidad estudiantil",
+            "pagina": 196
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q029",
+        "pregunta": "¿Cómo influye interregional en el contexto de movilidad estudiantil según el informe?",
+        "tema_principal": "Movilidad estudiantil",
+        "subtema": "Interregional",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Movilidad estudiantil",
+            "pagina": 111
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q030",
+        "pregunta": "¿Cómo influye historia en el contexto de evolución del sistema según el informe?",
+        "tema_principal": "Evolución del sistema",
+        "subtema": "Historia",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Evolución del sistema",
+            "pagina": 241
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q031",
+        "pregunta": "¿Cómo influye patrones en el contexto de movilidad estudiantil según el informe?",
+        "tema_principal": "Movilidad estudiantil",
+        "subtema": "Patrones",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Movilidad estudiantil",
+            "pagina": 266
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q032",
+        "pregunta": "¿Cómo influye políticas en el contexto de recomendaciones según el informe?",
+        "tema_principal": "Recomendaciones",
+        "subtema": "Políticas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Recomendaciones",
+            "pagina": 279
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q033",
+        "pregunta": "¿Cómo influye desalineamiento en el contexto de diferenciación de programas según el informe?",
+        "tema_principal": "Diferenciación de programas",
+        "subtema": "Desalineamiento",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Diferenciación de programas",
+            "pagina": 344
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q034",
+        "pregunta": "¿Cómo influye transformaciones en el contexto de evolución del sistema según el informe?",
+        "tema_principal": "Evolución del sistema",
+        "subtema": "Transformaciones",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Evolución del sistema",
+            "pagina": 110
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q035",
+        "pregunta": "¿Cómo influye retornos en el contexto de empleabilidad según el informe?",
+        "tema_principal": "Empleabilidad",
+        "subtema": "Retornos",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Empleabilidad",
+            "pagina": 205
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q036",
+        "pregunta": "¿Cómo influye estándares en el contexto de calidad según el informe?",
+        "tema_principal": "Calidad",
+        "subtema": "Estándares",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Calidad",
+            "pagina": 207
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q037",
+        "pregunta": "¿Cómo influye vpn en el contexto de empleabilidad según el informe?",
+        "tema_principal": "Empleabilidad",
+        "subtema": "VPN",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Empleabilidad",
+            "pagina": 67
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q038",
+        "pregunta": "¿Cómo influye créditos en el contexto de financiamiento según el informe?",
+        "tema_principal": "Financiamiento",
+        "subtema": "Créditos",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Financiamiento",
+            "pagina": 339
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q039",
+        "pregunta": "¿Cómo influye cobertura en el contexto de evolución del sistema según el informe?",
+        "tema_principal": "Evolución del sistema",
+        "subtema": "Cobertura",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Evolución del sistema",
+            "pagina": 304
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q040",
+        "pregunta": "¿Cómo influye cobertura en el contexto de evolución del sistema según el informe?",
+        "tema_principal": "Evolución del sistema",
+        "subtema": "Cobertura",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Evolución del sistema",
+            "pagina": 253
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q041",
+        "pregunta": "¿Cómo influye políticas en el contexto de recomendaciones según el informe?",
+        "tema_principal": "Recomendaciones",
+        "subtema": "Políticas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Recomendaciones",
+            "pagina": 208
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q042",
+        "pregunta": "¿Cómo influye estándares en el contexto de calidad según el informe?",
+        "tema_principal": "Calidad",
+        "subtema": "Estándares",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Calidad",
+            "pagina": 168
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q043",
+        "pregunta": "¿Cómo influye estándares en el contexto de calidad según el informe?",
+        "tema_principal": "Calidad",
+        "subtema": "Estándares",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Calidad",
+            "pagina": 221
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q044",
+        "pregunta": "¿Cómo influye encuestas en el contexto de satisfacción estudiantil según el informe?",
+        "tema_principal": "Satisfacción estudiantil",
+        "subtema": "Encuestas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Satisfacción estudiantil",
+            "pagina": 153
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q045",
+        "pregunta": "¿Cómo influye impacto en el contexto de recomendaciones según el informe?",
+        "tema_principal": "Recomendaciones",
+        "subtema": "Impacto",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Recomendaciones",
+            "pagina": 249
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q046",
+        "pregunta": "¿Cómo influye vpn en el contexto de empleabilidad según el informe?",
+        "tema_principal": "Empleabilidad",
+        "subtema": "VPN",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Empleabilidad",
+            "pagina": 139
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q047",
+        "pregunta": "¿Cómo influye aranceles en el contexto de regulación según el informe?",
+        "tema_principal": "Regulación",
+        "subtema": "Aranceles",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Regulación",
+            "pagina": 287
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q048",
+        "pregunta": "¿Cómo influye historia en el contexto de evolución del sistema según el informe?",
+        "tema_principal": "Evolución del sistema",
+        "subtema": "Historia",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Evolución del sistema",
+            "pagina": 145
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q049",
+        "pregunta": "¿Cómo influye estándares en el contexto de calidad según el informe?",
+        "tema_principal": "Calidad",
+        "subtema": "Estándares",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Calidad",
+            "pagina": 254
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q050",
+        "pregunta": "¿Cómo influye gratuidad en el contexto de financiamiento según el informe?",
+        "tema_principal": "Financiamiento",
+        "subtema": "Gratuidad",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Financiamiento",
+            "pagina": 190
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q051",
+        "pregunta": "¿Cómo influye salarios en el contexto de brechas de género según el informe?",
+        "tema_principal": "Brechas de género",
+        "subtema": "Salarios",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Brechas de género",
+            "pagina": 322
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q052",
+        "pregunta": "¿Cómo influye estándares en el contexto de calidad según el informe?",
+        "tema_principal": "Calidad",
+        "subtema": "Estándares",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Calidad",
+            "pagina": 89
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q053",
+        "pregunta": "¿Cómo influye interregional en el contexto de movilidad estudiantil según el informe?",
+        "tema_principal": "Movilidad estudiantil",
+        "subtema": "Interregional",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Movilidad estudiantil",
+            "pagina": 53
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q054",
+        "pregunta": "¿Cómo influye inserción laboral en el contexto de empleabilidad según el informe?",
+        "tema_principal": "Empleabilidad",
+        "subtema": "Inserción laboral",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Empleabilidad",
+            "pagina": 308
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q055",
+        "pregunta": "¿Cómo influye estrategias en el contexto de diferenciación de programas según el informe?",
+        "tema_principal": "Diferenciación de programas",
+        "subtema": "Estrategias",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Diferenciación de programas",
+            "pagina": 17
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q056",
+        "pregunta": "¿Cómo influye estrategias en el contexto de diferenciación de programas según el informe?",
+        "tema_principal": "Diferenciación de programas",
+        "subtema": "Estrategias",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Diferenciación de programas",
+            "pagina": 95
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q057",
+        "pregunta": "¿Cómo influye transformaciones en el contexto de evolución del sistema según el informe?",
+        "tema_principal": "Evolución del sistema",
+        "subtema": "Transformaciones",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Evolución del sistema",
+            "pagina": 291
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q058",
+        "pregunta": "¿Cómo influye indicadores en el contexto de competencia según el informe?",
+        "tema_principal": "Competencia",
+        "subtema": "Indicadores",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Competencia",
+            "pagina": 241
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q059",
+        "pregunta": "¿Cómo influye créditos en el contexto de financiamiento según el informe?",
+        "tema_principal": "Financiamiento",
+        "subtema": "Créditos",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Financiamiento",
+            "pagina": 148
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q060",
+        "pregunta": "¿Cómo influye segmentación en el contexto de competencia según el informe?",
+        "tema_principal": "Competencia",
+        "subtema": "Segmentación",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Competencia",
+            "pagina": 191
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q061",
+        "pregunta": "¿Cómo influye aportes fiscales en el contexto de financiamiento según el informe?",
+        "tema_principal": "Financiamiento",
+        "subtema": "Aportes fiscales",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Financiamiento",
+            "pagina": 38
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q062",
+        "pregunta": "¿Cómo influye patrones en el contexto de movilidad estudiantil según el informe?",
+        "tema_principal": "Movilidad estudiantil",
+        "subtema": "Patrones",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Movilidad estudiantil",
+            "pagina": 139
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q063",
+        "pregunta": "¿Cómo influye segmentación en el contexto de competencia según el informe?",
+        "tema_principal": "Competencia",
+        "subtema": "Segmentación",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Competencia",
+            "pagina": 279
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q064",
+        "pregunta": "¿Cómo influye aportes fiscales en el contexto de financiamiento según el informe?",
+        "tema_principal": "Financiamiento",
+        "subtema": "Aportes fiscales",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Financiamiento",
+            "pagina": 176
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q065",
+        "pregunta": "¿Cómo influye políticas en el contexto de recomendaciones según el informe?",
+        "tema_principal": "Recomendaciones",
+        "subtema": "Políticas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Recomendaciones",
+            "pagina": 161
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q066",
+        "pregunta": "¿Cómo influye regional en el contexto de movilidad estudiantil según el informe?",
+        "tema_principal": "Movilidad estudiantil",
+        "subtema": "Regional",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Movilidad estudiantil",
+            "pagina": 77
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q067",
+        "pregunta": "¿Cómo influye inserción laboral en el contexto de empleabilidad según el informe?",
+        "tema_principal": "Empleabilidad",
+        "subtema": "Inserción laboral",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Empleabilidad",
+            "pagina": 121
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q068",
+        "pregunta": "¿Cómo influye créditos en el contexto de financiamiento según el informe?",
+        "tema_principal": "Financiamiento",
+        "subtema": "Créditos",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Financiamiento",
+            "pagina": 107
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q069",
+        "pregunta": "¿Cómo influye gobernanza en el contexto de regulación según el informe?",
+        "tema_principal": "Regulación",
+        "subtema": "Gobernanza",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Regulación",
+            "pagina": 111
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q070",
+        "pregunta": "¿Cómo influye gratuidad en el contexto de financiamiento según el informe?",
+        "tema_principal": "Financiamiento",
+        "subtema": "Gratuidad",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Financiamiento",
+            "pagina": 179
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q071",
+        "pregunta": "¿Cómo influye gobernanza en el contexto de regulación según el informe?",
+        "tema_principal": "Regulación",
+        "subtema": "Gobernanza",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Regulación",
+            "pagina": 300
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q072",
+        "pregunta": "¿Cómo influye salarios en el contexto de brechas de género según el informe?",
+        "tema_principal": "Brechas de género",
+        "subtema": "Salarios",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Brechas de género",
+            "pagina": 255
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q073",
+        "pregunta": "¿Cómo influye acreditación en el contexto de calidad según el informe?",
+        "tema_principal": "Calidad",
+        "subtema": "Acreditación",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Calidad",
+            "pagina": 292
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q074",
+        "pregunta": "¿Cómo influye regional en el contexto de movilidad estudiantil según el informe?",
+        "tema_principal": "Movilidad estudiantil",
+        "subtema": "Regional",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Movilidad estudiantil",
+            "pagina": 160
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q075",
+        "pregunta": "¿Cómo influye indicadores en el contexto de competencia según el informe?",
+        "tema_principal": "Competencia",
+        "subtema": "Indicadores",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Competencia",
+            "pagina": 15
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q076",
+        "pregunta": "¿Cómo influye aportes fiscales en el contexto de financiamiento según el informe?",
+        "tema_principal": "Financiamiento",
+        "subtema": "Aportes fiscales",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Financiamiento",
+            "pagina": 226
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q077",
+        "pregunta": "¿Cómo influye calidad en el contexto de regulación según el informe?",
+        "tema_principal": "Regulación",
+        "subtema": "Calidad",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Regulación",
+            "pagina": 344
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q078",
+        "pregunta": "¿Cómo influye políticas en el contexto de recomendaciones según el informe?",
+        "tema_principal": "Recomendaciones",
+        "subtema": "Políticas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Recomendaciones",
+            "pagina": 282
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q079",
+        "pregunta": "¿Cómo influye salarios en el contexto de brechas de género según el informe?",
+        "tema_principal": "Brechas de género",
+        "subtema": "Salarios",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Brechas de género",
+            "pagina": 240
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q080",
+        "pregunta": "¿Cómo influye segmentación en el contexto de competencia según el informe?",
+        "tema_principal": "Competencia",
+        "subtema": "Segmentación",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Competencia",
+            "pagina": 18
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q081",
+        "pregunta": "¿Cómo influye encuestas en el contexto de satisfacción estudiantil según el informe?",
+        "tema_principal": "Satisfacción estudiantil",
+        "subtema": "Encuestas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Satisfacción estudiantil",
+            "pagina": 207
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q082",
+        "pregunta": "¿Cómo influye concentración en el contexto de competencia según el informe?",
+        "tema_principal": "Competencia",
+        "subtema": "Concentración",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Competencia",
+            "pagina": 47
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q083",
+        "pregunta": "¿Cómo influye vpn en el contexto de empleabilidad según el informe?",
+        "tema_principal": "Empleabilidad",
+        "subtema": "VPN",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Empleabilidad",
+            "pagina": 348
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q084",
+        "pregunta": "¿Cómo influye patrones en el contexto de movilidad estudiantil según el informe?",
+        "tema_principal": "Movilidad estudiantil",
+        "subtema": "Patrones",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Movilidad estudiantil",
+            "pagina": 251
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q085",
+        "pregunta": "¿Cómo influye aranceles en el contexto de regulación según el informe?",
+        "tema_principal": "Regulación",
+        "subtema": "Aranceles",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Regulación",
+            "pagina": 38
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q086",
+        "pregunta": "¿Cómo influye patrones en el contexto de movilidad estudiantil según el informe?",
+        "tema_principal": "Movilidad estudiantil",
+        "subtema": "Patrones",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Movilidad estudiantil",
+            "pagina": 177
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q087",
+        "pregunta": "¿Cómo influye interregional en el contexto de movilidad estudiantil según el informe?",
+        "tema_principal": "Movilidad estudiantil",
+        "subtema": "Interregional",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Movilidad estudiantil",
+            "pagina": 65
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q088",
+        "pregunta": "¿Cómo influye salarios en el contexto de brechas de género según el informe?",
+        "tema_principal": "Brechas de género",
+        "subtema": "Salarios",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Brechas de género",
+            "pagina": 204
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q089",
+        "pregunta": "¿Cómo influye medidas en el contexto de recomendaciones según el informe?",
+        "tema_principal": "Recomendaciones",
+        "subtema": "Medidas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Recomendaciones",
+            "pagina": 215
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q090",
+        "pregunta": "¿Cómo influye concentración en el contexto de competencia según el informe?",
+        "tema_principal": "Competencia",
+        "subtema": "Concentración",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Competencia",
+            "pagina": 132
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q091",
+        "pregunta": "¿Cómo influye vpn en el contexto de empleabilidad según el informe?",
+        "tema_principal": "Empleabilidad",
+        "subtema": "VPN",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Empleabilidad",
+            "pagina": 59
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q092",
+        "pregunta": "¿Cómo influye gratuidad en el contexto de financiamiento según el informe?",
+        "tema_principal": "Financiamiento",
+        "subtema": "Gratuidad",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Financiamiento",
+            "pagina": 338
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q093",
+        "pregunta": "¿Cómo influye atributos en el contexto de diferenciación de programas según el informe?",
+        "tema_principal": "Diferenciación de programas",
+        "subtema": "Atributos",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Diferenciación de programas",
+            "pagina": 92
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q094",
+        "pregunta": "¿Cómo influye políticas en el contexto de recomendaciones según el informe?",
+        "tema_principal": "Recomendaciones",
+        "subtema": "Políticas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Recomendaciones",
+            "pagina": 203
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q095",
+        "pregunta": "¿Cómo influye historia en el contexto de evolución del sistema según el informe?",
+        "tema_principal": "Evolución del sistema",
+        "subtema": "Historia",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Evolución del sistema",
+            "pagina": 302
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q096",
+        "pregunta": "¿Cómo influye medidas en el contexto de recomendaciones según el informe?",
+        "tema_principal": "Recomendaciones",
+        "subtema": "Medidas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Recomendaciones",
+            "pagina": 138
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q097",
+        "pregunta": "¿Cómo influye acreditación en el contexto de calidad según el informe?",
+        "tema_principal": "Calidad",
+        "subtema": "Acreditación",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Calidad",
+            "pagina": 250
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q098",
+        "pregunta": "¿Cómo influye medidas en el contexto de recomendaciones según el informe?",
+        "tema_principal": "Recomendaciones",
+        "subtema": "Medidas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Recomendaciones",
+            "pagina": 238
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q099",
+        "pregunta": "¿Cómo influye transformaciones en el contexto de evolución del sistema según el informe?",
+        "tema_principal": "Evolución del sistema",
+        "subtema": "Transformaciones",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Evolución del sistema",
+            "pagina": 97
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q100",
+        "pregunta": "¿Cómo influye encuestas en el contexto de satisfacción estudiantil según el informe?",
+        "tema_principal": "Satisfacción estudiantil",
+        "subtema": "Encuestas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Satisfacción estudiantil",
+            "pagina": 143
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q101",
+        "pregunta": "¿Cómo influye aranceles en el contexto de regulación según el informe?",
+        "tema_principal": "Regulación",
+        "subtema": "Aranceles",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Regulación",
+            "pagina": 133
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q102",
+        "pregunta": "¿Cómo influye indicadores en el contexto de competencia según el informe?",
+        "tema_principal": "Competencia",
+        "subtema": "Indicadores",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Competencia",
+            "pagina": 203
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q103",
+        "pregunta": "¿Cómo influye acreditación en el contexto de calidad según el informe?",
+        "tema_principal": "Calidad",
+        "subtema": "Acreditación",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Calidad",
+            "pagina": 125
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q104",
+        "pregunta": "¿Cómo influye historia en el contexto de evolución del sistema según el informe?",
+        "tema_principal": "Evolución del sistema",
+        "subtema": "Historia",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Evolución del sistema",
+            "pagina": 51
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q105",
+        "pregunta": "¿Cómo influye aranceles en el contexto de regulación según el informe?",
+        "tema_principal": "Regulación",
+        "subtema": "Aranceles",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Regulación",
+            "pagina": 330
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q106",
+        "pregunta": "¿Cómo influye experiencia en el contexto de satisfacción estudiantil según el informe?",
+        "tema_principal": "Satisfacción estudiantil",
+        "subtema": "Experiencia",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Satisfacción estudiantil",
+            "pagina": 70
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q107",
+        "pregunta": "¿Cómo influye preferencias en el contexto de brechas de género según el informe?",
+        "tema_principal": "Brechas de género",
+        "subtema": "Preferencias",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Brechas de género",
+            "pagina": 230
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q108",
+        "pregunta": "¿Cómo influye historia en el contexto de evolución del sistema según el informe?",
+        "tema_principal": "Evolución del sistema",
+        "subtema": "Historia",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Evolución del sistema",
+            "pagina": 66
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q109",
+        "pregunta": "¿Cómo influye calidad en el contexto de regulación según el informe?",
+        "tema_principal": "Regulación",
+        "subtema": "Calidad",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Regulación",
+            "pagina": 232
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q110",
+        "pregunta": "¿Cómo influye acceso en el contexto de brechas de género según el informe?",
+        "tema_principal": "Brechas de género",
+        "subtema": "Acceso",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Brechas de género",
+            "pagina": 103
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q111",
+        "pregunta": "¿Cómo influye calidad en el contexto de regulación según el informe?",
+        "tema_principal": "Regulación",
+        "subtema": "Calidad",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Regulación",
+            "pagina": 117
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q112",
+        "pregunta": "¿Cómo influye retornos en el contexto de empleabilidad según el informe?",
+        "tema_principal": "Empleabilidad",
+        "subtema": "Retornos",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Empleabilidad",
+            "pagina": 92
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q113",
+        "pregunta": "¿Cómo influye acreditación en el contexto de calidad según el informe?",
+        "tema_principal": "Calidad",
+        "subtema": "Acreditación",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Calidad",
+            "pagina": 198
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q114",
+        "pregunta": "¿Cómo influye cobertura en el contexto de evolución del sistema según el informe?",
+        "tema_principal": "Evolución del sistema",
+        "subtema": "Cobertura",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Evolución del sistema",
+            "pagina": 232
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q115",
+        "pregunta": "¿Cómo influye medidas en el contexto de recomendaciones según el informe?",
+        "tema_principal": "Recomendaciones",
+        "subtema": "Medidas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Recomendaciones",
+            "pagina": 326
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q116",
+        "pregunta": "¿Cómo influye medidas en el contexto de recomendaciones según el informe?",
+        "tema_principal": "Recomendaciones",
+        "subtema": "Medidas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Recomendaciones",
+            "pagina": 344
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q117",
+        "pregunta": "¿Cómo influye acceso en el contexto de brechas de género según el informe?",
+        "tema_principal": "Brechas de género",
+        "subtema": "Acceso",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Brechas de género",
+            "pagina": 220
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q118",
+        "pregunta": "¿Cómo influye historia en el contexto de evolución del sistema según el informe?",
+        "tema_principal": "Evolución del sistema",
+        "subtema": "Historia",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Evolución del sistema",
+            "pagina": 141
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q119",
+        "pregunta": "¿Cómo influye expectativas en el contexto de satisfacción estudiantil según el informe?",
+        "tema_principal": "Satisfacción estudiantil",
+        "subtema": "Expectativas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Satisfacción estudiantil",
+            "pagina": 130
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q120",
+        "pregunta": "¿Cómo influye patrones en el contexto de movilidad estudiantil según el informe?",
+        "tema_principal": "Movilidad estudiantil",
+        "subtema": "Patrones",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Movilidad estudiantil",
+            "pagina": 260
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q121",
+        "pregunta": "¿Cómo influye aportes fiscales en el contexto de financiamiento según el informe?",
+        "tema_principal": "Financiamiento",
+        "subtema": "Aportes fiscales",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Financiamiento",
+            "pagina": 333
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q122",
+        "pregunta": "¿Cómo influye experiencia en el contexto de satisfacción estudiantil según el informe?",
+        "tema_principal": "Satisfacción estudiantil",
+        "subtema": "Experiencia",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Satisfacción estudiantil",
+            "pagina": 42
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q123",
+        "pregunta": "¿Cómo influye resultados en el contexto de calidad según el informe?",
+        "tema_principal": "Calidad",
+        "subtema": "Resultados",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Calidad",
+            "pagina": 56
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q124",
+        "pregunta": "¿Cómo influye aportes fiscales en el contexto de financiamiento según el informe?",
+        "tema_principal": "Financiamiento",
+        "subtema": "Aportes fiscales",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Financiamiento",
+            "pagina": 56
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q125",
+        "pregunta": "¿Cómo influye estándares en el contexto de calidad según el informe?",
+        "tema_principal": "Calidad",
+        "subtema": "Estándares",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Calidad",
+            "pagina": 153
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q126",
+        "pregunta": "¿Cómo influye encuestas en el contexto de satisfacción estudiantil según el informe?",
+        "tema_principal": "Satisfacción estudiantil",
+        "subtema": "Encuestas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Satisfacción estudiantil",
+            "pagina": 84
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q127",
+        "pregunta": "¿Cómo influye inserción laboral en el contexto de empleabilidad según el informe?",
+        "tema_principal": "Empleabilidad",
+        "subtema": "Inserción laboral",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Empleabilidad",
+            "pagina": 291
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q128",
+        "pregunta": "¿Cómo influye acreditación en el contexto de calidad según el informe?",
+        "tema_principal": "Calidad",
+        "subtema": "Acreditación",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Calidad",
+            "pagina": 220
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q129",
+        "pregunta": "¿Cómo influye políticas en el contexto de recomendaciones según el informe?",
+        "tema_principal": "Recomendaciones",
+        "subtema": "Políticas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Recomendaciones",
+            "pagina": 73
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q130",
+        "pregunta": "¿Cómo influye créditos en el contexto de financiamiento según el informe?",
+        "tema_principal": "Financiamiento",
+        "subtema": "Créditos",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Financiamiento",
+            "pagina": 194
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q131",
+        "pregunta": "¿Cómo influye concentración en el contexto de competencia según el informe?",
+        "tema_principal": "Competencia",
+        "subtema": "Concentración",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Competencia",
+            "pagina": 46
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q132",
+        "pregunta": "¿Cómo influye salarios en el contexto de brechas de género según el informe?",
+        "tema_principal": "Brechas de género",
+        "subtema": "Salarios",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Brechas de género",
+            "pagina": 52
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q133",
+        "pregunta": "¿Cómo influye políticas en el contexto de recomendaciones según el informe?",
+        "tema_principal": "Recomendaciones",
+        "subtema": "Políticas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Recomendaciones",
+            "pagina": 336
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q134",
+        "pregunta": "¿Cómo influye acceso en el contexto de brechas de género según el informe?",
+        "tema_principal": "Brechas de género",
+        "subtema": "Acceso",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Brechas de género",
+            "pagina": 79
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q135",
+        "pregunta": "¿Cómo influye experiencia en el contexto de satisfacción estudiantil según el informe?",
+        "tema_principal": "Satisfacción estudiantil",
+        "subtema": "Experiencia",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Satisfacción estudiantil",
+            "pagina": 61
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q136",
+        "pregunta": "¿Cómo influye estrategias en el contexto de diferenciación de programas según el informe?",
+        "tema_principal": "Diferenciación de programas",
+        "subtema": "Estrategias",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Diferenciación de programas",
+            "pagina": 183
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q137",
+        "pregunta": "¿Cómo influye atributos en el contexto de diferenciación de programas según el informe?",
+        "tema_principal": "Diferenciación de programas",
+        "subtema": "Atributos",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Diferenciación de programas",
+            "pagina": 301
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q138",
+        "pregunta": "¿Cómo influye encuestas en el contexto de satisfacción estudiantil según el informe?",
+        "tema_principal": "Satisfacción estudiantil",
+        "subtema": "Encuestas",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Satisfacción estudiantil",
+            "pagina": 221
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q139",
+        "pregunta": "¿Cómo influye patrones en el contexto de movilidad estudiantil según el informe?",
+        "tema_principal": "Movilidad estudiantil",
+        "subtema": "Patrones",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Movilidad estudiantil",
+            "pagina": 151
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q140",
+        "pregunta": "¿Cómo influye créditos en el contexto de financiamiento según el informe?",
+        "tema_principal": "Financiamiento",
+        "subtema": "Créditos",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Financiamiento",
+            "pagina": 157
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q141",
+        "pregunta": "¿Cómo influye segmentación en el contexto de competencia según el informe?",
+        "tema_principal": "Competencia",
+        "subtema": "Segmentación",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Competencia",
+            "pagina": 262
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q142",
+        "pregunta": "¿Cómo influye acceso en el contexto de brechas de género según el informe?",
+        "tema_principal": "Brechas de género",
+        "subtema": "Acceso",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Brechas de género",
+            "pagina": 296
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q143",
+        "pregunta": "¿Cómo influye aportes fiscales en el contexto de financiamiento según el informe?",
+        "tema_principal": "Financiamiento",
+        "subtema": "Aportes fiscales",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Financiamiento",
+            "pagina": 287
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q144",
+        "pregunta": "¿Cómo influye créditos en el contexto de financiamiento según el informe?",
+        "tema_principal": "Financiamiento",
+        "subtema": "Créditos",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Financiamiento",
+            "pagina": 188
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q145",
+        "pregunta": "¿Cómo influye concentración en el contexto de competencia según el informe?",
+        "tema_principal": "Competencia",
+        "subtema": "Concentración",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Básico",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Competencia",
+            "pagina": 58
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q146",
+        "pregunta": "¿Cómo influye regional en el contexto de movilidad estudiantil según el informe?",
+        "tema_principal": "Movilidad estudiantil",
+        "subtema": "Regional",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Movilidad estudiantil",
+            "pagina": 27
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q147",
+        "pregunta": "¿Cómo influye estrategias en el contexto de diferenciación de programas según el informe?",
+        "tema_principal": "Diferenciación de programas",
+        "subtema": "Estrategias",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Diferenciación de programas",
+            "pagina": 289
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q148",
+        "pregunta": "¿Cómo influye segmentación en el contexto de competencia según el informe?",
+        "tema_principal": "Competencia",
+        "subtema": "Segmentación",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Competencia",
+            "pagina": 68
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q149",
+        "pregunta": "¿Cómo influye gobernanza en el contexto de regulación según el informe?",
+        "tema_principal": "Regulación",
+        "subtema": "Gobernanza",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Avanzado",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Regulación",
+            "pagina": 61
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    },
+    {
+        "id": "Q150",
+        "pregunta": "¿Cómo influye calidad en el contexto de regulación según el informe?",
+        "tema_principal": "Regulación",
+        "subtema": "Calidad",
+        "tipo": "Pregunta abierta",
+        "intencion": "Evaluar comprensión y análisis crítico",
+        "dificultad": "Intermedio",
+        "fuente": {
+            "documento": "Informe EM09.pdf",
+            "seccion": "Regulación",
+            "pagina": 186
+        },
+        "orientacion_respuesta": "Responder con base en evidencia del informe, incluyendo datos y conclusiones relevantes."
+    }
+]
